@@ -1,0 +1,7 @@
+{
+  "status": "VERIFIED",
+  "scope": "local config read only; no store action",
+  "source": "../game-store-publisher/native-kit/apps/ashes-convoy/capacitor.config.json",
+  "sha256": "cb24cb9371dd609263071a68065421cfb27ba31eef9a798c7bf43f7ee043a660",
+  "appId": "tw.mars.ashesconvoy"
+}

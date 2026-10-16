@@ -1,0 +1,16 @@
+title = "Emberline: Last Haven secret scanning"
+
+[extend]
+useDefault = true
+
+# This exact value names a browser-local records bucket, not a credential.
+# Keep all default rules and limit this exception to one rule, path and value.
+[[rules]]
+id = "generic-api-key"
+
+[[rules.allowlists]]
+description = "Browser localStorage records key from the unchanged upstream source"
+condition = "AND"
+paths = ['''^vendor/train/src/game/records\.ts$''']
+regexTarget = "secret"
+regexes = ['''^ntwp\.v2\.records$''']

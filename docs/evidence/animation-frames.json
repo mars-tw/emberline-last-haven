@@ -1,0 +1,115 @@
+{
+  "status": "VERIFIED",
+  "method": "distinct pixel hashes for each retained frame; source provenance retained",
+  "limitations": "Hash uniqueness alone does not prove artistic motion quality. No new latch atlas or full turnarounds.",
+  "atlases": [
+    {
+      "path": "public/art/enemies/oga_runner_attack.png",
+      "sourceFrames": 4,
+      "activeFrames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": 4,
+      "uniqueFrames": 4,
+      "sha256": "368a7e700e2725e7444f6f64d7db0fa0a23ba0f19d98b9351cb2dc393883e6e7"
+    },
+    {
+      "path": "public/art/enemies/oga_runner_death.png",
+      "sourceFrames": 3,
+      "activeFrames": [
+        0,
+        1,
+        2
+      ],
+      "frames": 3,
+      "uniqueFrames": 3,
+      "sha256": "c850b7e8707e7c11371fafa95080c348cedc399673ca6b59fa5b9f8aedbbab39"
+    },
+    {
+      "path": "public/art/enemies/oga_runner_hurt.png",
+      "sourceFrames": 2,
+      "activeFrames": [
+        0,
+        1
+      ],
+      "frames": 2,
+      "uniqueFrames": 2,
+      "sha256": "db0aa8ea40da99083ba13bfde13063d2432ab94943bc13f5ef7a1228cb3b9532"
+    },
+    {
+      "path": "public/art/enemies/oga_runner_walk.png",
+      "sourceFrames": 4,
+      "activeFrames": [
+        0,
+        1,
+        2
+      ],
+      "frames": 3,
+      "uniqueFrames": 3,
+      "sha256": "cb16d58b6a5b51738168450cf4dd3adc5c696204cfa16a6cd4bf4e7f8ad2805f"
+    },
+    {
+      "path": "public/art/enemies/oga_shambler_attack.png",
+      "sourceFrames": 4,
+      "activeFrames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": 4,
+      "uniqueFrames": 4,
+      "sha256": "c52a57771d9d04a19d3b9317daebffd40efd5f7967e95b6fd8f4f383b89912a4"
+    },
+    {
+      "path": "public/art/enemies/oga_shambler_death.png",
+      "sourceFrames": 3,
+      "activeFrames": [
+        0,
+        1,
+        2
+      ],
+      "frames": 3,
+      "uniqueFrames": 3,
+      "sha256": "c104687faffb42348ede4292f89a43caf9b9a3e81cda710881b436796cb81b35"
+    },
+    {
+      "path": "public/art/enemies/oga_shambler_hurt.png",
+      "sourceFrames": 2,
+      "activeFrames": [
+        0,
+        1
+      ],
+      "frames": 2,
+      "uniqueFrames": 2,
+      "sha256": "a405188157e4e7c40fec4ba1890bd723e7f6b0b4cb14601d26ddaf1a20f4ee7c"
+    },
+    {
+      "path": "public/art/enemies/oga_shambler_walk.png",
+      "sourceFrames": 4,
+      "activeFrames": [
+        0,
+        1,
+        2
+      ],
+      "frames": 3,
+      "uniqueFrames": 3,
+      "sha256": "4e459367f736ae6c7cb4a95a5f4fbd0bd2fbfabd0e98a1190eb6f5d6bd054d68"
+    },
+    {
+      "path": "public/art/train/a07-clips/listen.webp",
+      "frames": 8,
+      "uniqueFrames": 8,
+      "sha256": "b1ad8a9de0fa1f95ece248ea2b55313a69563021ec8c722f9f2666f2be30b43b"
+    },
+    {
+      "path": "public/art/train/a07-clips/startle.webp",
+      "frames": 8,
+      "uniqueFrames": 8,
+      "sha256": "ffc0ef97d5c44db45b0243b2f3f8cf32513c2e6245f0a0c09a634718a94c2a0b"
+    }
+  ]
+}

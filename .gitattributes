@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.png binary
+*.webp binary
+# Immutable provenance snapshots must preserve source bytes across Windows checkouts.
+vendor/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+src/origins/baitLayout.ts -text whitespace=trailing-space,space-before-tab,cr-at-eol

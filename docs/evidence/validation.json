@@ -1,0 +1,81 @@
+{
+  "status": "VERIFIED",
+  "headless": true,
+  "results": [
+    {
+      "name": "typecheck",
+      "command": "C:\\Program Files\\nodejs\\node.exe node_modules/typescript/bin/tsc --noEmit",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "unit",
+      "command": "C:\\Program Files\\nodejs\\node.exe node_modules/vitest/vitest.mjs run --reporter=default --reporter=json --outputFile=docs/evidence/unit-tests.json",
+      "exitCode": 0,
+      "stdout": "\n RUN  v4.1.11 C:/Users/digimkt/Desktop/遊戲/apocalypse-anthology\n\n ✓ vendor/train/tests/r9-night-watch.test.ts (20 tests) 33ms\n ✓ vendor/train/tests/r10-handover.test.ts (13 tests) 20ms\n ✓ tests/campaign.test.ts (28 tests) 17ms\n ✓ vendor/train/tests/save.test.ts (15 tests) 10ms\n ✓ tests/animation.test.ts (3 tests) 2ms\n\n Test Files  5 passed (5)\n      Tests  79 passed (79)\n   Start at  10:35:05\n   Duration  1.05s (transform 266ms, setup 0ms, import 473ms, tests 83ms, environment 0ms)\n\nJSON report written to C:/Users/digimkt/Desktop/遊戲/apocalypse-anthology/docs/evidence/unit-tests.json\n",
+      "stderr": ""
+    },
+    {
+      "name": "test-r86-convoy-latch.js",
+      "command": "C:\\Program Files\\nodejs\\node.exe vendor/ashes/scripts/test-r86-convoy-latch.js",
+      "exitCode": 0,
+      "stdout": "R86 convoy latch rules PASS\n",
+      "stderr": ""
+    },
+    {
+      "name": "test-rules.js",
+      "command": "C:\\Program Files\\nodejs\\node.exe vendor/ashes/scripts/test-rules.js",
+      "exitCode": 0,
+      "stdout": "Rules tests PASS\n",
+      "stderr": ""
+    },
+    {
+      "name": "test-economy.js",
+      "command": "C:\\Program Files\\nodejs\\node.exe vendor/ashes/scripts/test-economy.js",
+      "exitCode": 0,
+      "stdout": "Economy tests PASS\n",
+      "stderr": ""
+    },
+    {
+      "name": "storm-source",
+      "command": "C:\\Program Files\\nodejs\\node.exe scripts/source-tests.mjs",
+      "exitCode": 0,
+      "stdout": "PASS starter grants only at fresh wave with no existing tower\nPASS invalid layout safely selects center; every route has a distinct world point\nPASS tactical goal requires two actual attraction events\nPASS reopen preserves meat, tower, resources and selected protagonist\nPASS legacy save without inventory migrates to empty without discarding progress\nPASS corrupt inventory is bounded and malformed JSON remains playable\nPASS storage failure does not stop gameplay saves\nPASS tighter elite column applies to all elite waves with unchanged HP budget and boss\n",
+      "stderr": ""
+    },
+    {
+      "name": "animation",
+      "command": "python scripts/art-check.py",
+      "exitCode": 0,
+      "stdout": "VERIFIED: retained walk/attack/hurt/death and A-07 frame atlases\r\n",
+      "stderr": ""
+    },
+    {
+      "name": "build",
+      "command": "C:\\Program Files\\nodejs\\node.exe node_modules/vite/bin/vite.js build",
+      "exitCode": 0,
+      "stdout": "vite v7.3.1 building client environment for production...\ntransforming...\n✓ 31 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   0.67 kB │ gzip:  0.49 kB\ndist/assets/index-DYzATunt.css   10.91 kB │ gzip:  3.19 kB\ndist/assets/index-CdFWiVgA.js   345.15 kB │ gzip: 96.58 kB\n✓ built in 340ms\n",
+      "stderr": ""
+    },
+    {
+      "name": "precache",
+      "command": "C:\\Program Files\\nodejs\\node.exe scripts/precache.mjs",
+      "exitCode": 0,
+      "stdout": "Offline precache: 25 files, revision e71c6f658d2f07a6\n",
+      "stderr": ""
+    }
+  ],
+  "bundle": [
+    {
+      "path": "dist/assets/index-CdFWiVgA.js",
+      "bytes": 345148,
+      "sha256": "856f7966694c0275636f3ae31f88b08a6af406f2af4dceeba8203a67a591c535"
+    },
+    {
+      "path": "dist/assets/index-DYzATunt.css",
+      "bytes": 10910,
+      "sha256": "1f566c4cae95a3874b8449dc7632f49abd1563986f4b41f78e37166320b120d9"
+    }
+  ]
+}

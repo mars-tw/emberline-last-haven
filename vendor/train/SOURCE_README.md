@@ -1,0 +1,237 @@
+# 夜行列車：守夜協定 v2.6.0
+
+[![v2.3 細緻像素首頁](docs/evidence/v23/pixel/menu-390.png)](https://mars-tw.github.io/night-train-watch-protocol/)
+
+[直接遊玩](https://mars-tw.github.io/night-train-watch-protocol/) · [觀看 v2.1 實錄宣傳片](https://mars-tw.github.io/night-train-watch-protocol/trailer.html)
+
+新玩家可從「接手首班守夜」開始：查看 A-07 與冷窗，把接觸來源封存在值勤交接簿；判對首波預警加 6 秒，判錯減 3 秒（至少保留 8 秒）。這是正常七夜旅程，進度會保存。
+
+你是列車的守護系統。白天照顧乘客 A-07、修理設備、種植與停站探索；夜裡觀察窗外的線索，選擇反制與資源取捨，讓這個移動的小家繼續前進。
+
+**上一輪（R9 手機巡夜）**：灰霧線整備時點「今晚」可接三種巡夜支線。每件都有兩種方案，會改變守夜電耗、預警或撞擊傷害；無破口完成才拿物資，六夜內可收集三段本局紀錄。選擇先預覽再確認，返回不扣款。手機橫式的路線、事件、設定與日誌使用全寬；守夜反制靠下方，返回主選單會暫停並保存。詳見 [R9 驗收報告](docs/CODEX_RESPONSE_R9_MOBILE.md)。
+
+歷史更新：v2.4.0（R8）加入冷開場、今晚預告、黎明評等、個人紀錄及音景。詳見 [R8 報告](docs/R8_FUN_AND_POLISH_REPORT.md)。
+
+[完整企劃](docs/reboot-v2/GAME_DESIGN.md) · [圖片動畫與來源](docs/reboot-v21/ASSET_RUNTIME_V21.md)
+
+車廂原畫維持 9:16；手機橫式使用場景與控制分欄，手機瀏覽器與桌機皆可操作，支援離線保存。每一條故事線是一段完整七夜旅程，可逐夜保存、失敗重試。
+
+![v2.3 細緻像素臥室實際畫面](docs/evidence/v23/pixel/sleep-390.png)
+
+## 這次更新
+
+- **修正首頁影格跑出框架**：主選單與夜晚結算都使用完整固定像素圖片。保存期間，Canvas 依最後一次已提交畫面選擇場景；返回時會清除拖曳位移、過渡動畫與計時器。Chromium、WebKit 各 17 項時間序列檢查通過，含實際第一夜結算、快速切廂與未完成的拖曳。
+
+以下為 v2.3 美術與手機操作更新：
+
+- **重做細緻像素美術**：首頁與五車廂改為新的像素圖片，重現暖燈、毛毯、木作、瓶罐與冷窗的層次；A-07 的 52 格姿勢及 12 張作物生長圖也重製。原始生成圖、Blender 處理檔、輸出與紀錄均保留。
+- **安定的啟動首頁**：使用人物與床一體的固定場景，不再播放角色姿勢、列車搖晃或舊旅程的威脅；標題與按鈕也不滑入。實際 Canvas 在等待前後完全相同。
+- **手機高度與圖片比例**：移除 640px 最小高度，依可視 viewport 與旋轉更新。主畫布維持 9:16，熱區共用同一矩形；長手機不再把人物拉長，放大頁面也不會把整頁縮窄重排。
+- **不互擋的控制**：存檔與離線資訊放到固定底列，錯誤重試保留 48px。新手提示避開整個頭部與播種控制；所有既有存檔、任務及資源規則保留。
+- **按需載入與完整離線**：首頁只需一張 1,282,512-byte 圖片；角色按動作載入，完整遊戲快取為 45 個檔案、約 20.39 MiB。宣傳頁仍保留已接受的 v2.1 實際錄影，並明示版本。
+
+## 遊戲內容
+
+- **五廂畫質重製**：從原始手繪圖片重新輸出，移除粗重顆粒與量化；暖木作、毛毯、金屬、食物與冷窗保留細節，夜景也降低黑色遮罩。A-07 只在唯一主床。
+- **圖片介面與物件**：32 格手繪儀表圖示、16 個道具、紙本路線／科技圖和 PNG app icon。主要場景熱區、工具、車廂列與地圖使用圖片，實際瀏覽器驗證沒有 SVG 元素或請求。
+- **環境逐幀動畫**：蒸氣、燈火、葉片各四個不同畫格；雨霧與霜限於車窗，減少動態及暫停設定仍有效。新九張圖片由 Blender 5.2 實際處理，合計 1.679 MiB。
+- **真正姿勢圖集**：A-07 52 格、五個威脅家族各 20 格、設備 50 格。12 張生成來源由 Blender 5.2 實際處理，圖層與狀態由 runtime 使用；照片與廣告介面不進遊戲。
+- **56 項任務**：21 主線、5 教學、10 關係、8 設施、6 探索、6 挑戰。支援兩項釘選、期限、保底前情、互斥改裝與單次領獎；觀看、取消、快速連點與重載不刷獎勵。
+- **照顧與生產**：整備有 3–5 AP。播種、收成、回收、熱食、安撫、修理與用藥有實際成本；萵苣 1 夜、番茄 3 夜、香草 2 夜，皆需供電與灌溉。
+- **探索與改裝**：每日最多一次三節點探索，可撤回並保留已找到的物資。8 項設施形成 4 組互斥用途，升級會改變實際功能與場景。
+- **可靠跨局成長**：Profile 保存路線、日誌、9 種起始藍圖及 8 種外觀。玩家可選一種有代價的下局配置與外觀；新局重設生存資源，選配不疊加永久數值。
+- **機能實效**：電池容量、再生煞車、窗框減傷、雨水收集、維修效率、陷阱、醫療與備援皆有運算落點。建造使用有容量與相容性的機能槽。
+- **守夜與補救**：觀察、判斷、工具與處置。攀附者可用燃料加速或消耗一個零件切離扣具；缺少作者證據仍可明示保留疑問，繼續主線。
+- **手機操作**：先看車廂、再叫工具；成本預覽可取消，面板可關，拖曳有點選替代。文字 100／120／140%、減少動態、無倒數、慢速與靜音皆保留。
+- **存檔與更新**：schema 1–5 匯入 schema 6，舊 key 與備份保留。run、Profile、任務及領獎憑據一起保存，損壞時恢復備份；PWA 以 build manifest 安裝整份資產，避免半套更新。
+- **圖片載入**：按目前車廂與角色動作載入，完整遊戲素材另由 PWA 準備離線快取。五廂與介面沿用 v2.1 圖片；角色、威脅和設備使用無損 WebP。原始 PNG、處理檔與製作紀錄仍保留供開源使用。
+
+## 三條七夜故事
+
+| 故事線 | 核心取捨 | 第四夜永久分支 |
+| --- | --- | --- |
+| R01 灰霧線 | 訊號來源、身分、同意與封鎖 | GO／DETOUR／STOP |
+| R02 白霜線 | 保暖、除冰、燃料與照護 | CARE／CLEAR／SUSTAIN |
+| R03 綠潮線 | 水循環、污染、種庫與共生 | CULTIVATE／FILTER／PURGE |
+
+正式路線解鎖使用 Profile：完成第三夜後結束旅程或完成七夜會開放 R02；完成五教學並完成一條七夜會開放 R03。尚未正式開放時，主選單另提供清楚標示的可玩預覽。
+
+## 操作
+
+1. 左右滑動或按車廂列切換；點設備看狀態和可做的事。
+2. 分配電力與配餐，操作前看 AP／物資成本，確認後才扣款。
+3. 看路段的消耗、補給與威脅，決定是否探索。
+4. 守夜時先讀線索，再選工具；暫停與無倒數模式可慢慢判斷。
+5. 黎明看後果、領任務成果，再開始下一夜。
+
+離開頁面會保存，守夜不會在背景繼續扣狀態。離線可用性需先完成首次安裝的資產快取。
+
+## 本機執行
+
+需要 Node.js 20.19+ 或 22.12+。
+
+```sh
+npm ci
+npx playwright install chromium
+npm run dev
+```
+
+開啟 `http://localhost:4177`。正式建置與驗證：
+
+```sh
+npm run check
+npm run preview -- --port 4312
+npm run audit:v2
+npm run audit:journeys
+npm run audit:release
+npm run audit:raster
+npm run audit:trailer
+npm run audit:loading
+npm run audit:onboarding
+npm run audit:pixel
+npm run audit:mobile
+npm run audit:r9
+npm run audit:fixed
+npm run simulate:balance
+```
+
+`check` 包含 TypeScript、Vitest、正式建置與離線 manifest。瀏覽器驗收預設連 `4177`（UI／旅程）或 `4312`（正式版／離線），可用 `GAME_URL` 指定。
+
+## 驗證證據
+
+- [v2.3.1 首頁／結算頁時間序列：Chromium](docs/evidence/v231/chromium-fixed-qa.json)、[WebKit](docs/evidence/v231/webkit-fixed-qa.json)
+- [v2.3.1 正式版離線與效能](docs/evidence/v231/release-qa.json)
+- [v2.3.1 獨立程式覆核](docs/evidence/v231/independent-review.md)與[修正驗收](docs/CODEX_RESPONSE_V231.md)
+- [v2.3 手機 Chromium：24 組尺寸／實際字級設定與旋轉](docs/evidence/v23/after-mobile-layout.json)
+- [v2.3 WebKit：24 組尺寸／實際設定，無音效模擬](docs/evidence/v23/after-webkit-layout.json)
+- [v2.3 安定首頁、完整頭部、真畫格與作物來源](docs/evidence/v23/pixel-qa.json)
+- [v2.3 手機遊戲控制與自然兩夜流程](docs/evidence/v23/ui-qa.json)
+- [v2.3 新像素美術與 Blender 管線](docs/reboot-v23/ASSET_PIPELINE.md)
+- [v2.3 正式版離線與效能](docs/evidence/v23/release-qa.json)
+- [v2.3 更新驗收](docs/CODEX_RESPONSE_V23.md)
+- [v2.2 首夜指引：五項教學實際完成與保存](docs/evidence/v22/onboarding-qa.json)
+- [v2.2 手機操作與 15 組視口／字級矩陣](docs/evidence/v22/ui-qa.json)
+- [v2.2 無損分段、首畫面請求與離線檔案量](docs/evidence/v22/loading-qa.json)
+- [v2.2 角色逐格無損驗證與被拒絕的有損實驗](docs/reboot-v22/ATLAS_RUNTIME_V22.md)
+- [v2.2 圖片、真畫格與零 SVG 驗收](docs/evidence/v22/raster-qa.json)
+- [v2.2 宣傳頁橫直式切換與播放狀態](docs/evidence/v22/trailer-experience-qa.json)
+- [v2.2 已安裝 PWA 的影片與斷網返回](docs/evidence/v22/installed-navigation-qa.json)
+- [v2.2 正式版離線與效能](docs/evidence/v22/release-qa.json)
+- [v2.2 更新驗收](docs/CODEX_RESPONSE_V22.md)
+- [v2.1 圖片、真畫格與零 SVG 驗收](docs/evidence/v21/raster-qa.json)
+- [v2.1 手機操作與 15 組視口／字級矩陣](docs/evidence/v21/ui-qa.json)
+- [v2.1 正式版離線與效能](docs/evidence/v21/release-qa.json)
+- [v2.1 素材來源、Blender 與 SHA](public/assets/art/v21/pipeline-report.json)
+- [v2.1 更新驗收](docs/CODEX_RESPONSE_V21.md)
+- [手機操作與 15 組視口／字級矩陣](docs/evidence/v2/ui-qa.json)
+- [完整七夜 UI 流程](docs/evidence/v2/journey-qa.json)
+- [正式版、離線與效能](docs/evidence/v2/release-qa.json)
+- [270 局固定策略平衡模擬](docs/evidence/v2/balance-report.md)
+- [生成來源、SHA、圖集、透明邊緣與色彩](public/assets/art/v2/pipeline-report.json)
+- [更新總驗收](docs/CODEX_RESPONSE_V2.md)
+
+上述自動化與實際按鍵驗證各自標示資料來源。手機尺寸的 Chromium 量測使用桌機宿主；不把它寫成實體 iOS／Android 裝置測試，也不把固定策略模擬當盲測玩家研究。
+
+## 技術結構
+
+TypeScript＋Vite，DOM／CSS 負責可及性與控制，Canvas 負責 720×1280 場景。`RunService` 是資源、行動與故事的權威；任務消費成功提交的事件，`voyage` 提供可測的探索／關係／改裝交易；Profile 與本局資料分離。所有選擇與探索使用固定 seed，重載不能重新抽補給。
+
+圖片生成工具與後處理紀錄均可追溯。工具未提供可驗證的模型 identifier，metadata 保持 `null`，不冒稱已確認某個模型。成品不含生成服務金鑰。
+
+## 開源授權
+
+- 程式碼與文件：MIT（2026-10-16 起由 AGPL-3.0-or-later 改為 MIT，方便任何人自由使用、改作，並可在各應用程式商店發行）。
+- `public/assets/art/` 圖像：CC BY 4.0，署名「夜行列車：守夜協定 contributors」。
+- 宣傳影片、封面與實錄來源：CC BY 4.0，署名同上；原創宣傳配樂採 CC0-1.0，詳見 [影片授權](public/assets/video/night-train-promo-v211.LICENSE.txt)。
+- 新圖來源與處理：[ASSET_PROMPTS_V2.json](docs/reboot-v2/ASSET_PROMPTS_V2.json)、[ASSET_RUNTIME_V2.md](docs/reboot-v2/ASSET_RUNTIME_V2.md)。
+- v2.1 圖片提示與處理：[IMAGE_PROMPTS.json](docs/reboot-v21/IMAGE_PROMPTS.json)、[ASSET_RUNTIME_V21.md](docs/reboot-v21/ASSET_RUNTIME_V21.md)。
+- 使用者廣告照片、原始私人 GDD／ZIP 不包含在公開專案。
+
+參與開發請閱讀 [CONTRIBUTING.md](CONTRIBUTING.md)、[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
+## 歷史版本證據
+
+以下是 v0.8–v1.1 的既有實機資料，保留供內容回歸與分支比較；v2 的新畫面與驗收請看上方 v2 證據。部分舊錄影使用已明示的故事 checkpoint，不作 v2 自然七夜證據。
+
+[綠潮線舊版驗收](public/assets/qa/green-story-flow-report.json) · [白霜線舊版驗收](public/assets/qa/frost-story-flow-report.json) · [舊版手機操作](public/assets/qa/mobile-playability-report.json)
+
+- [01-main-menu.png](public/assets/screenshots/01-main-menu.png)
+- [02-carriage-prep.png](public/assets/screenshots/02-carriage-prep.png)
+- [03-route-map.png](public/assets/screenshots/03-route-map.png)
+- [04-event-water-tower.png](public/assets/screenshots/04-event-water-tower.png)
+- [05-night-contact.png](public/assets/screenshots/05-night-contact.png)
+- [06-dawn-result.png](public/assets/screenshots/06-dawn-result.png)
+- [07-ending.png](public/assets/screenshots/07-ending.png)
+- [08-night-knocker.png](public/assets/screenshots/08-night-knocker.png)
+- [09-repaired-carriage.png](public/assets/screenshots/09-repaired-carriage.png)
+- [10-route-preview.png](public/assets/screenshots/10-route-preview.png)
+- [11-module-preview.png](public/assets/screenshots/11-module-preview.png)
+- [12-decor-placement.png](public/assets/screenshots/12-decor-placement.png)
+- [13-decor-in-play.png](public/assets/screenshots/13-decor-in-play.png)
+- [14-sleep-carriage.png](public/assets/screenshots/14-sleep-carriage.png)
+- [15-defense-carriage.png](public/assets/screenshots/15-defense-carriage.png)
+- [16-workshop-carriage.png](public/assets/screenshots/16-workshop-carriage.png)
+- [17-greenhouse-farming.png](public/assets/screenshots/17-greenhouse-farming.png)
+- [18-kitchen-carriage.png](public/assets/screenshots/18-kitchen-carriage.png)
+- [19-slot-placement.png](public/assets/screenshots/19-slot-placement.png)
+- [20-compact-observation.png](public/assets/screenshots/20-compact-observation.png)
+- [21-collapsible-power.png](public/assets/screenshots/21-collapsible-power.png)
+- [22-swipe-guidance.png](public/assets/screenshots/22-swipe-guidance.png)
+- [23-action-feedback.png](public/assets/screenshots/23-action-feedback.png)
+- [24-route-risk-waves.png](public/assets/screenshots/24-route-risk-waves.png)
+- [25-story-day4-branches.png](public/assets/screenshots/25-story-day4-branches.png)
+- [26-story-day7-decisions.png](public/assets/screenshots/26-story-day7-decisions.png)
+- [27-story-ending.png](public/assets/screenshots/27-story-ending.png)
+- [28-story-t004-fog-vine.png](public/assets/screenshots/28-story-t004-fog-vine.png)
+- [29-story-t005-echo-passenger.png](public/assets/screenshots/29-story-t005-echo-passenger.png)
+- [30-story-t006-silent-crowd.png](public/assets/screenshots/30-story-t006-silent-crowd.png)
+- [frost-care-carriage-v100.png](public/assets/screenshots/frost-care-carriage-v100.png)
+- [frost-care-ending-decisions-v100.png](public/assets/screenshots/frost-care-ending-decisions-v100.png)
+- [frost-care-ending-v100.png](public/assets/screenshots/frost-care-ending-v100.png)
+- [frost-care-t009-first-miss-v100.png](public/assets/screenshots/frost-care-t009-first-miss-v100.png)
+- [frost-care-thermal-day7-v100.png](public/assets/screenshots/frost-care-thermal-day7-v100.png)
+- [frost-clear-carriage-v100.png](public/assets/screenshots/frost-clear-carriage-v100.png)
+- [frost-clear-ending-decisions-v100.png](public/assets/screenshots/frost-clear-ending-decisions-v100.png)
+- [frost-clear-ending-v100.png](public/assets/screenshots/frost-clear-ending-v100.png)
+- [frost-clear-t009-first-miss-v100.png](public/assets/screenshots/frost-clear-t009-first-miss-v100.png)
+- [frost-clear-thermal-day7-v100.png](public/assets/screenshots/frost-clear-thermal-day7-v100.png)
+- [frost-emergency-route-360x640-v100.png](public/assets/screenshots/frost-emergency-route-360x640-v100.png)
+- [frost-emergency-shelter-ending-v100.png](public/assets/screenshots/frost-emergency-shelter-ending-v100.png)
+- [frost-ev057-three-branches-v100.png](public/assets/screenshots/frost-ev057-three-branches-v100.png)
+- [frost-route-selection-v100.png](public/assets/screenshots/frost-route-selection-v100.png)
+- [frost-sustain-carriage-v100.png](public/assets/screenshots/frost-sustain-carriage-v100.png)
+- [frost-sustain-ending-decisions-v100.png](public/assets/screenshots/frost-sustain-ending-decisions-v100.png)
+- [frost-sustain-ending-v100.png](public/assets/screenshots/frost-sustain-ending-v100.png)
+- [frost-sustain-t009-first-miss-v100.png](public/assets/screenshots/frost-sustain-t009-first-miss-v100.png)
+- [frost-sustain-thermal-day7-v100.png](public/assets/screenshots/frost-sustain-thermal-day7-v100.png)
+- [frost-t009-first-miss-360x640-text140-v100.png](public/assets/screenshots/frost-t009-first-miss-360x640-text140-v100.png)
+- [frost-thermal-drawer-360x640-text140-v100.png](public/assets/screenshots/frost-thermal-drawer-360x640-text140-v100.png)
+- [frost-thermal-pointer-drag-v100.png](public/assets/screenshots/frost-thermal-pointer-drag-v100.png)
+- [green-cultivate-carriage-v110.png](public/assets/screenshots/green-cultivate-carriage-v110.png)
+- [green-cultivate-ending-v110.png](public/assets/screenshots/green-cultivate-ending-v110.png)
+- [green-cultivate-t008-first-miss-v110.png](public/assets/screenshots/green-cultivate-t008-first-miss-v110.png)
+- [green-cultivate-t013-cycle-v110.png](public/assets/screenshots/green-cultivate-t013-cycle-v110.png)
+- [green-cycle-board-360x640-text140-v110.png](public/assets/screenshots/green-cycle-board-360x640-text140-v110.png)
+- [green-ev066-intake-v110.png](public/assets/screenshots/green-ev066-intake-v110.png)
+- [green-ev072-three-branches-v110.png](public/assets/screenshots/green-ev072-three-branches-v110.png)
+- [green-ev078-four-endings-v110.png](public/assets/screenshots/green-ev078-four-endings-v110.png)
+- [green-filter-carriage-v110.png](public/assets/screenshots/green-filter-carriage-v110.png)
+- [green-filter-ending-v110.png](public/assets/screenshots/green-filter-ending-v110.png)
+- [green-filter-t008-first-miss-v110.png](public/assets/screenshots/green-filter-t008-first-miss-v110.png)
+- [green-filter-t013-cycle-v110.png](public/assets/screenshots/green-filter-t013-cycle-v110.png)
+- [green-purge-carriage-v110.png](public/assets/screenshots/green-purge-carriage-v110.png)
+- [green-purge-ending-v110.png](public/assets/screenshots/green-purge-ending-v110.png)
+- [green-purge-t008-first-miss-v110.png](public/assets/screenshots/green-purge-t008-first-miss-v110.png)
+- [green-purge-t013-cycle-v110.png](public/assets/screenshots/green-purge-t013-cycle-v110.png)
+- [green-quarantine-ending-v110.png](public/assets/screenshots/green-quarantine-ending-v110.png)
+- [green-route-selection-v110.png](public/assets/screenshots/green-route-selection-v110.png)
+- [night-train-frost-v100-care.webm](public/assets/video/night-train-frost-v100-care.webm)
+- [night-train-frost-v100-clear.webm](public/assets/video/night-train-frost-v100-clear.webm)
+- [night-train-frost-v100-sustain.webm](public/assets/video/night-train-frost-v100-sustain.webm)
+- [night-train-gameplay.webm](public/assets/video/night-train-gameplay.webm)
+- [night-train-green-v110-cultivate.webm](public/assets/video/night-train-green-v110-cultivate.webm)
+- [night-train-green-v110-filter.webm](public/assets/video/night-train-green-v110-filter.webm)
+- [night-train-green-v110-purge.webm](public/assets/video/night-train-green-v110-purge.webm)
+- [night-train-story-v090-detour.webm](public/assets/video/night-train-story-v090-detour.webm)
+- [night-train-story-v090-stop.webm](public/assets/video/night-train-story-v090-stop.webm)
+- [night-train-story-v090.webm](public/assets/video/night-train-story-v090.webm)

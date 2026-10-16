@@ -1,0 +1,533 @@
+{
+  "status": "VERIFIED",
+  "sources": {
+    "ashes": {
+      "folder": "doomsday-shooter",
+      "head": "ace11fe95350cf6803b3fe5ca6815d320b09163c",
+      "statusBefore": "?? docs/playtest/\n"
+    },
+    "storm": {
+      "folder": "storm-apocalypse",
+      "head": "7a27333f69c072e7d4fb33419969cb8307317eb5",
+      "statusBefore": "?? .audit-tmp/\n?? docs/playtest/GROK_PLAYER_CRITIQUE.md\n?? docs/playtest/PLAYTEST_R1.md\n?? docs/playtest/blind-probe.json\n?? docs/playtest/blind-probe.mjs\n?? docs/playtest/closure-probe.mjs\n?? docs/playtest/device-deepcheck.json\n?? docs/playtest/device-deepcheck.mjs\n?? docs/playtest/ending-bridges.json\n?? docs/playtest/ending-bridges.mjs\n?? docs/playtest/interactive-driver.mjs\n?? docs/playtest/landscape-select.mjs\n?? docs/playtest/session-main.json\n?? docs/playtest/shots/\n?? docs/playtest/static-server.mjs\n?? docs/playtest/victory-ui-bridge.mjs\n"
+    },
+    "train": {
+      "folder": "廣告遊戲專案",
+      "head": "0698530e6ba21536e19017781be94dc3f98370e1",
+      "statusBefore": ""
+    }
+  },
+  "files": [
+    {
+      "repo": "ashes",
+      "source": "LICENSE",
+      "target": "vendor/ashes/LICENSE",
+      "sha256": "37ec7a1c9615f87811d8ffb86d46b7690c599432e9cdbd2b9f9fddf8a74af19c",
+      "bytes": 1064
+    },
+    {
+      "repo": "storm",
+      "source": "LICENSE",
+      "target": "vendor/storm/LICENSE",
+      "sha256": "37ec7a1c9615f87811d8ffb86d46b7690c599432e9cdbd2b9f9fddf8a74af19c",
+      "bytes": 1064
+    },
+    {
+      "repo": "train",
+      "source": "LICENSE",
+      "target": "vendor/train/LICENSE",
+      "sha256": "fdab01000b97d0c9498b381fd1001397abddcd28961de0edbebd561f28959cc6",
+      "bytes": 1139
+    },
+    {
+      "repo": "ashes",
+      "source": "src/config.js",
+      "target": "vendor/ashes/src/config.js",
+      "sha256": "8e816dac868893c2827fbbaae7e543372e2d0f14e49f0d2c96b3748b2ed0b5c0",
+      "bytes": 93857
+    },
+    {
+      "repo": "ashes",
+      "source": "src/rules.js",
+      "target": "vendor/ashes/src/rules.js",
+      "sha256": "faf84535a5235e326c05fac7452f9fafeb3bf2e2f25b6140cde7f3a4f3c20ef6",
+      "bytes": 116658
+    },
+    {
+      "repo": "ashes",
+      "source": "src/version.js",
+      "target": "vendor/ashes/src/version.js",
+      "sha256": "4859a31c6fb5c31309bc2fecc5eaa975c795d6b5c9c3fb0994a77955945e006e",
+      "bytes": 399
+    },
+    {
+      "repo": "ashes",
+      "source": "scripts/test-r86-convoy-latch.js",
+      "target": "vendor/ashes/scripts/test-r86-convoy-latch.js",
+      "sha256": "ef5c884bccd42a71a3f5481b8232f638a5b5cbfc25a2a10bc31c5234f20105ac",
+      "bytes": 5027
+    },
+    {
+      "repo": "ashes",
+      "source": "scripts/test-rules.js",
+      "target": "vendor/ashes/scripts/test-rules.js",
+      "sha256": "5667e089194e9413cf79c6bd3e77766ed9f6fcacf9a78d3e8c088bda0d0827f1",
+      "bytes": 54540
+    },
+    {
+      "repo": "ashes",
+      "source": "scripts/test-economy.js",
+      "target": "vendor/ashes/scripts/test-economy.js",
+      "sha256": "4a10bd4845bf6c914ee30625069fa664c1cf6aed432fa692e058d782d42eea1f",
+      "bytes": 11389
+    },
+    {
+      "repo": "train",
+      "source": "src/game/audio.ts",
+      "target": "vendor/train/src/game/audio.ts",
+      "sha256": "49c3665be1817fc197c90c68d26d27bf0fe1a007ee5d730329a0e42cf3d2eb70",
+      "bytes": 12130
+    },
+    {
+      "repo": "train",
+      "source": "src/game/content.ts",
+      "target": "vendor/train/src/game/content.ts",
+      "sha256": "93d7cd4fd3e1503b0edcb3da9efc634adee1bb06f2fc4128073ef7e76717d823",
+      "bytes": 144949
+    },
+    {
+      "repo": "train",
+      "source": "src/game/facility-slots.ts",
+      "target": "vendor/train/src/game/facility-slots.ts",
+      "sha256": "a4258a9d6e04a2986a5f210f7585b8f41af3e66eb0d319effa09b6e2502d2efb",
+      "bytes": 13243
+    },
+    {
+      "repo": "train",
+      "source": "src/game/handover.ts",
+      "target": "vendor/train/src/game/handover.ts",
+      "sha256": "5e54985a326ff592f7f74cbaafc836b35d4b480708d4d08aaee5ff024b5e1ac7",
+      "bytes": 3034
+    },
+    {
+      "repo": "train",
+      "source": "src/game/model.ts",
+      "target": "vendor/train/src/game/model.ts",
+      "sha256": "768e4ee79fbd4c16f3967481eaae487e948dd3a6e74635231f3bcd981c4cb7dd",
+      "bytes": 4440
+    },
+    {
+      "repo": "train",
+      "source": "src/game/module-effects.ts",
+      "target": "vendor/train/src/game/module-effects.ts",
+      "sha256": "a7a9db30757b68bb6cec04d9ef39aaef5338e61f0e56bf1896a0afd80bcc1906",
+      "bytes": 9363
+    },
+    {
+      "repo": "train",
+      "source": "src/game/night-feel.ts",
+      "target": "vendor/train/src/game/night-feel.ts",
+      "sha256": "72d6efd4c8f1cfc81625e315c90acf60ce0dae3dc08014217747060a4111151c",
+      "bytes": 9027
+    },
+    {
+      "repo": "train",
+      "source": "src/game/night-watch.ts",
+      "target": "vendor/train/src/game/night-watch.ts",
+      "sha256": "b777ae1a9de443384a5bb0d39f5c351668ca7994266d2829e8e1099aeb8fbe51",
+      "bytes": 4270
+    },
+    {
+      "repo": "train",
+      "source": "src/game/profile-loadouts.ts",
+      "target": "vendor/train/src/game/profile-loadouts.ts",
+      "sha256": "9e270c38e483ad75c1aea9f878fc68c9dd43ee9e9db733d3bbfac1fc92a63aed",
+      "bytes": 9042
+    },
+    {
+      "repo": "train",
+      "source": "src/game/profile.ts",
+      "target": "vendor/train/src/game/profile.ts",
+      "sha256": "b356cc05e742ac42b5797d955bf3d751a20e0ed8d9a05b646db8fe20d3b28caa",
+      "bytes": 5533
+    },
+    {
+      "repo": "train",
+      "source": "src/game/records.ts",
+      "target": "vendor/train/src/game/records.ts",
+      "sha256": "0a3605a1bb57f986c27f66f2090a969d524aeccb53df51ba25703d5d223b683e",
+      "bytes": 4599
+    },
+    {
+      "repo": "train",
+      "source": "src/game/renderer.ts",
+      "target": "vendor/train/src/game/renderer.ts",
+      "sha256": "b1c76d06f502550763bb5bae33d3b8c8b80b3502562eb1286814c0deafe02b33",
+      "bytes": 32695
+    },
+    {
+      "repo": "train",
+      "source": "src/game/rng.ts",
+      "target": "vendor/train/src/game/rng.ts",
+      "sha256": "d56378d4576f69b363e66cdcb24777a84e988d4af2879f2b1025afa5e46dbedd",
+      "bytes": 894
+    },
+    {
+      "repo": "train",
+      "source": "src/game/save.ts",
+      "target": "vendor/train/src/game/save.ts",
+      "sha256": "9e5606ce01019b19e9f7b6f5342b4ff534a7bd703957445d055d28fa557f77c7",
+      "bytes": 28717
+    },
+    {
+      "repo": "train",
+      "source": "src/game/scene-loader.ts",
+      "target": "vendor/train/src/game/scene-loader.ts",
+      "sha256": "1f15cac9bc309c6b25fe4b5e74039a8a8883922d05f69c8bac9c36780aa1c007",
+      "bytes": 4467
+    },
+    {
+      "repo": "train",
+      "source": "src/game/scene-manifest.ts",
+      "target": "vendor/train/src/game/scene-manifest.ts",
+      "sha256": "f3765fa9514a9e89372a128505b81ce97befb7eb16f09651c813611b97b8bca2",
+      "bytes": 24411
+    },
+    {
+      "repo": "train",
+      "source": "src/game/services.ts",
+      "target": "vendor/train/src/game/services.ts",
+      "sha256": "7191995d639af9024dcf12764ce0bd02125104f61bf51705b700181828398a14",
+      "bytes": 139026
+    },
+    {
+      "repo": "train",
+      "source": "src/game/story.ts",
+      "target": "vendor/train/src/game/story.ts",
+      "sha256": "20efa0f29e15b5b1ca0bd88cecbc44f61f2d0164bc0d66b7c2f60bfa846b94f2",
+      "bytes": 16258
+    },
+    {
+      "repo": "train",
+      "source": "src/game/types.ts",
+      "target": "vendor/train/src/game/types.ts",
+      "sha256": "0ed7576818f89999f817df6e6f6e4d0cbd64aed261d1d04b274cbdaeaca17da9",
+      "bytes": 16888
+    },
+    {
+      "repo": "train",
+      "source": "src/game/v2-observer.ts",
+      "target": "vendor/train/src/game/v2-observer.ts",
+      "sha256": "ef6aec4a4cce66ad509d265b3689f688f04dddfa101ec61327dfa267b824eee3",
+      "bytes": 10897
+    },
+    {
+      "repo": "train",
+      "source": "src/game/quests/catalog.ts",
+      "target": "vendor/train/src/game/quests/catalog.ts",
+      "sha256": "c165ab9e2df0eab194f91381b87f6fbfe08df2b950ada18d98c4c77a595a6479",
+      "bytes": 658
+    },
+    {
+      "repo": "train",
+      "source": "src/game/quests/engine.ts",
+      "target": "vendor/train/src/game/quests/engine.ts",
+      "sha256": "00fcf1a85358a19538cf7c4528537ed0e6fa5da0050e818c51fd9c0395d5e396",
+      "bytes": 24658
+    },
+    {
+      "repo": "train",
+      "source": "src/game/quests/index.ts",
+      "target": "vendor/train/src/game/quests/index.ts",
+      "sha256": "79889623bfa7247a3354a53d89c0637e174657b5883a103e6b59535c18391c8e",
+      "bytes": 290
+    },
+    {
+      "repo": "train",
+      "source": "src/game/quests/types.ts",
+      "target": "vendor/train/src/game/quests/types.ts",
+      "sha256": "80c313f52e61d829f7fbb597c0bd31b9a1d47db53030fd38e0d9dcf324f60e7b",
+      "bytes": 3661
+    },
+    {
+      "repo": "train",
+      "source": "src/game/voyage/content.ts",
+      "target": "vendor/train/src/game/voyage/content.ts",
+      "sha256": "84461d4e9182f7b769ede6782c3bbaca66d6bb42bc380ca286ec4ca8322ed34e",
+      "bytes": 19289
+    },
+    {
+      "repo": "train",
+      "source": "src/game/voyage/engine.ts",
+      "target": "vendor/train/src/game/voyage/engine.ts",
+      "sha256": "73fc00e839cec0d0c1683822fa782cd2a6d3649970f26ea105467c4ffe087a9f",
+      "bytes": 23980
+    },
+    {
+      "repo": "train",
+      "source": "src/game/voyage/types.ts",
+      "target": "vendor/train/src/game/voyage/types.ts",
+      "sha256": "78216454dd0d271a098a6da604e4571cd4d02db71543e3d9b24afa2e9a65cd2a",
+      "bytes": 4028
+    },
+    {
+      "repo": "train",
+      "source": "src/ui/onboarding.ts",
+      "target": "vendor/train/src/ui/onboarding.ts",
+      "sha256": "4e05a9fa6b18eb6bbbfc1f87c2e02c178f019e104a22f82d226aa3ef2b29c7fc",
+      "bytes": 9845
+    },
+    {
+      "repo": "train",
+      "source": "spec/reboot-v2/mission-catalog.json",
+      "target": "vendor/train/spec/reboot-v2/mission-catalog.json",
+      "sha256": "8490450f610cd2088f1b93b6d7bb4df79d48d59253b705185f64589a03ff4096",
+      "bytes": 121856
+    },
+    {
+      "repo": "train",
+      "source": "tests/r10-handover.test.ts",
+      "target": "vendor/train/tests/r10-handover.test.ts",
+      "sha256": "45bd32db8fac2bd4f7a4338afee0d45d69217724a6c33f4204c6c5a648c22e53",
+      "bytes": 5076
+    },
+    {
+      "repo": "train",
+      "source": "tests/r9-night-watch.test.ts",
+      "target": "vendor/train/tests/r9-night-watch.test.ts",
+      "sha256": "7764fe0672deeed73b5b3249071d52a342f77ef431fead3d08398b97f483e1f3",
+      "bytes": 8356
+    },
+    {
+      "repo": "train",
+      "source": "tests/save.test.ts",
+      "target": "vendor/train/tests/save.test.ts",
+      "sha256": "88cc42578fec838be5ca5e5efe5c6cd1e23bfe8446c962ebf7015dbccb02e061",
+      "bytes": 5898
+    },
+    {
+      "repo": "storm",
+      "source": "src/game/baitLayout.ts",
+      "target": "src/origins/baitLayout.ts",
+      "sha256": "014c8d01f9b861181a056b2af7ff14a383d5bb1dd7b78b9fb6bd2b70a4dc7ab6",
+      "bytes": 906
+    },
+    {
+      "repo": "storm",
+      "source": "src/game/baitLayout.ts",
+      "target": "vendor/storm/src/game/baitLayout.ts",
+      "sha256": "014c8d01f9b861181a056b2af7ff14a383d5bb1dd7b78b9fb6bd2b70a4dc7ab6",
+      "bytes": 906
+    },
+    {
+      "repo": "storm",
+      "source": "src/game/combatRules.ts",
+      "target": "vendor/storm/src/game/combatRules.ts",
+      "sha256": "31aefe0cdbdbe3be07357ab8640c60abc27896c55aef1e391fe35b26e260523a",
+      "bytes": 4420
+    },
+    {
+      "repo": "storm",
+      "source": "src/game/state.ts",
+      "target": "vendor/storm/src/game/state.ts",
+      "sha256": "1c5d929b8ab5e4d66d2c2b995e30e9284e36f7af1f5554b51a813b533e525cba",
+      "bytes": 10802
+    },
+    {
+      "repo": "storm",
+      "source": "src/game/waveDirector.ts",
+      "target": "vendor/storm/src/game/waveDirector.ts",
+      "sha256": "14054f269ce7b9dc05c241fffd0c4710b86370d176a0a6ea989c5d0531918fed",
+      "bytes": 5733
+    },
+    {
+      "repo": "storm",
+      "source": "src/game/quality.ts",
+      "target": "vendor/storm/src/game/quality.ts",
+      "sha256": "0313ed10a7a37455b275acf0b8ceef50e530a98c8892f2b3bafac191ed99c3f8",
+      "bytes": 1996
+    },
+    {
+      "repo": "storm",
+      "source": "src/game/weather.ts",
+      "target": "vendor/storm/src/game/weather.ts",
+      "sha256": "d3a0f997ea1be696a2e7cf2eea6cc5f5a3ab7565298ff083dfc55294b8790b0f",
+      "bytes": 2179
+    },
+    {
+      "repo": "storm",
+      "source": "src/game/weatherProfiles.json",
+      "target": "vendor/storm/src/game/weatherProfiles.json",
+      "sha256": "b5fe6c410a4cadf6395f663a13657b84fd3cc0e04b79503d0316cd2f51f70174",
+      "bytes": 2576
+    },
+    {
+      "repo": "storm",
+      "source": "scripts/test-r25-rules.mjs",
+      "target": "vendor/storm/scripts/test-r25-rules.mjs",
+      "sha256": "c7ae4f9d2fc11cb158c22f550f7a0b97926591e824d32d7d436da6f52cf0676d",
+      "bytes": 3624
+    },
+    {
+      "repo": "ashes",
+      "source": "CREDITS.md",
+      "target": "vendor/ashes/CREDITS.md",
+      "sha256": "9be5d2c59b1bff0d462b7a5227247029adca98a7538ec709993ad5735ad9b10a",
+      "bytes": 12433
+    },
+    {
+      "repo": "train",
+      "source": "README.md",
+      "target": "vendor/train/SOURCE_README.md",
+      "sha256": "023be82294648be865f58bf44835b526c613bba579ef3a2ca432429ca4dc424a",
+      "bytes": 19712
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/ui/start-art-manifest.json",
+      "target": "vendor/ashes/start-art-manifest.json",
+      "sha256": "114842c13afeaa68ad3c0fb72b0ce1add5002f0551e4938236cac33ed032b4d9",
+      "bytes": 3564
+    },
+    {
+      "repo": "train",
+      "source": "public/assets/art/v23/a07-clips/manifest.json",
+      "target": "vendor/train/a07-clips-manifest.json",
+      "sha256": "027d925b1deb61f654dd13821e41203c999189b228430ded8e083e98ad7c8cc8",
+      "bytes": 55826
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/env/land.png",
+      "target": "public/art/env/land.png",
+      "sha256": "ec19c034c5c4841dbb1717881773d0fdfca07fdd8043594da5b8a41ca6d1a85f",
+      "bytes": 313568
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/env/kenney_road_debris.png",
+      "target": "public/art/env/kenney_road_debris.png",
+      "sha256": "e6d3b182529228a4ecef6b21bfa6ecc247f32bc135760e165ea08a33ea05c611",
+      "bytes": 8019
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/vehicles/land.png",
+      "target": "public/art/vehicles/land.png",
+      "sha256": "5c8ab8cd85151074da285ff7cc53d8a74fa8c226a8a34f7f5aae308e5c97c135",
+      "bytes": 48949
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/vehicles/trailer.png",
+      "target": "public/art/vehicles/trailer.png",
+      "sha256": "b0f14ad8c649b10c30ed0de14d20e25d1111a5bd59a4557293743f47e4b63e5a",
+      "bytes": 1169728
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/vehicles/xi_gunner_attack.png",
+      "target": "public/art/vehicles/xi_gunner_attack.png",
+      "sha256": "3795d91d0489ab923d2c1692aba18a7f014059143e1d8209e53d958ac7aed5a2",
+      "bytes": 532499
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/shelter/snow.png",
+      "target": "vendor/ashes/assets/shelter/snow.png",
+      "sha256": "471dbed6f1e9ccc8b5f1edf2e1dd823241e09d92e63cc220af7f5185435b01f2",
+      "bytes": 385813
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/story/xi.png",
+      "target": "public/art/story/xi.png",
+      "sha256": "a8d9ea875e39734f11d8b5c4f08ca7608c6add414bd57e4d90cd419b4bc06ed4",
+      "bytes": 10258
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/ui/start-atmosphere-r79-low.png",
+      "target": "public/art/ui/start-atmosphere-r79-low.png",
+      "sha256": "b58b835bc8f5f4d35cadfd9b1116774b8bde876ed4f1bdd251152d07952cdbe9",
+      "bytes": 738692
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/enemies/oga_shambler_walk.png",
+      "target": "public/art/enemies/oga_shambler_walk.png",
+      "sha256": "4e459367f736ae6c7cb4a95a5f4fbd0bd2fbfabd0e98a1190eb6f5d6bd054d68",
+      "bytes": 4547
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/enemies/oga_shambler_attack.png",
+      "target": "public/art/enemies/oga_shambler_attack.png",
+      "sha256": "c52a57771d9d04a19d3b9317daebffd40efd5f7967e95b6fd8f4f383b89912a4",
+      "bytes": 9559
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/enemies/oga_shambler_hurt.png",
+      "target": "public/art/enemies/oga_shambler_hurt.png",
+      "sha256": "a405188157e4e7c40fec4ba1890bd723e7f6b0b4cb14601d26ddaf1a20f4ee7c",
+      "bytes": 5479
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/enemies/oga_shambler_death.png",
+      "target": "public/art/enemies/oga_shambler_death.png",
+      "sha256": "c104687faffb42348ede4292f89a43caf9b9a3e81cda710881b436796cb81b35",
+      "bytes": 7065
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/enemies/oga_runner_walk.png",
+      "target": "public/art/enemies/oga_runner_walk.png",
+      "sha256": "cb16d58b6a5b51738168450cf4dd3adc5c696204cfa16a6cd4bf4e7f8ad2805f",
+      "bytes": 4615
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/enemies/oga_runner_attack.png",
+      "target": "public/art/enemies/oga_runner_attack.png",
+      "sha256": "368a7e700e2725e7444f6f64d7db0fa0a23ba0f19d98b9351cb2dc393883e6e7",
+      "bytes": 9825
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/enemies/oga_runner_hurt.png",
+      "target": "public/art/enemies/oga_runner_hurt.png",
+      "sha256": "db0aa8ea40da99083ba13bfde13063d2432ab94943bc13f5ef7a1228cb3b9532",
+      "bytes": 5297
+    },
+    {
+      "repo": "ashes",
+      "source": "assets/enemies/oga_runner_death.png",
+      "target": "public/art/enemies/oga_runner_death.png",
+      "sha256": "c850b7e8707e7c11371fafa95080c348cedc399673ca6b59fa5b9f8aedbbab39",
+      "bytes": 7174
+    },
+    {
+      "repo": "train",
+      "source": "public/assets/art/v23/carriages/sleep.webp",
+      "target": "public/art/train/carriages/sleep.webp",
+      "sha256": "669b72e2f1c2bc81f8a1a79c2fa06e0577181a97b7f34a5cf16e6f0fc3431d64",
+      "bytes": 1258568
+    },
+    {
+      "repo": "train",
+      "source": "public/assets/art/v23/a07-clips/listen.webp",
+      "target": "public/art/train/a07-clips/listen.webp",
+      "sha256": "b1ad8a9de0fa1f95ece248ea2b55313a69563021ec8c722f9f2666f2be30b43b",
+      "bytes": 378608
+    },
+    {
+      "repo": "train",
+      "source": "public/assets/art/v23/a07-clips/startle.webp",
+      "target": "public/art/train/a07-clips/startle.webp",
+      "sha256": "ffc0ef97d5c44db45b0243b2f3f8cf32513c2e6245f0a0c09a634718a94c2a0b",
+      "bytes": 396134
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "status": "VERIFIED",
+  "version": "0.1.0",
+  "sourceFiles": 73,
+  "sourceResults": [
+    {
+      "repo": "ashes",
+      "head": "ace11fe95350cf6803b3fe5ca6815d320b09163c",
+      "statusUnchanged": true
+    },
+    {
+      "repo": "storm",
+      "head": "7a27333f69c072e7d4fb33419969cb8307317eb5",
+      "statusUnchanged": true
+    },
+    {
+      "repo": "train",
+      "head": "0698530e6ba21536e19017781be94dc3f98370e1",
+      "statusUnchanged": true
+    }
+  ],
+  "secretScan": {
+    "scannedFiles": 110,
+    "hits": 0,
+    "excluded": [
+      ".git",
+      "node_modules",
+      "dist",
+      ".audit-tmp",
+      "binary assets"
+    ],
+    "neverReadSecretsFolder": true
+  },
+  "storeScreenshots": 10,
+  "assets": 19,
+  "diffCheck": true,
+  "mainRepoOnly": true
+}

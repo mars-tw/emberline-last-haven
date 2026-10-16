@@ -1,0 +1,5 @@
+page.goto: WebKit encountered an internal error
+Call log:
+[2m  - navigating to "http://127.0.0.1:4179/", waiting until "load"[22m
+
+    at C:\Users\digimkt\Desktop\遊戲\apocalypse-anthology\scripts\browser.mjs:60:258

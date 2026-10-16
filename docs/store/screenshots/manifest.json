@@ -1,0 +1,106 @@
+{
+  "status": "VERIFIED",
+  "indexSha256": "6f3636c60ae73bdf3bdfd37e2a4b13641ba052a8485998475e2dd71eab2f72be",
+  "screenshots": [
+    {
+      "path": "docs/store/screenshots/phone-01-departure.png",
+      "sha256": "de70432facd5d5e8c3a1d914abbf2c4eb7b7e70b825451d86eee930d403cfc00",
+      "bytes": 1153537,
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "docs/store/screenshots/phone-02-convoy.png",
+      "sha256": "4763aa70ef4b1fa2729e6f9c8a65d42c4cc1a74e776b3e8fa3e71795383f95ba",
+      "bytes": 1562955,
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "docs/evidence/convoy-fling.png",
+      "sha256": "e591568e1fd36830a002a7a99c709a13ae10b8ccf0b90b654d3b2cb9b876638b",
+      "bytes": 1558684
+    },
+    {
+      "path": "docs/store/screenshots/phone-03-bait.png",
+      "sha256": "8fcce558ce59c49e7b4779c1140fb2d8990f9e5cf1e6478be9b44e22172e7a48",
+      "bytes": 1644757,
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "docs/store/screenshots/phone-04-common-progress.png",
+      "sha256": "a76d878e9f6ac4177537b4ead9f04962d7c14baf9b7ccce3a03e67b0bd46f928",
+      "bytes": 1564201,
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "docs/store/screenshots/phone-05-night.png",
+      "sha256": "cb97f2dc28ac56091d7c36f989b63f9304f50a8638b469a8694c5f0d5eb46289",
+      "bytes": 2183479,
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "docs/evidence/ending.png",
+      "sha256": "2451ced338d7203f7239a04f8c1256daabd29dee79757fa8525583b86ad1098b",
+      "bytes": 1137245
+    },
+    {
+      "path": "docs/store/screenshots/tablet-01-departure.png",
+      "sha256": "3c0c85455db1ba4e3e9b33f7b6fedab77d88cfc5d7ef9ef07970611d88673e8a",
+      "bytes": 1818429,
+      "dimensions": [
+        2064,
+        2752
+      ]
+    },
+    {
+      "path": "docs/store/screenshots/tablet-02-convoy.png",
+      "sha256": "3b85056692b8446cddee360002650409cf98c58800de260e1b5c58f1b398d198",
+      "bytes": 2267750,
+      "dimensions": [
+        2064,
+        2752
+      ]
+    },
+    {
+      "path": "docs/store/screenshots/tablet-03-bait.png",
+      "sha256": "4f04fbf1024d21ae8275a3392f2e44d25055f5085d1163b4467b0f4ce527d46e",
+      "bytes": 2192135,
+      "dimensions": [
+        2064,
+        2752
+      ]
+    },
+    {
+      "path": "docs/store/screenshots/tablet-04-common-progress.png",
+      "sha256": "03b9d1bc1c12f114c3bbb9c9fbcf7a9a2c20107f706714d27f5ec778c59359cc",
+      "bytes": 2238740,
+      "dimensions": [
+        2064,
+        2752
+      ]
+    },
+    {
+      "path": "docs/store/screenshots/tablet-05-night.png",
+      "sha256": "3798c505ce1e31a7ff6891edd384a98791927ca49e0329e253360bfbc07d31bf",
+      "bytes": 3095654,
+      "dimensions": [
+        2064,
+        2752
+      ]
+    }
+  ]
+}
