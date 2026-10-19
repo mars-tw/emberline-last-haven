@@ -1,0 +1,23 @@
+{
+  "status": "VERIFIED",
+  "source": "unchanged binary from pre-R2 Git HEAD",
+  "sourceCommit": "2013c1b3c032c630db27829208acc92d23fe83c3",
+  "captures": [
+    {
+      "path": "docs/content/r2/before/phone-flank-preview.png",
+      "sha256": "81fb7d4dbc923b53b2553e774eafc50647343d9dbf6609ef2494f3fda1995d90",
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "docs/content/r2/before/phone-relay-roster.png",
+      "sha256": "53c80283d968b034f6e900123ae43c3ff8f3ab50f81f969c3a03c874f3febd96",
+      "dimensions": [
+        1290,
+        2796
+      ]
+    }
+  ]
+}

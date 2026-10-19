@@ -1,0 +1,59 @@
+{
+  "sourceCommit": "f014416",
+  "captures": [
+    {
+      "path": "docs/content/r3/before/phone-flank-1-success.png",
+      "source": "docs/content/r2/phone-flank-1-success.png",
+      "sha256": "4320f035e26ae2312ebd74c195c3250be6a1b512d05f09082c5503aad138fd28",
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "docs/content/r3/before/phone-flank-1-turning-1.png",
+      "source": "docs/content/r2/phone-flank-1-turning-1.png",
+      "sha256": "2cf904d4a857caa1f059ff048c6c3f0c4aa843bd60034dddd81f7c93aa94566c",
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "docs/content/r3/before/phone-flank-3-preview.png",
+      "source": "docs/content/r2/phone-flank-3-preview.png",
+      "sha256": "a48007e9305d474be5129992ac6a0378bda7e814e21f03af3395a152e1690646",
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "docs/content/r3/before/phone-relay-1-before.png",
+      "source": "docs/content/r2/phone-relay-1-before.png",
+      "sha256": "086ac81e6978fdfe4e1945526b8af85dcb755c1f1535d0a95b688ed344225a4a",
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "docs/content/r3/before/phone-crew-initial.png",
+      "source": "docs/content/r2/phone-crew-initial.png",
+      "sha256": "a8c32bddb74791036b1997822f7a3e5b5c0b3499240a256e74d0631e12e783ee",
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "docs/content/r3/before/phone-retry-preview-after.png",
+      "source": "docs/content/r2/phone-retry-preview-after.png",
+      "sha256": "47d4e879832cb1873f3f967c71b67d869d4037de768d49ddcc916f7e0de4ddfd",
+      "dimensions": [
+        1290,
+        2796
+      ]
+    }
+  ]
+}

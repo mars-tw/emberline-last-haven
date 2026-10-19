@@ -1,0 +1,77 @@
+{
+  "round": 5,
+  "tool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "modelNote": "Actual tool returns image_url and output_hint only; actual model slug not exposed. Built-in generation, no CLI/API fallback.",
+  "stylePrefix": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark.",
+  "assets": [
+    {
+      "id": "night",
+      "prompt": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Use case: stylized-concept. Game background only, no UI, no text, no people. A portrait 1024x1536 interior of a battered coastal evacuation train. Match the supplied old interior's rusted railway materials, but compose for a portrait mobile game: entire top 22% is a visible ribbed steel CEILING, a large inward-buckled plate with three fresh claw dents near top center; a hanging lantern at upper left suspended at a noticeable 15-degree angle and casting warm amber light, a narrow cracked ceiling seam with loose dust. Cold frosted window occupies left middle third with an indistinct undead silhouette outside. Bottom two thirds: a plain worn bunk at center, rusted luggage rack, radio and layered canvas supply packs at edges; leave central lower bunk foreground available for actual animated Xi and passenger sprites. Calm slate shadows and warm amber lantern, rich but legible texture. No baked characters or typography. Match same ink-gouache painterly finish as supplied Xi, readable midtone values, not a cozy pixel bedroom. Composition must visibly communicate danger FROM ABOVE even with text covered.",
+      "source": "docs/art/masters/r5/original/night.png",
+      "references": [
+        "public/art/r2/train.webp",
+        "public/art/r4/xi-portrait.png"
+      ]
+    },
+    {
+      "id": "xi",
+      "prompt": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Use case: illustration-story. Reference image is the canonical adult Xi FACE and orange hooded field jacket, mustard scarf, olive trousers and black gloves. Transparent background, a production identity and pose sheet 1536x1024, exactly four equal columns and two equal rows, all figures fully inside own cell with 10% transparent gutters. Upper row: full body front, full body left profile, full body back, large chest-up portrait. Lower row: four distinct seated-on-bunk poses with legs in frame: holding radio listening, leaning toward window to left, looking UP raising hand toward ceiling, ducking shielding head. Same face in ALL front and side views: 30-year-old East Asian woman, angular cheekbones, defined nose, small brown eyes, short tousled chestnut bob. Adult 6.5-head body proportions. Keep mature face consistent, NO teen round face. Warm lantern rim, etched ink-gouache shapes matching reference. No labels, no backgrounds, no second character, no weapons except radio. This asset defines the lead across every game mode.",
+      "source": "docs/art/masters/r5/original/xi.png",
+      "references": [
+        "public/art/r4/xi-portrait.png",
+        "public/art/r4/xi-night.png"
+      ]
+    },
+    {
+      "id": "props",
+      "prompt": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Use case: stylized-concept. Transparent isolated key object atlas, four equal square cells horizontally, wide 1536x512. Same warm dusk coastal relay station materials. Cell1: a battered raised metal signal-bait dispenser with small amber lamp, open food canister and dangling cables, side three-quarter perspective; cell2: broken sandbag pile and split wooden cargo crate, aftermath debris, no gore; cell3: a low damaged fence panel with torn orange cloth and detached lamp; cell4: compact rescue battery crate with coiled cable, small lamp. Real painted objects, dark ink silhouettes and cold grey rim, readable 64px, no text, no ground rectangle, 12% clear transparent gutters in each cell. Runtime overlays, no characters.",
+      "source": "docs/art/masters/r5/original/props.png",
+      "references": []
+    },
+    {
+      "id": "panel",
+      "prompt": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Use case: ui-mockup. Single blank rescue railway dispatch paper texture filling landscape canvas 1536x768. Weathered warm-grey paper #B4AA91, clipped right corner, fine fibers, narrow charred edge outer 2%, tiny copper staple marks, subtle amber lighthouse seal on far right margin. The central 92% must be calm, light, low contrast for overlaid black text. No text, writing, labels, numbers, mockup screen, table or surrounding scene. Restrained etched-and-gouache finish, original game interface asset.",
+      "source": "docs/art/masters/r5/original/panel.png",
+      "references": []
+    },
+    {
+      "id": "icons",
+      "prompt": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Use case: stylized-concept. Transparent four-resource icon atlas, exactly 4 equal square columns 1536x512, isolated: orange rescue supply case with straps; angular adult East Asian woman with short chestnut bob orange jacket mustard scarf looking three-quarter LEFT (face matches Xi reference); front of rugged olive rescue truck with amber headlamps; work armor vest with orange shoulder patch. Thick ink contours, readable internal value separation, 64px identity, 15% transparent safe margin in each cell. No badges, no type, no UI backing, no floating duplicate objects.",
+      "source": "docs/art/masters/r5/original/icons.png",
+      "references": [
+        "public/art/r4/xi-portrait.png"
+      ]
+    },
+    {
+      "id": "logo",
+      "prompt": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Use case: logo-brand. Transparent game title logo. Exact Traditional Chinese: 燼途 as dominant large line; 最後一站 smaller below. Worn ivory metal-serif letter faces, ink gouache rust edges, clean high contrast. Small original lighthouse at far right with an amber beam ABOVE the lettering, railway sleeper underline, wide landscape 1536x768, all characters fully inside central 90%. Designed to be readable at 130px screen width. No backdrop, no people, no frame, no extra letters. Match adult coastal survival story, not fantasy magical logo.",
+      "source": "docs/art/masters/r5/original/logo.png",
+      "references": []
+    },
+    {
+      "id": "app",
+      "prompt": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Use case: logo-brand. Full-bleed square 1024x1024 app icon proposal for actual Emberline game. Canonical 30-year-old East Asian woman Xi with angular cheekbones, small brown eyes, short tousled chestnut bob, amber scarf and burnt-orange jacket in right foreground, face occupying right third. Battered rescue truck driving left-to-right along a slate coastal road lower-left, northern lighthouse in upper left with bold amber beam across slate sky. Three powerful clear silhouettes at 64px. Gouache and etched ink, readable midtones, slate #657C8A, orange #C96F2E, amber #E8A33D. No text, border, rounded-corner mask, mockup, extra characters or weapons.",
+      "source": "docs/art/masters/r5/original/app.png",
+      "references": [
+        "public/art/r4/xi-portrait.png"
+      ]
+    },
+    {
+      "id": "night-wide",
+      "prompt": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Use case: illustration-story. A WIDE landscape 1792x768 game background for mobile landscape night train. Reference is the exact same train room. Preserve its rusty ink-and-gouache material style and objects, but reframe WIDER, NOT a cropped portrait. Top 28% visible ribbed steel ceiling with deep inward dent, three claw marks and a cracked seam. Upper-left lantern visibly tilted at 15 degrees, warm amber rim. Left third cold frosted window with threatening indistinct silhouette outside. Center and right lower half worn bunk with spare bedroll and luggage rack above. Leave lower middle-right foreground available for actual animated orange-jacket Xi and passenger sprites; NO PEOPLE painted into background. Readable middle values, warm slate dusk shadows. No text, letters, UI. The ceiling danger, window and bunk must ALL remain visible in a short 3.4:1 crop of this landscape composition.",
+      "source": "docs/art/masters/r5/original/night-wide.png",
+      "references": [
+        "docs/art/masters/r5/original/night.png"
+      ]
+    },
+    {
+      "id": "station-wide",
+      "prompt": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Use case: stylized-concept. Landscape 2032x774 background of EXACT SAME coastal relay station as reference, at same 17:40 warm-grey amber dusk. Recompose for a very short mobile landscape arena, all critical landmarks in a WIDE 3.4:1 central safe composition: double steel gate and two signal towers at top middle, ruined left building with crates, right elevated rail with rust train, bottom central grated loading platform framed by sandbags. Wet concrete courtyard with crate islands and cables. Three empty bait sockets across middle, no people or devices baked in. Gate, towers and loading platform ALL visible simultaneously, don't crop a portrait. More cinematic asymmetrical perspective while keeping west-center-east spatial logic and actual same station landmarks. Detailed ink gouache, warm practical lamps, cool slate fill, medium-value readable floor with 3 clear traversable lanes, no huge blank floor. Full scene background only, no text, HUD, letters or UI.",
+      "source": "docs/art/masters/r5/original/station-wide.png",
+      "references": [
+        "public/art/r4/outpost-ready.webp"
+      ]
+    }
+  ]
+}

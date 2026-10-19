@@ -1,0 +1,1322 @@
+{
+  "status": "VERIFIED",
+  "headless": true,
+  "clockAcceleration": false,
+  "stateInjection": false,
+  "startedAt": "2026-10-18T05:38:51.629Z",
+  "elapsedSeconds": 601.54,
+  "events": [
+    {
+      "seconds": 0.484,
+      "stage": "0:play",
+      "hull": 100,
+      "supplies": 8,
+      "people": 3,
+      "report": "",
+      "log": "南岸電台：北方燈塔仍在發訊。"
+    },
+    {
+      "seconds": 48.411,
+      "stage": "0:report",
+      "hull": 57,
+      "supplies": 16,
+      "people": 8,
+      "report": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 3。",
+      "log": "段落完成，補給 +4。"
+    },
+    {
+      "seconds": 52.701,
+      "stage": "1:play",
+      "hull": 72,
+      "supplies": 12,
+      "people": 8,
+      "report": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 3。",
+      "log": "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。"
+    },
+    {
+      "seconds": 93.36,
+      "stage": "1:report",
+      "hull": 82,
+      "supplies": 17,
+      "people": 8,
+      "report": "22 隻敵人被誘餌改道。同行者搶修車體 +10％。回收補給可在列車反制或整備護具。",
+      "log": "段落完成，補給 +9。"
+    },
+    {
+      "seconds": 97.666,
+      "stage": "2:play",
+      "hull": 97,
+      "supplies": 13,
+      "people": 8,
+      "report": "22 隻敵人被誘餌改道。同行者搶修車體 +10％。回收補給可在列車反制或整備護具。",
+      "log": "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。"
+    },
+    {
+      "seconds": 153.182,
+      "stage": "2:report",
+      "hull": 100,
+      "supplies": 12,
+      "people": 8,
+      "report": "正確反制 3／3 波，0 次撞擊。中繼站有人接住了車隊。A-07 第一次說出自己的名字：安。北方的訊號還在。",
+      "log": "段落完成，補給 +5。"
+    },
+    {
+      "seconds": 157.477,
+      "stage": "3:play",
+      "hull": 100,
+      "supplies": 8,
+      "people": 8,
+      "report": "正確反制 3／3 波，0 次撞擊。中繼站有人接住了車隊。A-07 第一次說出自己的名字：安。北方的訊號還在。",
+      "log": "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。"
+    },
+    {
+      "seconds": 205.037,
+      "stage": "3:report",
+      "hull": 82,
+      "supplies": 16,
+      "people": 13,
+      "report": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 8。",
+      "log": "段落完成，補給 +4。"
+    },
+    {
+      "seconds": 209.283,
+      "stage": "4:play",
+      "hull": 82,
+      "supplies": 16,
+      "people": 13,
+      "report": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 8。",
+      "log": "段落完成，補給 +4。"
+    },
+    {
+      "seconds": 249.385,
+      "stage": "4:report",
+      "hull": 94,
+      "supplies": 21,
+      "people": 13,
+      "report": "13 隻敵人被誘餌改道。同行者搶修車體 +12％。回收補給可在列車反制或整備護具。",
+      "log": "段落完成，補給 +9。"
+    },
+    {
+      "seconds": 253.657,
+      "stage": "5:play",
+      "hull": 94,
+      "supplies": 21,
+      "people": 13,
+      "report": "13 隻敵人被誘餌改道。同行者搶修車體 +12％。回收補給可在列車反制或整備護具。",
+      "log": "段落完成，補給 +9。"
+    },
+    {
+      "seconds": 388.125,
+      "stage": "5:report",
+      "hull": 100,
+      "supplies": 20,
+      "people": 13,
+      "report": "正確反制 3／3 波，0 次撞擊。安把冷窗上的霜擦去，露出遠方海岸線。熹將新加入的守衛記進同一本行車簿。",
+      "log": "段落完成，補給 +5。"
+    },
+    {
+      "seconds": 392.362,
+      "stage": "6:play",
+      "hull": 100,
+      "supplies": 20,
+      "people": 13,
+      "report": "正確反制 3／3 波，0 次撞擊。安把冷窗上的霜擦去，露出遠方海岸線。熹將新加入的守衛記進同一本行車簿。",
+      "log": "段落完成，補給 +5。"
+    },
+    {
+      "seconds": 439.884,
+      "stage": "6:report",
+      "hull": 84,
+      "supplies": 28,
+      "people": 18,
+      "report": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 10。",
+      "log": "段落完成，補給 +4。"
+    },
+    {
+      "seconds": 444.135,
+      "stage": "7:play",
+      "hull": 84,
+      "supplies": 28,
+      "people": 18,
+      "report": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 10。",
+      "log": "段落完成，補給 +4。"
+    },
+    {
+      "seconds": 484.761,
+      "stage": "7:report",
+      "hull": 99,
+      "supplies": 33,
+      "people": 18,
+      "report": "14 隻敵人被誘餌改道。同行者搶修車體 +15％。回收補給可在列車反制或整備護具。",
+      "log": "段落完成，補給 +9。"
+    },
+    {
+      "seconds": 489.02,
+      "stage": "8:play",
+      "hull": 99,
+      "supplies": 33,
+      "people": 18,
+      "report": "14 隻敵人被誘餌改道。同行者搶修車體 +15％。回收補給可在列車反制或整備護具。",
+      "log": "段落完成，補給 +9。"
+    },
+    {
+      "seconds": 567.386,
+      "stage": "8:report",
+      "hull": 100,
+      "supplies": 32,
+      "people": 18,
+      "report": "正確反制 3／3 波，0 次撞擊。列車抵達北方燈塔。安接上廣播，熹打開車門，席安關掉引擎。你們帶來的人，成了下一班車的守燈人。",
+      "log": "段落完成，補給 +5。"
+    },
+    {
+      "seconds": 571.643,
+      "stage": "8:ending",
+      "hull": 100,
+      "supplies": 32,
+      "people": 18,
+      "report": "正確反制 3／3 波，0 次撞擊。列車抵達北方燈塔。安接上廣播，熹打開車門，席安關掉引擎。你們帶來的人，成了下一班車的守燈人。",
+      "log": "段落完成，補給 +5。"
+    }
+  ],
+  "errors": [],
+  "final": {
+    "schema": 1,
+    "version": "0.5.0",
+    "screen": "ending",
+    "segment": 8,
+    "supplies": 32,
+    "people": 18,
+    "hull": 100,
+    "level": 3,
+    "progress": {
+      "time": 72.53049999999976,
+      "x": 180,
+      "cooldown": 0,
+      "spawn": 0,
+      "shot": 0,
+      "enemies": [],
+      "shots": [],
+      "serial": 0,
+      "flung": 0,
+      "kills": 0,
+      "rescued": 0,
+      "bait": "center",
+      "baitLeft": 0,
+      "attracted": 0,
+      "started": true,
+      "night": {
+        "schemaVersion": 6,
+        "runId": "run-3c98ddd4-a236-4629-bdc0-fcf866b0bb4b",
+        "seed": "emberline-8",
+        "day": 3,
+        "maxDays": 7,
+        "phase": "night",
+        "actionPoints": 5,
+        "rationMode": "standard",
+        "nightPowerDemand": 9,
+        "outcome": "active",
+        "routeId": "R01",
+        "resources": {
+          "energy": 66,
+          "fuel": 40,
+          "food": 5,
+          "water": 6,
+          "parts": 8,
+          "medicine": 1,
+          "data": 0
+        },
+        "survivor": {
+          "health": 85,
+          "stress": 20,
+          "infection": 0,
+          "trust": 50,
+          "sleep": 100,
+          "wakeups": 0
+        },
+        "environment": {
+          "temperature": 22,
+          "noise": 14,
+          "visibility": 34,
+          "hull": 100,
+          "weight": 54
+        },
+        "modules": [
+          {
+            "id": "MI1",
+            "definitionId": "M001",
+            "slotId": "defense-window",
+            "active": true,
+            "powered": true,
+            "durability": 100,
+            "mk": 1
+          },
+          {
+            "id": "MI2",
+            "definitionId": "M002",
+            "slotId": "sleep-floor",
+            "active": true,
+            "powered": true,
+            "durability": 100,
+            "mk": 1
+          },
+          {
+            "id": "MI3",
+            "definitionId": "M003",
+            "slotId": "greenhouse-wall",
+            "active": true,
+            "powered": true,
+            "durability": 100,
+            "mk": 1
+          }
+        ],
+        "decorations": [
+          {
+            "id": "lantern",
+            "carriageId": "sleep",
+            "slotId": "sleep-hook",
+            "x": 18,
+            "y": 34
+          },
+          {
+            "id": "radio",
+            "carriageId": "workshop",
+            "slotId": "workshop-radio",
+            "x": 19,
+            "y": 34
+          },
+          {
+            "id": "toolbox",
+            "carriageId": "defense",
+            "slotId": "defense-bench",
+            "x": 19,
+            "y": 67
+          },
+          {
+            "id": "fern",
+            "carriageId": "greenhouse",
+            "slotId": "greenhouse-sill",
+            "x": 78,
+            "y": 43
+          }
+        ],
+        "crops": [
+          {
+            "id": "plot-a",
+            "stage": 0,
+            "dryDays": 0
+          },
+          {
+            "id": "plot-b",
+            "stage": 0,
+            "dryDays": 0
+          }
+        ],
+        "story": {
+          "version": 3,
+          "flags": {
+            "signalSampleQuality": "none",
+            "extraBunk": false,
+            "duplicateCoordinate": false,
+            "day4Route": null,
+            "rosterGap": false,
+            "rosterMatch": "unchecked",
+            "a07IdentityKnown": false,
+            "clause7Read": false,
+            "authorKnown": false,
+            "trueRouteData": false,
+            "routeSampleCount": 0,
+            "manifestCrossChecks": 0,
+            "isolationTraceCount": 0,
+            "hailed": false,
+            "quarantinePrepared": false,
+            "overrideUsed": false,
+            "controlReturned": false,
+            "toldTruth": false,
+            "decoderInstalled": false,
+            "decoderCalibrated": false,
+            "a07MovedObject": false,
+            "badgePocketed": false,
+            "overrideTechUnlocked": false,
+            "identityMismatchVerified": false
+          },
+          "cargoConversion": "none",
+          "finaleStage": "inactive",
+          "completedContactWaves": 0,
+          "finaleHealthBuffer": 0,
+          "finalDecision": null,
+          "queue": [],
+          "seenEventIds": [],
+          "endingId": null,
+          "endingReasons": [],
+          "dawnLogIds": [],
+          "whiteFrost": null,
+          "greenTide": null
+        },
+        "techOwned": [],
+        "flags": [
+          "handover:D3:window",
+          "v2-module-visibility:-8",
+          "handover:checked:D3",
+          "handover:matched:D3"
+        ],
+        "ledger": [
+          {
+            "id": "080865a8-68d0-4f11-9b6c-3b59f2c3d1c7",
+            "at": 1792302425769,
+            "source": "night.power-grid",
+            "key": "energy",
+            "before": 75,
+            "delta": -9,
+            "after": 66
+          },
+          {
+            "id": "7243dae0-6c0a-41c9-81fb-68ab039ffa0f",
+            "at": 1792302425769,
+            "source": "night.heating",
+            "key": "temperature",
+            "before": 18,
+            "delta": 4,
+            "after": 22
+          },
+          {
+            "id": "654d17e4-51c6-42f5-9a75-595c6f929f00",
+            "at": 1792302425769,
+            "source": "module.visibility",
+            "key": "visibility",
+            "before": 42,
+            "delta": -8,
+            "after": 34
+          }
+        ],
+        "quests": {
+          "version": 1,
+          "runId": "run-3c98ddd4-a236-4629-bdc0-fcf866b0bb4b",
+          "routeId": "R01",
+          "createdDay": 1,
+          "sequence": 2,
+          "consumedEventIds": [
+            "run-3c98ddd4-a236-4629-bdc0-fcf866b0bb4b:D3:passenger-breathing:action.committed",
+            "run-3c98ddd4-a236-4629-bdc0-fcf866b0bb4b:D3:window-silhouette:action.committed"
+          ],
+          "consumedEventKeys": [
+            "action.committed:D3:inspect:passenger-breathing",
+            "action.committed:D3:inspect:window-silhouette"
+          ],
+          "eventHistory": [
+            {
+              "transactionId": "run-3c98ddd4-a236-4629-bdc0-fcf866b0bb4b:D3:passenger-breathing",
+              "operation": "inspect",
+              "targetId": "passenger-breathing",
+              "result": "success",
+              "eventId": "run-3c98ddd4-a236-4629-bdc0-fcf866b0bb4b:D3:passenger-breathing:action.committed",
+              "runId": "run-3c98ddd4-a236-4629-bdc0-fcf866b0bb4b",
+              "routeId": "R01",
+              "day": 3,
+              "sequence": 1,
+              "type": "action.committed",
+              "dedupKey": "action.committed:D3:inspect:passenger-breathing"
+            },
+            {
+              "transactionId": "run-3c98ddd4-a236-4629-bdc0-fcf866b0bb4b:D3:window-silhouette",
+              "operation": "inspect",
+              "targetId": "window-silhouette",
+              "result": "success",
+              "eventId": "run-3c98ddd4-a236-4629-bdc0-fcf866b0bb4b:D3:window-silhouette:action.committed",
+              "runId": "run-3c98ddd4-a236-4629-bdc0-fcf866b0bb4b",
+              "routeId": "R01",
+              "day": 3,
+              "sequence": 2,
+              "type": "action.committed",
+              "dedupKey": "action.committed:D3:inspect:window-silhouette"
+            }
+          ],
+          "missions": {
+            "MAIN-R01-N01": {
+              "id": "MAIN-R01-N01",
+              "lifecycle": "resolved-fallback",
+              "result": "compromised",
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "settledDay": 1,
+              "reason": "mainline-continued",
+              "startedDay": 1
+            },
+            "MAIN-R01-N02": {
+              "id": "MAIN-R01-N02",
+              "lifecycle": "resolved-fallback",
+              "result": "compromised",
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "settledDay": 2,
+              "reason": "mainline-continued"
+            },
+            "MAIN-R01-N03": {
+              "id": "MAIN-R01-N03",
+              "lifecycle": "active",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "MAIN-R01-N04": {
+              "id": "MAIN-R01-N04",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ]
+            },
+            "MAIN-R01-N05": {
+              "id": "MAIN-R01-N05",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ]
+            },
+            "MAIN-R01-N06": {
+              "id": "MAIN-R01-N06",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ]
+            },
+            "MAIN-R01-N07": {
+              "id": "MAIN-R01-N07",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ]
+            },
+            "MAIN-R02-N01": {
+              "id": "MAIN-R02-N01",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R02-N02": {
+              "id": "MAIN-R02-N02",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R02-N03": {
+              "id": "MAIN-R02-N03",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R02-N04": {
+              "id": "MAIN-R02-N04",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R02-N05": {
+              "id": "MAIN-R02-N05",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R02-N06": {
+              "id": "MAIN-R02-N06",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R02-N07": {
+              "id": "MAIN-R02-N07",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R03-N01": {
+              "id": "MAIN-R03-N01",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R03-N02": {
+              "id": "MAIN-R03-N02",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R03-N03": {
+              "id": "MAIN-R03-N03",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R03-N04": {
+              "id": "MAIN-R03-N04",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R03-N05": {
+              "id": "MAIN-R03-N05",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R03-N06": {
+              "id": "MAIN-R03-N06",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "MAIN-R03-N07": {
+              "id": "MAIN-R03-N07",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "TUT-01": {
+              "id": "TUT-01",
+              "lifecycle": "expired",
+              "result": "expired",
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "settledDay": 1,
+              "reason": "deadline-reached",
+              "startedDay": 1
+            },
+            "TUT-02": {
+              "id": "TUT-02",
+              "lifecycle": "expired",
+              "result": "expired",
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "settledDay": 1,
+              "reason": "deadline-reached",
+              "startedDay": 1
+            },
+            "TUT-03": {
+              "id": "TUT-03",
+              "lifecycle": "expired",
+              "result": "expired",
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "settledDay": 2,
+              "reason": "deadline-reached",
+              "startedDay": 1
+            },
+            "TUT-04": {
+              "id": "TUT-04",
+              "lifecycle": "expired",
+              "result": "expired",
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "settledDay": 1,
+              "reason": "deadline-reached",
+              "startedDay": 1
+            },
+            "TUT-05": {
+              "id": "TUT-05",
+              "lifecycle": "expired",
+              "result": "expired",
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "settledDay": 2,
+              "reason": "deadline-reached",
+              "startedDay": 1
+            },
+            "REL-A07-01": {
+              "id": "REL-A07-01",
+              "lifecycle": "resolved-fallback",
+              "result": "compromised",
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "settledDay": 2,
+              "reason": "fallback-context",
+              "fallbackContext": true
+            },
+            "REL-A07-02": {
+              "id": "REL-A07-02",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3,
+              "fallbackContext": true
+            },
+            "REL-A07-03": {
+              "id": "REL-A07-03",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ]
+            },
+            "REL-A07-04": {
+              "id": "REL-A07-04",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ]
+            },
+            "REL-A07-05": {
+              "id": "REL-A07-05",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ]
+            },
+            "REL-XU-01": {
+              "id": "REL-XU-01",
+              "lifecycle": "resolved-fallback",
+              "result": "compromised",
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "settledDay": 2,
+              "reason": "fallback-context",
+              "fallbackContext": true
+            },
+            "REL-XU-02": {
+              "id": "REL-XU-02",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3,
+              "fallbackContext": true
+            },
+            "REL-XU-03": {
+              "id": "REL-XU-03",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ]
+            },
+            "REL-XU-04": {
+              "id": "REL-XU-04",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ]
+            },
+            "REL-XU-05": {
+              "id": "REL-XU-05",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ]
+            },
+            "FAC-01": {
+              "id": "FAC-01",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "FAC-02": {
+              "id": "FAC-02",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "FAC-03": {
+              "id": "FAC-03",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "FAC-04": {
+              "id": "FAC-04",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "FAC-05": {
+              "id": "FAC-05",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "FAC-06": {
+              "id": "FAC-06",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "FAC-07": {
+              "id": "FAC-07",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "FAC-08": {
+              "id": "FAC-08",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "EXP-R01-01": {
+              "id": "EXP-R01-01",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "EXP-R01-02": {
+              "id": "EXP-R01-02",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "EXP-R02-01": {
+              "id": "EXP-R02-01",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "EXP-R02-02": {
+              "id": "EXP-R02-02",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "EXP-R03-01": {
+              "id": "EXP-R03-01",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "EXP-R03-02": {
+              "id": "EXP-R03-02",
+              "lifecycle": "locked",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "reason": "route-unavailable"
+            },
+            "CH-01": {
+              "id": "CH-01",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "CH-02": {
+              "id": "CH-02",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "CH-03": {
+              "id": "CH-03",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 1
+            },
+            "CH-04": {
+              "id": "CH-04",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 3
+            },
+            "CH-05": {
+              "id": "CH-05",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                },
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 1
+            },
+            "CH-06": {
+              "id": "CH-06",
+              "lifecycle": "available",
+              "result": null,
+              "progress": [
+                {
+                  "count": 0,
+                  "matchedEventIds": []
+                }
+              ],
+              "startedDay": 1
+            }
+          },
+          "trackedMissionIds": [],
+          "branchChoices": {},
+          "rewardReceipts": [],
+          "journalEntries": []
+        },
+        "voyage": {
+          "version": 2,
+          "stoppedDays": {},
+          "expeditions": [],
+          "relationships": {},
+          "facilityChoices": {},
+          "facilities": {},
+          "settlementIds": [],
+          "nightSummaries": [],
+          "inspectedIds": [
+            "D3:passenger-breathing",
+            "D3:window-silhouette"
+          ],
+          "nightStartWakeups": 0
+        },
+        "ended": false,
+        "lastMessage": "今夜耗電 9 E；所有排程設備供電正常。 遠距感測出現異常，等待方向確認。接觸 1/2。",
+        "selectedRouteNodeId": "RN01",
+        "nightStartLedgerIndex": 0,
+        "activeContact": {
+          "id": "contact-3-1",
+          "definitionId": "T002",
+          "stage": "approach",
+          "secondsLeft": 58,
+          "wave": 1,
+          "totalWaves": 2
+        }
+      },
+      "wave": 3,
+      "warning": 9.767099999999958,
+      "countered": 3,
+      "impacts": 0,
+      "shake": {
+        "left": 0,
+        "right": 0,
+        "cooldownLeft": 0
+      }
+    },
+    "log": [
+      "甩落 2 隻！連鎖回收補給。",
+      "甩落 2 隻！連鎖回收補給。",
+      "甩落 2 隻！連鎖回收補給。",
+      "段落完成，補給 +4。",
+      "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+      "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+      "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+      "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+      "段落完成，補給 +9。",
+      "交接已封存，首波預警 58 秒。",
+      "百葉封住敲窗者。",
+      "第 2 波接觸：先看訊號再反制。",
+      "扣具切離，車頂的拖曳聲消失了。",
+      "第 3 波接觸：先看訊號再反制。",
+      "百葉封住敲窗者。",
+      "段落完成，補給 +5。"
+    ],
+    "receipts": [
+      "segment:0",
+      "segment:1",
+      "segment:2",
+      "segment:3",
+      "segment:4",
+      "segment:5",
+      "segment:6",
+      "segment:7",
+      "segment:8"
+    ],
+    "archives": {},
+    "sound": true,
+    "reduced": false,
+    "lastReport": "正確反制 3／3 波，0 次撞擊。列車抵達北方燈塔。安接上廣播，熹打開車門，席安關掉引擎。你們帶來的人，成了下一班車的守燈人。",
+    "reward": 5
+  }
+}

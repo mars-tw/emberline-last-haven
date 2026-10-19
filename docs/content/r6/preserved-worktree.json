@@ -1,0 +1,70 @@
+{
+  "status": "VERIFIED",
+  "preservedPreexistingUntrackedFiles": [
+    {
+      "path": "docs/art/ART_RESCORE2_MUSE.md",
+      "sha256": "95a16b2de69d73beff6f6c305291a67373cb5a8e31ef7b81ba450d7fb66c7fdc",
+      "bytes": 6703
+    },
+    {
+      "path": "docs/art/ART_RESCORE3_MUSE.md",
+      "sha256": "081e36e337d22772e16375028189ba4e176a4a89df26e7c1638ed8b444746851",
+      "bytes": 7643
+    },
+    {
+      "path": "docs/art/ART_RESCORE4_MUSE.md",
+      "sha256": "880869ab95144b28bd941328fa3ef7fc5f815e57a597898b58960abba44b238e",
+      "bytes": 7421
+    },
+    {
+      "path": "docs/art/ART_RESCORE5_MUSE.md",
+      "sha256": "68f807a9f0f7fa49cd15aae1b8880a128c0ea565ebfcb1f503afead94361ea92",
+      "bytes": 7783
+    },
+    {
+      "path": "docs/art/ART_RESCORE_MUSE.md",
+      "sha256": "96a9cab6c67648bde71ba688ed3f5e5910fd70c6be81bc74265c20ad9b6e19b1",
+      "bytes": 7323
+    },
+    {
+      "path": "docs/content/CONTENT_REVIEW_R1_MUSE.md",
+      "sha256": "86cce92310d91d2fd451daa59428ef8c0bfcc01380ab0a0d66bd313eaaee4ffb",
+      "bytes": 12424
+    },
+    {
+      "path": "docs/content/CONTENT_REVIEW_R2_MUSE.md",
+      "sha256": "3032c4631147a8f03335cae3d1e939f2cca140d507604ed0fe94eea8208ff389",
+      "bytes": 9627
+    },
+    {
+      "path": "docs/content/CONTENT_REVIEW_R3_MUSE.md",
+      "sha256": "3c21ccc2eff6d9981c17f97b3f1a5886219e18b2c8c6ab0e9c0de8bf1a72271b",
+      "bytes": 10473
+    },
+    {
+      "path": "docs/content/CONTENT_REVIEW_R4_MUSE.md",
+      "sha256": "e532f06e9b8ede55b5ba8323db9a271dfa9211ae548a7cd6de2943f0b2b49266",
+      "bytes": 17528
+    },
+    {
+      "path": "docs/content/CONTENT_REVIEW_R5_MUSE.md",
+      "sha256": "c466663bc4bf933274a13770ba97bf295ff95675a434d2552fb90262e748ad95",
+      "bytes": 8294
+    },
+    {
+      "path": "docs/content/CONTENT_REVIEW_R5_GPT.md",
+      "sha256": "445b96bd8ba9c35b24ef6b29a95cf78425a565942387924c961397a920d9be41",
+      "bytes": 5748
+    },
+    {
+      "path": "docs/content/CONTENT_REVIEW_R5_CLAUDE.md",
+      "sha256": "29ec90f97bc54bf5b8ea3e02bead34bb100abed36c89dcfbc3988ef76a9585b8",
+      "bytes": 5640
+    },
+    {
+      "path": "docs/content/r1/failure.txt",
+      "sha256": "60bfc33552b243ca2c26015f296b84dd32d602d950770fda176bec06549fc0c0",
+      "bytes": 356
+    }
+  ]
+}

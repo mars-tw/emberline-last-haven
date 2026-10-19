@@ -1,0 +1,10 @@
+{
+  "status": "VERIFIED",
+  "comparisonPairs": 49,
+  "sameViewportTrue": true,
+  "rawImages": "docs/art/compare/r3-before and r3-after",
+  "scaledPixelsInPairSheet": false,
+  "note": "Ordinary input, no campaign state injection. Time may vary slightly while resizing; each capture stores state and build hash.",
+  "generatedAssets": 10,
+  "runtimeAddedBytes": 3559320
+}

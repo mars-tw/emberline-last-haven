@@ -1,0 +1,338 @@
+{
+  "status": "VERIFIED",
+  "generatedAssets": 12,
+  "runtimeFiles": 35,
+  "runtimeAddedBytes": 4496251,
+  "publicBytes": 26463752,
+  "method": "HSV V/S on alpha>200; V<.15 near-black, S<.20 low saturation. Genuine source alpha and independent limb silhouettes. Hash uniqueness is not artistic review.",
+  "humanBlindRecognitionTest": {
+    "status": "BLOCKED",
+    "reason": "No human participants in this local task; no invented >=80% recognition claim."
+  },
+  "checks": [
+    {
+      "path": "public/art/r2/departure.webp",
+      "hashDimensionFormat": true
+    },
+    {
+      "path": "public/art/r2/road-0.webp",
+      "hashDimensionFormat": true
+    },
+    {
+      "path": "public/art/r2/road-1.webp",
+      "hashDimensionFormat": true
+    },
+    {
+      "path": "public/art/r2/road-2.webp",
+      "hashDimensionFormat": true
+    },
+    {
+      "path": "public/art/r2/outpost.webp",
+      "hashDimensionFormat": true
+    },
+    {
+      "path": "public/art/r2/train.webp",
+      "hashDimensionFormat": true
+    },
+    {
+      "path": "public/art/r2/xi-front.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.4123046875,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.35889744414134617,
+      "nearBlackFraction": 0.13286752690595593,
+      "saturationHSV": 0.4700393145581469,
+      "lowSaturationFraction": 0.1023271538851637
+    },
+    {
+      "path": "public/art/r2/xi-side.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.34880642361111114,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.35207763755388954,
+      "nearBlackFraction": 0.1416966307098149,
+      "saturationHSV": 0.46192742941322634,
+      "lowSaturationFraction": 0.09508589692369157
+    },
+    {
+      "path": "public/art/r2/xi-back.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.4507595486111111,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.3434547518713079,
+      "nearBlackFraction": 0.13005526574040596,
+      "saturationHSV": 0.45121962350250294,
+      "lowSaturationFraction": 0.09142089768090492
+    },
+    {
+      "path": "public/art/r2/xi-portrait.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.7155354817708334,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.44142082011444833,
+      "nearBlackFraction": 0.15868591929314793,
+      "saturationHSV": 0.5598429561565766,
+      "lowSaturationFraction": 0.0488629288107451
+    },
+    {
+      "path": "public/art/r2/xi-attack.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.3539225260416667,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.3356519717670489,
+      "nearBlackFraction": 0.17925379636544686,
+      "saturationHSV": 0.4382557914993564,
+      "lowSaturationFraction": 0.1514345282549166,
+      "adjacentPoseAlphaDifference": [
+        0.10691324869791667,
+        0.28802490234375,
+        0.2939860026041667
+      ],
+      "genuineFrames": 4
+    },
+    {
+      "path": "public/art/r2/shambler-walk.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.3141886393229167,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.36812829796690455,
+      "nearBlackFraction": 0.1680321016552416,
+      "saturationHSV": 0.4925794990914605,
+      "lowSaturationFraction": 0.08968877636324551,
+      "adjacentPoseAlphaDifference": [
+        0.14632161458333334,
+        0.1686469184027778,
+        0.1608615451388889
+      ],
+      "genuineFrames": 4
+    },
+    {
+      "path": "public/art/r2/shambler-attack.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.3326822916666667,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.369020836067015,
+      "nearBlackFraction": 0.1634933868096708,
+      "saturationHSV": 0.49740645649312365,
+      "lowSaturationFraction": 0.08625312633784728,
+      "adjacentPoseAlphaDifference": [
+        0.22111002604166666,
+        0.20155164930555555,
+        0.1640896267361111
+      ],
+      "genuineFrames": 4
+    },
+    {
+      "path": "public/art/r2/shambler-hurt.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.3407118055555556,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.37594425845056945,
+      "nearBlackFraction": 0.16529594470449277,
+      "saturationHSV": 0.487943706253359,
+      "lowSaturationFraction": 0.08978957959665777,
+      "adjacentPoseAlphaDifference": [
+        0.2279730902777778,
+        0.16810438368055555,
+        0.2209743923611111
+      ],
+      "genuineFrames": 4
+    },
+    {
+      "path": "public/art/r2/shambler-death.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.2637057834201389,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.3768973488025734,
+      "nearBlackFraction": 0.1610052237752365,
+      "saturationHSV": 0.4796739189783764,
+      "lowSaturationFraction": 0.10419313850063533,
+      "adjacentPoseAlphaDifference": [
+        0.23499891493055555,
+        0.1714138454861111,
+        0.11260308159722222
+      ],
+      "genuineFrames": 4
+    },
+    {
+      "path": "public/art/r2/runner-walk.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.3015679253472222,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.3396822365771061,
+      "nearBlackFraction": 0.18904387522191224,
+      "saturationHSV": 0.5699457266483969,
+      "lowSaturationFraction": 0.12008622875982754,
+      "adjacentPoseAlphaDifference": [
+        0.19287109375,
+        0.141357421875,
+        0.3140190972222222
+      ],
+      "genuineFrames": 4
+    },
+    {
+      "path": "public/art/r2/runner-attack.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.3251953125,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.33184797946638606,
+      "nearBlackFraction": 0.20319432120674358,
+      "saturationHSV": 0.5831268983379054,
+      "lowSaturationFraction": 0.11152103862139821,
+      "adjacentPoseAlphaDifference": [
+        0.16343858506944445,
+        0.22957356770833334,
+        0.20003255208333334
+      ],
+      "genuineFrames": 4
+    },
+    {
+      "path": "public/art/r2/runner-hurt.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.3096923828125,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.33376753564411443,
+      "nearBlackFraction": 0.19281332164767748,
+      "saturationHSV": 0.5673050508894009,
+      "lowSaturationFraction": 0.12028921998247151,
+      "adjacentPoseAlphaDifference": [
+        0.123046875,
+        0.21766493055555555,
+        0.2423773871527778
+      ],
+      "genuineFrames": 4
+    },
+    {
+      "path": "public/art/r2/runner-death.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.2893134223090278,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightnessHSVValue": 0.35524791560944097,
+      "nearBlackFraction": 0.16814780168381666,
+      "saturationHSV": 0.5754376130361757,
+      "lowSaturationFraction": 0.12753352042407234,
+      "adjacentPoseAlphaDifference": [
+        0.22249348958333334,
+        0.21004231770833334,
+        0.1750759548611111
+      ],
+      "genuineFrames": 4
+    },
+    {
+      "path": "public/art/r2/wreck.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.6327892485119048,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/sign.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.3727911086309524,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/luggage.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.5542224702380952,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/concrete.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.5531529017857143,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/bait-west.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.27976190476190477,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/bait-center.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.30701264880952384,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/bait-east.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.32359095982142855,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/barricade.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.5718936011904762,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/supply.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.58953125,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/people.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.6159375,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/hull.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.574375,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/armor.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.58109375,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/panel.webp",
+      "hashDimensionFormat": true
+    },
+    {
+      "path": "public/art/r2/logo.png",
+      "hashDimensionFormat": true,
+      "alphaOccupancy": 0.5218470982142858,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r2/app-192.png",
+      "hashDimensionFormat": true
+    },
+    {
+      "path": "public/art/r2/app-512.png",
+      "hashDimensionFormat": true
+    }
+  ]
+}

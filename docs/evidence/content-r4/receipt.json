@@ -1,0 +1,68 @@
+{
+  "status": "VERIFIED",
+  "beforeSourceCommit": "c0d9830",
+  "indexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "sourceAfterIndex": "docs/art/compare/r5-after/captures.json",
+  "captures": [
+    {
+      "phase": "before",
+      "path": "docs/evidence/content-r4/before/phone-defense-active.png",
+      "original": "docs/content/r4/before/phone-defense-active.png",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "34bf20859d1ca6d6cbf7f284be68026a0473cd68b798a9a6b20c1b9cc4edbc81"
+    },
+    {
+      "phase": "after",
+      "path": "docs/evidence/content-r4/after/phone-defense-active.png",
+      "original": "docs/art/compare/r5-after/phone-defense-active.png",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "3f64a2d72601e28c846d7f62c5b65d15430f653f2d7011f0ca415541a02b3151"
+    },
+    {
+      "phase": "before",
+      "path": "docs/evidence/content-r4/before/tablet-defense-active.png",
+      "original": "docs/content/r4/before/tablet-defense-active.png",
+      "dimensions": [
+        1032,
+        1376
+      ],
+      "sha256": "331ddb0bbea926565de7daf0e030d02aa75671108bf3e4efd2ec2c55fc440bb3"
+    },
+    {
+      "phase": "after",
+      "path": "docs/evidence/content-r4/after/tablet-defense-active.png",
+      "original": "docs/art/compare/r5-after/tablet-defense-active.png",
+      "dimensions": [
+        1032,
+        1376
+      ],
+      "sha256": "1869eb94ff1a356a07d8bf214db82abd221be9c9e5bff7f1d8f29a6e0c0e7cbd"
+    },
+    {
+      "phase": "before",
+      "path": "docs/evidence/content-r4/before/desktop-defense-active.png",
+      "original": "docs/content/r4/before/desktop-defense-active.png",
+      "dimensions": [
+        1366,
+        600
+      ],
+      "sha256": "77b16e7e5e81c9d09dbc61d76225db4c88496a07c03707f9764a814e6c034c00"
+    },
+    {
+      "phase": "after",
+      "path": "docs/evidence/content-r4/after/desktop-defense-active.png",
+      "original": "docs/art/compare/r5-after/desktop-defense-active.png",
+      "dimensions": [
+        1366,
+        600
+      ],
+      "sha256": "7a356185f097e540880cf86a4040fb77bcb67e77002e17d5bc4d112748caa5b5"
+    }
+  ]
+}

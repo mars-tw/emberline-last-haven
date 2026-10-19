@@ -1,0 +1,10 @@
+{
+  "status": "VERIFIED",
+  "round": "content-r4",
+  "generatedAssets": 0,
+  "tool": null,
+  "modelSlug": null,
+  "assets": [],
+  "reason": "Decision-state and gameplay feedback revisions reuse the existing R5 artwork, R2 chapter scenes and R3 Shian portrait. Canvas rings, arrows, comparison text and progress bars are gameplay information, not generated art.",
+  "retainedManifests": ["ASSET_MANIFEST_R5.json", "ASSET_MANIFEST_CONTENT_R1.json", "ASSET_MANIFEST_CONTENT_R2.json", "ASSET_MANIFEST_CONTENT_R3.json"]
+}

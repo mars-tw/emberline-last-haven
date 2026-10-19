@@ -1,0 +1,701 @@
+{
+  "status": "VERIFIED",
+  "round": 4,
+  "tool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "requestedModelSlug": "gpt-image-2",
+  "modelNote": "Tool did not return the actual model slug. No API/CLI fallback or credentials used.",
+  "generatedAssets": 9,
+  "runtimeFiles": 26,
+  "runtimeAddedBytes": 3873603,
+  "baselinePublicBytes": 16080596,
+  "assets": [
+    {
+      "id": "xi",
+      "round": 4,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r4/original/xi.png",
+        "sha256": "786bb8eee8b1a47616cab6cd9dbe1e6d7cb2122b5dcff21c183c617b42c8a588",
+        "bytes": 2726248
+      },
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r4/xi-front.png",
+          "sha256": "982d5dc7895edcc0c7df76db2380c505f4e2859f0c54fa519121a96e13feb081",
+          "bytes": 55282,
+          "size": [
+            160,
+            288
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/xi-side.png",
+          "sha256": "74720382774f105927514a7b7835824cb873f57b01a529bc37a230f24c979acc",
+          "bytes": 47936,
+          "size": [
+            160,
+            288
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/xi-back.png",
+          "sha256": "7d16dd7149b07b340fc97263723ecd2f2d1d0e53d257942c65438fc13fde1d45",
+          "bytes": 53764,
+          "size": [
+            160,
+            288
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/xi-portrait.png",
+          "sha256": "56a5c212bb251e348cb937d17774ae3e9bd28c08eb860aaf9547dc3e7c9cd2e7",
+          "bytes": 71558,
+          "size": [
+            192,
+            256
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/xi-gunner.png",
+          "sha256": "1f717eee4b54c22a24a049b47089ab3311f6767e0af3e662231606485fb14691",
+          "bytes": 240710,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "rgba": {
+        "path": "docs/art/masters/r4/rgba/xi.png",
+        "sha256": "f7c4777904edae30827aa1fdd385a4fa55f4b2a20dfa939c21c8bbb1f1d48ec5",
+        "bytes": 1959125
+      },
+      "masks": {
+        "path": "docs/art/masters/r4/masks/xi.png",
+        "sha256": "e1481ab50ffe4fcd71f1324c1968b10933eb27c56c7cddb3c121a223c7706e86",
+        "bytes": 181422
+      },
+      "opaque": {
+        "path": "docs/art/masters/r4/opaque/xi.jpg",
+        "sha256": "ec392bfcbee06dc5e1af2d1f957a2a566e232c6f0dd84d3e8411baca5ff82c32",
+        "bytes": 363417
+      },
+      "alphaProcess": "Native alpha retained; alpha <12 removed, invisible RGB zeroed, cell crop, bounding-box fit with 6px margin; no synthesized limbs.",
+      "frameMap": {
+        "sheetSplitY": 620,
+        "columns": 4,
+        "gunner": [
+          "rest",
+          "anticipation",
+          "impact",
+          "recovery"
+        ]
+      },
+      "references": [
+        {
+          "path": "public/art/r3/xi-front.png",
+          "sha256": "33153b2c6aa1ba5c9e1f458a12faa96b8fd865fc1bc4ab001b8775134bd1509f",
+          "bytes": 54353
+        },
+        {
+          "path": "public/art/r3/xi-gunner.png",
+          "sha256": "254a347c79916270fbc9179764dbafb12c98e4e4abd7bffb5bf9da2970b62ebd",
+          "bytes": 221976
+        }
+      ]
+    },
+    {
+      "id": "station",
+      "round": 4,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r4/original/station.png",
+        "sha256": "4568bbb96facf95ef4e0bd1da7bd01f4fab889e90b9a9c4ab577f5a65fa75f7c",
+        "bytes": 3837714
+      },
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r4/outpost-ready.webp",
+          "sha256": "c167dc8c5ae72b2a4ccd151ad95236a4efe9dbd477d359d1caa1ff882915241e",
+          "bytes": 344908,
+          "size": [
+            768,
+            1152
+          ],
+          "format": "WEBP"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "references": [
+        {
+          "path": "public/art/r3/outpost-after.webp",
+          "sha256": "1f21f6d3893258b8a385185f86a05ddf13350a9215f1920747fd252630ad01f2",
+          "bytes": 301674
+        }
+      ]
+    },
+    {
+      "id": "night",
+      "round": 4,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r4/original/night.png",
+        "sha256": "1caeb4f67cbe50b1241ba25b4c3b3b2b4de80aeac18a19f99aaa10ac6b644e50",
+        "bytes": 2590994
+      },
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r4/xi-night.png",
+          "sha256": "5a3ed6d8f978060c1e52002182612dd5282764c7f233aaceef9408967db6ae45",
+          "bytes": 274213,
+          "size": [
+            768,
+            256
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "rgba": {
+        "path": "docs/art/masters/r4/rgba/night.png",
+        "sha256": "188f022f68f3121c16ac889f275921773add989ab1b982dd5252848820be0190",
+        "bytes": 2446949
+      },
+      "masks": {
+        "path": "docs/art/masters/r4/masks/night.png",
+        "sha256": "d94b02a15c893e77c3631f8eeffebd440ef2bc35ef59bcc96deeba7874ce010f",
+        "bytes": 197852
+      },
+      "opaque": {
+        "path": "docs/art/masters/r4/opaque/night.jpg",
+        "sha256": "cc38c2bfd5a7e222726cbc161ebe4e4acf846cbe906442bdb1b802f03728fd42",
+        "bytes": 422356
+      },
+      "alphaProcess": "Native alpha retained; alpha <12 removed, invisible RGB zeroed, cell crop, bounding-box fit with 6px margin; no synthesized limbs.",
+      "frameMap": {
+        "columns": 4,
+        "phases": [
+          "listen",
+          "window",
+          "roof",
+          "duck"
+        ]
+      },
+      "references": [
+        {
+          "path": "docs/art/masters/r4/original/xi.png",
+          "sha256": "786bb8eee8b1a47616cab6cd9dbe1e6d7cb2122b5dcff21c183c617b42c8a588",
+          "bytes": 2726248
+        }
+      ]
+    },
+    {
+      "id": "climber",
+      "round": 4,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r4/original/climber.png",
+        "sha256": "9c0f693b320b6728c930a224f07b58cdf97c82331bfbe07e8c4012894df25c0a",
+        "bytes": 1581820
+      },
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r4/climber-attack.png",
+          "sha256": "aecb72209c62f0e9389ffba91e3c032a52dcec8100bb614cb38c6d8917cdb258",
+          "bytes": 132060,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "rgba": {
+        "path": "docs/art/masters/r4/rgba/climber.png",
+        "sha256": "220ed59b635ffba4f2feb4e4ec527b393fec03c4f251420afda47c45272d66a1",
+        "bytes": 1404811
+      },
+      "masks": {
+        "path": "docs/art/masters/r4/masks/climber.png",
+        "sha256": "6cef1d5bcc0d34c56c663bb79f9341faed2b5bf7744b95f79a54b3beb9d3b6c7",
+        "bytes": 145894
+      },
+      "opaque": {
+        "path": "docs/art/masters/r4/opaque/climber.jpg",
+        "sha256": "1847218724d9331d13a79d321c9abb7cf674c1381265253413881f79bfe750d7",
+        "bytes": 262065
+      },
+      "alphaProcess": "Native alpha retained; alpha <12 removed, invisible RGB zeroed, cell crop, bounding-box fit with 6px margin; no synthesized limbs.",
+      "colorProcess": "Very low chroma cloth shadows given restrained S .24 floor; hue retained; not blue.",
+      "frameMap": {
+        "columns": 4,
+        "phases": [
+          "grip",
+          "anticipation",
+          "impact",
+          "recovery"
+        ],
+        "impactSeconds": 0.2,
+        "damageSource": "unchanged campaign.tick"
+      },
+      "references": []
+    },
+    {
+      "id": "panel",
+      "round": 4,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r4/original/panel.png",
+        "sha256": "de3135ed9715396b08a5b59817fbb77f67099c24e7b879028c3e6efe516c6bfd",
+        "bytes": 3357369
+      },
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r4/panel.webp",
+          "sha256": "59f498931efe56c08b953f405882bf7ac6f39db21ac931d593fc682ccc2aebbe",
+          "bytes": 58940,
+          "size": [
+            768,
+            384
+          ],
+          "format": "WEBP"
+        },
+        {
+          "path": "public/art/r4/panel-tall.webp",
+          "sha256": "e31f110e6e1cf8f82b79a49465d50cb5a3c138223cc0beda9dd951d0ea685049",
+          "bytes": 143228,
+          "size": [
+            640,
+            1400
+          ],
+          "format": "WEBP"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "references": []
+    },
+    {
+      "id": "icons",
+      "round": 4,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r4/original/icons.png",
+        "sha256": "3d989958542e8b29b82f491521690f95dbde85aefe590151aaf2610b30603195",
+        "bytes": 2265732
+      },
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r4/supply.png",
+          "sha256": "198bdac5522c650d0b9e0f3a0553648dca43251ce8f9030ed33ec4a1c0766c72",
+          "bytes": 15871,
+          "size": [
+            96,
+            96
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/people.png",
+          "sha256": "93419301a6f5590e294fe9212ff2d50ec532d1db4e210432034a1da758e52886",
+          "bytes": 15171,
+          "size": [
+            96,
+            96
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/hull.png",
+          "sha256": "39187c9c969cc32ed437b6c37cb3473960c3f8006e10b2d39019a42a8fc277df",
+          "bytes": 16145,
+          "size": [
+            96,
+            96
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/armor.png",
+          "sha256": "3fad5282916c825708f09e6eb3f05182515ce80c584f01d87fe45b04f44fee11",
+          "bytes": 14388,
+          "size": [
+            96,
+            96
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "rgba": {
+        "path": "docs/art/masters/r4/rgba/icons.png",
+        "sha256": "fce3675463941ecd22191aebb7277be09f388a03ff4b72d572e2fd8ede0f6a60",
+        "bytes": 2155104
+      },
+      "masks": {
+        "path": "docs/art/masters/r4/masks/icons.png",
+        "sha256": "d8ecc5cf9cee5fa0f39e00cdcf38dc8cc1b3cf777206e6bf16d4a095720773c2",
+        "bytes": 182416
+      },
+      "opaque": {
+        "path": "docs/art/masters/r4/opaque/icons.jpg",
+        "sha256": "cb138af4ba3b70a567b46152c1637beef6d903e89785c355b6167f1bc2b1202b",
+        "bytes": 388536
+      },
+      "alphaProcess": "Native alpha retained; alpha <12 removed, invisible RGB zeroed, cell crop, bounding-box fit with 6px margin; no synthesized limbs.",
+      "references": [
+        {
+          "path": "docs/art/masters/r4/original/xi.png",
+          "sha256": "786bb8eee8b1a47616cab6cd9dbe1e6d7cb2122b5dcff21c183c617b42c8a588",
+          "bytes": 2726248
+        },
+        {
+          "path": "public/art/r3/truck.png",
+          "sha256": "b916c84686d2f7161c953fd80c4b4211d5329dc6b8cd84e65ea630216f514544",
+          "bytes": 213403
+        }
+      ]
+    },
+    {
+      "id": "logo",
+      "round": 4,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r4/original/logo.png",
+        "sha256": "4971940c330229bf616a22728628a2baa0a90c43194e69dcc94a9c4e0e14a6ab",
+        "bytes": 2465431
+      },
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r4/logo.png",
+          "sha256": "0aa5e9910860889dcdd5e24145196a328cd25739c9b5ef153912c34d2135358d",
+          "bytes": 212073,
+          "size": [
+            512,
+            256
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "rgba": {
+        "path": "docs/art/masters/r4/rgba/logo.png",
+        "sha256": "4db4defe231a2d6f1c6b7f238114c764ed67d6e2a5d15cfa5c4f75012d0f6497",
+        "bytes": 2294624
+      },
+      "masks": {
+        "path": "docs/art/masters/r4/masks/logo.png",
+        "sha256": "0ce5d98e1c3a1733d94dc8dc62bd69ce0d5e238f20fed8c127e433350f338245",
+        "bytes": 249490
+      },
+      "opaque": {
+        "path": "docs/art/masters/r4/opaque/logo.jpg",
+        "sha256": "880b291c36e0645f60fda7d33f710189babfc8c913def06fbd15255658ac5966",
+        "bytes": 423523
+      },
+      "alphaProcess": "Native alpha retained; alpha <12 removed, invisible RGB zeroed, cell crop, bounding-box fit with 6px margin; no synthesized limbs.",
+      "references": []
+    },
+    {
+      "id": "app",
+      "round": 4,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r4/original/app.png",
+        "sha256": "998bac8773b4dcf92ba86baf427fc4f695025f58f727df819ccd3ac5e749f37d",
+        "bytes": 3401819
+      },
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r4/app-192.png",
+          "sha256": "088df00497380404cb745ed2973a1d18d4fed3374ba18f95053683fb1b0258d9",
+          "bytes": 96311,
+          "size": [
+            192,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/app-512.png",
+          "sha256": "418ffdcf521f8b44e9ad63c47c2f3c8244727a10181e20abf8b4a1f059d9ac30",
+          "bytes": 651522,
+          "size": [
+            512,
+            512
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "proposal": {
+        "path": "docs/art/proposals/app-store-r4-1024.png",
+        "sha256": "39ab75e1fb8e4c96a15d5c9d14190692200ae977d1fb46fe14ee10a55d95066c",
+        "bytes": 2205709
+      },
+      "references": [
+        {
+          "path": "docs/art/masters/r4/original/xi.png",
+          "sha256": "786bb8eee8b1a47616cab6cd9dbe1e6d7cb2122b5dcff21c183c617b42c8a588",
+          "bytes": 2726248
+        },
+        {
+          "path": "public/art/r3/truck.png",
+          "sha256": "b916c84686d2f7161c953fd80c4b4211d5329dc6b8cd84e65ea630216f514544",
+          "bytes": 213403
+        }
+      ]
+    },
+    {
+      "id": "attack",
+      "round": 4,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r4/original/attack.png",
+        "sha256": "3957ce8588137dfda5924ac3e6b2d1bc2af2d0b3425465d676d3b1ece72c81b4",
+        "bytes": 1871339
+      },
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r4/xi-attack.png",
+          "sha256": "9898992cb96462eab33d201867ef30fdc37a4c209261a459f0ddd635ffee1513",
+          "bytes": 190185,
+          "size": [
+            768,
+            256
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "rgba": {
+        "path": "docs/art/masters/r4/rgba/attack.png",
+        "sha256": "6bc1029d71877cc6e42359cba512f974c4e9e55ae524494242647f2c2342608d",
+        "bytes": 1684950
+      },
+      "masks": {
+        "path": "docs/art/masters/r4/masks/attack.png",
+        "sha256": "c7b3937410aa2a8f5c3de40c52bc864aa807ded6290f6ea154e06506e9e6c547",
+        "bytes": 141719
+      },
+      "opaque": {
+        "path": "docs/art/masters/r4/opaque/attack.jpg",
+        "sha256": "62992ac1b5439d425cdc24feeead30305634fb4ba5077399c6b768c6ec6405a6",
+        "bytes": 307180
+      },
+      "alphaProcess": "Native alpha retained; alpha <12 removed, invisible RGB zeroed, cell crop, bounding-box fit with 6px margin; no synthesized limbs.",
+      "frameMap": {
+        "columns": 4,
+        "phases": [
+          "rest",
+          "anticipation",
+          "impact",
+          "recovery"
+        ],
+        "damageSource": "unchanged campaign projectile collision"
+      },
+      "references": [
+        {
+          "path": "docs/art/masters/r4/original/xi.png",
+          "sha256": "786bb8eee8b1a47616cab6cd9dbe1e6d7cb2122b5dcff21c183c617b42c8a588",
+          "bytes": 2726248
+        }
+      ]
+    },
+    {
+      "id": "enemy-contrast",
+      "round": 4,
+      "tool": "Pillow / NumPy deterministic postprocess",
+      "modelSlug": null,
+      "runtime": [
+        {
+          "path": "public/art/r4/runner-walk.png",
+          "sha256": "cf07c5b9aaf5517a7afb7bd6e74900ec4343a0a991483bfa70ad62994c37366a",
+          "bytes": 156165,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/runner-attack.png",
+          "sha256": "cc42b0c56e8405c9151736755b020c5505f5c9e723d5d8857f899073f5ef401f",
+          "bytes": 170204,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/runner-hurt.png",
+          "sha256": "81fee27eb3f2fd7ae196eeb65aa5d42182f2058338e9593ef615f8b100ca9568",
+          "bytes": 159351,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/runner-death.png",
+          "sha256": "7aca0290a53ada4493dcfa69ee7398d7704967fd71898fc68fd4d6f6c124da98",
+          "bytes": 149329,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/shambler-walk.png",
+          "sha256": "94a103ae3a79bef68ad9fd211b93fcae9b9f062e8a8d1cb9d32955e52bd3b98d",
+          "bytes": 150062,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/shambler-attack.png",
+          "sha256": "8160bb991413fe9216ab4db546ff215b861810a14c17df3580290dfdd69f7f65",
+          "bytes": 165505,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/shambler-hurt.png",
+          "sha256": "395a8efb8075c183b93a55dd2d7628f1b9e53ac8b618d51b9053473c6e34eba0",
+          "bytes": 164026,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r4/shambler-death.png",
+          "sha256": "f1a79d885d67e4613fcb35fbd04a619a5f1ebad3b4b64f42065d4f3d299b39b6",
+          "bytes": 124696,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen (R3 source)",
+      "sources": [
+        {
+          "path": "public/art/r3/runner-walk.png",
+          "sha256": "78a38f094336d3d78a51128e011ace3f7204d6039e12cd3369eee1f5aef5376b",
+          "bytes": 158050
+        },
+        {
+          "path": "public/art/r3/runner-attack.png",
+          "sha256": "e1f0a1cda64f35ca682e22a9c1ca2d85a9f520a7b38d6545b60bc59a68ea82aa",
+          "bytes": 171738
+        },
+        {
+          "path": "public/art/r3/runner-hurt.png",
+          "sha256": "ecc9c640bf45dfb1380fa5f0af61161dae10d7d4c235e19346271c25172b2d57",
+          "bytes": 161041
+        },
+        {
+          "path": "public/art/r3/runner-death.png",
+          "sha256": "329be7ffdc1e5c3fbd13a5696efcc81f86288372c11ec7f1ade2470fdbcd40d6",
+          "bytes": 150932
+        },
+        {
+          "path": "public/art/r3/shambler-walk.png",
+          "sha256": "b98122310054d8d033c242709d537ee85306c23343532df43a0f4d525c96b704",
+          "bytes": 153565
+        },
+        {
+          "path": "public/art/r3/shambler-attack.png",
+          "sha256": "c25ee680dc0fce52825bdf9f55ea914c9a9e252dc46844ee62303617a13d053c",
+          "bytes": 169514
+        },
+        {
+          "path": "public/art/r3/shambler-hurt.png",
+          "sha256": "96d4391b626a4cad06b2c95e6fe219f14dc526257749ae0c242d92dde300701a",
+          "bytes": 167903
+        },
+        {
+          "path": "public/art/r3/shambler-death.png",
+          "sha256": "96cbbf47403134144483506a6af3b2bc52ee1160d21e3301cdc7e1b5fea62bc9",
+          "bytes": 127204
+        }
+      ],
+      "process": "R3 unchanged pose geometry; V gamma .74, neutral cloth hue kept cool-grey; one-pixel dark brown contour; native alpha and real animation timing retained.",
+      "references": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "VERIFIED",
+  "version": "0.11.3",
+  "indexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "automatedChecks": 34,
+  "originalCaptures": 46,
+  "reviewSet": 15,
+  "acceptance": [
+    {
+      "item": 1,
+      "status": "VERIFIED"
+    },
+    {
+      "item": 2,
+      "status": "VERIFIED"
+    },
+    {
+      "item": 3,
+      "status": "VERIFIED"
+    },
+    {
+      "item": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "item": 5,
+      "automated": "VERIFIED",
+      "fiveSecondHumanTest": "BLOCKED"
+    }
+  ],
+  "generatedImages": 1,
+  "runtimeIllustrations": 2,
+  "museRescore": {
+    "status": "BLOCKED",
+    "score": null,
+    "target": 8
+  },
+  "physicalDevices": 0,
+  "humanParticipants": 0
+}

@@ -1,5 +1,3 @@
-page.goto: WebKit encountered an internal error
-Call log:
-[2m  - navigating to "http://127.0.0.1:4179/", waiting until "load"[22m
-
-    at C:\Users\digimkt\Desktop\遊戲\apocalypse-anthology\scripts\browser.mjs:60:258
+AssertionError [ERR_ASSERTION]: real pointer drift must fling actual latched enemies
+    at drive (file:///C:/Users/digimkt/Desktop/%E9%81%8A%E6%88%B2/apocalypse-anthology/scripts/browser.mjs:23:237)
+    at async file:///C:/Users/digimkt/Desktop/%E9%81%8A%E6%88%B2/apocalypse-anthology/scripts/browser.mjs:43:265

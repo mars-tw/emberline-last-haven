@@ -1,0 +1,740 @@
+{
+  "status": "VERIFIED",
+  "round": 2,
+  "tool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "requestedModelSlug": "gpt-image-2",
+  "modelNote": "Actual tool image_gen__imagegen; tool does not expose actual model slug. Model slug unconfirmed.",
+  "generatedAssets": 12,
+  "runtimeFiles": 35,
+  "baselinePublicBytes": 8025025,
+  "runtimeAddedBytes": 4496251,
+  "assets": [
+    {
+      "id": "departure",
+      "round": 2,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r2/original/departure.png",
+        "sha256": "5933800716647eab3726f74b434d34c698336a20da110ba27aeb0021fa726401"
+      },
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r2/departure.webp",
+          "sha256": "414dc066d814529adb0fd86e7925d80f980ac3deee1890d3c1b73c7a4d28093c",
+          "bytes": 348244,
+          "size": [
+            1536,
+            1024
+          ],
+          "format": "WEBP"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen"
+    },
+    {
+      "id": "road",
+      "round": 2,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r2/original/road.png",
+        "sha256": "0ffe68e47c1ad25b424b7963972e297c575843aeec6234c5ddac767472c38687"
+      },
+      "sourceSize": [
+        724,
+        2172
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r2/road-0.webp",
+          "sha256": "c47758d2cbc41144995a39cce64754b009ce0350b0c760eb78a7bdc2bb654e23",
+          "bytes": 135404,
+          "size": [
+            720,
+            720
+          ],
+          "format": "WEBP"
+        },
+        {
+          "path": "public/art/r2/road-1.webp",
+          "sha256": "874770c9836c8d43053b600b01037372ca5d4c42d84cbed2f29818c8b09fec86",
+          "bytes": 127230,
+          "size": [
+            720,
+            720
+          ],
+          "format": "WEBP"
+        },
+        {
+          "path": "public/art/r2/road-2.webp",
+          "sha256": "0cdc40b76b1af0852454ffa7684e5dd4dbc63b7dace65bbe608749ccc91225f1",
+          "bytes": 116502,
+          "size": [
+            720,
+            720
+          ],
+          "format": "WEBP"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "postprocess": "144px end-to-start overlap blend, then three contiguous distinct segments; top/bottom transition follows adjacent source rows, no mirrored vehicle copies."
+    },
+    {
+      "id": "outpost",
+      "round": 2,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r2/original/outpost.png",
+        "sha256": "828e4011db7aefbd9d8e1e7d6c49689b42709272805be87b3adab4aeeef5f824"
+      },
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r2/outpost.webp",
+          "sha256": "94887431a3ba612e741855245cab8ad959f4c66dfcb5615837563c75c5c7b98a",
+          "bytes": 262414,
+          "size": [
+            768,
+            1152
+          ],
+          "format": "WEBP"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen"
+    },
+    {
+      "id": "train",
+      "round": 2,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r2/original/train.png",
+        "sha256": "91aea85230b19713d3cf72466ef9a6bb6076bbe275119a615120e96e72f4533e"
+      },
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r2/train.webp",
+          "sha256": "f0f63648fb61c79ea0702f1d1ba662e0cd26e550c70ad4cb60cfc9698233855b",
+          "bytes": 276370,
+          "size": [
+            1536,
+            1024
+          ],
+          "format": "WEBP"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen"
+    },
+    {
+      "id": "xi",
+      "round": 2,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r2/original/xi.png",
+        "sha256": "2cb97382c52f31b3036cd27f39e4ac954d7f53a7319964291b0d6d89152678b0"
+      },
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r2/xi-front.png",
+          "sha256": "eeb767c30bc80afc0b5e247cc7d05f3f8c202b2d5078d8349eba2b7c4b5fd8de",
+          "bytes": 56813,
+          "size": [
+            160,
+            288
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/xi-side.png",
+          "sha256": "58449f8323622caf5a85296ab4d07dd538709e5c7d96f631ade0106275116ed9",
+          "bytes": 47772,
+          "size": [
+            160,
+            288
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/xi-back.png",
+          "sha256": "ebd5d2e6bcfae07bda6fdb86ef68e7b2367520f861e9c83fcfa245c03f21dd19",
+          "bytes": 59893,
+          "size": [
+            160,
+            288
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/xi-portrait.png",
+          "sha256": "f61a2de712bbee2935f9f2cc0aebf713777faa87fe51815eff729213724e0d2a",
+          "bytes": 96518,
+          "size": [
+            192,
+            256
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/xi-attack.png",
+          "sha256": "9ef9da1d62c6c5563798990a60987645fe8461bcf325244e52226d1fe8215963",
+          "bytes": 216511,
+          "size": [
+            768,
+            256
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "rgba": {
+        "path": "docs/art/masters/r2/rgba/xi.png",
+        "sha256": "c3ac912c53ffc87f0abf46a7316b1a03483dc0be9cb7a63421abcbf0c4ea724f"
+      },
+      "masks": {
+        "path": "docs/art/masters/r2/masks/xi.png",
+        "sha256": "362a1d20073d07f94971d084f0e0cb8394454250418811aa1f03d414099622c6"
+      },
+      "opaque": {
+        "path": "docs/art/masters/r2/opaque/xi.png",
+        "sha256": "83b48e978a267724fd643e1a7ba2ba71e166fb26aaa58b6435048222f4e86b4b"
+      },
+      "postprocess": "Native generated alpha retained; invisible RGB zeroed. Padded runtime cells; opaque viewing master, alpha mask and RGBA master retained. No artificial silhouette or frame generation.",
+      "frameMap": {
+        "columns": 4,
+        "rows": 1,
+        "frameSize": [
+          192,
+          256
+        ],
+        "phases": [
+          "rest",
+          "anticipation",
+          "impact",
+          "recovery"
+        ],
+        "timing": "Existing projectile timer p.shot; visual does not apply damage."
+      }
+    },
+    {
+      "id": "shambler",
+      "round": 2,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r2/original/shambler.png",
+        "sha256": "509b51f5f02fd9f630f5aab71727cf21030fe7af3fee3bb62137ed72bf3ea4e3"
+      },
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r2/shambler-walk.png",
+          "sha256": "a0343bb4b8770df7444b0cc2cf117961abd75266f26fd4107ce04b87376fd09a",
+          "bytes": 155462,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/shambler-attack.png",
+          "sha256": "77c1714edb0b070850562ed5f76d29617f832ea1bd292ee24f5eb7dbb50d4728",
+          "bytes": 165302,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/shambler-hurt.png",
+          "sha256": "990b604166733950c67d8478eff551824cf441351f3fb59508365e79fb4d9ec6",
+          "bytes": 168107,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/shambler-death.png",
+          "sha256": "b8ebbf650631b2a575844c1a86502799707ffcc83e87191112311a1ba0ab31ca",
+          "bytes": 129695,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "rgba": {
+        "path": "docs/art/masters/r2/rgba/shambler.png",
+        "sha256": "905c678f2a22c97ffdf858d7af5f53d7184ec8b5a13b26249a3a149953c977d7"
+      },
+      "masks": {
+        "path": "docs/art/masters/r2/masks/shambler.png",
+        "sha256": "3f531eabfe4ea24dbc81683e98c2a6cb3feb64cb3b4311400cbf156181c62597"
+      },
+      "opaque": {
+        "path": "docs/art/masters/r2/opaque/shambler.png",
+        "sha256": "4c8a3dec45566f76ed8be31e7e90e5ce1e3b6a3531ad201d3cf2341027106e58"
+      },
+      "postprocess": "Native generated alpha retained; invisible RGB zeroed. Padded runtime cells; opaque viewing master, alpha mask and RGBA master retained. No artificial silhouette or frame generation.",
+      "calibrated": {
+        "path": "docs/art/masters/r2/rgba/shambler-calibrated.png",
+        "sha256": "aa9e8705118ce1a675a6b95eeda59461913ea0794b1c9f2091e33ca8fc0550a2"
+      },
+      "colorCalibration": {
+        "hue": "unchanged",
+        "saturationMultiplier": 1.5,
+        "valueGamma": 0.66,
+        "purpose": "Legible colored midtones; original masters retained."
+      },
+      "frameMap": {
+        "columns": 4,
+        "frameSize": [
+          192,
+          192
+        ],
+        "actions": [
+          "walk",
+          "attack",
+          "hurt",
+          "death"
+        ],
+        "impactFrame": 2,
+        "impactSeconds": {
+          "latched": 0.2,
+          "defense": 0.32
+        },
+        "hurtSeconds": 0.24,
+        "deathSeconds": 0.65,
+        "walk": "Four genuine limb poses, per-entity phase offset; reduced motion uses same frames at lower rate."
+      }
+    },
+    {
+      "id": "runner",
+      "round": 2,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r2/original/runner.png",
+        "sha256": "3aaa7810c6a4c2656fdab81b73211f39560a6daf8da68763a43a033f95528b52"
+      },
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r2/runner-walk.png",
+          "sha256": "437dbf584cc601afca31d0025d7fd8d0d9fbd243095de0fb5970a99224e93d70",
+          "bytes": 151223,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/runner-attack.png",
+          "sha256": "7e38bd6a3072e6c06227cf89cce0e38dfc07668570619a90ad8ab1546afc7884",
+          "bytes": 161420,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/runner-hurt.png",
+          "sha256": "ec1ed60872e5aea0a814b8d499007705c8f835ec421a79f43d6fa2e75e8b3f5f",
+          "bytes": 153120,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/runner-death.png",
+          "sha256": "8ced2627899fff003b9a634b682ecd92a9eb9e340bdf7d2630f8a79a2cc41079",
+          "bytes": 142541,
+          "size": [
+            768,
+            192
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "rgba": {
+        "path": "docs/art/masters/r2/rgba/runner.png",
+        "sha256": "62b4fb7e0e73cec9948f45c41f0c05c1cff6704d9990626b533bd84a44442f14"
+      },
+      "masks": {
+        "path": "docs/art/masters/r2/masks/runner.png",
+        "sha256": "6b243a4b376970b6c5722dea4083a8bc5cb4ac55c9a19026d5c6aa4328c9e90e"
+      },
+      "opaque": {
+        "path": "docs/art/masters/r2/opaque/runner.png",
+        "sha256": "5c3e12e42aa05128cb19a4e7f0a156dbda0ea43746f267bf2160e538962ca9d6"
+      },
+      "postprocess": "Native generated alpha retained; invisible RGB zeroed. Padded runtime cells; opaque viewing master, alpha mask and RGBA master retained. No artificial silhouette or frame generation.",
+      "calibrated": {
+        "path": "docs/art/masters/r2/rgba/runner-calibrated.png",
+        "sha256": "3ec229cd8655942128b1abcda6efbb31b0bf0ec5d8b270519d1e320006c17782"
+      },
+      "colorCalibration": {
+        "hue": "unchanged",
+        "saturationMultiplier": 1.5,
+        "valueGamma": 0.66,
+        "purpose": "Legible colored midtones; original masters retained."
+      },
+      "frameMap": {
+        "columns": 4,
+        "frameSize": [
+          192,
+          192
+        ],
+        "actions": [
+          "walk",
+          "attack",
+          "hurt",
+          "death"
+        ],
+        "impactFrame": 2,
+        "impactSeconds": {
+          "latched": 0.2,
+          "defense": 0.32
+        },
+        "hurtSeconds": 0.24,
+        "deathSeconds": 0.65,
+        "walk": "Four genuine limb poses, per-entity phase offset; reduced motion uses same frames at lower rate."
+      }
+    },
+    {
+      "id": "props",
+      "round": 2,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r2/original/props.png",
+        "sha256": "e6860238d5cc0dd5ba9ba345c76eedabedcbfa1574ae967fafc7a917e9cf3015"
+      },
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r2/wreck.png",
+          "sha256": "1cab8759b04f7d98c6ae5c71c0902c70c7f187ea37bc389af6354b697019a7ec",
+          "bytes": 85248,
+          "size": [
+            192,
+            224
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/sign.png",
+          "sha256": "8b3c18492e65bf5a5dba6fb8e88deea206191886bdb0ab3b486d02c6d5ef8b77",
+          "bytes": 48864,
+          "size": [
+            192,
+            224
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/luggage.png",
+          "sha256": "622789d3eb7fb90140b8980d38a5b1555d1e742e0f5ab9391361903c431e3e63",
+          "bytes": 71657,
+          "size": [
+            192,
+            224
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/concrete.png",
+          "sha256": "4bf517392ab0c620aadfcf24fa90324cb7850eb18126a28d0cac5b24d174a826",
+          "bytes": 74934,
+          "size": [
+            192,
+            224
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/bait-west.png",
+          "sha256": "30a0d4379667776cf2f95af587f46aace3f7834a6aa42da900a59ae383a729b8",
+          "bytes": 39170,
+          "size": [
+            192,
+            224
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/bait-center.png",
+          "sha256": "46fb523ed89d7ab3e7af30d8425bb1b36be0faf747e5c50399122ecb1391c4a4",
+          "bytes": 42065,
+          "size": [
+            192,
+            224
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/bait-east.png",
+          "sha256": "f6aa8c228eef501391d0442cb26ef3b0f888e5c346e52f7f66f448cf71df56f1",
+          "bytes": 44910,
+          "size": [
+            192,
+            224
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/barricade.png",
+          "sha256": "165750d48cf733c12b63b4aa439be020efbcaad2907c1c0589344e4d8e639c88",
+          "bytes": 72893,
+          "size": [
+            192,
+            224
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "rgba": {
+        "path": "docs/art/masters/r2/rgba/props.png",
+        "sha256": "e3722ff33ccc636051e98356b529968c53283305f63ae1a5ed83d919535ceba4"
+      },
+      "masks": {
+        "path": "docs/art/masters/r2/masks/props.png",
+        "sha256": "ad4654911618247c87c2e851012d1c3757c8bd6f0b2a55c5c2cf6fdff5ca5dd0"
+      },
+      "opaque": {
+        "path": "docs/art/masters/r2/opaque/props.png",
+        "sha256": "46a233e29e0c77ba45e866f121d0b7364649b25953378621654d261820d73ede"
+      },
+      "postprocess": "Native generated alpha retained; invisible RGB zeroed. Padded runtime cells; opaque viewing master, alpha mask and RGBA master retained. No artificial silhouette or frame generation."
+    },
+    {
+      "id": "icons",
+      "round": 2,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r2/original/icons.png",
+        "sha256": "971e6a3d58495d18b645095f63ec2e8c2de71bada49b72ec6f16b7478b61b848"
+      },
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r2/supply.png",
+          "sha256": "f251b5075dc1cc8d4077eb55a2d45846e75727ba9d5b0f5fe7e63da0d56ab4e0",
+          "bytes": 11495,
+          "size": [
+            80,
+            80
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/people.png",
+          "sha256": "9999b0aa5567420052311a20b91f436e8035481e68c47b4aeea6a6c03c5352f7",
+          "bytes": 13046,
+          "size": [
+            80,
+            80
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/hull.png",
+          "sha256": "a4b7fd4e2e3392860fc8433daa4f767d78fceb5d2c94d6215eae64546fd8d8d0",
+          "bytes": 11168,
+          "size": [
+            80,
+            80
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/armor.png",
+          "sha256": "99e310704c0dea49ff3d98f2fb2d1b4eae15ac66185a151797c3c0a3964469a0",
+          "bytes": 11341,
+          "size": [
+            80,
+            80
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "rgba": {
+        "path": "docs/art/masters/r2/rgba/icons.png",
+        "sha256": "55c649575cfaa429f68b48c09a8651f443355b22b53def0e2284a8d0719252e3"
+      },
+      "masks": {
+        "path": "docs/art/masters/r2/masks/icons.png",
+        "sha256": "04cacf037f09dc513172727ee1edcfa9e3909b7f33b6e5e28194ad822645a45b"
+      },
+      "opaque": {
+        "path": "docs/art/masters/r2/opaque/icons.png",
+        "sha256": "511c8733f53b16953e1a7010276643953feaf1bdf0e4de3896fb76577513eee2"
+      },
+      "postprocess": "Native generated alpha retained; invisible RGB zeroed. Padded runtime cells; opaque viewing master, alpha mask and RGBA master retained. No artificial silhouette or frame generation."
+    },
+    {
+      "id": "panel",
+      "round": 2,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r2/original/panel.png",
+        "sha256": "1795c2213011cd37344b727709515ea4626f9e8e537005236903dfc0931d78b4"
+      },
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r2/panel.webp",
+          "sha256": "c386df13c578a0f50197885bd1df9a783de04dabc73128cf92c1aac77045b602",
+          "bytes": 71956,
+          "size": [
+            640,
+            640
+          ],
+          "format": "WEBP"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen"
+    },
+    {
+      "id": "logo",
+      "round": 2,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r2/original/logo.png",
+        "sha256": "b88fbe908afff1184111c279d128ee3400779d577bce7a436f1c7ba35eee4ebb"
+      },
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r2/logo.png",
+          "sha256": "9df5071707ace83c4efd7a74a33b7d485b7e6a4d044902c23de21937da643ec5",
+          "bytes": 284218,
+          "size": [
+            640,
+            280
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "rgba": {
+        "path": "docs/art/masters/r2/rgba/logo.png",
+        "sha256": "7902f9575045899386870db87790fae0b4315f8419ce75ba631e9ca08714c930"
+      },
+      "masks": {
+        "path": "docs/art/masters/r2/masks/logo.png",
+        "sha256": "8c785eae63f3a80886d7cd83b1c9344473b4239832341e153d28c3dad13dfe98"
+      },
+      "opaque": {
+        "path": "docs/art/masters/r2/opaque/logo.png",
+        "sha256": "3ad28d9bad74159634b3ab06343fb77a2d7ec7cf0ccb738055a4fd6f763b61fa"
+      },
+      "postprocess": "Native generated alpha retained; invisible RGB zeroed. Padded runtime cells; opaque viewing master, alpha mask and RGBA master retained. No artificial silhouette or frame generation."
+    },
+    {
+      "id": "app",
+      "round": 2,
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "original": {
+        "path": "docs/art/masters/r2/original/app.png",
+        "sha256": "49ff59a150e69395046db40677a96871cc1cdb3fbe6135f5c08d2f21876fec5a"
+      },
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "runtime": [
+        {
+          "path": "public/art/r2/app-192.png",
+          "sha256": "e601e064e9251f1d6bee7cb71e7602ed98604e4e31697e73648d1f48783a6184",
+          "bytes": 87323,
+          "size": [
+            192,
+            192
+          ],
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r2/app-512.png",
+          "sha256": "5795d3890684787c7d98da6162c5d7f52d2d7d53a5eb4e85a2eadc4717030626",
+          "bytes": 555422,
+          "size": [
+            512,
+            512
+          ],
+          "format": "PNG"
+        }
+      ],
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "proposal": {
+        "path": "docs/art/proposals/app-store-r2-1024.png",
+        "sha256": "97929f31036dfd7a177d038add88ed7d8fedf498104b04ed7e6744f4296e6e5a"
+      }
+    }
+  ]
+}

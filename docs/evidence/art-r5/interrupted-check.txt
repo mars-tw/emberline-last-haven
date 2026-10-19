@@ -1,0 +1,4 @@
+page.evaluate: Target crashed
+    at state (C:\Users\digimkt\Desktop\遊戲\apocalypse-anthology\scripts\browser.mjs:10:40)
+    at defend (C:\Users\digimkt\Desktop\遊戲\apocalypse-anthology\scripts\browser.mjs:27:159)
+    at async file:///C:/Users/digimkt/Desktop/%E9%81%8A%E6%88%B2/apocalypse-anthology/scripts/browser.mjs:57:220

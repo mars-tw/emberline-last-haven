@@ -1,0 +1,100 @@
+{
+  "status": "VERIFIED",
+  "version": "0.11.3",
+  "fullCheck": {
+    "mode": "same-build-staged",
+    "singleInvocationNpmCheckExitCode": 1,
+    "initialLog": "docs/content/r8/logs/npm-check-initial.txt",
+    "deployment": false,
+    "command": "npm run check with same-build continuation",
+    "indexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+    "headless": true,
+    "initial": {
+      "log": "docs/content/r8/logs/npm-check-initial.txt",
+      "headless": true,
+      "exitCode": 1,
+      "finishedAt": "2026-10-19T06:59:56.1756359Z",
+      "deployment": false,
+      "startedAt": "2026-10-19T06:24:05.9494531Z",
+      "status": "BLOCKED",
+      "command": "npm run check",
+      "logSha256": "b5b9299d0540445f9491c3217892cc8c434cd5ccc26c21e5b18348227c27d41f",
+      "originalLogSha256": "4b94bd301241e8cc98d8e5a5ccc0a1188325a39dea02d9a1e91c569be8af5f25"
+    },
+    "exitCode": 0,
+    "status": "VERIFIED",
+    "continuation": {
+      "exitCode": 0,
+      "finishedAt": "2026-10-19T07:14:38.9056374Z",
+      "stages": [
+        {
+          "exitCode": 0,
+          "command": "node scripts/content-r5.mjs",
+          "status": "VERIFIED"
+        },
+        {
+          "exitCode": 0,
+          "command": "node scripts/content-r6.mjs",
+          "status": "VERIFIED"
+        },
+        {
+          "exitCode": 0,
+          "command": "node scripts/content-r7.mjs",
+          "status": "VERIFIED"
+        },
+        {
+          "exitCode": 0,
+          "command": "node scripts/content-r8.mjs",
+          "status": "VERIFIED"
+        },
+        {
+          "exitCode": 0,
+          "command": "node scripts/audit.mjs",
+          "status": "VERIFIED"
+        }
+      ],
+      "startedAt": "2026-10-19T07:04:05.6879749Z",
+      "log": "docs/content/r8/logs/continuation.txt",
+      "logSha256": "bae03206d165d1db13db28309bd3d50078e631ea0924af434b48d0905e0c3e7b",
+      "originalLogSha256": "64e88e00f0865aa7af46ae368f00bdb64e6d6894647b81957e4114a196091a39"
+    },
+    "log": "docs/content/r8/logs/continuation.txt",
+    "logSha256": "bae03206d165d1db13db28309bd3d50078e631ea0924af434b48d0905e0c3e7b",
+    "originalLogSha256": "64e88e00f0865aa7af46ae368f00bdb64e6d6894647b81957e4114a196091a39",
+    "rebuildProof": "docs/content/r8/rebuild-proof.json",
+    "logNormalization": "UTF-8 without BOM, LF, trailing horizontal console padding removed; diagnostic content preserved; original raw hashes retained"
+  },
+  "unitTests": 205,
+  "browserCases": 50,
+  "captures": 60,
+  "reviewCount": 15,
+  "indexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "secretScan": {
+    "scannedFiles": 417,
+    "hits": 0,
+    "excluded": [
+      ".git",
+      "node_modules",
+      "dist",
+      ".audit-tmp",
+      "binary assets"
+    ],
+    "neverReadSecretsFolder": true
+  },
+  "performance": {
+    "status": "VERIFIED",
+    "shippingQualified": false,
+    "context": "並發載量測，僅供參考",
+    "maxMedianP95": 0.5999999046325684,
+    "maxMedianFrameIntervalP95": 16.799999999999727
+  },
+  "preservedPreexistingUntracked": 19,
+  "newArt": 0,
+  "physicalDevices": 0,
+  "humanParticipants": 0,
+  "museRescore": {
+    "status": "BLOCKED",
+    "score": null,
+    "target": 8
+  }
+}

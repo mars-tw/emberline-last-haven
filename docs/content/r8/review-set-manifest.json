@@ -1,0 +1,161 @@
+{
+  "status": "VERIFIED",
+  "count": 15,
+  "distribution": {
+    "flank": 5,
+    "relay": 5,
+    "crew": 5
+  },
+  "screenshots": [
+    {
+      "content": "flank",
+      "path": "docs/content/r8/review-set/01-flank-west-turning-1.png",
+      "original": "docs/content/r8/phone-flank-west-turning-1.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "6563f34f613fbff55b80a78764f4ed22ba10261492b307c5853f6b68b5e8975c"
+    },
+    {
+      "content": "flank",
+      "path": "docs/content/r8/review-set/02-flank-west-turning-2.png",
+      "original": "docs/content/r8/phone-flank-west-turning-2.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "4178cd51dc12ba97a7e112f10a6f03b2d31906ed96a66a8a1ae4ce3ed84cfc0a"
+    },
+    {
+      "content": "flank",
+      "path": "docs/content/r8/review-set/03-flank-west-partial-1.png",
+      "original": "docs/content/r8/phone-flank-west-partial-1.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "9fd9a0785abd5f64c703056d01f35f57762a6de6da7d35b79935c769ab4ec8bf"
+    },
+    {
+      "content": "flank",
+      "path": "docs/content/r8/review-set/04-flank-center-turning-1.png",
+      "original": "docs/content/r8/phone-flank-center-turning-1.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "832cfddd388af18e59b1e56dc16f6aa19db734fdc49a3f880f4482bf71b4578b"
+    },
+    {
+      "content": "flank",
+      "path": "docs/content/r8/review-set/05-flank-east-turning-1.png",
+      "original": "docs/content/r8/phone-flank-east-turning-1.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "f2119fea3a76430c6bf7b99150b2c659d65492ea3e0e51f8a314b7450627e4b9"
+    },
+    {
+      "content": "relay",
+      "path": "docs/content/r8/review-set/06-relay-69-rescue-selected.png",
+      "original": "docs/content/r8/phone-relay-69-rescue-selected.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "40f7ddc76226ffabc6aeb4ee6ea21337fc310f789821c3477a82ffb010e227f0"
+    },
+    {
+      "content": "relay",
+      "path": "docs/content/r8/review-set/07-relay-69-rescue-sealed.png",
+      "original": "docs/content/r8/phone-relay-69-rescue-sealed.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "920378c96f32dde67a1c514babe74b24fe35e57c3204eff8186fc1d75f0ea72d"
+    },
+    {
+      "content": "relay",
+      "path": "docs/content/r8/review-set/08-relay-69-repair-sealed.png",
+      "original": "docs/content/r8/phone-relay-69-repair-sealed.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "f522ab0864d23ec3fb2bf3028085b7298df0b44300af838b80a9ba774acd0d9e"
+    },
+    {
+      "content": "relay",
+      "path": "docs/content/r8/review-set/09-relay-100-rescue-selected.png",
+      "original": "docs/content/r8/phone-relay-100-rescue-selected.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "42a8e57ce962cac13524bd6f73eb7e8b6c4c57fbb32306aeede01f13fd32c610"
+    },
+    {
+      "content": "relay",
+      "path": "docs/content/r8/review-set/10-relay-100-repair-sealed.png",
+      "original": "docs/content/r8/phone-relay-100-repair-sealed.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "0d44537dbde9dea29b07d0b60bf209d01f9a1328a27b0d46df3af32d50d5a092"
+    },
+    {
+      "content": "crew",
+      "path": "docs/content/r8/review-set/11-crew-preview.png",
+      "original": "docs/content/r8/phone-crew-preview.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "13efdc1492f66ebf900986b9b3a61683dd93d82ae963eb8431c3e21ac6c478bc"
+    },
+    {
+      "content": "crew",
+      "path": "docs/content/r8/review-set/12-crew-risk-confirm.png",
+      "original": "docs/content/r8/phone-crew-risk-confirm.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "744287597c6881a00dc79feaaa5a44a2e76c6523d3a4ded796fcfa24f6043ec7"
+    },
+    {
+      "content": "crew",
+      "path": "docs/content/r8/review-set/13-watch-signal.png",
+      "original": "docs/content/r8/phone-watch-signal.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "cbee3341840988e745059473a99058614b036d16e236ef3951a2b5df8fb71d5f"
+    },
+    {
+      "content": "crew",
+      "path": "docs/content/r8/review-set/14-watch-impact.png",
+      "original": "docs/content/r8/phone-watch-impact.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "eed9097c62ce04d0b40ee8e87d572fcb284a837b64e50d781fffcde8a1561508"
+    },
+    {
+      "content": "crew",
+      "path": "docs/content/r8/review-set/15-watch-blocked.png",
+      "original": "docs/content/r8/phone-watch-blocked.png",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "sha256": "80a75a3a2ed3328a1b50ec62815f8ad5ce616a99db7cd81e94ef56ab81637134"
+    }
+  ]
+}

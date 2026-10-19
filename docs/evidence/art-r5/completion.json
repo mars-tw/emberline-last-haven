@@ -1,0 +1,33 @@
+{
+  "status": "VERIFIED",
+  "scope": "Local implementation and executable checks only",
+  "version": "0.6.0",
+  "branch": "main",
+  "indexSha256": "2eba0766baa02d514dfc03e6a133bb80c89b085bb0244937bf889e12f9edee71",
+  "generatedAssets": 9,
+  "runtimeExports": 33,
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "unitTests": 92,
+  "browserCases": 95,
+  "edgeCases": 5,
+  "deepCases": 6,
+  "actualBeforePlaytestSeconds": 601.54,
+  "maxMedianCpuP95Ms": 0.5999999046325684,
+  "maxMedianFrameP95Ms": 16.799999999999272,
+  "criticalReadyMedianMs": 187.48090000000047,
+  "offlineReadyMedianMs": 189.53189999999995,
+  "webBundle": {
+    "bytes": 6663693,
+    "files": 52
+  },
+  "secretHits": 0,
+  "apple43Risk": "high",
+  "remaining": {
+    "independentScore9": "BLOCKED",
+    "humanBlindRecognition80": "BLOCKED",
+    "physicalDevicesAndNativeIPA_AAB": "BLOCKED",
+    "cleanHostShippingPerformance": "BLOCKED"
+  },
+  "externalPublication": false
+}

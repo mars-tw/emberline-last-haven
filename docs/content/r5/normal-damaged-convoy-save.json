@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "version": "0.11.3",
+  "screen": "report",
+  "segment": 0,
+  "supplies": 15,
+  "people": 8,
+  "hull": 21,
+  "level": 0,
+  "progress": {
+    "time": 48.01599999999649,
+    "x": 180,
+    "cooldown": 50.98799999999677,
+    "spawn": 1.0519999999999978,
+    "shot": 0,
+    "enemies": [
+      {
+        "id": 14,
+        "x": 148,
+        "y": 350,
+        "hp": 3,
+        "state": "attack",
+        "age": 0.4800000000000003,
+        "slot": 0,
+        "type": "shambler",
+        "hit": true,
+        "attracted": false
+      }
+    ],
+    "shots": [],
+    "serial": 14,
+    "flung": 9,
+    "kills": 4,
+    "rescued": 5,
+    "bait": "center",
+    "baitLeft": 0,
+    "attracted": 0,
+    "started": false,
+    "night": null,
+    "wave": 0,
+    "warning": 0,
+    "countered": 0,
+    "impacts": 0,
+    "shake": {
+      "left": 0,
+      "right": 0,
+      "cooldownLeft": 0
+    },
+    "defenseBatch": 0,
+    "baitCooldown": 0,
+    "divertedGroups": [],
+    "diversion": {}
+  },
+  "log": [
+    "南岸電台：北方燈塔仍在發訊。",
+    "甩落 4 隻！連鎖回收補給。",
+    "甩落 1 隻！",
+    "甩落 1 隻！",
+    "甩落 1 隻！",
+    "甩落 1 隻！",
+    "甩落 1 隻！",
+    "段落完成，補給 +4。輪班疲勞已記入行車簿。"
+  ],
+  "receipts": [
+    "segment:0"
+  ],
+  "archives": {},
+  "sound": true,
+  "reduced": false,
+  "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 3。",
+  "reward": 4,
+  "crew": {
+    "fatigue": [
+      1,
+      1,
+      0
+    ],
+    "plan": {
+      "driver": 0,
+      "watch": 1,
+      "rest": 2
+    },
+    "rested": 2,
+    "applied": 0,
+    "shield": 0,
+    "driftPenalty": 0,
+    "warningPenalty": 0,
+    "history": [
+      {
+        "segment": 0,
+        "plan": {
+          "driver": 0,
+          "watch": 1,
+          "rest": 2
+        },
+        "fatigue": [
+          1,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  "relay": {},
+  "repairCredit": 0,
+  "defenseRetries": [
+    0,
+    0,
+    0
+  ],
+  "relayResults": {}
+}

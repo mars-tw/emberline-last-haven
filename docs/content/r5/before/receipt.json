@@ -1,0 +1,30 @@
+{
+  "status": "VERIFIED",
+  "sourceCommit": "d6c02b16cd6f89b854894cba192fe7ea8761ec23",
+  "captures": [
+    {
+      "path": "docs/content/r5/before/phone-defense-active.png",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "bec5c91e762a65e1d33d3cfc912d77cfacd4bb11f118cea9f37f50cf9ed9e1e9"
+    },
+    {
+      "path": "docs/content/r5/before/tablet-defense-active.png",
+      "dimensions": [
+        1032,
+        1376
+      ],
+      "sha256": "74d65379a9a7782ec7e339f317f400a7b8871f986e83b8e78a506dc1097a9ba3"
+    },
+    {
+      "path": "docs/content/r5/before/desktop-defense-active.png",
+      "dimensions": [
+        1366,
+        600
+      ],
+      "sha256": "604ff8a2832b781b8e1de1ffd60dd07b3b76f397ccec6842cf9c5629db268bf5"
+    }
+  ]
+}

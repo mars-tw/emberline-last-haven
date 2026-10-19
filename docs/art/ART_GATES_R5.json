@@ -1,0 +1,327 @@
+{
+  "status": "VERIFIED",
+  "round": 5,
+  "generatedAssets": 9,
+  "runtimeFiles": 33,
+  "runtimeAddedBytes": 4623608,
+  "publicBytes": 26463752,
+  "assetChecks": [
+    {
+      "path": "public/art/r5/train.webp"
+    },
+    {
+      "path": "public/art/r5/xi-front.png",
+      "alphaOccupancy": 0.42217881944444446,
+      "brightness": 0.40016583268872563,
+      "nearBlack": 0.11207508048234845,
+      "saturation": 0.5392271340794734,
+      "lowSaturation": 0.04168712828067878
+    },
+    {
+      "path": "public/art/r5/xi-side.png",
+      "alphaOccupancy": 0.344921875,
+      "brightness": 0.3852250313788776,
+      "nearBlack": 0.12506724045185583,
+      "saturation": 0.5387394656625426,
+      "lowSaturation": 0.04881656804733728
+    },
+    {
+      "path": "public/art/r5/xi-back.png",
+      "alphaOccupancy": 0.34225260416666664,
+      "brightness": 0.37806658168242085,
+      "nearBlack": 0.10644677661169415,
+      "saturation": 0.5633715227947523,
+      "lowSaturation": 0.01342510562900368
+    },
+    {
+      "path": "public/art/r5/xi-portrait.png",
+      "alphaOccupancy": 0.7071736653645834,
+      "brightness": 0.48206515620602314,
+      "nearBlack": 0.10595095693779905,
+      "saturation": 0.645840017825312,
+      "lowSaturation": 0.0437200956937799
+    },
+    {
+      "path": "public/art/r5/xi-night.png",
+      "alphaOccupancy": 0.6045888264973959,
+      "brightness": 0.34608136626970476,
+      "nearBlack": 0.16510895293790032,
+      "saturation": 0.47203370627003244,
+      "lowSaturation": 0.06918337510442774,
+      "adjacentAlphaDifference": [
+        0.0521240234375,
+        0.10475667317708333,
+        0.1378173828125
+      ]
+    },
+    {
+      "path": "public/art/r5/bait.png",
+      "alphaOccupancy": 0.33989197530864196
+    },
+    {
+      "path": "public/art/r5/wreckage.png",
+      "alphaOccupancy": 0.5085358796296297
+    },
+    {
+      "path": "public/art/r5/fence.png",
+      "alphaOccupancy": 0.43778935185185186
+    },
+    {
+      "path": "public/art/r5/battery.png",
+      "alphaOccupancy": 0.4380304783950617
+    },
+    {
+      "path": "public/art/r5/panel.webp"
+    },
+    {
+      "path": "public/art/r5/panel-tall.webp"
+    },
+    {
+      "path": "public/art/r5/supply.png",
+      "alphaOccupancy": 0.4798177083333333
+    },
+    {
+      "path": "public/art/r5/people.png",
+      "alphaOccupancy": 0.4723307291666667
+    },
+    {
+      "path": "public/art/r5/hull.png",
+      "alphaOccupancy": 0.5788845486111112
+    },
+    {
+      "path": "public/art/r5/armor.png",
+      "alphaOccupancy": 0.5406901041666666
+    },
+    {
+      "path": "public/art/r5/logo.png",
+      "alphaOccupancy": 0.5022506713867188
+    },
+    {
+      "path": "public/art/r5/app-192.png"
+    },
+    {
+      "path": "public/art/r5/app-512.png"
+    },
+    {
+      "path": "public/art/r5/train-wide.webp"
+    },
+    {
+      "path": "public/art/r5/outpost-wide.webp"
+    },
+    {
+      "path": "public/art/r5/runner-walk.png",
+      "alphaOccupancy": 0.3736707899305556,
+      "brightness": 0.4961611084259707,
+      "nearBlack": 0.0235862735621073,
+      "saturation": 0.40242375306816786,
+      "lowSaturation": 0.002029966167230546,
+      "adjacentAlphaDifference": [
+        0.20499674479166666,
+        0.1523708767361111,
+        0.342529296875
+      ]
+    },
+    {
+      "path": "public/art/r5/runner-attack.png",
+      "alphaOccupancy": 0.4080674913194444,
+      "brightness": 0.4900838438209035,
+      "nearBlack": 0.026661255602216185,
+      "saturation": 0.4040919272038843,
+      "lowSaturation": 0.0022232416981331827,
+      "adjacentAlphaDifference": [
+        0.178955078125,
+        0.2872178819444444,
+        0.23082139756944445
+      ]
+    },
+    {
+      "path": "public/art/r5/runner-hurt.png",
+      "alphaOccupancy": 0.378662109375,
+      "brightness": 0.5007319876142272,
+      "nearBlack": 0.025582889317159806,
+      "saturation": 0.40804149041243676,
+      "lowSaturation": 0.002191739409741904,
+      "adjacentAlphaDifference": [
+        0.10921223958333333,
+        0.2185601128472222,
+        0.2734646267361111
+      ]
+    },
+    {
+      "path": "public/art/r5/runner-death.png",
+      "alphaOccupancy": 0.354736328125,
+      "brightness": 0.5142675026667014,
+      "nearBlack": 0.02466728318121507,
+      "saturation": 0.4125876976177468,
+      "lowSaturation": 0.002995456555828073,
+      "adjacentAlphaDifference": [
+        0.21720377604166666,
+        0.2329372829861111,
+        0.17757161458333334
+      ]
+    },
+    {
+      "path": "public/art/r5/shambler-walk.png",
+      "alphaOccupancy": 0.37310791015625,
+      "brightness": 0.5395379338403562,
+      "nearBlack": 0.002569708127181375,
+      "saturation": 0.37939202375231534,
+      "lowSaturation": 0.00011506155793349442,
+      "adjacentAlphaDifference": [
+        0.1475151909722222,
+        0.17076280381944445,
+        0.16552734375
+      ]
+    },
+    {
+      "path": "public/art/r5/shambler-attack.png",
+      "alphaOccupancy": 0.40814208984375,
+      "brightness": 0.5437670980137674,
+      "nearBlack": 0.0024378694073697318,
+      "saturation": 0.380176534896541,
+      "lowSaturation": 0.0001227704018099865,
+      "adjacentAlphaDifference": [
+        0.2070855034722222,
+        0.2211371527777778,
+        0.21544053819444445
+      ]
+    },
+    {
+      "path": "public/art/r5/shambler-hurt.png",
+      "alphaOccupancy": 0.40350341796875,
+      "brightness": 0.5499371186619433,
+      "nearBlack": 0.0028568909267260383,
+      "saturation": 0.3788061709120647,
+      "lowSaturation": 0.00012344590424124858,
+      "adjacentAlphaDifference": [
+        0.23133680555555555,
+        0.17561848958333334,
+        0.21641710069444445
+      ]
+    },
+    {
+      "path": "public/art/r5/shambler-death.png",
+      "alphaOccupancy": 0.3047417534722222,
+      "brightness": 0.5536263007049218,
+      "nearBlack": 0.003015004908147525,
+      "saturation": 0.3806911368296208,
+      "lowSaturation": 4.674426214182209e-05,
+      "adjacentAlphaDifference": [
+        0.2263726128472222,
+        0.161376953125,
+        0.12266710069444445
+      ]
+    },
+    {
+      "path": "public/art/r5/climber-attack.png",
+      "alphaOccupancy": 0.2813585069444444,
+      "brightness": 0.3721863078324336,
+      "nearBlack": 0.13320115356885365,
+      "saturation": 0.4196655013844038,
+      "lowSaturation": 0.0676949222370996,
+      "adjacentAlphaDifference": [
+        0.1281467013888889,
+        0.2956000434027778,
+        0.3306206597222222
+      ]
+    },
+    {
+      "path": "public/art/r5/xi-gunner.png",
+      "alphaOccupancy": 0.5658365885416666,
+      "brightness": 0.4072652493938515,
+      "nearBlack": 0.16783630143877654,
+      "saturation": 0.5824493133605188,
+      "lowSaturation": 0.08991095683670389,
+      "adjacentAlphaDifference": [
+        0.12638346354166666,
+        0.1582573784722222,
+        0.1562228732638889
+      ]
+    },
+    {
+      "path": "public/art/r5/xi-attack.png",
+      "alphaOccupancy": 0.3142191569010417,
+      "brightness": 0.3890496048017029,
+      "nearBlack": 0.1272137211452899,
+      "saturation": 0.4956107210388911,
+      "lowSaturation": 0.07910945160783767,
+      "adjacentAlphaDifference": [
+        0.13700358072916666,
+        0.22684733072916666,
+        0.24308268229166666
+      ]
+    },
+    {
+      "path": "public/art/r5/departure.webp"
+    }
+  ],
+  "enemyContrast": [
+    {
+      "path": "public/art/r5/runner-walk.png",
+      "spriteV": 0.4961611084259707,
+      "groundRegionV": 0.362859066395401,
+      "difference": 0.13330204203056972
+    },
+    {
+      "path": "public/art/r5/runner-attack.png",
+      "spriteV": 0.4900838438209035,
+      "groundRegionV": 0.362859066395401,
+      "difference": 0.12722477742550248
+    },
+    {
+      "path": "public/art/r5/runner-hurt.png",
+      "spriteV": 0.5007319876142272,
+      "groundRegionV": 0.362859066395401,
+      "difference": 0.13787292121882622
+    },
+    {
+      "path": "public/art/r5/runner-death.png",
+      "spriteV": 0.5142675026667014,
+      "groundRegionV": 0.362859066395401,
+      "difference": 0.1514084362713004
+    },
+    {
+      "path": "public/art/r5/shambler-walk.png",
+      "spriteV": 0.5395379338403562,
+      "groundRegionV": 0.362859066395401,
+      "difference": 0.1766788674449552
+    },
+    {
+      "path": "public/art/r5/shambler-attack.png",
+      "spriteV": 0.5437670980137674,
+      "groundRegionV": 0.362859066395401,
+      "difference": 0.18090803161836644
+    },
+    {
+      "path": "public/art/r5/shambler-hurt.png",
+      "spriteV": 0.5499371186619433,
+      "groundRegionV": 0.362859066395401,
+      "difference": 0.18707805226654228
+    },
+    {
+      "path": "public/art/r5/shambler-death.png",
+      "spriteV": 0.5536263007049218,
+      "groundRegionV": 0.362859066395401,
+      "difference": 0.1907672343095208
+    }
+  ],
+  "screenshots": 56,
+  "storeScreenshots": 10,
+  "sameStationMother": {
+    "portrait": "r4/outpost-ready.webp",
+    "landscape": "r5/outpost-wide.webp"
+  },
+  "stateInjection": false,
+  "humanBlindRecognition": {
+    "status": "BLOCKED",
+    "participants": 0,
+    "recognitionRate": null
+  },
+  "independentScore": {
+    "status": "BLOCKED",
+    "historicalMuseR4": 8.0,
+    "newScore": null,
+    "target": 9.0
+  },
+  "physicalDevicesAndNativeBuilds": "BLOCKED"
+}

@@ -1,6 +1,6 @@
 {
   "name": "emberline-last-haven",
-  "version": "0.1.0",
+  "version": "0.11.3",
   "private": false,
   "type": "module",
   "license": "MIT",
@@ -8,12 +8,22 @@
     "dev": "vite --host 127.0.0.1",
     "build": "tsc --noEmit && vite build && node scripts/precache.mjs",
     "preview": "vite preview --host 127.0.0.1 --port 4179 --strictPort",
-    "test": "vitest run && node vendor/ashes/scripts/test-r86-convoy-latch.js && node vendor/ashes/scripts/test-rules.js && node vendor/ashes/scripts/test-economy.js && node scripts/source-tests.mjs",
+    "test": "vitest run --reporter=default --reporter=json --outputFile.json=docs/evidence/unit-tests.json && node vendor/ashes/scripts/test-r86-convoy-latch.js && node vendor/ashes/scripts/test-rules.js && node vendor/ashes/scripts/test-economy.js && node scripts/source-tests.mjs",
     "test:e2e": "node scripts/browser.mjs",
     "test:perf": "node scripts/performance.mjs",
     "test:edges": "node scripts/edge-cases.mjs",
     "audit": "node scripts/audit.mjs",
-    "check": "npm run test && npm run build && npm run test:e2e && npm run test:edges && npm run test:perf && npm run audit"
+    "test:art": "python scripts/art-verify.py && python scripts/art-r2-verify.py && python scripts/art-r3-verify.py && node scripts/art-r5-capture.mjs after && python scripts/art-r4-verify.py && python scripts/art-r5-verify.py && python scripts/content-r7-art.py",
+    "check": "npm run test && npm run build && npm run test:e2e && npm run test:edges && npm run test:art && npm run test:perf && npm run test:deep && npm run test:content && npm run audit",
+    "test:deep": "node scripts/deep-verify.mjs",
+    "test:content": "node scripts/content-r1.mjs && node scripts/content-r2.mjs && node scripts/content-r3.mjs && node scripts/content-r3-verify.mjs && node scripts/content-r4.mjs && node scripts/content-r5.mjs && node scripts/content-r6.mjs && node scripts/content-r7.mjs && node scripts/content-r8.mjs",
+    "test:content:r8": "node scripts/content-r8.mjs"
   },
-  "devDependencies": {"@types/node":"24.0.0","playwright":"1.61.1","typescript":"5.9.3","vite":"7.3.1","vitest":"4.1.11"}
+  "devDependencies": {
+    "@types/node": "24.0.0",
+    "playwright": "1.61.1",
+    "typescript": "5.9.3",
+    "vite": "7.3.1",
+    "vitest": "4.1.11"
+  }
 }

@@ -1,0 +1,7 @@
+{
+  "status": "VERIFIED",
+  "scope": "R5 initial full-public build before runtime-only packaging; not the final source build",
+  "indexSha256": "9474c7099ea53129eeb5666793b47ff11f2bac26915874b3af0e4b6c88387cad",
+  "files": 162,
+  "bytes": 24503824
+}

@@ -1,0 +1,31 @@
+{
+  "status": "VERIFIED",
+  "indexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "sources": [
+    {
+      "source": "docs/evidence/unit-tests.json",
+      "path": "docs/content/r8/check-results/unit-tests.json",
+      "sha256": "5052096f5fba01d5a3c2c44d3a9114c1555821e40e00554fb690539509bd2507"
+    },
+    {
+      "source": "docs/evidence/browser.json",
+      "path": "docs/content/r8/check-results/browser.json",
+      "sha256": "6ed2ec0d5e9959ea6deba799b08a78e94d70ce239d0b296b716b3e6bcf5a6bc6"
+    },
+    {
+      "source": "docs/evidence/edge-cases.json",
+      "path": "docs/content/r8/check-results/edge-cases.json",
+      "sha256": "5c08e4422af1da6ded028ae8845cfffd7a830ca9b6f3fdcaecaaf1b28856ad2e"
+    },
+    {
+      "source": "docs/evidence/performance.json",
+      "path": "docs/content/r8/check-results/performance.json",
+      "sha256": "a8e55d3911f5949ca33de7793749d8649953264e7f754a8e135631b5bf90450e"
+    },
+    {
+      "source": "docs/evidence/repository-gates.json",
+      "path": "docs/content/r8/check-results/repository-gates.json",
+      "sha256": "4f9a5952fdd1e71cc744ce086430588d021d543821d51a5e5cd0dbad61423ee6"
+    }
+  ]
+}

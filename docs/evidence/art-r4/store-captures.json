@@ -1,0 +1,3797 @@
+{
+  "status": "VERIFIED",
+  "headless": true,
+  "stateInjection": false,
+  "indexSha256": "e2bbcae5ea94ef4a88d93cdae6344f996e5d38183ba3aa5fecccf8dd6c3ffece",
+  "screenshots": [
+    {
+      "path": "docs/store/screenshots/phone-01-departure.png",
+      "sha256": "29c0d370e2e6919f94e5e8dad9d632eabc67d7ed54eaa0ed51c107d274cfc3a9",
+      "bytes": 3189466,
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "state": null,
+      "telemetry": {
+        "mode": "convoy",
+        "loaded": true,
+        "paused": false,
+        "entities": 0,
+        "actors": [
+          {
+            "id": "xi",
+            "action": "departure",
+            "frame": 0,
+            "path": "r4/xi-side.png",
+            "x": 224.825,
+            "y": 453.42857142857144,
+            "visibleWidth": 44.20928571428571,
+            "visibleHeight": 130.79039558531747
+          }
+        ],
+        "artPaths": [
+          "r2/departure.webp",
+          "r2/outpost.webp",
+          "r2/train.webp",
+          "r2/wreck.png",
+          "r2/xi-attack.png",
+          "r4/xi-portrait.png",
+          "r2/sign.png",
+          "r2/luggage.png",
+          "r2/concrete.png",
+          "r2/bait-west.png",
+          "r2/bait-center.png",
+          "r2/bait-east.png",
+          "r2/barricade.png",
+          "r2/road-0.webp",
+          "r2/road-1.webp",
+          "r2/road-2.webp",
+          "r1/truck.png",
+          "r1/trailer.png",
+          "r3/outpost-after.webp",
+          "r3/an-poses.png",
+          "r3/truck.png",
+          "r4/outpost-ready.webp",
+          "r4/xi-front.png",
+          "r4/xi-side.png",
+          "r4/xi-back.png",
+          "r4/xi-gunner.png",
+          "r4/xi-night.png",
+          "r4/xi-attack.png",
+          "r4/climber-attack.png",
+          "r4/runner-walk.png",
+          "r4/runner-attack.png",
+          "r4/runner-hurt.png",
+          "r4/runner-death.png",
+          "r4/shambler-walk.png",
+          "r4/shambler-attack.png",
+          "r4/shambler-hurt.png",
+          "r4/shambler-death.png"
+        ],
+        "sceneArt": "r2/departure.webp",
+        "roofRatio": 0
+      },
+      "route": {
+        "beamWidth": 224.828125,
+        "expected": 224.828125,
+        "opacity": "1",
+        "ticketHeight": 94
+      }
+    },
+    {
+      "path": "docs/store/screenshots/phone-02-convoy.png",
+      "sha256": "831fba8e64ca021e7bd1f5b45dc33f861844bd1de74685591a203a10f8e1472b",
+      "bytes": 3160556,
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "state": {
+        "schema": 1,
+        "version": "0.5.0",
+        "screen": "play",
+        "segment": 0,
+        "supplies": 8,
+        "people": 3,
+        "hull": 54,
+        "level": 0,
+        "progress": {
+          "time": 13.12000000000001,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0.9079999999999977,
+          "shot": 0,
+          "enemies": [
+            {
+              "id": 1,
+              "x": 148,
+              "y": 350,
+              "hp": 3,
+              "state": "attack",
+              "age": 0.7680000000000006,
+              "slot": 0,
+              "type": "runner",
+              "hit": true,
+              "attracted": false
+            },
+            {
+              "id": 2,
+              "x": 212,
+              "y": 350,
+              "hp": 3,
+              "state": "attack",
+              "age": 0.7200000000000005,
+              "slot": 1,
+              "type": "shambler",
+              "hit": true,
+              "attracted": false
+            },
+            {
+              "id": 4,
+              "x": 148,
+              "y": 442,
+              "hp": 3,
+              "state": "attack",
+              "age": 0.6240000000000004,
+              "slot": 2,
+              "type": "shambler",
+              "hit": true,
+              "attracted": false
+            }
+          ],
+          "shots": [],
+          "serial": 4,
+          "flung": 0,
+          "kills": 1,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 0,
+          "attracted": 0,
+          "started": false,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          }
+        },
+        "log": [
+          "南岸電台：北方燈塔仍在發訊。"
+        ],
+        "receipts": [],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "",
+        "reward": 0
+      },
+      "telemetry": {
+        "mode": "convoy",
+        "loaded": true,
+        "paused": false,
+        "entities": 3,
+        "actors": [
+          {
+            "id": "xi",
+            "action": "attack",
+            "frame": 0,
+            "path": "r4/xi-gunner.png",
+            "x": 170.03571428571428,
+            "y": 316.3541276194155,
+            "visibleWidth": 40,
+            "visibleHeight": 43.11377245508982
+          },
+          {
+            "id": "enemy-1",
+            "action": "attack",
+            "frame": 2,
+            "path": "r4/climber-attack.png",
+            "x": 84.51016639531996,
+            "y": 361.42334546759014,
+            "visibleWidth": 64.73755580357142,
+            "visibleHeight": 75.31558779761905
+          },
+          {
+            "id": "enemy-2",
+            "action": "attack",
+            "frame": 1,
+            "path": "r4/climber-attack.png",
+            "x": 255.5612621761086,
+            "y": 361.42334546759014,
+            "visibleWidth": 46.966462053571426,
+            "visibleHeight": 76.16183035714286
+          },
+          {
+            "id": "enemy-4",
+            "action": "attack",
+            "frame": 0,
+            "path": "r4/climber-attack.png",
+            "x": 84.51016639531996,
+            "y": 451.5392857142857,
+            "visibleWidth": 50.35143229166666,
+            "visibleHeight": 75.31558779761905
+          }
+        ],
+        "artPaths": [
+          "r2/departure.webp",
+          "r2/outpost.webp",
+          "r2/train.webp",
+          "r2/wreck.png",
+          "r2/xi-attack.png",
+          "r4/xi-portrait.png",
+          "r2/sign.png",
+          "r2/luggage.png",
+          "r2/concrete.png",
+          "r2/bait-west.png",
+          "r2/bait-center.png",
+          "r2/bait-east.png",
+          "r2/barricade.png",
+          "r2/road-0.webp",
+          "r2/road-1.webp",
+          "r2/road-2.webp",
+          "r1/truck.png",
+          "r1/trailer.png",
+          "r3/outpost-after.webp",
+          "r3/an-poses.png",
+          "r3/truck.png",
+          "r4/outpost-ready.webp",
+          "r4/xi-front.png",
+          "r4/xi-side.png",
+          "r4/xi-back.png",
+          "r4/xi-gunner.png",
+          "r4/xi-night.png",
+          "r4/xi-attack.png",
+          "r4/climber-attack.png",
+          "r4/runner-walk.png",
+          "r4/runner-attack.png",
+          "r4/runner-hurt.png",
+          "r4/runner-death.png",
+          "r4/shambler-walk.png",
+          "r4/shambler-attack.png",
+          "r4/shambler-hurt.png",
+          "r4/shambler-death.png"
+        ],
+        "sceneArt": "r2/road-0.webp",
+        "roofRatio": 0.3139169863969306
+      },
+      "route": {
+        "beamWidth": 224.828125,
+        "expected": 224.828125,
+        "opacity": "1",
+        "ticketHeight": 94
+      }
+    },
+    {
+      "path": "docs/store/screenshots/phone-03-bait.png",
+      "sha256": "3e4d4fe25d691ad038f77265c199e01cd2074b42a964fc7ae0598b64026f2171",
+      "bytes": 3700833,
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "state": {
+        "schema": 1,
+        "version": "0.5.0",
+        "screen": "play",
+        "segment": 1,
+        "supplies": 15,
+        "people": 8,
+        "hull": 25,
+        "level": 0,
+        "progress": {
+          "time": 0,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [],
+          "shots": [],
+          "serial": 0,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 0,
+          "attracted": 0,
+          "started": false,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          }
+        },
+        "log": [
+          "南岸電台：北方燈塔仍在發訊。",
+          "甩落 3 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "段落完成，補給 +4。"
+        ],
+        "receipts": [
+          "segment:0"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 3。",
+        "reward": 4
+      },
+      "telemetry": {
+        "mode": "defense",
+        "loaded": true,
+        "paused": false,
+        "entities": 0,
+        "actors": [
+          {
+            "id": "xi",
+            "action": "idle",
+            "frame": 0,
+            "path": "r4/xi-front.png",
+            "x": 168.14642857142857,
+            "y": 460.98571428571427,
+            "visibleWidth": 55.190758928571434,
+            "visibleHeight": 105.01279761904762
+          }
+        ],
+        "artPaths": [
+          "r2/departure.webp",
+          "r2/outpost.webp",
+          "r2/train.webp",
+          "r2/wreck.png",
+          "r2/xi-attack.png",
+          "r4/xi-portrait.png",
+          "r2/sign.png",
+          "r2/luggage.png",
+          "r2/concrete.png",
+          "r2/bait-west.png",
+          "r2/bait-center.png",
+          "r2/bait-east.png",
+          "r2/barricade.png",
+          "r2/road-0.webp",
+          "r2/road-1.webp",
+          "r2/road-2.webp",
+          "r1/truck.png",
+          "r1/trailer.png",
+          "r3/outpost-after.webp",
+          "r3/an-poses.png",
+          "r3/truck.png",
+          "r4/outpost-ready.webp",
+          "r4/xi-front.png",
+          "r4/xi-side.png",
+          "r4/xi-back.png",
+          "r4/xi-gunner.png",
+          "r4/xi-night.png",
+          "r4/xi-attack.png",
+          "r4/climber-attack.png",
+          "r4/runner-walk.png",
+          "r4/runner-attack.png",
+          "r4/runner-hurt.png",
+          "r4/runner-death.png",
+          "r4/shambler-walk.png",
+          "r4/shambler-attack.png",
+          "r4/shambler-hurt.png",
+          "r4/shambler-death.png"
+        ],
+        "sceneArt": "r4/outpost-ready.webp",
+        "roofRatio": 0
+      },
+      "route": {
+        "beamWidth": 168.828125,
+        "expected": 168.828125,
+        "opacity": "1",
+        "ticketHeight": 94
+      }
+    },
+    {
+      "path": "docs/store/screenshots/phone-04-common-progress.png",
+      "sha256": "bc394acc64a020a2b016d8fbc1e610ae23c9863163f2e7fbb5bfcfd949d43e34",
+      "bytes": 3668288,
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "state": {
+        "schema": 1,
+        "version": "0.5.0",
+        "screen": "report",
+        "segment": 1,
+        "supplies": 20,
+        "people": 8,
+        "hull": 35,
+        "level": 0,
+        "progress": {
+          "time": 40.01599999999737,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 2.103999999999999,
+          "shot": 0.27199999999999985,
+          "enemies": [
+            {
+              "id": 21,
+              "x": 182.71820009643292,
+              "y": 273.6813204574143,
+              "hp": 0,
+              "state": "death",
+              "age": 0.3520000000000002,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": true
+            },
+            {
+              "id": 22,
+              "x": 174.71917124139372,
+              "y": 274.5124043473191,
+              "hp": 3,
+              "state": "attack",
+              "age": 0.8000000000000006,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": true
+            },
+            {
+              "id": 23,
+              "x": 168.32324395314268,
+              "y": 232.8351374335182,
+              "hp": 3,
+              "state": "walk",
+              "age": 6.928000000000005,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false
+            },
+            {
+              "id": 24,
+              "x": 182.61008013650616,
+              "y": 237.5274909453327,
+              "hp": 3,
+              "state": "walk",
+              "age": 6.928000000000005,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false
+            },
+            {
+              "id": 25,
+              "x": 227.81161471641911,
+              "y": 141.56515585074067,
+              "hp": 3,
+              "state": "walk",
+              "age": 3.920000000000003,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false
+            },
+            {
+              "id": 26,
+              "x": 120.41080400831092,
+              "y": 138.8918752126864,
+              "hp": 3,
+              "state": "walk",
+              "age": 3.920000000000003,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false
+            },
+            {
+              "id": 27,
+              "x": 150.51142434816765,
+              "y": 57.13373359947182,
+              "hp": 3,
+              "state": "walk",
+              "age": 0.9120000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false
+            },
+            {
+              "id": 28,
+              "x": 213.96735383861113,
+              "y": 57.061178188265345,
+              "hp": 3,
+              "state": "walk",
+              "age": 0.9120000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false
+            }
+          ],
+          "shots": [
+            {
+              "x": 174.71917124139372,
+              "y": 306.7999999999996
+            },
+            {
+              "x": 174.71917124139372,
+              "y": 426.7999999999999
+            }
+          ],
+          "serial": 28,
+          "flung": 0,
+          "kills": 21,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 7.983999999999996,
+          "attracted": 22,
+          "started": true,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          }
+        },
+        "log": [
+          "南岸電台：北方燈塔仍在發訊。",
+          "甩落 3 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "段落完成，補給 +4。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "段落完成，補給 +9。"
+        ],
+        "receipts": [
+          "segment:0",
+          "segment:1"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "22 隻敵人被誘餌改道。同行者搶修車體 +10％。回收補給可在列車反制或整備護具。",
+        "reward": 9
+      },
+      "telemetry": {
+        "mode": "defense",
+        "loaded": true,
+        "paused": false,
+        "entities": 8,
+        "actors": [
+          {
+            "id": "xi",
+            "action": "idle",
+            "frame": 0,
+            "path": "r4/xi-front.png",
+            "x": 168.14642857142857,
+            "y": 460.98571428571427,
+            "visibleWidth": 55.190758928571434,
+            "visibleHeight": 105.01279761904762
+          },
+          {
+            "id": "enemy-28",
+            "action": "walk",
+            "frame": 2,
+            "path": "r4/shambler-walk.png",
+            "x": 202.1227324654023,
+            "y": 77.46071428571429,
+            "visibleWidth": 59.433779761904766,
+            "visibleHeight": 67.30580357142857
+          },
+          {
+            "id": "enemy-27",
+            "action": "walk",
+            "frame": 1,
+            "path": "r4/runner-walk.png",
+            "x": 142.17954192889408,
+            "y": 77.46071428571429,
+            "visibleWidth": 67.69940476190476,
+            "visibleHeight": 68.88020833333334
+          },
+          {
+            "id": "enemy-26",
+            "action": "walk",
+            "frame": 3,
+            "path": "r4/shambler-walk.png",
+            "x": 113.74520592927942,
+            "y": 144.42821783484123,
+            "visibleWidth": 66.125,
+            "visibleHeight": 66.91220238095238
+          },
+          {
+            "id": "enemy-25",
+            "action": "walk",
+            "frame": 2,
+            "path": "r4/runner-walk.png",
+            "x": 215.2006146160459,
+            "y": 146.9535132947175,
+            "visibleWidth": 67.30580357142857,
+            "visibleHeight": 70.84821428571428
+          },
+          {
+            "id": "enemy-23",
+            "action": "walk",
+            "frame": 0,
+            "path": "r4/runner-walk.png",
+            "x": 159.00535009145085,
+            "y": 233.17104946844844,
+            "visibleWidth": 56.67857142857143,
+            "visibleHeight": 72.02901785714286
+          },
+          {
+            "id": "enemy-24",
+            "action": "walk",
+            "frame": 0,
+            "path": "r4/shambler-walk.png",
+            "x": 221.50130784323528,
+            "y": 237.6036476965732,
+            "visibleWidth": 53.92336309523809,
+            "visibleHeight": 68.48660714285714
+          },
+          {
+            "id": "enemy-21",
+            "action": "death",
+            "frame": 2,
+            "path": "r4/runner-death.png",
+            "x": 207.2516748692355,
+            "y": 315.5967249370877,
+            "visibleWidth": 70.45461309523809,
+            "visibleHeight": 46.051339285714285
+          },
+          {
+            "id": "enemy-22",
+            "action": "attack",
+            "frame": 3,
+            "path": "r4/shambler-attack.png",
+            "x": 130.39898484096145,
+            "y": 316.3818023973727,
+            "visibleWidth": 66.125,
+            "visibleHeight": 62.582589285714285
+          }
+        ],
+        "artPaths": [
+          "r2/departure.webp",
+          "r2/outpost.webp",
+          "r2/train.webp",
+          "r2/wreck.png",
+          "r2/xi-attack.png",
+          "r4/xi-portrait.png",
+          "r2/sign.png",
+          "r2/luggage.png",
+          "r2/concrete.png",
+          "r2/bait-west.png",
+          "r2/bait-center.png",
+          "r2/bait-east.png",
+          "r2/barricade.png",
+          "r2/road-0.webp",
+          "r2/road-1.webp",
+          "r2/road-2.webp",
+          "r1/truck.png",
+          "r1/trailer.png",
+          "r3/outpost-after.webp",
+          "r3/an-poses.png",
+          "r3/truck.png",
+          "r4/outpost-ready.webp",
+          "r4/xi-front.png",
+          "r4/xi-side.png",
+          "r4/xi-back.png",
+          "r4/xi-gunner.png",
+          "r4/xi-night.png",
+          "r4/xi-attack.png",
+          "r4/climber-attack.png",
+          "r4/runner-walk.png",
+          "r4/runner-attack.png",
+          "r4/runner-hurt.png",
+          "r4/runner-death.png",
+          "r4/shambler-walk.png",
+          "r4/shambler-attack.png",
+          "r4/shambler-hurt.png",
+          "r4/shambler-death.png"
+        ],
+        "sceneArt": "r3/outpost-after.webp",
+        "roofRatio": 0
+      },
+      "route": {
+        "beamWidth": 168.828125,
+        "expected": 168.828125,
+        "opacity": "1",
+        "ticketHeight": 94
+      }
+    },
+    {
+      "path": "docs/store/screenshots/phone-05-night.png",
+      "sha256": "00b4025d9fdf9c3e2d2e0667f2662927737fdb5f94ddc6ebfc6942fd733426ca",
+      "bytes": 2919979,
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "state": {
+        "schema": 1,
+        "version": "0.5.0",
+        "screen": "play",
+        "segment": 2,
+        "supplies": 20,
+        "people": 8,
+        "hull": 35,
+        "level": 0,
+        "progress": {
+          "time": 0.016,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [],
+          "shots": [],
+          "serial": 0,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 0,
+          "attracted": 0,
+          "started": true,
+          "night": {
+            "schemaVersion": 6,
+            "runId": "run-888f558f-e595-4b1f-8dd1-5a9632bb187c",
+            "seed": "emberline-2",
+            "day": 1,
+            "maxDays": 7,
+            "phase": "night",
+            "actionPoints": 5,
+            "rationMode": "standard",
+            "nightPowerDemand": 9,
+            "outcome": "active",
+            "routeId": "R01",
+            "resources": {
+              "energy": 66,
+              "fuel": 40,
+              "food": 5,
+              "water": 6,
+              "parts": 8,
+              "medicine": 1,
+              "data": 0
+            },
+            "survivor": {
+              "health": 85,
+              "stress": 20,
+              "infection": 0,
+              "trust": 50,
+              "sleep": 100,
+              "wakeups": 0
+            },
+            "environment": {
+              "temperature": 22,
+              "noise": 14,
+              "visibility": 34,
+              "hull": 100,
+              "weight": 54
+            },
+            "modules": [
+              {
+                "id": "MI1",
+                "definitionId": "M001",
+                "slotId": "defense-window",
+                "active": true,
+                "powered": true,
+                "durability": 100,
+                "mk": 1
+              },
+              {
+                "id": "MI2",
+                "definitionId": "M002",
+                "slotId": "sleep-floor",
+                "active": true,
+                "powered": true,
+                "durability": 100,
+                "mk": 1
+              },
+              {
+                "id": "MI3",
+                "definitionId": "M003",
+                "slotId": "greenhouse-wall",
+                "active": true,
+                "powered": true,
+                "durability": 100,
+                "mk": 1
+              }
+            ],
+            "decorations": [
+              {
+                "id": "lantern",
+                "carriageId": "sleep",
+                "slotId": "sleep-hook",
+                "x": 18,
+                "y": 34
+              },
+              {
+                "id": "radio",
+                "carriageId": "workshop",
+                "slotId": "workshop-radio",
+                "x": 19,
+                "y": 34
+              },
+              {
+                "id": "toolbox",
+                "carriageId": "defense",
+                "slotId": "defense-bench",
+                "x": 19,
+                "y": 67
+              },
+              {
+                "id": "fern",
+                "carriageId": "greenhouse",
+                "slotId": "greenhouse-sill",
+                "x": 78,
+                "y": 43
+              }
+            ],
+            "crops": [
+              {
+                "id": "plot-a",
+                "stage": 0,
+                "dryDays": 0
+              },
+              {
+                "id": "plot-b",
+                "stage": 0,
+                "dryDays": 0
+              }
+            ],
+            "story": {
+              "version": 3,
+              "flags": {
+                "signalSampleQuality": "none",
+                "extraBunk": false,
+                "duplicateCoordinate": false,
+                "day4Route": null,
+                "rosterGap": false,
+                "rosterMatch": "unchecked",
+                "a07IdentityKnown": false,
+                "clause7Read": false,
+                "authorKnown": false,
+                "trueRouteData": false,
+                "routeSampleCount": 0,
+                "manifestCrossChecks": 0,
+                "isolationTraceCount": 0,
+                "hailed": false,
+                "quarantinePrepared": false,
+                "overrideUsed": false,
+                "controlReturned": false,
+                "toldTruth": false,
+                "decoderInstalled": false,
+                "decoderCalibrated": false,
+                "a07MovedObject": false,
+                "badgePocketed": false,
+                "overrideTechUnlocked": false,
+                "identityMismatchVerified": false
+              },
+              "cargoConversion": "none",
+              "finaleStage": "inactive",
+              "completedContactWaves": 0,
+              "finaleHealthBuffer": 0,
+              "finalDecision": null,
+              "queue": [],
+              "seenEventIds": [],
+              "endingId": null,
+              "endingReasons": [],
+              "dawnLogIds": [],
+              "whiteFrost": null,
+              "greenTide": null
+            },
+            "techOwned": [],
+            "flags": [
+              "handover:D1:roof",
+              "v2-module-visibility:-8",
+              "handover:checked:D1",
+              "handover:matched:D1"
+            ],
+            "ledger": [
+              {
+                "id": "7b06a78c-837b-4856-ae52-881cef7b4927",
+                "at": 1792304549720,
+                "source": "night.power-grid",
+                "key": "energy",
+                "before": 75,
+                "delta": -9,
+                "after": 66
+              },
+              {
+                "id": "6287bb24-67c5-40e9-9fe3-d7f355ee45ea",
+                "at": 1792304549720,
+                "source": "night.heating",
+                "key": "temperature",
+                "before": 18,
+                "delta": 4,
+                "after": 22
+              },
+              {
+                "id": "6bd32bf2-4d50-4e99-89a9-4058dd299c2f",
+                "at": 1792304549720,
+                "source": "module.visibility",
+                "key": "visibility",
+                "before": 42,
+                "delta": -8,
+                "after": 34
+              }
+            ],
+            "quests": {
+              "version": 1,
+              "runId": "run-888f558f-e595-4b1f-8dd1-5a9632bb187c",
+              "routeId": "R01",
+              "createdDay": 1,
+              "sequence": 2,
+              "consumedEventIds": [
+                "run-888f558f-e595-4b1f-8dd1-5a9632bb187c:D1:passenger-breathing:action.committed",
+                "run-888f558f-e595-4b1f-8dd1-5a9632bb187c:D1:window-silhouette:action.committed"
+              ],
+              "consumedEventKeys": [
+                "action.committed:D1:inspect:passenger-breathing",
+                "action.committed:D1:inspect:window-silhouette"
+              ],
+              "eventHistory": [
+                {
+                  "transactionId": "run-888f558f-e595-4b1f-8dd1-5a9632bb187c:D1:passenger-breathing",
+                  "operation": "inspect",
+                  "targetId": "passenger-breathing",
+                  "result": "success",
+                  "eventId": "run-888f558f-e595-4b1f-8dd1-5a9632bb187c:D1:passenger-breathing:action.committed",
+                  "runId": "run-888f558f-e595-4b1f-8dd1-5a9632bb187c",
+                  "routeId": "R01",
+                  "day": 1,
+                  "sequence": 1,
+                  "type": "action.committed",
+                  "dedupKey": "action.committed:D1:inspect:passenger-breathing"
+                },
+                {
+                  "transactionId": "run-888f558f-e595-4b1f-8dd1-5a9632bb187c:D1:window-silhouette",
+                  "operation": "inspect",
+                  "targetId": "window-silhouette",
+                  "result": "success",
+                  "eventId": "run-888f558f-e595-4b1f-8dd1-5a9632bb187c:D1:window-silhouette:action.committed",
+                  "runId": "run-888f558f-e595-4b1f-8dd1-5a9632bb187c",
+                  "routeId": "R01",
+                  "day": 1,
+                  "sequence": 2,
+                  "type": "action.committed",
+                  "dedupKey": "action.committed:D1:inspect:window-silhouette"
+                }
+              ],
+              "missions": {
+                "MAIN-R01-N01": {
+                  "id": "MAIN-R01-N01",
+                  "lifecycle": "active",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "MAIN-R01-N02": {
+                  "id": "MAIN-R01-N02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "MAIN-R01-N03": {
+                  "id": "MAIN-R01-N03",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "MAIN-R01-N04": {
+                  "id": "MAIN-R01-N04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "MAIN-R01-N05": {
+                  "id": "MAIN-R01-N05",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "MAIN-R01-N06": {
+                  "id": "MAIN-R01-N06",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "MAIN-R01-N07": {
+                  "id": "MAIN-R01-N07",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "MAIN-R02-N01": {
+                  "id": "MAIN-R02-N01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R02-N02": {
+                  "id": "MAIN-R02-N02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R02-N03": {
+                  "id": "MAIN-R02-N03",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R02-N04": {
+                  "id": "MAIN-R02-N04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R02-N05": {
+                  "id": "MAIN-R02-N05",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R02-N06": {
+                  "id": "MAIN-R02-N06",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R02-N07": {
+                  "id": "MAIN-R02-N07",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N01": {
+                  "id": "MAIN-R03-N01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N02": {
+                  "id": "MAIN-R03-N02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N03": {
+                  "id": "MAIN-R03-N03",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N04": {
+                  "id": "MAIN-R03-N04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N05": {
+                  "id": "MAIN-R03-N05",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N06": {
+                  "id": "MAIN-R03-N06",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N07": {
+                  "id": "MAIN-R03-N07",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "TUT-01": {
+                  "id": "TUT-01",
+                  "lifecycle": "completed",
+                  "result": "completed",
+                  "progress": [
+                    {
+                      "count": 1,
+                      "matchedEventIds": [
+                        "run-888f558f-e595-4b1f-8dd1-5a9632bb187c:D1:passenger-breathing:action.committed"
+                      ]
+                    },
+                    {
+                      "count": 1,
+                      "matchedEventIds": [
+                        "run-888f558f-e595-4b1f-8dd1-5a9632bb187c:D1:window-silhouette:action.committed"
+                      ]
+                    }
+                  ],
+                  "startedDay": 1,
+                  "settledDay": 1
+                },
+                "TUT-02": {
+                  "id": "TUT-02",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "TUT-03": {
+                  "id": "TUT-03",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "TUT-04": {
+                  "id": "TUT-04",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "TUT-05": {
+                  "id": "TUT-05",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "REL-A07-01": {
+                  "id": "REL-A07-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-A07-02": {
+                  "id": "REL-A07-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-A07-03": {
+                  "id": "REL-A07-03",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-A07-04": {
+                  "id": "REL-A07-04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-A07-05": {
+                  "id": "REL-A07-05",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-XU-01": {
+                  "id": "REL-XU-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-XU-02": {
+                  "id": "REL-XU-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-XU-03": {
+                  "id": "REL-XU-03",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-XU-04": {
+                  "id": "REL-XU-04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-XU-05": {
+                  "id": "REL-XU-05",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-01": {
+                  "id": "FAC-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-02": {
+                  "id": "FAC-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-03": {
+                  "id": "FAC-03",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-04": {
+                  "id": "FAC-04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-05": {
+                  "id": "FAC-05",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-06": {
+                  "id": "FAC-06",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-07": {
+                  "id": "FAC-07",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-08": {
+                  "id": "FAC-08",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "EXP-R01-01": {
+                  "id": "EXP-R01-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "EXP-R01-02": {
+                  "id": "EXP-R01-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "EXP-R02-01": {
+                  "id": "EXP-R02-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "EXP-R02-02": {
+                  "id": "EXP-R02-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "EXP-R03-01": {
+                  "id": "EXP-R03-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "EXP-R03-02": {
+                  "id": "EXP-R03-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "CH-01": {
+                  "id": "CH-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "CH-02": {
+                  "id": "CH-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "CH-03": {
+                  "id": "CH-03",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "CH-04": {
+                  "id": "CH-04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "CH-05": {
+                  "id": "CH-05",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "CH-06": {
+                  "id": "CH-06",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                }
+              },
+              "trackedMissionIds": [],
+              "branchChoices": {},
+              "rewardReceipts": [],
+              "journalEntries": []
+            },
+            "voyage": {
+              "version": 2,
+              "stoppedDays": {},
+              "expeditions": [],
+              "relationships": {},
+              "facilityChoices": {},
+              "facilities": {},
+              "settlementIds": [],
+              "nightSummaries": [],
+              "inspectedIds": [
+                "D1:passenger-breathing",
+                "D1:window-silhouette"
+              ],
+              "nightStartWakeups": 0
+            },
+            "ended": false,
+            "lastMessage": "今夜耗電 9 E；所有排程設備供電正常。 遠距感測出現異常，等待方向確認。接觸 1/1。",
+            "selectedRouteNodeId": "RN01",
+            "nightStartLedgerIndex": 0,
+            "activeContact": {
+              "id": "contact-1-1",
+              "definitionId": "T003",
+              "stage": "approach",
+              "secondsLeft": 36,
+              "wave": 1,
+              "totalWaves": 1
+            }
+          },
+          "wave": 1,
+          "warning": 35.984,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          }
+        },
+        "log": [
+          "南岸電台：北方燈塔仍在發訊。",
+          "甩落 3 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "段落完成，補給 +4。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "段落完成，補給 +9。",
+          "交接已封存，首波預警 36 秒。"
+        ],
+        "receipts": [
+          "segment:0",
+          "segment:1"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "22 隻敵人被誘餌改道。同行者搶修車體 +10％。回收補給可在列車反制或整備護具。",
+        "reward": 9
+      },
+      "telemetry": {
+        "mode": "train",
+        "loaded": true,
+        "paused": false,
+        "entities": 0,
+        "actors": [
+          {
+            "id": "an",
+            "action": "listen",
+            "frame": 2,
+            "path": "r3/an-poses.png",
+            "x": 141.69642857142856,
+            "y": 375.96785714285716,
+            "visibleWidth": 81.47544642857143,
+            "visibleHeight": 105.07675781249999
+          },
+          {
+            "id": "xi",
+            "action": "listen",
+            "frame": 2,
+            "path": "r4/xi-night.png",
+            "x": 233.3267857142857,
+            "y": 489.325,
+            "visibleWidth": 99.64014136904761,
+            "visibleHeight": 208.88415178571427
+          }
+        ],
+        "artPaths": [
+          "r2/departure.webp",
+          "r2/outpost.webp",
+          "r2/train.webp",
+          "r2/wreck.png",
+          "r2/xi-attack.png",
+          "r4/xi-portrait.png",
+          "r2/sign.png",
+          "r2/luggage.png",
+          "r2/concrete.png",
+          "r2/bait-west.png",
+          "r2/bait-center.png",
+          "r2/bait-east.png",
+          "r2/barricade.png",
+          "r2/road-0.webp",
+          "r2/road-1.webp",
+          "r2/road-2.webp",
+          "r1/truck.png",
+          "r1/trailer.png",
+          "r3/outpost-after.webp",
+          "r3/an-poses.png",
+          "r3/truck.png",
+          "r4/outpost-ready.webp",
+          "r4/xi-front.png",
+          "r4/xi-side.png",
+          "r4/xi-back.png",
+          "r4/xi-gunner.png",
+          "r4/xi-night.png",
+          "r4/xi-attack.png",
+          "r4/climber-attack.png",
+          "r4/runner-walk.png",
+          "r4/runner-attack.png",
+          "r4/runner-hurt.png",
+          "r4/runner-death.png",
+          "r4/shambler-walk.png",
+          "r4/shambler-attack.png",
+          "r4/shambler-hurt.png",
+          "r4/shambler-death.png"
+        ],
+        "sceneArt": "r2/train.webp",
+        "roofRatio": 0
+      },
+      "route": {
+        "beamWidth": 112.828125,
+        "expected": 112.828125,
+        "opacity": "1",
+        "ticketHeight": 94
+      }
+    },
+    {
+      "path": "docs/store/screenshots/tablet-01-departure.png",
+      "sha256": "755085c5d1f0b6de3ada8757105918824bbc5401221eeb8b99df02d691b2dbe1",
+      "bytes": 5577835,
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "state": null,
+      "telemetry": {
+        "mode": "convoy",
+        "loaded": true,
+        "paused": false,
+        "entities": 0,
+        "actors": [
+          {
+            "id": "xi",
+            "action": "departure",
+            "frame": 0,
+            "path": "r4/xi-side.png",
+            "x": 416.5,
+            "y": 840,
+            "visibleWidth": 81.89999999999999,
+            "visibleHeight": 242.29600694444446
+          }
+        ],
+        "artPaths": [
+          "r4/xi-portrait.png",
+          "r2/departure.webp",
+          "r2/outpost.webp",
+          "r2/train.webp",
+          "r2/wreck.png",
+          "r2/xi-attack.png",
+          "r2/sign.png",
+          "r2/luggage.png",
+          "r2/concrete.png",
+          "r2/bait-west.png",
+          "r2/bait-center.png",
+          "r2/bait-east.png",
+          "r2/barricade.png",
+          "r2/road-0.webp",
+          "r2/road-1.webp",
+          "r2/road-2.webp",
+          "r1/truck.png",
+          "r1/trailer.png",
+          "r3/outpost-after.webp",
+          "r3/an-poses.png",
+          "r3/truck.png",
+          "r4/outpost-ready.webp",
+          "r4/xi-front.png",
+          "r4/xi-side.png",
+          "r4/xi-back.png",
+          "r4/xi-gunner.png",
+          "r4/xi-night.png",
+          "r4/xi-attack.png",
+          "r4/climber-attack.png",
+          "r4/runner-walk.png",
+          "r4/runner-attack.png",
+          "r4/runner-hurt.png",
+          "r4/runner-death.png",
+          "r4/shambler-walk.png",
+          "r4/shambler-attack.png",
+          "r4/shambler-hurt.png",
+          "r4/shambler-death.png"
+        ],
+        "sceneArt": "r2/departure.webp",
+        "roofRatio": 0
+      },
+      "route": {
+        "beamWidth": 552.09375,
+        "expected": 552.09375,
+        "opacity": "1",
+        "ticketHeight": 1049
+      }
+    },
+    {
+      "path": "docs/store/screenshots/tablet-02-convoy.png",
+      "sha256": "f1474d9de07ca61ac53e271a4c91fcd49eeddb8bb063ec90c2bc3e305844c8fe",
+      "bytes": 5752542,
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "state": {
+        "schema": 1,
+        "version": "0.5.0",
+        "screen": "play",
+        "segment": 0,
+        "supplies": 8,
+        "people": 3,
+        "hull": 54,
+        "level": 0,
+        "progress": {
+          "time": 13.15400000000001,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0.9079999999999977,
+          "shot": 0,
+          "enemies": [
+            {
+              "id": 1,
+              "x": 148,
+              "y": 350,
+              "hp": 3,
+              "state": "attack",
+              "age": 0.8160000000000006,
+              "slot": 0,
+              "type": "runner",
+              "hit": true,
+              "attracted": false
+            },
+            {
+              "id": 2,
+              "x": 212,
+              "y": 350,
+              "hp": 3,
+              "state": "attack",
+              "age": 0.7200000000000005,
+              "slot": 1,
+              "type": "shambler",
+              "hit": true,
+              "attracted": false
+            },
+            {
+              "id": 4,
+              "x": 148,
+              "y": 442,
+              "hp": 3,
+              "state": "attack",
+              "age": 0.6240000000000004,
+              "slot": 2,
+              "type": "shambler",
+              "hit": true,
+              "attracted": false
+            }
+          ],
+          "shots": [],
+          "serial": 4,
+          "flung": 0,
+          "kills": 1,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 0,
+          "attracted": 0,
+          "started": false,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          }
+        },
+        "log": [
+          "南岸電台：北方燈塔仍在發訊。"
+        ],
+        "receipts": [],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "",
+        "reward": 0
+      },
+      "telemetry": {
+        "mode": "convoy",
+        "loaded": true,
+        "paused": false,
+        "entities": 3,
+        "actors": [
+          {
+            "id": "xi",
+            "action": "attack",
+            "frame": 0,
+            "path": "r4/xi-gunner.png",
+            "x": 315,
+            "y": 680.3755561908441,
+            "visibleWidth": 40,
+            "visibleHeight": 43.11377245508982
+          },
+          {
+            "id": "enemy-1",
+            "action": "attack",
+            "frame": 2,
+            "path": "r4/climber-attack.png",
+            "x": 213.3673092524628,
+            "y": 725.4447740390187,
+            "visibleWidth": 119.9296875,
+            "visibleHeight": 139.52604166666669
+          },
+          {
+            "id": "enemy-2",
+            "action": "attack",
+            "frame": 1,
+            "path": "r4/climber-attack.png",
+            "x": 416.6326907475372,
+            "y": 725.4447740390187,
+            "visibleWidth": 87.0078125,
+            "visibleHeight": 141.09375
+          },
+          {
+            "id": "enemy-4",
+            "action": "attack",
+            "frame": 0,
+            "path": "r4/climber-attack.png",
+            "x": 213.3673092524628,
+            "y": 836.5,
+            "visibleWidth": 93.27864583333333,
+            "visibleHeight": 139.52604166666669
+          }
+        ],
+        "artPaths": [
+          "r4/xi-portrait.png",
+          "r2/departure.webp",
+          "r2/outpost.webp",
+          "r2/train.webp",
+          "r2/wreck.png",
+          "r2/xi-attack.png",
+          "r2/sign.png",
+          "r2/luggage.png",
+          "r2/concrete.png",
+          "r2/bait-west.png",
+          "r2/bait-center.png",
+          "r2/bait-east.png",
+          "r2/barricade.png",
+          "r2/road-0.webp",
+          "r2/road-1.webp",
+          "r2/road-2.webp",
+          "r1/truck.png",
+          "r1/trailer.png",
+          "r3/outpost-after.webp",
+          "r3/an-poses.png",
+          "r3/truck.png",
+          "r4/outpost-ready.webp",
+          "r4/xi-front.png",
+          "r4/xi-side.png",
+          "r4/xi-back.png",
+          "r4/xi-gunner.png",
+          "r4/xi-night.png",
+          "r4/xi-attack.png",
+          "r4/climber-attack.png",
+          "r4/runner-walk.png",
+          "r4/runner-attack.png",
+          "r4/runner-hurt.png",
+          "r4/runner-death.png",
+          "r4/shambler-walk.png",
+          "r4/shambler-attack.png",
+          "r4/shambler-hurt.png",
+          "r4/shambler-death.png"
+        ],
+        "sceneArt": "r2/road-0.webp",
+        "roofRatio": 0.31391698639693055
+      },
+      "route": {
+        "beamWidth": 552.09375,
+        "expected": 552.09375,
+        "opacity": "1",
+        "ticketHeight": 1049
+      }
+    },
+    {
+      "path": "docs/store/screenshots/tablet-03-bait.png",
+      "sha256": "9868a50793ffdeae474aba5fdd728196c65aabeb94fb472f7cbc9381bc58d6e4",
+      "bytes": 6497702,
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "state": {
+        "schema": 1,
+        "version": "0.5.0",
+        "screen": "play",
+        "segment": 1,
+        "supplies": 15,
+        "people": 8,
+        "hull": 25,
+        "level": 0,
+        "progress": {
+          "time": 0,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [],
+          "shots": [],
+          "serial": 0,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 0,
+          "attracted": 0,
+          "started": false,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          }
+        },
+        "log": [
+          "南岸電台：北方燈塔仍在發訊。",
+          "甩落 3 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "段落完成，補給 +4。"
+        ],
+        "receipts": [
+          "segment:0"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 3。",
+        "reward": 4
+      },
+      "telemetry": {
+        "mode": "defense",
+        "loaded": true,
+        "paused": false,
+        "entities": 0,
+        "actors": [
+          {
+            "id": "xi",
+            "action": "idle",
+            "frame": 0,
+            "path": "r4/xi-front.png",
+            "x": 311.5,
+            "y": 854,
+            "visibleWidth": 102.24375,
+            "visibleHeight": 194.54166666666669
+          }
+        ],
+        "artPaths": [
+          "r4/xi-portrait.png",
+          "r2/departure.webp",
+          "r2/outpost.webp",
+          "r2/train.webp",
+          "r2/wreck.png",
+          "r2/xi-attack.png",
+          "r2/sign.png",
+          "r2/luggage.png",
+          "r2/concrete.png",
+          "r2/bait-west.png",
+          "r2/bait-center.png",
+          "r2/bait-east.png",
+          "r2/barricade.png",
+          "r2/road-0.webp",
+          "r2/road-1.webp",
+          "r2/road-2.webp",
+          "r1/truck.png",
+          "r1/trailer.png",
+          "r3/outpost-after.webp",
+          "r3/an-poses.png",
+          "r3/truck.png",
+          "r4/outpost-ready.webp",
+          "r4/xi-front.png",
+          "r4/xi-side.png",
+          "r4/xi-back.png",
+          "r4/xi-gunner.png",
+          "r4/xi-night.png",
+          "r4/xi-attack.png",
+          "r4/climber-attack.png",
+          "r4/runner-walk.png",
+          "r4/runner-attack.png",
+          "r4/runner-hurt.png",
+          "r4/runner-death.png",
+          "r4/shambler-walk.png",
+          "r4/shambler-attack.png",
+          "r4/shambler-hurt.png",
+          "r4/shambler-death.png"
+        ],
+        "sceneArt": "r4/outpost-ready.webp",
+        "roofRatio": 0
+      },
+      "route": {
+        "beamWidth": 464.09375,
+        "expected": 464.09375,
+        "opacity": "1",
+        "ticketHeight": 1049
+      }
+    },
+    {
+      "path": "docs/store/screenshots/tablet-04-common-progress.png",
+      "sha256": "16c0f80ece87604649eb5ea5e2eebf8a3472614851d17c6b2ef8a7cf3f110556",
+      "bytes": 6410345,
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "state": {
+        "schema": 1,
+        "version": "0.5.0",
+        "screen": "report",
+        "segment": 1,
+        "supplies": 20,
+        "people": 8,
+        "hull": 35,
+        "level": 0,
+        "progress": {
+          "time": 40.01599999999737,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 2.103999999999999,
+          "shot": 0.27199999999999985,
+          "enemies": [
+            {
+              "id": 21,
+              "x": 182.71820009643292,
+              "y": 273.6813204574143,
+              "hp": 0,
+              "state": "death",
+              "age": 0.3520000000000002,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": true
+            },
+            {
+              "id": 22,
+              "x": 174.71917124139372,
+              "y": 274.5124043473191,
+              "hp": 3,
+              "state": "attack",
+              "age": 0.8000000000000006,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": true
+            },
+            {
+              "id": 23,
+              "x": 168.32324395314268,
+              "y": 232.8351374335182,
+              "hp": 3,
+              "state": "walk",
+              "age": 6.928000000000005,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false
+            },
+            {
+              "id": 24,
+              "x": 182.61008013650616,
+              "y": 237.5274909453327,
+              "hp": 3,
+              "state": "walk",
+              "age": 6.928000000000005,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false
+            },
+            {
+              "id": 25,
+              "x": 227.81161471641911,
+              "y": 141.56515585074067,
+              "hp": 3,
+              "state": "walk",
+              "age": 3.920000000000003,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false
+            },
+            {
+              "id": 26,
+              "x": 120.41080400831092,
+              "y": 138.8918752126864,
+              "hp": 3,
+              "state": "walk",
+              "age": 3.920000000000003,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false
+            },
+            {
+              "id": 27,
+              "x": 150.51142434816765,
+              "y": 57.13373359947182,
+              "hp": 3,
+              "state": "walk",
+              "age": 0.9120000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false
+            },
+            {
+              "id": 28,
+              "x": 213.96735383861113,
+              "y": 57.061178188265345,
+              "hp": 3,
+              "state": "walk",
+              "age": 0.9120000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false
+            }
+          ],
+          "shots": [
+            {
+              "x": 174.71917124139372,
+              "y": 306.7999999999996
+            },
+            {
+              "x": 174.71917124139372,
+              "y": 426.7999999999999
+            }
+          ],
+          "serial": 28,
+          "flung": 0,
+          "kills": 21,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 7.983999999999996,
+          "attracted": 22,
+          "started": true,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          }
+        },
+        "log": [
+          "南岸電台：北方燈塔仍在發訊。",
+          "甩落 3 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "段落完成，補給 +4。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "段落完成，補給 +9。"
+        ],
+        "receipts": [
+          "segment:0",
+          "segment:1"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "22 隻敵人被誘餌改道。同行者搶修車體 +10％。回收補給可在列車反制或整備護具。",
+        "reward": 9
+      },
+      "telemetry": {
+        "mode": "defense",
+        "loaded": true,
+        "paused": false,
+        "entities": 8,
+        "actors": [
+          {
+            "id": "xi",
+            "action": "idle",
+            "frame": 0,
+            "path": "r4/xi-front.png",
+            "x": 311.5,
+            "y": 854,
+            "visibleWidth": 102.24375,
+            "visibleHeight": 194.54166666666669
+          },
+          {
+            "id": "enemy-28",
+            "action": "walk",
+            "frame": 2,
+            "path": "r4/shambler-walk.png",
+            "x": 374.44286921756947,
+            "y": 143.5,
+            "visibleWidth": 110.10416666666667,
+            "visibleHeight": 124.6875
+          },
+          {
+            "id": "enemy-27",
+            "action": "walk",
+            "frame": 1,
+            "path": "r4/runner-walk.png",
+            "x": 263.3949926092934,
+            "y": 143.5,
+            "visibleWidth": 125.41666666666667,
+            "visibleHeight": 127.60416666666667
+          },
+          {
+            "id": "enemy-26",
+            "action": "walk",
+            "frame": 3,
+            "path": "r4/shambler-walk.png",
+            "x": 210.7189070145441,
+            "y": 267.56078162220115,
+            "visibleWidth": 122.5,
+            "visibleHeight": 123.95833333333333
+          },
+          {
+            "id": "enemy-25",
+            "action": "walk",
+            "frame": 2,
+            "path": "r4/runner-walk.png",
+            "x": 398.67032575373344,
+            "y": 272.23902273879617,
+            "visibleWidth": 124.6875,
+            "visibleHeight": 131.25
+          },
+          {
+            "id": "enemy-23",
+            "action": "walk",
+            "frame": 0,
+            "path": "r4/runner-walk.png",
+            "x": 294.56567691799967,
+            "y": 431.9614905086569,
+            "visibleWidth": 105,
+            "visibleHeight": 133.4375
+          },
+          {
+            "id": "enemy-24",
+            "action": "walk",
+            "frame": 0,
+            "path": "r4/shambler-walk.png",
+            "x": 368.56764023888576,
+            "y": 440.1731091543322,
+            "visibleWidth": 99.89583333333333,
+            "visibleHeight": 126.875
+          },
+          {
+            "id": "enemy-21",
+            "action": "death",
+            "frame": 2,
+            "path": "r4/runner-death.png",
+            "x": 319.75685016875764,
+            "y": 503.442310800475,
+            "visibleWidth": 130.52083333333331,
+            "visibleHeight": 85.3125
+          },
+          {
+            "id": "enemy-22",
+            "action": "attack",
+            "frame": 3,
+            "path": "r4/shambler-attack.png",
+            "x": 305.758549672439,
+            "y": 566.8967076078085,
+            "visibleWidth": 122.5,
+            "visibleHeight": 115.9375
+          }
+        ],
+        "artPaths": [
+          "r4/xi-portrait.png",
+          "r2/departure.webp",
+          "r2/outpost.webp",
+          "r2/train.webp",
+          "r2/wreck.png",
+          "r2/xi-attack.png",
+          "r2/sign.png",
+          "r2/luggage.png",
+          "r2/concrete.png",
+          "r2/bait-west.png",
+          "r2/bait-center.png",
+          "r2/bait-east.png",
+          "r2/barricade.png",
+          "r2/road-0.webp",
+          "r2/road-1.webp",
+          "r2/road-2.webp",
+          "r1/truck.png",
+          "r1/trailer.png",
+          "r3/outpost-after.webp",
+          "r3/an-poses.png",
+          "r3/truck.png",
+          "r4/outpost-ready.webp",
+          "r4/xi-front.png",
+          "r4/xi-side.png",
+          "r4/xi-back.png",
+          "r4/xi-gunner.png",
+          "r4/xi-night.png",
+          "r4/xi-attack.png",
+          "r4/climber-attack.png",
+          "r4/runner-walk.png",
+          "r4/runner-attack.png",
+          "r4/runner-hurt.png",
+          "r4/runner-death.png",
+          "r4/shambler-walk.png",
+          "r4/shambler-attack.png",
+          "r4/shambler-hurt.png",
+          "r4/shambler-death.png"
+        ],
+        "sceneArt": "r3/outpost-after.webp",
+        "roofRatio": 0
+      },
+      "route": {
+        "beamWidth": 464.09375,
+        "expected": 464.09375,
+        "opacity": "1",
+        "ticketHeight": 1049
+      }
+    },
+    {
+      "path": "docs/store/screenshots/tablet-05-night.png",
+      "sha256": "8d9dbcc4c6623f405ec1312997c8299ad3afc92f874bf32882763cb18dcaad3a",
+      "bytes": 5298076,
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "state": {
+        "schema": 1,
+        "version": "0.5.0",
+        "screen": "play",
+        "segment": 2,
+        "supplies": 20,
+        "people": 8,
+        "hull": 35,
+        "level": 0,
+        "progress": {
+          "time": 0.016,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [],
+          "shots": [],
+          "serial": 0,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 0,
+          "attracted": 0,
+          "started": true,
+          "night": {
+            "schemaVersion": 6,
+            "runId": "run-56a04cf1-16c4-4ec7-be03-3afd7e4ef733",
+            "seed": "emberline-2",
+            "day": 1,
+            "maxDays": 7,
+            "phase": "night",
+            "actionPoints": 5,
+            "rationMode": "standard",
+            "nightPowerDemand": 9,
+            "outcome": "active",
+            "routeId": "R01",
+            "resources": {
+              "energy": 66,
+              "fuel": 40,
+              "food": 5,
+              "water": 6,
+              "parts": 8,
+              "medicine": 1,
+              "data": 0
+            },
+            "survivor": {
+              "health": 85,
+              "stress": 20,
+              "infection": 0,
+              "trust": 50,
+              "sleep": 100,
+              "wakeups": 0
+            },
+            "environment": {
+              "temperature": 22,
+              "noise": 14,
+              "visibility": 34,
+              "hull": 100,
+              "weight": 54
+            },
+            "modules": [
+              {
+                "id": "MI1",
+                "definitionId": "M001",
+                "slotId": "defense-window",
+                "active": true,
+                "powered": true,
+                "durability": 100,
+                "mk": 1
+              },
+              {
+                "id": "MI2",
+                "definitionId": "M002",
+                "slotId": "sleep-floor",
+                "active": true,
+                "powered": true,
+                "durability": 100,
+                "mk": 1
+              },
+              {
+                "id": "MI3",
+                "definitionId": "M003",
+                "slotId": "greenhouse-wall",
+                "active": true,
+                "powered": true,
+                "durability": 100,
+                "mk": 1
+              }
+            ],
+            "decorations": [
+              {
+                "id": "lantern",
+                "carriageId": "sleep",
+                "slotId": "sleep-hook",
+                "x": 18,
+                "y": 34
+              },
+              {
+                "id": "radio",
+                "carriageId": "workshop",
+                "slotId": "workshop-radio",
+                "x": 19,
+                "y": 34
+              },
+              {
+                "id": "toolbox",
+                "carriageId": "defense",
+                "slotId": "defense-bench",
+                "x": 19,
+                "y": 67
+              },
+              {
+                "id": "fern",
+                "carriageId": "greenhouse",
+                "slotId": "greenhouse-sill",
+                "x": 78,
+                "y": 43
+              }
+            ],
+            "crops": [
+              {
+                "id": "plot-a",
+                "stage": 0,
+                "dryDays": 0
+              },
+              {
+                "id": "plot-b",
+                "stage": 0,
+                "dryDays": 0
+              }
+            ],
+            "story": {
+              "version": 3,
+              "flags": {
+                "signalSampleQuality": "none",
+                "extraBunk": false,
+                "duplicateCoordinate": false,
+                "day4Route": null,
+                "rosterGap": false,
+                "rosterMatch": "unchecked",
+                "a07IdentityKnown": false,
+                "clause7Read": false,
+                "authorKnown": false,
+                "trueRouteData": false,
+                "routeSampleCount": 0,
+                "manifestCrossChecks": 0,
+                "isolationTraceCount": 0,
+                "hailed": false,
+                "quarantinePrepared": false,
+                "overrideUsed": false,
+                "controlReturned": false,
+                "toldTruth": false,
+                "decoderInstalled": false,
+                "decoderCalibrated": false,
+                "a07MovedObject": false,
+                "badgePocketed": false,
+                "overrideTechUnlocked": false,
+                "identityMismatchVerified": false
+              },
+              "cargoConversion": "none",
+              "finaleStage": "inactive",
+              "completedContactWaves": 0,
+              "finaleHealthBuffer": 0,
+              "finalDecision": null,
+              "queue": [],
+              "seenEventIds": [],
+              "endingId": null,
+              "endingReasons": [],
+              "dawnLogIds": [],
+              "whiteFrost": null,
+              "greenTide": null
+            },
+            "techOwned": [],
+            "flags": [
+              "handover:D1:roof",
+              "v2-module-visibility:-8",
+              "handover:checked:D1",
+              "handover:matched:D1"
+            ],
+            "ledger": [
+              {
+                "id": "3173816b-dbb4-4721-8cfe-4b9ba4212df8",
+                "at": 1792304549660,
+                "source": "night.power-grid",
+                "key": "energy",
+                "before": 75,
+                "delta": -9,
+                "after": 66
+              },
+              {
+                "id": "d75c4033-e202-4f47-96c4-e8f11ef0b215",
+                "at": 1792304549660,
+                "source": "night.heating",
+                "key": "temperature",
+                "before": 18,
+                "delta": 4,
+                "after": 22
+              },
+              {
+                "id": "92ce6919-6b0b-4883-96d8-b9a8969ee764",
+                "at": 1792304549660,
+                "source": "module.visibility",
+                "key": "visibility",
+                "before": 42,
+                "delta": -8,
+                "after": 34
+              }
+            ],
+            "quests": {
+              "version": 1,
+              "runId": "run-56a04cf1-16c4-4ec7-be03-3afd7e4ef733",
+              "routeId": "R01",
+              "createdDay": 1,
+              "sequence": 2,
+              "consumedEventIds": [
+                "run-56a04cf1-16c4-4ec7-be03-3afd7e4ef733:D1:passenger-breathing:action.committed",
+                "run-56a04cf1-16c4-4ec7-be03-3afd7e4ef733:D1:window-silhouette:action.committed"
+              ],
+              "consumedEventKeys": [
+                "action.committed:D1:inspect:passenger-breathing",
+                "action.committed:D1:inspect:window-silhouette"
+              ],
+              "eventHistory": [
+                {
+                  "transactionId": "run-56a04cf1-16c4-4ec7-be03-3afd7e4ef733:D1:passenger-breathing",
+                  "operation": "inspect",
+                  "targetId": "passenger-breathing",
+                  "result": "success",
+                  "eventId": "run-56a04cf1-16c4-4ec7-be03-3afd7e4ef733:D1:passenger-breathing:action.committed",
+                  "runId": "run-56a04cf1-16c4-4ec7-be03-3afd7e4ef733",
+                  "routeId": "R01",
+                  "day": 1,
+                  "sequence": 1,
+                  "type": "action.committed",
+                  "dedupKey": "action.committed:D1:inspect:passenger-breathing"
+                },
+                {
+                  "transactionId": "run-56a04cf1-16c4-4ec7-be03-3afd7e4ef733:D1:window-silhouette",
+                  "operation": "inspect",
+                  "targetId": "window-silhouette",
+                  "result": "success",
+                  "eventId": "run-56a04cf1-16c4-4ec7-be03-3afd7e4ef733:D1:window-silhouette:action.committed",
+                  "runId": "run-56a04cf1-16c4-4ec7-be03-3afd7e4ef733",
+                  "routeId": "R01",
+                  "day": 1,
+                  "sequence": 2,
+                  "type": "action.committed",
+                  "dedupKey": "action.committed:D1:inspect:window-silhouette"
+                }
+              ],
+              "missions": {
+                "MAIN-R01-N01": {
+                  "id": "MAIN-R01-N01",
+                  "lifecycle": "active",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "MAIN-R01-N02": {
+                  "id": "MAIN-R01-N02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "MAIN-R01-N03": {
+                  "id": "MAIN-R01-N03",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "MAIN-R01-N04": {
+                  "id": "MAIN-R01-N04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "MAIN-R01-N05": {
+                  "id": "MAIN-R01-N05",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "MAIN-R01-N06": {
+                  "id": "MAIN-R01-N06",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "MAIN-R01-N07": {
+                  "id": "MAIN-R01-N07",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "MAIN-R02-N01": {
+                  "id": "MAIN-R02-N01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R02-N02": {
+                  "id": "MAIN-R02-N02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R02-N03": {
+                  "id": "MAIN-R02-N03",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R02-N04": {
+                  "id": "MAIN-R02-N04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R02-N05": {
+                  "id": "MAIN-R02-N05",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R02-N06": {
+                  "id": "MAIN-R02-N06",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R02-N07": {
+                  "id": "MAIN-R02-N07",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N01": {
+                  "id": "MAIN-R03-N01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N02": {
+                  "id": "MAIN-R03-N02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N03": {
+                  "id": "MAIN-R03-N03",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N04": {
+                  "id": "MAIN-R03-N04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N05": {
+                  "id": "MAIN-R03-N05",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N06": {
+                  "id": "MAIN-R03-N06",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "MAIN-R03-N07": {
+                  "id": "MAIN-R03-N07",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "TUT-01": {
+                  "id": "TUT-01",
+                  "lifecycle": "completed",
+                  "result": "completed",
+                  "progress": [
+                    {
+                      "count": 1,
+                      "matchedEventIds": [
+                        "run-56a04cf1-16c4-4ec7-be03-3afd7e4ef733:D1:passenger-breathing:action.committed"
+                      ]
+                    },
+                    {
+                      "count": 1,
+                      "matchedEventIds": [
+                        "run-56a04cf1-16c4-4ec7-be03-3afd7e4ef733:D1:window-silhouette:action.committed"
+                      ]
+                    }
+                  ],
+                  "startedDay": 1,
+                  "settledDay": 1
+                },
+                "TUT-02": {
+                  "id": "TUT-02",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "TUT-03": {
+                  "id": "TUT-03",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "TUT-04": {
+                  "id": "TUT-04",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "TUT-05": {
+                  "id": "TUT-05",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "REL-A07-01": {
+                  "id": "REL-A07-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-A07-02": {
+                  "id": "REL-A07-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-A07-03": {
+                  "id": "REL-A07-03",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-A07-04": {
+                  "id": "REL-A07-04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-A07-05": {
+                  "id": "REL-A07-05",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-XU-01": {
+                  "id": "REL-XU-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-XU-02": {
+                  "id": "REL-XU-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-XU-03": {
+                  "id": "REL-XU-03",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-XU-04": {
+                  "id": "REL-XU-04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "REL-XU-05": {
+                  "id": "REL-XU-05",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-01": {
+                  "id": "FAC-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-02": {
+                  "id": "FAC-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-03": {
+                  "id": "FAC-03",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-04": {
+                  "id": "FAC-04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-05": {
+                  "id": "FAC-05",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-06": {
+                  "id": "FAC-06",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-07": {
+                  "id": "FAC-07",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "FAC-08": {
+                  "id": "FAC-08",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "EXP-R01-01": {
+                  "id": "EXP-R01-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "EXP-R01-02": {
+                  "id": "EXP-R01-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "EXP-R02-01": {
+                  "id": "EXP-R02-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "EXP-R02-02": {
+                  "id": "EXP-R02-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "EXP-R03-01": {
+                  "id": "EXP-R03-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "EXP-R03-02": {
+                  "id": "EXP-R03-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "reason": "route-unavailable"
+                },
+                "CH-01": {
+                  "id": "CH-01",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "CH-02": {
+                  "id": "CH-02",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "CH-03": {
+                  "id": "CH-03",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "CH-04": {
+                  "id": "CH-04",
+                  "lifecycle": "locked",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ]
+                },
+                "CH-05": {
+                  "id": "CH-05",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    },
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                },
+                "CH-06": {
+                  "id": "CH-06",
+                  "lifecycle": "available",
+                  "result": null,
+                  "progress": [
+                    {
+                      "count": 0,
+                      "matchedEventIds": []
+                    }
+                  ],
+                  "startedDay": 1
+                }
+              },
+              "trackedMissionIds": [],
+              "branchChoices": {},
+              "rewardReceipts": [],
+              "journalEntries": []
+            },
+            "voyage": {
+              "version": 2,
+              "stoppedDays": {},
+              "expeditions": [],
+              "relationships": {},
+              "facilityChoices": {},
+              "facilities": {},
+              "settlementIds": [],
+              "nightSummaries": [],
+              "inspectedIds": [
+                "D1:passenger-breathing",
+                "D1:window-silhouette"
+              ],
+              "nightStartWakeups": 0
+            },
+            "ended": false,
+            "lastMessage": "今夜耗電 9 E；所有排程設備供電正常。 遠距感測出現異常，等待方向確認。接觸 1/1。",
+            "selectedRouteNodeId": "RN01",
+            "nightStartLedgerIndex": 0,
+            "activeContact": {
+              "id": "contact-1-1",
+              "definitionId": "T003",
+              "stage": "approach",
+              "secondsLeft": 36,
+              "wave": 1,
+              "totalWaves": 1
+            }
+          },
+          "wave": 1,
+          "warning": 35.984,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          }
+        },
+        "log": [
+          "南岸電台：北方燈塔仍在發訊。",
+          "甩落 3 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "段落完成，補給 +4。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "中央聚攏：已花 1 補給，敵人會追向誘餌。",
+          "段落完成，補給 +9。",
+          "交接已封存，首波預警 36 秒。"
+        ],
+        "receipts": [
+          "segment:0",
+          "segment:1"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "22 隻敵人被誘餌改道。同行者搶修車體 +10％。回收補給可在列車反制或整備護具。",
+        "reward": 9
+      },
+      "telemetry": {
+        "mode": "train",
+        "loaded": true,
+        "paused": false,
+        "entities": 0,
+        "actors": [
+          {
+            "id": "an",
+            "action": "listen",
+            "frame": 2,
+            "path": "r3/an-poses.png",
+            "x": 262.5,
+            "y": 696.5,
+            "visibleWidth": 150.9375,
+            "visibleHeight": 194.66015625
+          },
+          {
+            "id": "xi",
+            "action": "listen",
+            "frame": 2,
+            "path": "r4/xi-night.png",
+            "x": 432.25,
+            "y": 906.5,
+            "visibleWidth": 184.58854166666666,
+            "visibleHeight": 386.96875
+          }
+        ],
+        "artPaths": [
+          "r4/xi-portrait.png",
+          "r2/departure.webp",
+          "r2/outpost.webp",
+          "r2/train.webp",
+          "r2/wreck.png",
+          "r2/xi-attack.png",
+          "r2/sign.png",
+          "r2/luggage.png",
+          "r2/concrete.png",
+          "r2/bait-west.png",
+          "r2/bait-center.png",
+          "r2/bait-east.png",
+          "r2/barricade.png",
+          "r2/road-0.webp",
+          "r2/road-1.webp",
+          "r2/road-2.webp",
+          "r1/truck.png",
+          "r1/trailer.png",
+          "r3/outpost-after.webp",
+          "r3/an-poses.png",
+          "r3/truck.png",
+          "r4/outpost-ready.webp",
+          "r4/xi-front.png",
+          "r4/xi-side.png",
+          "r4/xi-back.png",
+          "r4/xi-gunner.png",
+          "r4/xi-night.png",
+          "r4/xi-attack.png",
+          "r4/climber-attack.png",
+          "r4/runner-walk.png",
+          "r4/runner-attack.png",
+          "r4/runner-hurt.png",
+          "r4/runner-death.png",
+          "r4/shambler-walk.png",
+          "r4/shambler-attack.png",
+          "r4/shambler-hurt.png",
+          "r4/shambler-death.png"
+        ],
+        "sceneArt": "r2/train.webp",
+        "roofRatio": 0
+      },
+      "route": {
+        "beamWidth": 376.09375,
+        "expected": 376.09375,
+        "opacity": "1",
+        "ticketHeight": 1049
+      }
+    }
+  ],
+  "errors": []
+}

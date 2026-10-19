@@ -1,0 +1,42 @@
+{
+  "status": "VERIFIED",
+  "version": "0.11.3",
+  "checks": 25,
+  "originalCaptures": 101,
+  "reviewSet": 15,
+  "groups": [
+    {
+      "name": "1．拆開時間與計數單位",
+      "status": "VERIFIED",
+      "evidence": 4
+    },
+    {
+      "name": "2．真敵群三態及真幀",
+      "status": "VERIFIED",
+      "evidence": 10
+    },
+    {
+      "name": "3．雙箱中性、預選與封箱",
+      "status": "VERIFIED",
+      "evidence": 11
+    },
+    {
+      "name": "4．輪班三態、累積與擋擊",
+      "status": "VERIFIED",
+      "evidence": 8
+    },
+    {
+      "name": "5．同關首次與重試對照",
+      "status": "VERIFIED",
+      "evidence": 3
+    }
+  ],
+  "newArt": 0,
+  "physicalDevices": 0,
+  "humanParticipants": 0,
+  "museRescore": {
+    "status": "BLOCKED",
+    "target": 8,
+    "score": null
+  }
+}

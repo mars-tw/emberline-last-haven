@@ -1,0 +1,189 @@
+{
+  "status": "VERIFIED",
+  "entries": [
+    {
+      "path": "docs/content/r7/logs/audit-final.log.gz",
+      "source": ".audit-tmp/r7/audit-final.log",
+      "sourceBytes": 9454,
+      "sourceSha256": "d93666f4b4ef43dd603a9f95e3fc8abd0c4635b3a762e017ad9bc00e1001a320",
+      "sha256": "fc4c6539e325e62645c537b4c199935f5451f62f5dba4a682f2e4c4408d7028e",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/build-final.log.gz",
+      "source": ".audit-tmp/r7/build-final.log",
+      "sourceBytes": 4844,
+      "sourceSha256": "a1d8d82e247ffd567da1d62f5d38723133003b6ffcef33e8f014ab7ea36fb48d",
+      "sha256": "bd56bf10318f2c5519aff5e68d3e14fdff04682b47ec5b236e0853707086b015",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/build-frozen.log.gz",
+      "source": ".audit-tmp/r7/build-frozen.log",
+      "sourceBytes": 4844,
+      "sourceSha256": "43ae2102414562040bbd4e3dee523f3eaa7280e73781eed1cd35af1f51304b17",
+      "sha256": "9be5a5c1ef3c81e905948b78676a52561dd2e549eb4c6c17078de3e673ab186e",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/build.log.gz",
+      "source": ".audit-tmp/r7/build.log",
+      "sourceBytes": 4844,
+      "sourceSha256": "f7d78e85080a782cbcde07c01ad34bcf87a07d0c5bb6d73827f9e23c962372ba",
+      "sha256": "ca8f768d0a604f6ec0df68b5aec7c7b7c12cf7b0c626dee1073917aa51113403",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/check-final-note.txt.gz",
+      "source": ".audit-tmp/r7/check-final-note.txt",
+      "sourceBytes": 367,
+      "sourceSha256": "e58510b1602f2f6e52016b657f5140ab912729895d5dd7a434cc684580564cbc",
+      "sha256": "af8e525eff304ac5626bd74042b11fd3a4a5ce9615466e2719128bd5bbc39173",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "docs/content/r7/logs/check-final.log.gz",
+      "source": ".audit-tmp/r7/check-final.log",
+      "sourceBytes": 10956,
+      "sourceSha256": "ac3275adce57b7d8f8e479d9c559da8361b8e51fa22b3d89a0be85c0d3f4827a",
+      "sha256": "81481975ff472995b11a0a3edf39f12f832ee77581f7a329ce08fd1354ea2b9d",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/check-frozen.log.gz",
+      "source": ".audit-tmp/r7/check-frozen.log",
+      "sourceBytes": 13586,
+      "sourceSha256": "25938b56abb914753c8f6374442be71726e9b8fe615e61320a21e438bd228277",
+      "sha256": "1dcef6fc608c9a32f1c777306647c89596ca10ac0e138acd350be776bf24edf6",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/check-initial-note.txt.gz",
+      "source": ".audit-tmp/r7/check-initial-note.txt",
+      "sourceBytes": 346,
+      "sourceSha256": "413633fd2d00e58b08389e86c6da49fbb065acfce133a16c235bb224bb8f7a12",
+      "sha256": "15142a952e0027ba8e8a3e23be070acf7f2a2b86e53ad34797036d6138d35ec9",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "docs/content/r7/logs/check-initial.log.gz",
+      "source": ".audit-tmp/r7/check-initial.log",
+      "sourceBytes": 12856,
+      "sourceSha256": "c7aebb2dc746122ca4bc4fafef5ff670304ede22d665084f04bc9d3101453d61",
+      "sha256": "e384bdb3070d7383566138146455d7f23f7f63be2a7f672e443f1f016dbc7a58",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/content-fifth.log.gz",
+      "source": ".audit-tmp/r7/content-fifth.log",
+      "sourceBytes": 2100,
+      "sourceSha256": "da6030609b23da61e76fc65c2d146027e40e451137f44008572cd66cebd8393a",
+      "sha256": "039e927c66920c8c47df3691dca6749b5a8c23ee63bd582a8ac8ce6a7a0cf555",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/content-final.log.gz",
+      "source": ".audit-tmp/r7/content-final.log",
+      "sourceBytes": 528,
+      "sourceSha256": "548f41f300dd033d2b2e7aa7663146ea0ab735f6d433daf38cb824718b55b5b0",
+      "sha256": "d0099e1274dbc45a494a62093899caa68ffea582f6a2671562663a9812e917aa",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/content-fourth.log.gz",
+      "source": ".audit-tmp/r7/content-fourth.log",
+      "sourceBytes": 2102,
+      "sourceSha256": "18b756e3cf512612d3fe6d2272319376789ec5518ed29b35ae85ab2d98f6c45a",
+      "sha256": "57777dcf5c171f602ca23c9dea87845aa97bc6c08df55d1175468922e3545f30",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/content-initial.log.gz",
+      "source": ".audit-tmp/r7/content-initial.log",
+      "sourceBytes": 1994,
+      "sourceSha256": "5dfa598cc9d0403e521dcc40915543ec1801cb0bca05be46b9e51b7de984576d",
+      "sha256": "4c762c396c32547f80b7ff62e8f0a65d23ecabf97563b2c35fc3cd5720612811",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/content-second.log.gz",
+      "source": ".audit-tmp/r7/content-second.log",
+      "sourceBytes": 4464,
+      "sourceSha256": "5e44649dba5970c8267b998e585e90b9b144f8f6e350ca74c8caf9100e3f6be1",
+      "sha256": "d4f512e95c74a4c57426a75d770af310a3ba319108c6255736e53cfdf6132dca",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/content-third.log.gz",
+      "source": ".audit-tmp/r7/content-third.log",
+      "sourceBytes": 1860,
+      "sourceSha256": "4f299c5fd534c04a8f758263771291c93405260551204a7a7d79838718da9b72",
+      "sha256": "e471e260f9b45615fc6ff4ed9aad7d11cd5108cebe761d4074d081061920d41d",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/continuation-r4.log.gz",
+      "source": ".audit-tmp/r7/continuation-r4.log",
+      "sourceBytes": 2910,
+      "sourceSha256": "78ae5600d2b279226e661ceb5d548645f003a176a515c61f572f555c0c52589a",
+      "sha256": "a7a05bece640229d46631ab7b6b00247f776ebe2f6061909e70ade58309d68bd",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/continuation-r6.log.gz",
+      "source": ".audit-tmp/r7/continuation-r6.log",
+      "sourceBytes": 11492,
+      "sourceSha256": "4a13acfa35b53fd922e66153161cad407e85d3a2104b609becda32ee8c07dac1",
+      "sha256": "2e02e24925b32b0e4fca3f19f36e3af98df958d59770bfc578be23dfe8b55115",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/continuation.log.gz",
+      "source": ".audit-tmp/r7/continuation.log",
+      "sourceBytes": 11422,
+      "sourceSha256": "8dee33111a431c8cbbd7cda662de606fa27bbbe3e330f0b48351661adca6245c",
+      "sha256": "fccf2528c3105f2f190ac1f71c6324658b241442ef88b48533ae08ff2aace08b",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/r6-verification-final.log.gz",
+      "source": ".audit-tmp/r7/r6-verification-final.log",
+      "sourceBytes": 228,
+      "sourceSha256": "125867358904bb1f561e067e382a6840b5bf3ae24f49398ac2679968194ab534",
+      "sha256": "9933f57c7fe2ced3c742fe9908da99df2f3d95045213fc8e590582aedc5d4989",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/unit-initial.log.gz",
+      "source": ".audit-tmp/r7/unit-initial.log",
+      "sourceBytes": 26952,
+      "sourceSha256": "6c857bcb19ab5e50270151846cf59ad2349257db6126e366874e583b0807dedc",
+      "sha256": "d771f7c75efbf58250ed7655737a0cc76135fe9badcd7d7b9f63702e35bf210d",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/unit-second.log.gz",
+      "source": ".audit-tmp/r7/unit-second.log",
+      "sourceBytes": 6366,
+      "sourceSha256": "2e2e490f0db4ecd7f58b6358606ed4b5b3ef7c69a8e73efee95bbec06aa9bba9",
+      "sha256": "abe7aa6575cdea5ce30927fe4049df975671ff66f744104372c5c7f11d18fd6f",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/unit-third.log.gz",
+      "source": ".audit-tmp/r7/unit-third.log",
+      "sourceBytes": 4002,
+      "sourceSha256": "136c6fa2c02c5728680e79fbc0bea9eff8ea3a940e05ad3b4af26ee3e8de3f13",
+      "sha256": "7740d327485728455456c99b305e6d5f5c84bc4213179d594fd4f538080b4ac6",
+      "encoding": "UTF-16LE BOM"
+    },
+    {
+      "path": "docs/content/r7/logs/verification-final.log.gz",
+      "source": ".audit-tmp/r7/verification-final.log",
+      "sourceBytes": 266,
+      "sourceSha256": "be059e974f46178f63a65f1f7b7fb25e4585fd16d3e60321ca0d5eace2130e51",
+      "sha256": "5b72630e4b731ec2fc563c822b2ffe19122ff114b1703c8e9641a72a306a4a5f",
+      "encoding": "UTF-16LE BOM"
+    }
+  ]
+}

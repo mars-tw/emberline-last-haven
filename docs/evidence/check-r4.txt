@@ -1,0 +1,152 @@
+
+> emberline-last-haven@0.5.0 check
+> npm run test && npm run build && npm run test:e2e && npm run test:edges && npm run test:perf && npm run test:art && npm run audit
+
+
+> emberline-last-haven@0.5.0 test
+> vitest run --reporter=default --reporter=json --outputFile.json=docs/evidence/unit-tests.json && node vendor/ashes/scripts/test-r86-convoy-latch.js && node vendor/ashes/scripts/test-rules.js && node vendor/ashes/scripts/test-economy.js && node scripts/source-tests.mjs
+
+
+ RUN  v4.1.11 C:/Users/digimkt/Desktop/遊戲/apocalypse-anthology
+
+ ✓ vendor/train/tests/r9-night-watch.test.ts (20 tests) 35ms
+ ✓ vendor/train/tests/r10-handover.test.ts (13 tests) 22ms
+ ✓ tests/campaign.test.ts (28 tests) 17ms
+ ✓ vendor/train/tests/save.test.ts (15 tests) 12ms
+ ✓ tests/art-layout.test.ts (3 tests) 4ms
+ ✓ tests/animation.test.ts (7 tests) 3ms
+
+ Test Files  6 passed (6)
+      Tests  86 passed (86)
+   Start at  01:23:18
+   Duration  1.36s (transform 312ms, setup 0ms, import 601ms, tests 93ms, environment 0ms)
+
+JSON report written to C:/Users/digimkt/Desktop/遊戲/apocalypse-anthology/docs/evidence/unit-tests.json
+R86 convoy latch rules PASS
+Rules tests PASS
+Economy tests PASS
+PASS starter grants only at fresh wave with no existing tower
+PASS invalid layout safely selects center; every route has a distinct world point
+PASS tactical goal requires two actual attraction events
+PASS reopen preserves meat, tower, resources and selected protagonist
+PASS legacy save without inventory migrates to empty without discarding progress
+PASS corrupt inventory is bounded and malformed JSON remains playable
+PASS storage failure does not stop gameplay saves
+PASS tighter elite column applies to all elite waves with unchanged HP budget and boss
+
+> emberline-last-haven@0.5.0 build
+> tsc --noEmit && vite build && node scripts/precache.mjs
+
+vite v7.3.1 building client environment for production...
+transforming...
+✓ 32 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.75 kB │ gzip:  0.52 kB
+dist/assets/index-C60ZNkfK.css   22.15 kB │ gzip:  5.66 kB
+dist/assets/index-DnG5_-7U.js   351.63 kB │ gzip: 99.45 kB
+✓ built in 505ms
+Offline precache: 130 files, revision fbabd9081a4bdaee
+
+> emberline-last-haven@0.5.0 test:e2e
+> node scripts/browser.mjs
+
+escort start {"segment":0,"hull":100,"level":0,"time":0.6560000000000005}
+escort outcome {"segment":0,"hull":57,"level":0,"time":48.01599999999649,"flung":10,"screen":"report"}
+chromium: first chapter and reload verified
+escort start {"segment":3,"hull":95,"level":1,"time":0}
+escort outcome {"segment":3,"hull":54,"level":1,"time":48.00299999999649,"flung":10,"screen":"report"}
+escort start {"segment":6,"hull":99,"level":2,"time":0}
+escort outcome {"segment":6,"hull":87,"level":2,"time":48.01599999999649,"flung":10,"screen":"report"}
+escort start {"segment":0,"hull":100,"level":0,"time":0}
+escort outcome {"segment":0,"hull":55,"level":0,"time":48.00199999999649,"flung":10,"screen":"report"}
+escort start {"segment":0,"hull":100,"level":0,"time":0}
+escort outcome {"segment":0,"hull":51,"level":0,"time":48.01599999999649,"flung":10,"screen":"report"}
+webkit: first chapter and reload verified
+VERIFIED: 95 browser cases; 12 screenshots; no runtime errors or external requests
+
+> emberline-last-haven@0.5.0 test:edges
+> node scripts/edge-cases.mjs
+
+VERIFIED: 5 import/export/quota browser cases
+
+> emberline-last-haven@0.5.0 test:perf
+> node scripts/performance.mjs
+
+{ width: 1366, height: 600 } 0.3000001907348633 16.700000000000728
+{ width: 390, height: 844 } 0.2999999523162842 16.799999999999727
+
+> emberline-last-haven@0.5.0 test:art
+> python scripts/art-verify.py && python scripts/art-r2-verify.py && python scripts/art-r3-verify.py && node scripts/art-r4-capture.mjs after && python scripts/art-r4-verify.py
+
+VERIFIED 13 RGBA runtime assets, color gates and four distinct A-07 poses
+VERIFIED R2: 35 runtime exports, alpha/color/hash gates, 36 genuine attack/walk/hurt/death frames; 64px contact sheet
+VERIFIED R3: 24 runtime files, 49 captures, paper 6%, actors 40px, roof <=1/3, blue saturation ratio 0.672
+VERIFIED 49 R4 after captures
+VERIFIED R4: 26 runtime files, 49 captures, ten native-size store shots, real three-climber impact
+
+> emberline-last-haven@0.5.0 audit
+> node scripts/audit.mjs
+
+node.exe : warning: in the working copy of 'CREDITS.md', CRLF will be replaced by LF the next time Git touches it
+位於 線路:1 字元:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: in the... Git touches it:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'docs/art/ART_DIRECTION.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'docs/art/ART_GATES.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'docs/art/ART_GATES_R2.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'docs/art/ASSET_MANIFEST.json', CRLF will be replaced by LF the next time Git touches i
+t
+warning: in the working copy of 'docs/art/ASSET_MANIFEST_R2.json', CRLF will be replaced by LF the next time Git touche
+s it
+warning: in the working copy of 'docs/store/SCREENSHOTS.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'index.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'package-lock.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'package.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'public/manifest.webmanifest', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/audit.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/campaign.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/main.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/style.css', CRLF will be replaced by LF the next time Git touches it
+{
+  "status": "VERIFIED",
+  "version": "0.5.0",
+  "sourceFiles": 73,
+  "sourceResults": [
+    {
+      "repo": "ashes",
+      "head": "ace11fe95350cf6803b3fe5ca6815d320b09163c",
+      "statusUnchanged": true
+    },
+    {
+      "repo": "storm",
+      "head": "7a27333f69c072e7d4fb33419969cb8307317eb5",
+      "statusUnchanged": true
+    },
+    {
+      "repo": "train",
+      "head": "0698530e6ba21536e19017781be94dc3f98370e1",
+      "statusUnchanged": true
+    }
+  ],
+  "secretScan": {
+    "scannedFiles": 187,
+    "hits": 0,
+    "excluded": [
+      ".git",
+      "node_modules",
+      "dist",
+      ".audit-tmp",
+      "binary assets"
+    ],
+    "neverReadSecretsFolder": true
+  },
+  "storeScreenshots": 10,
+  "assets": 125,
+  "diffCheck": true,
+  "mainRepoOnly": true
+}

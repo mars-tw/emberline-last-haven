@@ -1,0 +1,105 @@
+{
+  "status": "VERIFIED",
+  "version": "0.11.1",
+  "buildIndexSha256": "e21f69d945bd7bceaa7a4f9c6edaf489baad3a153a031a6338cd36a4416d45b4",
+  "lastFullInvocation": {
+    "command": "npm run check",
+    "exitCode": 1,
+    "log": "docs/content/r6/check.log",
+    "reason": "obsolete per-button seconds assertion; updated to exact active direction/cost plus shared countdown and no per-button countdown"
+  },
+  "sameBuildContinuation": true,
+  "allRequiredStagesCompleted": true,
+  "stages": [
+    {
+      "stage": "test",
+      "command": "npm run test",
+      "exitCode": 0,
+      "log": "docs/content/r6/check.log"
+    },
+    {
+      "stage": "build",
+      "command": "npm run build",
+      "exitCode": 0,
+      "log": "docs/content/r6/check.log"
+    },
+    {
+      "stage": "browser",
+      "command": "npm run test:e2e",
+      "exitCode": 0,
+      "log": "docs/content/r6/check.log"
+    },
+    {
+      "stage": "edges",
+      "command": "npm run test:edges",
+      "exitCode": 0,
+      "log": "docs/content/r6/check.log"
+    },
+    {
+      "stage": "art",
+      "command": "npm run test:art",
+      "exitCode": 0,
+      "log": "docs/content/r6/check.log"
+    },
+    {
+      "stage": "performance",
+      "command": "npm run test:perf",
+      "exitCode": 0,
+      "log": "docs/content/r6/check.log"
+    },
+    {
+      "stage": "deep",
+      "command": "npm run test:deep",
+      "exitCode": 0,
+      "log": "docs/content/r6/deep-continuation.log"
+    },
+    {
+      "stage": "content-r1",
+      "command": "node scripts/content-r1.mjs",
+      "exitCode": 0,
+      "log": "docs/content/r6/content-continuation.log"
+    },
+    {
+      "stage": "content-r2",
+      "command": "node scripts/content-r2.mjs",
+      "exitCode": 0,
+      "log": "docs/content/r6/content-r2-continuation.log"
+    },
+    {
+      "stage": "content-r3",
+      "command": "node scripts/content-r3.mjs && node scripts/content-r3-verify.mjs",
+      "exitCode": 0,
+      "log": "docs/content/r6/content-r3-continuation.log"
+    },
+    {
+      "stage": "content-r4",
+      "command": "node scripts/content-r4.mjs",
+      "exitCode": 0,
+      "log": "docs/content/r6/content-r4-continuation.log"
+    },
+    {
+      "stage": "content-r5",
+      "command": "node scripts/content-r5.mjs",
+      "exitCode": 0,
+      "log": "docs/content/r6/content-r5-continuation.log"
+    },
+    {
+      "stage": "content-r6",
+      "command": "node scripts/content-r6.mjs",
+      "exitCode": 0,
+      "log": "docs/content/r6/browser.log"
+    },
+    {
+      "stage": "audit",
+      "command": "npm run audit",
+      "exitCode": 0,
+      "log": "docs/content/r6/audit.log"
+    },
+    {
+      "stage": "artifact-readback",
+      "command": "node scripts/content-r6-verify.mjs",
+      "exitCode": 0,
+      "log": "docs/content/r6/verify.log"
+    }
+  ]
+}

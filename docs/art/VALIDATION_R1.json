@@ -1,0 +1,121 @@
+{
+  "status": "VERIFIED",
+  "verifiedAtUTC": "2026-10-16T10:07:06.911204+00:00",
+  "version": "0.2.0",
+  "branch": "main",
+  "buildIndexSha256": "322e2bf38e0647630f66a05531cd335c11c5584fe5e74ffa5603d4a3fb9a5128",
+  "check": {
+    "command": "npm run check",
+    "exitCode": 0,
+    "log": "docs/art/check-r1-final.txt",
+    "logSha256": "a92bbf878b7c3af7a903d59f73a69c1b76424a29a5e54b646c4573f4bb472dd4"
+  },
+  "unitTests": 79,
+  "browserCases": 95,
+  "edgeCases": 5,
+  "rwdViewports": 11,
+  "minimumTouchTargetPx": 44,
+  "storeScreenshots": 10,
+  "storeDimensions": [
+    [
+      1290,
+      2796
+    ],
+    [
+      2064,
+      2752
+    ]
+  ],
+  "captures": {
+    "before": {
+      "count": 25,
+      "manifestSha256": "7aed361d701d71ef640f0e66a18801f5b18e943c5dda0b924f24f5a5a8d94f1d"
+    },
+    "after": {
+      "count": 25,
+      "manifestSha256": "ea4056d8e18047401de03b6bf51eb9160341eb96b1fe65daabe6e7228de2d05b"
+    }
+  },
+  "generatedAssets": 12,
+  "runtimeFiles": 20,
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "runtimeImageAddedBytes": 3115774,
+  "publicTotalBytes": 8025025,
+  "performance": {
+    "status": "VERIFIED",
+    "context": "並發載量測，僅供參考",
+    "metric": "synchronous simulation + canvas rendering + HUD work per requestAnimationFrame; no screenshots during sample",
+    "device": "headless Chromium on shared Windows host; viewport emulation, not physical mobile",
+    "shippingQualified": false,
+    "results": [
+      {
+        "viewport": {
+          "width": 1366,
+          "height": 600
+        },
+        "runs": [
+          {
+            "p95": 0.20000004768371582,
+            "frameIntervalP95": 16.700000000000728,
+            "sampleCount": 332,
+            "entities": 3
+          },
+          {
+            "p95": 0.2999999523162842,
+            "frameIntervalP95": 16.700000000000728,
+            "sampleCount": 332,
+            "entities": 3
+          },
+          {
+            "p95": 0.2999999523162842,
+            "frameIntervalP95": 16.799999999999272,
+            "sampleCount": 333,
+            "entities": 3
+          }
+        ],
+        "medianP95": 0.2999999523162842,
+        "medianFrameIntervalP95": 16.700000000000728,
+        "thresholdMs": 18,
+        "pass": true
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "runs": [
+          {
+            "p95": 0.20000004768371582,
+            "frameIntervalP95": 16.800000000000182,
+            "sampleCount": 332,
+            "entities": 3
+          },
+          {
+            "p95": 0.20000004768371582,
+            "frameIntervalP95": 16.799999999999727,
+            "sampleCount": 332,
+            "entities": 3
+          },
+          {
+            "p95": 0.2999999523162842,
+            "frameIntervalP95": 16.700000000000728,
+            "sampleCount": 332,
+            "entities": 3
+          }
+        ],
+        "medianP95": 0.20000004768371582,
+        "medianFrameIntervalP95": 16.799999999999727,
+        "thresholdMs": 18,
+        "pass": true
+      }
+    ]
+  },
+  "sourceFilesUnchanged": 73,
+  "secretHits": 0,
+  "headlessOnly": true,
+  "shippingQualified": false,
+  "externalDelegation": false,
+  "pushed": false,
+  "deployed": false
+}

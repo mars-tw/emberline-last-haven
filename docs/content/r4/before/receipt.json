@@ -1,0 +1,60 @@
+{
+  "sourceCommit": "c0d9830",
+  "status": "VERIFIED",
+  "captures": [
+    {
+      "source": "docs/content/r3/phone-crew-fatigued-swap-before.png",
+      "path": "docs/content/r4/before/phone-crew-fatigued-swap-before.png",
+      "sha256": "75ceed3ffed7df311b1e0f591be1218cf9d63bc3df5980d3484138624133f3ab",
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "source": "docs/content/r3/phone-relay-1-before.png",
+      "path": "docs/content/r4/before/phone-relay-1-before.png",
+      "sha256": "982372c3a41c5f5ae69ec90eb24b7aaedc7ef1a0b14cdeaf5bf6d990a12d8381",
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "source": "docs/content/r3/phone-bait-1-active-cooldown.png",
+      "path": "docs/content/r4/before/phone-bait-1-active-cooldown.png",
+      "sha256": "4efd9bb9adff41312470fe5e3cb0736659f244cf4627fa633a9d530e06867640",
+      "dimensions": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "source": "docs/art/compare/r5-after/desktop-defense-active.png",
+      "path": "docs/content/r4/before/desktop-defense-active.png",
+      "sha256": "77b16e7e5e81c9d09dbc61d76225db4c88496a07c03707f9764a814e6c034c00",
+      "dimensions": [
+        1366,
+        600
+      ]
+    },
+    {
+      "source": "docs/art/compare/r5-after/tablet-defense-active.png",
+      "path": "docs/content/r4/before/tablet-defense-active.png",
+      "sha256": "331ddb0bbea926565de7daf0e030d02aa75671108bf3e4efd2ec2c55fc440bb3",
+      "dimensions": [
+        1032,
+        1376
+      ]
+    },
+    {
+      "source": "docs/art/compare/r5-after/phone-defense-active.png",
+      "path": "docs/content/r4/before/phone-defense-active.png",
+      "sha256": "34bf20859d1ca6d6cbf7f284be68026a0473cd68b798a9a6b20c1b9cc4edbc81",
+      "dimensions": [
+        390,
+        844
+      ]
+    }
+  ]
+}

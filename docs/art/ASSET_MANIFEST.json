@@ -1,0 +1,495 @@
+{
+  "status": "VERIFIED",
+  "generatedAssets": 12,
+  "runtimeFiles": 20,
+  "tool": "image_gen__imagegen",
+  "requestedModelSlug": "gpt-image-2",
+  "actualModelSlug": null,
+  "modelNote": "Actual tool exposes image_url and output_hint only; model slug is not returned. No slug inferred.",
+  "baselinePublicBytes": 4909166,
+  "runtimeAddedBytes": 3115774,
+  "assets": [
+    {
+      "id": "departure",
+      "original": "docs/art/masters/original/departure.png",
+      "originalSha256": "5779c253769bf8f7d64c23b1c980e5c38d507b02a9be312a03012b0f67d11d45",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "runtime": [
+        {
+          "path": "public/art/r1/departure.webp",
+          "size": [
+            1536,
+            1024
+          ],
+          "bytes": 316902,
+          "sha256": "51d1e5568bc8a98f5286f71973ed64603b5a52ad862f5d811b58b2ac1005e576",
+          "format": "WEBP"
+        }
+      ]
+    },
+    {
+      "id": "road",
+      "original": "docs/art/masters/original/road.png",
+      "originalSha256": "1b8fc3a445d87dd27f963fb120e47211aad3409b7ba116b9af6e3360051ab5c4",
+      "sourceDimensions": [
+        1024,
+        1536
+      ],
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "runtime": [
+        {
+          "path": "public/art/r1/road.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "bytes": 288906,
+          "sha256": "3134111eef6d11a853afa54aec528c8354ba606343c4b46dedae30984c5ed89c",
+          "format": "WEBP"
+        }
+      ]
+    },
+    {
+      "id": "outpost",
+      "original": "docs/art/masters/original/outpost.png",
+      "originalSha256": "e7d7c3d32f3d1d7ce49f565285057aa2c88442a17e1154a13817c5628ca131f3",
+      "sourceDimensions": [
+        1024,
+        1536
+      ],
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "runtime": [
+        {
+          "path": "public/art/r1/outpost.webp",
+          "size": [
+            768,
+            1152
+          ],
+          "bytes": 229618,
+          "sha256": "116046d7bfb484e5b8016e7c7ab4c7e9272f9c6cc0d410591b453319074b585e",
+          "format": "WEBP"
+        }
+      ]
+    },
+    {
+      "id": "train",
+      "original": "docs/art/masters/original/train.png",
+      "originalSha256": "5ca5f06b3483a7297f30121d5f05ca63c682743489e25a51d6c71de8f01dea2e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "runtime": [
+        {
+          "path": "public/art/r1/train.webp",
+          "size": [
+            1536,
+            1024
+          ],
+          "bytes": 297030,
+          "sha256": "9ffca7114d9b92dd647780c7ca6f9c244b0a2bb42c033501b4865d99e41ae6d6",
+          "format": "WEBP"
+        }
+      ]
+    },
+    {
+      "id": "xi",
+      "original": "docs/art/masters/original/xi.png",
+      "originalSha256": "56566a4694f975408dc3b3f52c76ff0ca0236a184dcae1c5d7b982c6fc26e215",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "runtime": [
+        {
+          "path": "public/art/r1/xi-front.png",
+          "size": [
+            256,
+            512
+          ],
+          "bytes": 157042,
+          "sha256": "63327852bdab2aa007c21241a58ff3ab0014b70aca99772f855aaa69d317a0bd",
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r1/xi-portrait.png",
+          "size": [
+            256,
+            320
+          ],
+          "bytes": 124716,
+          "sha256": "869f451ff85ea163c560a260fe98830ebbdf42f4def8ae3d3f49c60b2d0bfae7",
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r1/xi-side.png",
+          "size": [
+            256,
+            512
+          ],
+          "bytes": 111206,
+          "sha256": "6f422dc6e62475062f4b94222d253817431730b3dbb97924c3aba16c53630bbd",
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r1/xi-back.png",
+          "size": [
+            256,
+            512
+          ],
+          "bytes": 152787,
+          "sha256": "75207f3bed6d9d0e9203f354759210f6d9ce70d1ddc46c1b2a4bdb0926b4968b",
+          "format": "PNG"
+        }
+      ],
+      "rgba": {
+        "path": "docs/art/masters/rgba/xi.png",
+        "sha256": "c353306a8fed9c0bd0767d9a42424548c2d44d8619c4e343cdd3aa315f119602"
+      },
+      "masks": {
+        "path": "docs/art/masters/masks/xi.png",
+        "sha256": "d43d44d636753288e24427972a5cf9212e06de29c023e956963b1799b22dfad3"
+      },
+      "opaque": {
+        "path": "docs/art/masters/opaque/xi.png",
+        "sha256": "73a021ad321503fbba693badc345bba7aefc47ae5de6e8840170360909e6d2c9"
+      },
+      "postprocess": "Native alpha retained; alpha <=8 and invisible RGB zeroed; no matte removal required; opaque viewing master + mask + RGBA kept."
+    },
+    {
+      "id": "an",
+      "original": "docs/art/masters/original/an.png",
+      "originalSha256": "e40fed956f2b88a1b873f8a4b3d0ba66abe06d8755e10ee3c0f15c57ad07e782",
+      "sourceDimensions": [
+        2172,
+        724
+      ],
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "runtime": [
+        {
+          "path": "public/art/r1/an-poses.png",
+          "size": [
+            768,
+            256
+          ],
+          "bytes": 317541,
+          "sha256": "42a9db3d81887fe5e0b1f5a1af19e2abd9e0cfea582a65effcb7a0a4ab3ef30e",
+          "format": "PNG"
+        }
+      ],
+      "rgba": {
+        "path": "docs/art/masters/rgba/an.png",
+        "sha256": "e7504c67d66a0d44a9119654fd77a800e3831ff372d43a433ebeffeec605c36b"
+      },
+      "masks": {
+        "path": "docs/art/masters/masks/an.png",
+        "sha256": "b30b83b455471d01dad69ca24f343f0a6d2d6939bf9955dbca14484aa7077197"
+      },
+      "opaque": {
+        "path": "docs/art/masters/opaque/an.png",
+        "sha256": "7e8e935fc5c4b61c838ac2d89e0d2815f89f968a2d3608e15025fa46cbf8239b"
+      },
+      "postprocess": "Native alpha retained; alpha <=8 and invisible RGB zeroed; no matte removal required; opaque viewing master + mask + RGBA kept.",
+      "frameMap": {
+        "columns": 4,
+        "frameSize": [
+          192,
+          256
+        ],
+        "poses": [
+          "listen",
+          "eyes-closed-listen",
+          "look-up",
+          "startle"
+        ],
+        "timing": "listening uses first two genuine poses; observation uses look-up; impact uses startle. No damage rules changed."
+      }
+    },
+    {
+      "id": "bait",
+      "original": "docs/art/masters/original/bait.png",
+      "originalSha256": "d40d18cc91df4ce020cf34bebd7a734384e7d8432121ead2fb1834c411294bab",
+      "sourceDimensions": [
+        1230,
+        1278
+      ],
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "runtime": [
+        {
+          "path": "public/art/r1/bait.png",
+          "size": [
+            128,
+            160
+          ],
+          "bytes": 29746,
+          "sha256": "3870e2f1309c8caa294a879a3fa05a439dcd039ad00e058e73435c91cff9a1d0",
+          "format": "PNG"
+        }
+      ],
+      "rgba": {
+        "path": "docs/art/masters/rgba/bait.png",
+        "sha256": "a8a17b51128cc71e417f43fa5bcaf500cedb3389cfc648cd6cd94cb228a59661"
+      },
+      "masks": {
+        "path": "docs/art/masters/masks/bait.png",
+        "sha256": "3d938bb99a1c90b73aea3468eafd3c213d56d96b879ea33a7c4847ee56702be9"
+      },
+      "opaque": {
+        "path": "docs/art/masters/opaque/bait.png",
+        "sha256": "5724d8fb71e83c7ecbd66675d35997204aed4948348b7b9dd33f8493342bd3b5"
+      },
+      "postprocess": "Native alpha retained; alpha <=8 and invisible RGB zeroed; no matte removal required; opaque viewing master + mask + RGBA kept."
+    },
+    {
+      "id": "panel",
+      "original": "docs/art/masters/original/panel.png",
+      "originalSha256": "1aaadb4760b7e553bd4797da83f1fabb4feddc6e855fe6443a123d79b37eaf69",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "runtime": [
+        {
+          "path": "public/art/r1/panel.webp",
+          "size": [
+            512,
+            512
+          ],
+          "bytes": 36396,
+          "sha256": "a3cf54a8acba1a9b5d8aaca70e9fb9aa47f7828e6cb7d02de539f8e157f7de98",
+          "format": "WEBP"
+        }
+      ]
+    },
+    {
+      "id": "icons",
+      "original": "docs/art/masters/original/icons.png",
+      "originalSha256": "ab64e192ac62634468b1dd4c01630b98bd327f918fd4dbde3347fc2528ddb9da",
+      "sourceDimensions": [
+        2172,
+        724
+      ],
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "runtime": [
+        {
+          "path": "public/art/r1/supply.png",
+          "size": [
+            64,
+            64
+          ],
+          "bytes": 7581,
+          "sha256": "2818509665b9106c2778ce7daffa634e43df2a17cd8ac40fc0a0a28b84b90755",
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r1/people.png",
+          "size": [
+            64,
+            64
+          ],
+          "bytes": 8821,
+          "sha256": "7bc8bb1468fd348995e489fe4f652b0d4896df3725c46661ef0b82cbbba975c8",
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r1/hull.png",
+          "size": [
+            64,
+            64
+          ],
+          "bytes": 7304,
+          "sha256": "4b0b4674d7ea0636c79271d03f166ae6c6eb2c12691234e00b9d8c1bc3673b2a",
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r1/armor.png",
+          "size": [
+            64,
+            64
+          ],
+          "bytes": 7502,
+          "sha256": "72a5fc1e80b4835737338a1c9887e658e39e224c56d9d4766522248331ebd26b",
+          "format": "PNG"
+        }
+      ],
+      "rgba": {
+        "path": "docs/art/masters/rgba/icons.png",
+        "sha256": "40ace00eeae694bd9e3189bb13ad8c6e712fb70cda24ac57ad4fbde5116f4ba1"
+      },
+      "masks": {
+        "path": "docs/art/masters/masks/icons.png",
+        "sha256": "4e65c9d618a7814f427a66dba9513ea3e60fcb5b49b5d23ae79c5331e8773b05"
+      },
+      "opaque": {
+        "path": "docs/art/masters/opaque/icons.png",
+        "sha256": "def593830fbaffc32e44e8169c2c7240fe2df27a59b24403321e85d2b5d45751"
+      },
+      "postprocess": "Native alpha retained; alpha <=8 and invisible RGB zeroed; no matte removal required; opaque viewing master + mask + RGBA kept."
+    },
+    {
+      "id": "logo",
+      "original": "docs/art/masters/original/logo.png",
+      "originalSha256": "860ace731c8605bff5d995187b36e8b6d70903c415d9c6858b2f11c86dbc3cde",
+      "sourceDimensions": [
+        2172,
+        724
+      ],
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "runtime": [
+        {
+          "path": "public/art/r1/logo.png",
+          "size": [
+            640,
+            256
+          ],
+          "bytes": 188904,
+          "sha256": "2ba03c48201623a4d89e490fe764b564a92fff1f09e3a49c9c8b3f2653582438",
+          "format": "PNG"
+        }
+      ],
+      "rgba": {
+        "path": "docs/art/masters/rgba/logo.png",
+        "sha256": "40d102140fb19ef3f82a65c1202f4353f68c804a21aa0c7953cf13462e21fbe2"
+      },
+      "masks": {
+        "path": "docs/art/masters/masks/logo.png",
+        "sha256": "1807d11451f970457ac80f474b52d7edf2872bfa796dfeb67b77f1ee93a77fc7"
+      },
+      "opaque": {
+        "path": "docs/art/masters/opaque/logo.png",
+        "sha256": "f3b5885e5b39e38865b50f33fd16621c1c6fd8ef8e1fbec2737a5d00e5b23abe"
+      },
+      "postprocess": "Native alpha retained; alpha <=8 and invisible RGB zeroed; no matte removal required; opaque viewing master + mask + RGBA kept."
+    },
+    {
+      "id": "app",
+      "original": "docs/art/masters/original/app.png",
+      "originalSha256": "e2ca1846048a3d116d0566313596e96151483819c5016abb74a7390cfd650907",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "runtime": [
+        {
+          "path": "public/art/r1/app-512.png",
+          "size": [
+            512,
+            512
+          ],
+          "bytes": 503488,
+          "sha256": "ed29eabc15c537c47201df2b00ead8c1373ddcc5835095540ecd135b44330d9d",
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r1/app-192.png",
+          "size": [
+            192,
+            192
+          ],
+          "bytes": 78866,
+          "sha256": "e48634693ac8be5533cf8fd3bbdc879d30030c94d1a99a8613f767c7c3a72e6f",
+          "format": "PNG"
+        },
+        {
+          "path": "docs/art/proposals/app-store-1024.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "bytes": 1846360,
+          "sha256": "523fad0bd0bfe48b3a0a82a0652685eb4c6ea32edc4f008bed8020cc2eb562bf",
+          "format": "PNG"
+        }
+      ]
+    },
+    {
+      "id": "vehicles",
+      "original": "docs/art/masters/original/vehicles.png",
+      "originalSha256": "a851d49cb599835e83d21a462b9951c267c739dfb8fbe6e8fbf051ec5203f780",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "tool": "image_gen__imagegen",
+      "modelSlug": null,
+      "license": "Project-owned generated art; MIT distribution",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "runtime": [
+        {
+          "path": "public/art/r1/truck.png",
+          "size": [
+            192,
+            384
+          ],
+          "bytes": 156304,
+          "sha256": "1e38cb9c9ce5529064718538adc91087a02ea0f584ac0c529d9dd7edfd28bbe3",
+          "format": "PNG"
+        },
+        {
+          "path": "public/art/r1/trailer.png",
+          "size": [
+            192,
+            384
+          ],
+          "bytes": 95114,
+          "sha256": "23c6c02cf4e76fdc7f8f90b0af24058790c34d463e5e6c55ac20f09b07e8c0e5",
+          "format": "PNG"
+        }
+      ],
+      "rgba": {
+        "path": "docs/art/masters/rgba/vehicles.png",
+        "sha256": "f963bfb8e999491ad87b50473362e2ae9ce5b74c6a7b6ec684cc38e30e3504a4"
+      },
+      "masks": {
+        "path": "docs/art/masters/masks/vehicles.png",
+        "sha256": "1f96b0c6ad588d75c8c871e7c901a80ed723acd5a2f1136032511c3b75423cb9"
+      },
+      "opaque": {
+        "path": "docs/art/masters/opaque/vehicles.png",
+        "sha256": "c74a41fa0efc4d1627a983d23f67c233cb0096de0f34dfe6a48ab2ca89703a9d"
+      },
+      "postprocess": "Native alpha retained; alpha <=8 and invisible RGB zeroed; no matte removal required; opaque viewing master + mask + RGBA kept."
+    }
+  ]
+}

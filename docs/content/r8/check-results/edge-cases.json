@@ -1,0 +1,28 @@
+{
+  "status": "VERIFIED",
+  "headless": true,
+  "campaignStateInjection": false,
+  "faultInjection": "Storage.setItem throws only in the quota case",
+  "results": [
+    {
+      "test": "official Ashes base64 import, original archive and anti-replay through file chooser",
+      "pass": true
+    },
+    {
+      "test": "invalid source file cannot change progress",
+      "pass": true
+    },
+    {
+      "test": "actual exported campaign restores through normal UI without losing archived origin",
+      "pass": true
+    },
+    {
+      "test": "post-import campaign reload",
+      "pass": true
+    },
+    {
+      "test": "actual quota failure is visible and export remains accessible",
+      "pass": true
+    }
+  ]
+}

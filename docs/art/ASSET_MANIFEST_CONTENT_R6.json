@@ -1,0 +1,43 @@
+{
+  "round": "content-r6",
+  "status": "VERIFIED",
+  "tool": "image_gen__imagegen",
+  "modelSlug": null,
+  "generatedImages": 1,
+  "runtimeIllustrations": 1,
+  "source": {
+    "path": "docs/art/masters/content-r6/xi-brace.png",
+    "sha256": "95697bb17851f42d93ec1623b084b075e910eaa4aaa48484cdb03c58fb13697b",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  "assets": [
+    {
+      "path": "public/art/content-r6/xi-brace.webp",
+      "sha256": "b2e48b180729034a08d8afe8ee39a9284d0797d13e70378f09e70f1f956ff7e8",
+      "dimensions": [
+        400,
+        400
+      ],
+      "alphaRange": [
+        0,
+        255
+      ]
+    }
+  ],
+  "processing": "PNG to lossless WebP resize only; alpha retained",
+  "runtimeColorGate": {
+    "status": "VERIFIED",
+    "brightnessHSVValue": 0.38112933135312993,
+    "nearBlackFraction": 0.10948179662435487,
+    "saturationHSV": 0.5190071234509456,
+    "lowSaturationFraction": 0.10027549170037663,
+    "alphaOccupancy": 0.3761625
+  }
+}

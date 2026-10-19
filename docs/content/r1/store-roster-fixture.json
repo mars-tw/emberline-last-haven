@@ -1,0 +1,210 @@
+{
+  "schema": 1,
+  "version": "0.11.3",
+  "screen": "report",
+  "segment": 1,
+  "supplies": 12,
+  "people": 10,
+  "hull": 100,
+  "level": 1,
+  "progress": {
+    "time": 50.19799999999625,
+    "x": 180,
+    "cooldown": 0,
+    "spawn": 0,
+    "shot": 0,
+    "enemies": [
+      {
+        "id": 12,
+        "x": 408.0951564018559,
+        "y": 273.52494634679715,
+        "hp": 3,
+        "state": "walk",
+        "age": 20.207999999999547,
+        "slot": -1,
+        "type": "shambler",
+        "hit": false,
+        "attracted": true,
+        "group": "3:center",
+        "lane": "center",
+        "exit": "center",
+        "escapedAt": 49.42999999999633
+      },
+      {
+        "id": 15,
+        "x": 408.17153139486993,
+        "y": 273.2192681313326,
+        "hp": 3,
+        "state": "walk",
+        "age": 20.207999999999547,
+        "slot": -1,
+        "type": "runner",
+        "hit": false,
+        "attracted": true,
+        "group": "3:center",
+        "lane": "center",
+        "exit": "center",
+        "escapedAt": 50.19799999999625
+      },
+      {
+        "id": 16,
+        "x": 408.0959999999902,
+        "y": 273.3599999999983,
+        "hp": 3,
+        "state": "walk",
+        "age": 20.207999999999547,
+        "slot": -1,
+        "type": "shambler",
+        "hit": false,
+        "attracted": true,
+        "group": "3:center",
+        "lane": "center",
+        "exit": "center",
+        "escapedAt": 50.08599999999626
+      },
+      {
+        "id": 17,
+        "x": 408.0204686051105,
+        "y": 273.2192681313326,
+        "hp": 3,
+        "state": "walk",
+        "age": 20.207999999999547,
+        "slot": -1,
+        "type": "runner",
+        "hit": false,
+        "attracted": true,
+        "group": "3:center",
+        "lane": "center",
+        "exit": "center",
+        "escapedAt": 50.037999999996266
+      }
+    ],
+    "shots": [],
+    "serial": 17,
+    "flung": 0,
+    "kills": 1,
+    "rescued": 0,
+    "bait": "center",
+    "baitLeft": 10.783999999999999,
+    "attracted": 16,
+    "started": true,
+    "night": null,
+    "wave": 0,
+    "warning": 0,
+    "countered": 0,
+    "impacts": 0,
+    "shake": {
+      "left": 0,
+      "right": 0,
+      "cooldownLeft": 0
+    },
+    "defenseBatch": 3,
+    "baitCooldown": 10.783999999999999,
+    "divertedGroups": [
+      "1:west",
+      "3:center"
+    ],
+    "diversion": {
+      "1:west": {
+        "total": 4,
+        "escaped": 4
+      },
+      "2:east": {
+        "total": 4,
+        "escaped": 3
+      },
+      "3:center": {
+        "total": 9,
+        "escaped": 9
+      }
+    }
+  },
+  "log": [
+    "甩落 2 隻！連鎖回收補給。",
+    "甩落 1 隻！",
+    "甩落 1 隻！",
+    "甩落 2 隻！連鎖回收補給。",
+    "段落完成，補給 +4。輪班疲勞已記入行車簿。",
+    "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。",
+    "西側攔截：已花 1 補給。只引西線，慢速拖住；東線會繼續前進。",
+    "第 1 批來敵已進場，留意裝車區。",
+    "西側攔截：已花 1 補給。只引西線，慢速拖住；東線會繼續前進。",
+    "第 2 批來敵已進場，留意裝車區。",
+    "東側繞行：已花 1 補給。只引東線，快速引進射界；西線不受影響。",
+    "第 3 批來敵已進場，留意裝車區。",
+    "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+    "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+    "段落完成，補給 +9。輪班疲勞已記入行車簿。",
+    "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。"
+  ],
+  "receipts": [
+    "segment:0",
+    "segment:1"
+  ],
+  "archives": {},
+  "sound": true,
+  "reduced": false,
+  "lastReport": "16 隻敵人被誘餌改道。同行者搶修車體 +10％。回收補給可在列車反制或整備護具。",
+  "reward": 9,
+  "crew": {
+    "fatigue": [
+      2,
+      0,
+      1
+    ],
+    "plan": {
+      "driver": 2,
+      "watch": 1,
+      "rest": 0
+    },
+    "rested": 1,
+    "applied": 1,
+    "shield": 1,
+    "driftPenalty": 0.75,
+    "warningPenalty": 0,
+    "history": [
+      {
+        "segment": 0,
+        "plan": {
+          "driver": 0,
+          "watch": 1,
+          "rest": 2
+        },
+        "fatigue": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "segment": 1,
+        "plan": {
+          "driver": 0,
+          "watch": 2,
+          "rest": 1
+        },
+        "fatigue": [
+          2,
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  "relay": {
+    "0": "rescue"
+  },
+  "repairCredit": 0,
+  "defenseRetries": [
+    0,
+    0,
+    0
+  ],
+  "relayResults": {
+    "0": {
+      "before": 100,
+      "repaired": 0,
+      "stored": 0
+    }
+  }
+}

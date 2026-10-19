@@ -1,0 +1,157 @@
+{
+  "status": "VERIFIED",
+  "version": "0.11.2",
+  "buildIndexSha256": "49cc7f876e635ba004cc2e9cf87c9efef2e58e18cfc154d24590b3593742a8fe",
+  "baseCommit": "1d208ed98934964a589f8101acc9417e85b4bbc0",
+  "lastFullInvocation": {
+    "command": "npm run check",
+    "exitCode": 1,
+    "log": "docs/content/r7/logs/check-frozen.log.gz",
+    "reason": "legacy art stress assertion expected 7-9 enemies after the new full-group completion; retained original 49 captures and added 7 active crowd captures with the same 7-9 bound, then resumed"
+  },
+  "sameBuildContinuation": true,
+  "allRequiredStagesCompleted": true,
+  "stages": [
+    {
+      "stage": "test",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/check-frozen.log.gz"
+      ]
+    },
+    {
+      "stage": "build",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/check-frozen.log.gz"
+      ]
+    },
+    {
+      "stage": "browser",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/check-frozen.log.gz"
+      ]
+    },
+    {
+      "stage": "edges",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/check-frozen.log.gz"
+      ]
+    },
+    {
+      "stage": "art",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/continuation.log.gz"
+      ]
+    },
+    {
+      "stage": "perf",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/continuation.log.gz"
+      ]
+    },
+    {
+      "stage": "deep",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/continuation.log.gz"
+      ]
+    },
+    {
+      "stage": "content-r1",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/continuation.log.gz"
+      ]
+    },
+    {
+      "stage": "content-r2",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/continuation.log.gz"
+      ]
+    },
+    {
+      "stage": "content-r3",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/continuation.log.gz"
+      ]
+    },
+    {
+      "stage": "content-r4",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/continuation.log.gz",
+        "docs/content/r7/logs/continuation-r4.log.gz"
+      ]
+    },
+    {
+      "stage": "content-r5",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/continuation-r4.log.gz"
+      ]
+    },
+    {
+      "stage": "content-r6",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/continuation-r6.log.gz"
+      ]
+    },
+    {
+      "stage": "content-r7",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/continuation-r6.log.gz"
+      ]
+    },
+    {
+      "stage": "audit",
+      "exitCode": 0,
+      "status": "VERIFIED",
+      "logs": [
+        "docs/content/r7/logs/continuation-r6.log.gz",
+        "docs/content/r7/logs/audit-final.log.gz"
+      ]
+    }
+  ],
+  "earlierInterruptedInvocations": [
+    {
+      "log": "docs/content/r7/logs/check-initial.log.gz",
+      "status": "EXECUTED",
+      "completed": false,
+      "reason": "shared preview adapter invalidated the claimed HTTP-stop offline proof; adapter removed"
+    },
+    {
+      "log": "docs/content/r7/logs/check-final.log.gz",
+      "status": "EXECUTED",
+      "completed": false,
+      "reason": "final first-wave wording correction and supplementary exit/role evidence added before frozen build"
+    }
+  ],
+  "testHarnessAdjustments": [
+    "Art: original 49 images retained; added 7 active crowd views and retained the 7-9 enemy bound there; completed report now proves two fully exited groups.",
+    "R4: removed obsolete leftover-badge expectation; exact selected/departure text, exact other-case button and whole preselection state equality replace it.",
+    "R6: exact safe marker IDs 2/4 plus four lured IDs and exact 0/4 ledger; all marker rectangles must avoid every actor."
+  ]
+}

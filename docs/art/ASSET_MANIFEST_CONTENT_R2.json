@@ -1,0 +1,37 @@
+{
+  "round": "content-r2",
+  "assets": [
+    {
+      "id": "coldstore",
+      "tool": "image_gen__imagegen",
+      "actualModelSlug": null,
+      "source": "docs/art/masters/content-r2/coldstore.png",
+      "path": "public/art/content-r2/coldstore.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sourceSha256": "1f1687d5631e106eb601dfd2eaa8502e53c684d9c2ad50449196b31df4c236c5",
+      "sha256": "38562f73fcb2ddecd09d707242e3ca0fcf672ee7fd663ab8779472b9950ee89a",
+      "processing": "PNG to WebP; no painted edits",
+      "bytes": 636706
+    },
+    {
+      "id": "lighthouse",
+      "tool": "image_gen__imagegen",
+      "actualModelSlug": null,
+      "source": "docs/art/masters/content-r2/lighthouse.png",
+      "path": "public/art/content-r2/lighthouse.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sourceSha256": "9c6fdcdf62cf1f66dcf94f27a74843f89fca558a8ebe05a7dc6ad0cde9a60f15",
+      "sha256": "175e1f59fb507563da0c7ea603478bc97422a573b3fe8c6b9baa3e82542c0739",
+      "processing": "PNG to WebP; no painted edits",
+      "bytes": 583006
+    }
+  ],
+  "status": "VERIFIED",
+  "generatedAssets": 2
+}

@@ -1,0 +1,155 @@
+{
+  "status": "VERIFIED",
+  "round": 2,
+  "version": "0.3.0",
+  "branch": "main",
+  "baselineCommit": "a8342f1",
+  "command": {
+    "value": "npm run check",
+    "exitCode": 0,
+    "observedExecSession": 43115
+  },
+  "headless": true,
+  "stateInjection": false,
+  "indexSha256": "e1ebd2848607fdbb74f5a3cc2c5f573a08e08185449e6e77ed726d06c1f1c79f",
+  "tests": {
+    "unitPassed": 83,
+    "browserCases": 95,
+    "edgeCases": 5,
+    "secretHits": 0,
+    "sourceCopiesUnchanged": 73,
+    "storeScreenshots": 10,
+    "comparisonPairs": 25
+  },
+  "art": {
+    "newGeneratedAssets": 12,
+    "runtimeExports": 35,
+    "tool": "image_gen__imagegen",
+    "actualModelSlug": null,
+    "runtimeAddedBytes": 4496251,
+    "publicTotalBytes": 12521276,
+    "warmAreaMinMax": [
+      0.006111593364197531,
+      0.12522253019650262
+    ],
+    "phoneVisibleWidthMin": 40,
+    "phoneVisibleHeightMin": 50.19791666666666,
+    "firstEnemySeenBySeconds": 4.090000000000003
+  },
+  "performance": {
+    "status": "VERIFIED",
+    "context": "並發載量測，僅供參考",
+    "metric": "synchronous simulation + canvas rendering + HUD work per requestAnimationFrame; no screenshots during sample",
+    "device": "headless Chromium on shared Windows host; viewport emulation, not physical mobile",
+    "shippingQualified": false,
+    "results": [
+      {
+        "viewport": {
+          "width": 1366,
+          "height": 600
+        },
+        "runs": [
+          {
+            "p95": 0.5,
+            "frameIntervalP95": 16.700000000000728,
+            "sampleCount": 332,
+            "entities": 3
+          },
+          {
+            "p95": 0.5,
+            "frameIntervalP95": 16.799999999999955,
+            "sampleCount": 332,
+            "entities": 3
+          },
+          {
+            "p95": 0.5,
+            "frameIntervalP95": 16.700000000000728,
+            "sampleCount": 332,
+            "entities": 3
+          }
+        ],
+        "medianP95": 0.5,
+        "medianFrameIntervalP95": 16.700000000000728,
+        "thresholdMs": 18,
+        "pass": true
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "runs": [
+          {
+            "p95": 0.5,
+            "frameIntervalP95": 16.700000000000728,
+            "sampleCount": 332,
+            "entities": 3
+          },
+          {
+            "p95": 0.40000009536743164,
+            "frameIntervalP95": 16.700000000000728,
+            "sampleCount": 332,
+            "entities": 3
+          },
+          {
+            "p95": 0.5,
+            "frameIntervalP95": 16.700000000000728,
+            "sampleCount": 332,
+            "entities": 3
+          }
+        ],
+        "medianP95": 0.5,
+        "medianFrameIntervalP95": 16.700000000000728,
+        "thresholdMs": 18,
+        "pass": true
+      }
+    ]
+  },
+  "closure": {
+    "previewPort4179Closed": true,
+    "browserScriptsClosedViaFinally": true,
+    "pushed": false,
+    "deployed": false,
+    "externalDelegation": false,
+    "secretsDirectoryRead": false,
+    "preExistingUntrackedReviewPreserved": true
+  },
+  "inputReview": {
+    "path": "docs/art/ART_RESCORE_MUSE.md",
+    "sha256": "96a9cab6c67648bde71ba688ed3f5e5910fd70c6be81bc74265c20ad9b6e19b1",
+    "gitStatus": "pre-existing untracked; not staged"
+  },
+  "limitations": {
+    "status": "BLOCKED",
+    "items": [
+      "New independent Muse >=8 score",
+      "Human 64px recognition >=80 percent",
+      "Physical iPhone/iPad/Android",
+      "Native IPA/AAB",
+      "Clean-host shipping performance",
+      "Distinct backgrounds for all three chapters",
+      "Dedicated directional latch atlas"
+    ]
+  },
+  "receiptHashes": {
+    "docs/evidence/unit-tests.json": "ad7de7fa41e7419d8068d9149f98e2567f8e52484948979af85efc9e9cec2676",
+    "docs/evidence/browser.json": "dac9485f26e8bd367dd8cd974c3359c1f3200036ba3c102e555d94a7aba4351c",
+    "docs/evidence/edge-cases.json": "5c08e4422af1da6ded028ae8845cfffd7a830ca9b6f3fdcaecaaf1b28856ad2e",
+    "docs/evidence/performance.json": "f96ae96211a1f9c5f4ab956a67f9c0856e8b3c69d27a109d27d519d7d9ab9fa8",
+    "docs/evidence/repository-gates.json": "0013d9e76afb41342b36d61fde0c285b6a05ddffa0abe4bc4b218919a0485b57",
+    "docs/art/ART_GATES_R2.json": "601959289ec35e8bfbdebb1c63ec7e53b7a61b9211774796121475edca24bd3f",
+    "docs/art/RUNTIME_GATES_R2.json": "f118ea9a662c8f877f1ecfdd2d67fe5af70719a41d0230c6e065b04c90065f2d",
+    "docs/art/ASSET_MANIFEST_R2.json": "6b635d26c083e20b91b28ddd311b4755784dc17d7176e49f4d966b9d6cb65bac",
+    "docs/art/compare/r2-before/captures.json": "5d5a5ee4801dd7e2f33a0f28abfede059d1d51e9bbfd0bb98e65f650922f8d47",
+    "docs/art/compare/r2-after/captures.json": "c80c86fc3d8ebb4ac54aadbc7453511ba1867b89cd5da18ead5cae8b431c0e8a",
+    "docs/store/screenshots/manifest.json": "6d95ebd70d477f18f73c75b4def38c12a2536b2e54c12b3bf1e3e38dbecda7a4",
+    "src/main.ts": "7c1a6b88f6b9a80b327b38fb08985ae6504ccf52f709a3512859e1292e7eea69",
+    "src/render.ts": "55eee5a58f99b8fc6f6c1ab94aac8c064badbd40c301a437c5e78cde71fda7eb",
+    "src/animation.ts": "02cca1b671b7a4ac685d465143d3c106264a1083dc266f900d5abcb66fb07e3d",
+    "src/style.css": "57b165058699f5a1d123797e0618fdceac743ec70051810b11544a9bdac1a52d",
+    "src/campaign.ts": "83e1774477e575cf1a3a3f5ce7db7a1902580f4215092e62426dd87d0e92e018",
+    "docs/evidence/check-r2-final.txt": "0f9f2e6f670ab31a1b07bc9a0898faf55b598a88538e2315806a01c04a16d6ab",
+    "docs/evidence/capture-r2-final.txt": "71b29be86b798667a0b646b60246937d409a20a47efc72921c16e7ec07d95904"
+  },
+  "logNormalization": "ANSI removed; terminal CR/CRLF normalized to LF; trailing whitespace removed; event content retained."
+}

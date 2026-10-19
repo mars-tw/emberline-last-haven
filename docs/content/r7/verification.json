@@ -1,0 +1,47 @@
+{
+  "status": "VERIFIED",
+  "version": "0.11.2",
+  "indexSha256": "49cc7f876e635ba004cc2e9cf87c9efef2e58e18cfc154d24590b3593742a8fe",
+  "unitTests": 198,
+  "browserChecks": 42,
+  "originalCaptures": 42,
+  "reviewSet": 15,
+  "distribution": {
+    "flank": 5,
+    "relay": 5,
+    "crew": 5
+  },
+  "preservedUntrackedFiles": 16,
+  "secretScan": {
+    "scannedFiles": 388,
+    "hits": 0,
+    "excluded": [
+      ".git",
+      "node_modules",
+      "dist",
+      ".audit-tmp",
+      "binary assets"
+    ],
+    "neverReadSecretsFolder": true
+  },
+  "performance": {
+    "status": "VERIFIED",
+    "shippingQualified": false,
+    "context": "並發載量測，僅供參考",
+    "maxMedianP95": 0.5,
+    "maxMedianFrameIntervalP95": 16.799999999999727
+  },
+  "art": {
+    "brightness": 0.33701068474264706,
+    "nearBlack": 0.18310546875,
+    "saturation": 0.4619923406862745,
+    "lowSaturation": 0.1264453125
+  },
+  "physicalDevices": 0,
+  "humanParticipants": 0,
+  "museRescore": {
+    "status": "BLOCKED",
+    "score": null,
+    "target": 8
+  }
+}

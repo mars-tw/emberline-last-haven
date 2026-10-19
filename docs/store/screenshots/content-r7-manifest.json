@@ -1,0 +1,23 @@
+{
+  "status": "VERIFIED",
+  "screenshots": [
+    {
+      "path": "docs/store/screenshots/phone-12-content-r7.png",
+      "sha256": "1e7efe6b7beceda0897576ef3b9df4f83c52043f8f77a79676ca3a565ed43621",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "ordinary chapter-2 relay checkpoint; local store screenshot"
+    },
+    {
+      "path": "docs/store/screenshots/tablet-12-content-r7.png",
+      "sha256": "6cd4cd22c37c03b9bf3cccb952faf6f94f6ea8175a025829f62eafaf2fe44794",
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "source": "ordinary chapter-2 relay checkpoint; local store screenshot"
+    }
+  ]
+}

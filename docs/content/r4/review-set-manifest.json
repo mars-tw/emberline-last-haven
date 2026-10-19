@@ -1,0 +1,176 @@
+{
+  "status": "VERIFIED",
+  "count": 15,
+  "distribution": {
+    "flank": 5,
+    "relay": 5,
+    "crew": 5
+  },
+  "screenshots": [
+    {
+      "content": "側翼",
+      "path": "docs/content/r4/review-set/01-flank-unaffected.png",
+      "original": "docs/content/r4/phone-flank-unaffected.png",
+      "sha256": "4268bb11dfe46dc79462152ec6799a9109c7b40caca471da93d42ba0cb202077",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "content": "側翼",
+      "path": "docs/content/r4/review-set/02-flank-active-1s.png",
+      "original": "docs/content/r4/phone-flank-active-1s.png",
+      "sha256": "9568754b865bbcef9d85dbbbbda639f2b863f9845eb66c7d343943b5ed8a32f6",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "content": "側翼",
+      "path": "docs/content/r4/review-set/03-flank-active-6s.png",
+      "original": "docs/content/r4/phone-flank-active-6s.png",
+      "sha256": "b2e6878aaadacd7b4bdd3ee43f51243361f771fe2fe058dd94bcfb97043f1ed2",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "content": "側翼",
+      "path": "docs/content/r4/review-set/04-flank-active-12s.png",
+      "original": "docs/content/r4/phone-flank-active-12s.png",
+      "sha256": "3135c43108d684fb8e443bd9b4028b2fd38b642ac1d96bbafb0e0996c0f45653",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "content": "側翼",
+      "path": "docs/content/r4/review-set/05-retry-preview-after.png",
+      "original": "docs/content/r4/phone-retry-preview-after.png",
+      "sha256": "70a30ef1b02bb48f3602b7a34413a54cc19dcdd7b683c504161a53fcf25d45a7",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "boundary fixture derived from normal save; imported through file UI; not normal-play evidence"
+    },
+    {
+      "content": "中繼",
+      "path": "docs/content/r4/review-set/06-relay-1-before.png",
+      "original": "docs/content/r4/phone-relay-1-before.png",
+      "sha256": "fba1d0c590d90495fdb996f1ce6dfaaba0afbc443742c17d699fb89da4bb3b9f",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "content": "中繼",
+      "path": "docs/content/r4/review-set/07-relay-2-selected-rescue.png",
+      "original": "docs/content/r4/phone-relay-2-selected-rescue.png",
+      "sha256": "48e7ea12f865592ad6012e59f13e8cf69af1fc5f6d9f12a76dd44500a5901851",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "content": "中繼",
+      "path": "docs/content/r4/review-set/08-relay-3-selected-repair.png",
+      "original": "docs/content/r4/phone-relay-3-selected-repair.png",
+      "sha256": "0dfcb92860de5bce91860d7663e381d3fa940e740570c390150680a48cace08e",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "content": "中繼",
+      "path": "docs/content/r4/review-set/09-relay-1-after.png",
+      "original": "docs/content/r4/phone-relay-1-after.png",
+      "sha256": "40a7278135b6582e265433b9e9a478663e5701caa3c7281457124d17212a8531",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "content": "中繼",
+      "path": "docs/content/r4/review-set/10-relay-repair-full-sealed-reload.png",
+      "original": "docs/content/r4/phone-relay-repair-full-sealed-reload.png",
+      "sha256": "92e3fc124430cb880bf41c7bf050261308a8752bf9b32781f343af51a862fec0",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "boundary fixture derived from normal save; imported through file UI; not normal-play evidence"
+    },
+    {
+      "content": "輪班",
+      "path": "docs/content/r4/review-set/11-crew-fatigued-swap-before.png",
+      "original": "docs/content/r4/phone-crew-fatigued-swap-before.png",
+      "sha256": "6477ad9330f342319f6459f40538f65f220aef30e8af8da050c982130590fec6",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "content": "輪班",
+      "path": "docs/content/r4/review-set/12-crew-fatigued-swap-preview.png",
+      "original": "docs/content/r4/phone-crew-fatigued-swap-preview.png",
+      "sha256": "ec4198c4c7f8f04572683a6066a0e86c8a80903849c5e19019903321c057f1b6",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "content": "輪班",
+      "path": "docs/content/r4/review-set/13-crew-fatigued-swap-after.png",
+      "original": "docs/content/r4/phone-crew-fatigued-swap-after.png",
+      "sha256": "b8da00aeb2e3d241cf691e45cad1aa5629c61c140630e34b4dd4326e135f1be1",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "content": "輪班",
+      "path": "docs/content/r4/review-set/14-watch-1-before.png",
+      "original": "docs/content/r4/phone-watch-1-before.png",
+      "sha256": "67aaf79476cefb74d7b6e58b26e6140231365f6a99613d9cd51e86ce917d714a",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "content": "輪班",
+      "path": "docs/content/r4/review-set/15-watch-1-blocked.png",
+      "original": "docs/content/r4/phone-watch-1-blocked.png",
+      "sha256": "d14d38cfd1f41c19ee1ba139f1af66f7a7f809e661b416d6e1150c47d4d21705",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    }
+  ]
+}

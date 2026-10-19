@@ -1,0 +1,18 @@
+{
+  "round": "content-r2",
+  "actualModelSlug": null,
+  "assets": [
+    {
+      "id": "coldstore",
+      "prompt": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Use case: stylized-concept. Portrait 1024x1536 game environment, elevated view down an abandoned coastal railway COLD STORE courtyard. Composition like an evacuation loading station: two gate towers at upper-left and upper-right, broken bridge crossing background, three open approach lanes at x=20%,50%,80% from top towards bottom, three small metal circular bait sockets across middle at 48% height, loading ramp at bottom center at 82% height, right-side rails and derelict train, refrigerated building on left with an insulated door and hanging coils. Frost-blue daylight in an ash storm, WHITE frost and thawing puddles on ground, cold cyan ice highlights, restrained amber practical lights. Distinct blue-white frost environment. Full detailed physical painted environment, clear open center for game characters. No characters, no enemies, no UI, no words, no arrows. Preserve open navigable space. No black voids.",
+      "tool": "image_gen__imagegen",
+      "stylePrefix": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark."
+    },
+    {
+      "id": "lighthouse",
+      "prompt": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Use case: stylized-concept. Portrait 1024x1536 game environment, elevated view down the LAST SUPPLY STATION below a large coastal LIGHTHOUSE. Two low gate towers at upper left and upper right, sea and tall luminous lighthouse visible at top center, storm-red dusk and warm amber sweeping lighthouse light. Three open approach lanes at x=20%,50%,80% from top towards bottom, three small metal circular bait sockets across middle at 48% height, loading ramp at bottom center at 82% height. Right-side rails, rusted locomotive and coiled mooring rope; left has collapsed fishery shed and orange emergency tarps. Wet sand and sea foam streaks across cracked ground, stranded lifebuoy and thick mooring bollards around edges. Distinct storm-maroon and amber environment. Full detailed physical painted environment, clear open center for game characters. No characters, no enemies, no UI, no words, no arrows. No black voids.",
+      "tool": "image_gen__imagegen",
+      "stylePrefix": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark."
+    }
+  ]
+}

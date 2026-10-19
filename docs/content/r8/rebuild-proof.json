@@ -1,0 +1,20 @@
+{
+  "beforeIndexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "sameTestedBundle": true,
+  "command": "npm run build",
+  "afterAssets": [
+    "index-Bhv6Vsxl.css:5ef8841bcd79e4cb55dbab4123e1ad800cd41025f293d5c3cb1c56e07b607351",
+    "index-CUUlVxL0.js:d9d420fb75d1ffc86779cf14228ebdfec6959e8aae4130effc5058767844c6ac"
+  ],
+  "log": "docs/content/r8/logs/rebuild.txt",
+  "afterIndexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "exitCode": 0,
+  "status": "VERIFIED",
+  "beforeAssets": [
+    "index-Bhv6Vsxl.css:5ef8841bcd79e4cb55dbab4123e1ad800cd41025f293d5c3cb1c56e07b607351",
+    "index-CUUlVxL0.js:d9d420fb75d1ffc86779cf14228ebdfec6959e8aae4130effc5058767844c6ac"
+  ],
+  "logSha256": "716870624a4f60aa5677320e84c02245e3d7b368cbeaae2367aba9af7fc5b83f",
+  "originalLogSha256": "df9d275394e6d252f92216ba9b34049a0f0b7f5e7c5adc01f818d98b519d58a6",
+  "logNormalization": "UTF-8 without BOM, LF, trailing horizontal console padding removed; diagnostic content preserved; original raw hashes retained"
+}

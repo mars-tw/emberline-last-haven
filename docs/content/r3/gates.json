@@ -1,0 +1,43 @@
+{
+  "status": "VERIFIED",
+  "version": "0.11.3",
+  "checks": 24,
+  "originalCaptures": 87,
+  "reviewGroups": [
+    {
+      "name": "1．計數封頂與唯一倒數",
+      "evidence": 3,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "2．雙箱選前、獨立結果、無橫幅輪班",
+      "evidence": 10,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "3．側別標記、警告與實際轉向",
+      "evidence": 9,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "4．直向輪班、疲勞不變交換、實際擋擊",
+      "evidence": 7,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "5．第三章、雙翼警告與逐批重試",
+      "evidence": 10,
+      "status": "VERIFIED"
+    }
+  ],
+  "newArt": 1,
+  "unitTests": 153,
+  "physicalDevices": 0,
+  "humanParticipants": 0,
+  "museRescore": {
+    "status": "BLOCKED",
+    "target": 8,
+    "score": null
+  },
+  "beforeSource": "f014416"
+}

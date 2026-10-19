@@ -1,0 +1,50 @@
+{
+  "round": "content-r8",
+  "status": "VERIFIED",
+  "generatedImages": 0,
+  "generatedAssets": 0,
+  "tool": null,
+  "actualModelSlug": null,
+  "assets": [],
+  "reused": [
+    "public/art/content-r5/rescue.webp",
+    "public/art/content-r5/repair.webp",
+    "public/art/content-r6/xi-brace.webp",
+    "public/art/content-r3/shian-portrait.webp",
+    "public/art/r5/xi-portrait.png",
+    "public/art/content-r7/an-portrait.webp"
+  ],
+  "note": "Existing ink-and-gouache assets reused. Rescue preview/selection/sealed/carried contexts share the exact same R5 file. Number badges, paths, shields and warning borders are gameplay information, not generated art. No image generation tool was called in R8.",
+  "reusedAssets": [
+    {
+      "path": "public/art/content-r5/rescue.webp",
+      "sha256": "e198b901c3a74b7f2496e95602a18a8e38dd7f86977510c6ddf4e437c9a1fc76",
+      "bytes": 87232
+    },
+    {
+      "path": "public/art/content-r5/repair.webp",
+      "sha256": "5ed0a282748373a3d10fc20f566cb67e82af4bbfeeb7f2bb0665f7d8e4495f6a",
+      "bytes": 75006
+    },
+    {
+      "path": "public/art/content-r6/xi-brace.webp",
+      "sha256": "b2e48b180729034a08d8afe8ee39a9284d0797d13e70378f09e70f1f956ff7e8",
+      "bytes": 133204
+    },
+    {
+      "path": "public/art/content-r3/shian-portrait.webp",
+      "sha256": "708ca7edc8b7fd051718cebb322372d06b9e95480ba4c24db97d8df96cbafe0c",
+      "bytes": 24930
+    },
+    {
+      "path": "public/art/r5/xi-portrait.png",
+      "sha256": "6364a54d43cbcbaab4b3914ed8e31997e4d1c0a6d69f755d6a3f3f7ddd96366f",
+      "bytes": 96328
+    },
+    {
+      "path": "public/art/content-r7/an-portrait.webp",
+      "sha256": "b27ada5fb2e40657d99ab5f70fbd57ef9f74ea76e6cec7ddf0c3abe0b1802801",
+      "bytes": 157638
+    }
+  ]
+}

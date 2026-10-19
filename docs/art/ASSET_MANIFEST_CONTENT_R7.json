@@ -1,0 +1,55 @@
+{
+  "status": "VERIFIED",
+  "round": "content-r7",
+  "tool": "image_gen__imagegen",
+  "requestedModelSlug": "gpt-image-2",
+  "actualModelSlug": null,
+  "modelEvidence": "Built-in tool response does not expose model slug; requested gpt-image-2 is not verified as actual model.",
+  "generatedImages": 1,
+  "runtimeIllustrations": 1,
+  "source": {
+    "path": "docs/art/masters/content-r7/an-portrait-final.png",
+    "sha256": "b205dd6a823a977a98d8ddd48d6a669f21b0a827f56896bf69b5262bed782c40",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 2967304
+  },
+  "assets": [
+    {
+      "path": "public/art/content-r7/an-portrait.webp",
+      "sha256": "b27ada5fb2e40657d99ab5f70fbd57ef9f74ea76e6cec7ddf0c3abe0b1802801",
+      "dimensions": [
+        320,
+        320
+      ],
+      "bytes": 157638
+    }
+  ],
+  "metrics": {
+    "brightness": 0.3372963192892978,
+    "nearBlack": 0.19193699777935486,
+    "saturation": 0.46953808606155767,
+    "lowSaturation": 0.1261971261341697
+  },
+  "processing": "Only LANCZOS resize and lossless WebP conversion; generated image not redrawn.",
+  "references": [
+    "public/art/content-r3/shian-portrait.webp",
+    "public/art/r5/xi-portrait.png",
+    "public/art/r3/an-poses.png"
+  ],
+  "license": "MIT (project-owned generated art)",
+  "human64pxRecognition": "BLOCKED: requires first-player panel",
+  "draftSource": {
+    "path": "docs/art/masters/content-r7/an-portrait.png",
+    "sha256": "0df5bea04d9984b7e36945e20e33d800a4a59c438adf723733afb308d8ed38c8",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 3001893
+  },
+  "generationCalls": 2,
+  "colorGatesPass": true
+}

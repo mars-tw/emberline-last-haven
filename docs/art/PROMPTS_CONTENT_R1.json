@@ -1,0 +1,14 @@
+{
+  "round": "content-r1",
+  "tool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "stylePrefix": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark.",
+  "assets": [
+    {
+      "id": "relay-table",
+      "prompt": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Use case: stylized-concept. Asset type: game relay preparation illustration. A wide landscape 1536x1024 intimate still life at a battered coastal evacuation railway relay station at 17:40. Foreground worn wooden dispatch table with three real objects clearly separated: old steering wheel left, warm hooded watch lantern center, rolled canvas sleeping bag right. Behind them two alternative carry cases on a narrow handcart: rescue canvas pack with straps on left, open mechanical toolbox with wrench and repair parts on right. Single luggage space visually communicates that only one case fits. In background faint railway signal towers and ash coast, no people. Mature, restrained survival tone, warm grey paper and cold slate steel, amber lamp practical rim. Physical gouache brush texture and etched contours, clear silhouettes at small size. No text, labels, numbers, glyphs, UI, borders, emoji, symbols or watermarks.",
+      "source": "docs/art/masters/content-r1/relay-table.png",
+      "references": []
+    }
+  ]
+}

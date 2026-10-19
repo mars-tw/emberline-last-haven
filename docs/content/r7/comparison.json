@@ -1,0 +1,39 @@
+{
+  "status": "VERIFIED",
+  "beforeSourceCommit": "1d208ed98934964a589f8101acc9417e85b4bbc0",
+  "indexSha256": "49cc7f876e635ba004cc2e9cf87c9efef2e58e18cfc154d24590b3593742a8fe",
+  "before": [
+    {
+      "path": "docs/content/r7/before/phone-defense-active.png",
+      "original": "docs/art/compare/r5-after/phone-defense-active.png",
+      "sha256": "593f0adec06e49d429ba21103e21b8a93642b7588f48b1b46255fdcde3b21fc5"
+    },
+    {
+      "path": "docs/content/r7/before/tablet-defense-active.png",
+      "original": "docs/art/compare/r5-after/tablet-defense-active.png",
+      "sha256": "569275d4af971ac086ce09365a64d9211b44cdccfd6f94bbc6dd0e2baf5cdcf9"
+    },
+    {
+      "path": "docs/content/r7/before/desktop-defense-active.png",
+      "original": "docs/art/compare/r5-after/desktop-defense-active.png",
+      "sha256": "da9f85f8de66b74a06e7477153ea88a49236e21c526688b0e800587bd9ac2a5f"
+    }
+  ],
+  "after": [
+    {
+      "path": "docs/content/r7/after/phone-defense-active.png",
+      "sha256": "d00c694a76685f4bbf596f2d40819fc2db8d5b0c1211567f31e12faca04359dd",
+      "original": "docs/art/compare/r5-after/phone-defense-active.png"
+    },
+    {
+      "path": "docs/content/r7/after/tablet-defense-active.png",
+      "sha256": "15698b8fa9813e977b8af27f4886c37c53ef48f2eed20cd3f0d823d2127a5e5f",
+      "original": "docs/art/compare/r5-after/tablet-defense-active.png"
+    },
+    {
+      "path": "docs/content/r7/after/desktop-defense-active.png",
+      "sha256": "85b6422969953d47e7d3e2ad4a4c5e3b28ad6f69ae1e483d1b205ea14955a078",
+      "original": "docs/art/compare/r5-after/desktop-defense-active.png"
+    }
+  ]
+}

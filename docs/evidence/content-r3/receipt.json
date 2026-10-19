@@ -1,0 +1,72 @@
+{
+  "status": "VERIFIED",
+  "note": "Three-viewport regression comparison only; Muse review uses original portrait screenshots under docs/content/r3",
+  "captures": [
+    {
+      "path": "docs/evidence/content-r3/before-phone-defense.png",
+      "source": "docs/art/compare/r5-after/phone-defense-active.png",
+      "sourceCommit": "f014416",
+      "indexSha256": null,
+      "sha256": "4a6d29ba3a1ed56dad19610d5bf1a77579a8e17d9b5e0b20ab5d61ebac77ab6d",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/evidence/content-r3/after-phone-defense.png",
+      "source": "docs/art/compare/r5-after/phone-defense-active.png",
+      "sourceCommit": null,
+      "indexSha256": "c566f517e38ef1497927d1386a12950550d228b8b1134d429ba92cf77a19a5f9",
+      "sha256": "34bf20859d1ca6d6cbf7f284be68026a0473cd68b798a9a6b20c1b9cc4edbc81",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/evidence/content-r3/before-landscape-defense.png",
+      "source": "docs/art/compare/r5-after/landscape-defense-active.png",
+      "sourceCommit": "f014416",
+      "indexSha256": null,
+      "sha256": "4a8251da921838d1b6dea90e84ca0bd9b821f9cbc74fbb27ee6dfb1807f559bd",
+      "dimensions": [
+        844,
+        390
+      ]
+    },
+    {
+      "path": "docs/evidence/content-r3/after-landscape-defense.png",
+      "source": "docs/art/compare/r5-after/landscape-defense-active.png",
+      "sourceCommit": null,
+      "indexSha256": "c566f517e38ef1497927d1386a12950550d228b8b1134d429ba92cf77a19a5f9",
+      "sha256": "489eeffb32e19e836b08a8f72e9dbcb22dc2874c69700ad62e1a1748c9bf9ee4",
+      "dimensions": [
+        844,
+        390
+      ]
+    },
+    {
+      "path": "docs/evidence/content-r3/before-tablet-defense.png",
+      "source": "docs/art/compare/r5-after/tablet-defense-active.png",
+      "sourceCommit": "f014416",
+      "indexSha256": null,
+      "sha256": "5f39838ce9a2f7c78f0eb5510521c806372a25077c9e7af05a2b2e94387b1094",
+      "dimensions": [
+        1032,
+        1376
+      ]
+    },
+    {
+      "path": "docs/evidence/content-r3/after-tablet-defense.png",
+      "source": "docs/art/compare/r5-after/tablet-defense-active.png",
+      "sourceCommit": null,
+      "indexSha256": "c566f517e38ef1497927d1386a12950550d228b8b1134d429ba92cf77a19a5f9",
+      "sha256": "331ddb0bbea926565de7daf0e030d02aa75671108bf3e4efd2ec2c55fc440bb3",
+      "dimensions": [
+        1032,
+        1376
+      ]
+    }
+  ]
+}

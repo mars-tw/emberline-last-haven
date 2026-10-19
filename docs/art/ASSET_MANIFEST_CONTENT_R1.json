@@ -1,0 +1,38 @@
+{
+  "status": "VERIFIED",
+  "round": "content-r1",
+  "generatedAssets": 1,
+  "tool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "modelNote": "Built-in tool exposes image_url/output_hint, no model slug. No external API or credentials.",
+  "license": "MIT",
+  "assets": [
+    {
+      "id": "relay-table",
+      "tool": "image_gen__imagegen",
+      "license": "MIT",
+      "attribution": "Emberline: Last Haven contributors",
+      "source": {
+        "path": "docs/art/masters/content-r1/relay-table.png",
+        "sha256": "8007d90d7c23dd6fa698b9329fce05e67aaac2b9c9608a5dfc31281d9e84d8df",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      "runtime": [
+        {
+          "path": "public/art/content-r1/relay-table.webp",
+          "sha256": "8bb0f8c6346c22913c92242a5d5421d3bbb8a6304e4fe6fa85dd3566d6e3a5ca",
+          "size": [
+            960,
+            640
+          ],
+          "format": "WEBP",
+          "bytes": 188224,
+          "derivation": "Lanczos resize and WebP quality 87; no compositing or generated substitutes"
+        }
+      ]
+    }
+  ]
+}

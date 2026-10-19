@@ -1,0 +1,38 @@
+{
+  "status": "VERIFIED",
+  "round": "content-r5",
+  "tool": "image_gen__imagegen",
+  "modelSlug": null,
+  "modelEvidence": "Built-in tool does not expose a model slug; no invented gpt-image-2 assertion.",
+  "generatedImages": 1,
+  "runtimeIllustrations": 2,
+  "source": {
+    "path": "docs/art/masters/content-r5/cases.png",
+    "sha256": "d05e57bb9bdcd91635664a1db312a669c5b0d0572e9937c2b29f450427fcea9b",
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "processing": "Pillow: exact left/right half crop and lossless WebP resize only; original alpha preserved",
+  "assets": [
+    {
+      "id": "rescue",
+      "path": "public/art/content-r5/rescue.webp",
+      "dimensions": [
+        240,
+        320
+      ],
+      "sha256": "e198b901c3a74b7f2496e95602a18a8e38dd7f86977510c6ddf4e437c9a1fc76"
+    },
+    {
+      "id": "repair",
+      "path": "public/art/content-r5/repair.webp",
+      "dimensions": [
+        240,
+        320
+      ],
+      "sha256": "5ed0a282748373a3d10fc20f566cb67e82af4bbfeeb7f2bb0665f7d8e4495f6a"
+    }
+  ]
+}

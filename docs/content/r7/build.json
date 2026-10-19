@@ -1,0 +1,49 @@
+{
+  "status": "VERIFIED",
+  "version": "0.11.2",
+  "indexSha256": "49cc7f876e635ba004cc2e9cf87c9efef2e58e18cfc154d24590b3593742a8fe",
+  "serviceWorkerSha256": "513ef5948c6a87f0b104c9729efe692a660bb1e18096e2dca311d473d2ff5eeb",
+  "runtimeSources": [
+    {
+      "path": "src/animation.ts",
+      "sha256": "acb76e0514617e2cf37939617f0a4df8856be2f5f3db847e8528db301c53498e"
+    },
+    {
+      "path": "src/art-layout.ts",
+      "sha256": "0f59ab11cf1601a39dffb54cb8c2d7460656efa905bd429a3a2143cea40a3341"
+    },
+    {
+      "path": "src/campaign.ts",
+      "sha256": "26a1fe07c22d03ceadacce8174bcb8d23513cce1784575747b1de77293387633"
+    },
+    {
+      "path": "src/dispatch-view.ts",
+      "sha256": "74837f428847761feb29c15ec520febf37b31b6c10b8295f9d7699353737612a"
+    },
+    {
+      "path": "src/feedback.ts",
+      "sha256": "9155181fe2c686216456c34dcf1b1f4947c1e1196ded1eb1312ec77f6d8b504f"
+    },
+    {
+      "path": "src/journey.ts",
+      "sha256": "16f549a3b22628eeee9c20f3fdbdb956b0645c4459472fcd6bb358fa445f7151"
+    },
+    {
+      "path": "src/main.ts",
+      "sha256": "b2ad2fe747b7368dbdb34c1eb740b7365b4f9533fc61456f88d84d5f171f48af"
+    },
+    {
+      "path": "src/render.ts",
+      "sha256": "bdccd1f5cbf96b09f3f47ebd59625f40d573ac5d7e6abf7b85b17bb346243e89"
+    },
+    {
+      "path": "src/storage.ts",
+      "sha256": "12e95d0cc7c52092965fe11de1f8c070f8a9bd35894088d4ce0f46145a4115e8"
+    },
+    {
+      "path": "src/style.css",
+      "sha256": "db889c301ec157550720a2d03f0617525a5fc2955a149fd2515957b35d83474d"
+    }
+  ],
+  "headless": true
+}

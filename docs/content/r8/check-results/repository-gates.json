@@ -1,0 +1,50 @@
+{
+  "status": "VERIFIED",
+  "version": "0.11.3",
+  "sourceFiles": 73,
+  "sourceResults": [
+    {
+      "repo": "ashes",
+      "head": "ace11fe95350cf6803b3fe5ca6815d320b09163c",
+      "statusUnchanged": true
+    },
+    {
+      "repo": "storm",
+      "head": "7a27333f69c072e7d4fb33419969cb8307317eb5",
+      "statusUnchanged": true
+    },
+    {
+      "repo": "train",
+      "head": "0698530e6ba21536e19017781be94dc3f98370e1",
+      "statusUnchanged": true
+    }
+  ],
+  "secretScan": {
+    "scannedFiles": 417,
+    "hits": 0,
+    "excluded": [
+      ".git",
+      "node_modules",
+      "dist",
+      ".audit-tmp",
+      "binary assets"
+    ],
+    "neverReadSecretsFolder": true
+  },
+  "storeScreenshots": 26,
+  "r2EvidenceCaptures": 75,
+  "r3EvidenceCaptures": 87,
+  "r4EvidenceCaptures": 101,
+  "r4ReviewSet": 15,
+  "r5EvidenceCaptures": 46,
+  "r5ReviewSet": 15,
+  "assets": 166,
+  "diffCheck": true,
+  "mainRepoOnly": true,
+  "r6EvidenceCaptures": 26,
+  "r6ReviewSet": 15,
+  "r7EvidenceCaptures": 42,
+  "r7ReviewSet": 15,
+  "r8EvidenceCaptures": 60,
+  "r8ReviewSet": 15
+}

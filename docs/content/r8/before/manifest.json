@@ -1,0 +1,32 @@
+{
+  "status": "VERIFIED",
+  "captures": [
+    {
+      "path": "docs/content/r8/before/phone-flank.png",
+      "sha256": "9dffe7802c12e2c894c477c829e2ba9afb3530974678f2460e2eff0ec67cde33",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "R7 tracked review-set at turn start; historical before image"
+    },
+    {
+      "path": "docs/content/r8/before/phone-relay.png",
+      "sha256": "2fa82eef24a87a6baa8bb1d6c0e771595a5a097a8fdf2f86f6e3069e0e4c9648",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "R7 tracked review-set at turn start; historical before image"
+    },
+    {
+      "path": "docs/content/r8/before/phone-crew.png",
+      "sha256": "9108cf0454b616e467da712caf433045f4fc1469849afc9e0c3b92333fae4396",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "R7 tracked review-set at turn start; historical before image"
+    }
+  ]
+}

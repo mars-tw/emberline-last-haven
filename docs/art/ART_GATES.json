@@ -1,0 +1,113 @@
+{
+  "status": "VERIFIED",
+  "method": "HSV value brightness on alpha >200 visible pixels; near-black V<0.15; low saturation S<0.20; alpha/magic/dimension/hash gates. Visual inspection of silhouettes and pose differences remains required.",
+  "generatedAssets": 12,
+  "runtimeAddedBytes": 3115774,
+  "baselinePublicBytes": 4909166,
+  "runtimeGrowthPercent": 63.47,
+  "checks": [
+    {
+      "path": "public/art/r1/xi-front.png",
+      "alphaOccupancy": 0.4201507568359375,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true,
+      "brightnessHSVValue": 0.4201609672684442,
+      "nearBlackFraction": 0.12938329013569141,
+      "saturationHSV": 0.6669507900876745,
+      "lowSaturationFraction": 0.012425674645525233
+    },
+    {
+      "path": "public/art/r1/xi-portrait.png",
+      "alphaOccupancy": 0.54053955078125,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true,
+      "brightnessHSVValue": 0.43622929362068474,
+      "nearBlackFraction": 0.14936166203420173,
+      "saturationHSV": 0.6597396898060999,
+      "lowSaturationFraction": 0.017124417016064448
+    },
+    {
+      "path": "public/art/r1/xi-side.png",
+      "alphaOccupancy": 0.29071807861328125,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true,
+      "brightnessHSVValue": 0.4142849719393058,
+      "nearBlackFraction": 0.1363184628975265,
+      "saturationHSV": 0.6734514464272907,
+      "lowSaturationFraction": 0.012146643109540636
+    },
+    {
+      "path": "public/art/r1/xi-back.png",
+      "alphaOccupancy": 0.4210662841796875,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true,
+      "brightnessHSVValue": 0.42645880503426076,
+      "nearBlackFraction": 0.13705689943709112,
+      "saturationHSV": 0.7083395687580543,
+      "lowSaturationFraction": 0.009185303514376996
+    },
+    {
+      "path": "public/art/r1/an-poses.png",
+      "alphaOccupancy": 0.6002095540364584,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true,
+      "brightnessHSVValue": 0.4444562234163544,
+      "nearBlackFraction": 0.1318517735556554,
+      "saturationHSV": 0.7249891375788684,
+      "lowSaturationFraction": 0.004272036219820486,
+      "adjacentPoseAlphaDifference": [
+        0.046915690104166664,
+        0.09633382161458333,
+        0.049072265625
+      ]
+    },
+    {
+      "path": "public/art/r1/bait.png",
+      "alphaOccupancy": 0.4880859375,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/art/r1/supply.png",
+      "alphaOccupancy": 0.627685546875,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/art/r1/people.png",
+      "alphaOccupancy": 0.660888671875,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/art/r1/hull.png",
+      "alphaOccupancy": 0.588134765625,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/art/r1/armor.png",
+      "alphaOccupancy": 0.601318359375,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/art/r1/logo.png",
+      "alphaOccupancy": 0.411798095703125,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/art/r1/truck.png",
+      "alphaOccupancy": 0.7904459635416666,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/art/r1/trailer.png",
+      "alphaOccupancy": 0.4911431206597222,
+      "fourCornersTransparent": true,
+      "transparentRGBZero": true
+    }
+  ]
+}

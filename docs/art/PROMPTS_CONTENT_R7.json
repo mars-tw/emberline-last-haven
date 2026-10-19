@@ -1,0 +1,9 @@
+{
+  "round": "content-r7",
+  "tool": "image_gen__imagegen",
+  "stylePrefix": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark.",
+  "actualModelSlug": null,
+  "promptSummary": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark. Preserve An short chestnut bob, adult East Asian woman, blue-gray hooded jacket and brass sleeve patch; match Shian and Xi reference ink-and-gouache shading, upper-left cool fill, warm practical rim, realistic eyes; square head-and-shoulders portrait on ash coastal fog, no text/UI.",
+  "fullPromptFile": "docs/art/PROMPT_CONTENT_R7_FULL.txt",
+  "editPrompt": "Preserve exact identity, brush hatching, adult face, short brown bob, clothing and lighting; shift neutral gray fog and jacket toward richer slate/petrol blue around HSV saturation .4, keep warm skin/chestnut hair, chromatic shadows and readable midtones; no neon, gloss, text, new objects or composition changes."
+}

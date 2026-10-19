@@ -1,0 +1,67 @@
+{
+  "status": "VERIFIED",
+  "beforeSourceCommit": "d6c02b16cd6f89b854894cba192fe7ea8761ec23",
+  "indexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "captures": [
+    {
+      "phase": "before",
+      "path": "docs/evidence/content-r5/before/phone-defense-active.png",
+      "original": "docs/content/r5/before/phone-defense-active.png",
+      "sha256": "bec5c91e762a65e1d33d3cfc912d77cfacd4bb11f118cea9f37f50cf9ed9e1e9",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "phase": "after",
+      "path": "docs/evidence/content-r5/after/phone-defense-active.png",
+      "original": "docs/art/compare/r5-after/phone-defense-active.png",
+      "sha256": "3f64a2d72601e28c846d7f62c5b65d15430f653f2d7011f0ca415541a02b3151",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "phase": "before",
+      "path": "docs/evidence/content-r5/before/tablet-defense-active.png",
+      "original": "docs/content/r5/before/tablet-defense-active.png",
+      "sha256": "74d65379a9a7782ec7e339f317f400a7b8871f986e83b8e78a506dc1097a9ba3",
+      "dimensions": [
+        1032,
+        1376
+      ]
+    },
+    {
+      "phase": "after",
+      "path": "docs/evidence/content-r5/after/tablet-defense-active.png",
+      "original": "docs/art/compare/r5-after/tablet-defense-active.png",
+      "sha256": "1869eb94ff1a356a07d8bf214db82abd221be9c9e5bff7f1d8f29a6e0c0e7cbd",
+      "dimensions": [
+        1032,
+        1376
+      ]
+    },
+    {
+      "phase": "before",
+      "path": "docs/evidence/content-r5/before/desktop-defense-active.png",
+      "original": "docs/content/r5/before/desktop-defense-active.png",
+      "sha256": "604ff8a2832b781b8e1de1ffd60dd07b3b76f397ccec6842cf9c5629db268bf5",
+      "dimensions": [
+        1366,
+        600
+      ]
+    },
+    {
+      "phase": "after",
+      "path": "docs/evidence/content-r5/after/desktop-defense-active.png",
+      "original": "docs/art/compare/r5-after/desktop-defense-active.png",
+      "sha256": "7a356185f097e540880cf86a4040fb77bcb67e77002e17d5bc4d112748caa5b5",
+      "dimensions": [
+        1366,
+        600
+      ]
+    }
+  ]
+}

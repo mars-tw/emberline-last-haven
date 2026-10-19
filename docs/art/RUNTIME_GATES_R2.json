@@ -1,0 +1,645 @@
+{
+  "status": "VERIFIED",
+  "headless": true,
+  "stateInjection": false,
+  "indexSha256": "e1ebd2848607fdbb74f5a3cc2c5f573a08e08185449e6e77ed726d06c1f1c79f",
+  "capturePairs": 25,
+  "firstEnemyBeforeSeconds": 4.090000000000003,
+  "phoneVisibleActorMinimumPixels": 40,
+  "newRuntimeImagesLoaded": 27,
+  "nightHotspots": "Passenger/window observations and one correct roof/window counter asserted via actual mouse input in art-capture.mjs phone run.",
+  "warmMethod": "Pillow HSV: H<43/255 (60 degrees), S>=.35, V>=.30 over complete screenshot; threshold <.30.",
+  "poseLimit": "<=2 identical enemy type/action/frame in these 25 screenshots only; not a guarantee for every possible simulation state.",
+  "records": [
+    {
+      "path": "docs/art/compare/r2-after/phone-departure.png",
+      "warmSignalAreaFraction": 0.05205067444403937,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "departure",
+          "frame": 0,
+          "visibleWidth": 40,
+          "visibleHeight": 109.02140672782873
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/tablet-departure.png",
+      "warmSignalAreaFraction": 0.06987096065440779,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "departure",
+          "frame": 0,
+          "visibleWidth": 85.8375,
+          "visibleHeight": 233.953125
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/desktop-departure.png",
+      "warmSignalAreaFraction": 0.05305846602000976,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "departure",
+          "frame": 0,
+          "visibleWidth": 39.15241071428572,
+          "visibleHeight": 106.71127232142858
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/landscape-departure.png",
+      "warmSignalAreaFraction": 0.0758384979948961,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "departure",
+          "frame": 0,
+          "visibleWidth": 24,
+          "visibleHeight": 65.41284403669724
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/wide-departure.png",
+      "warmSignalAreaFraction": 0.043013117283950617,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "departure",
+          "frame": 0,
+          "visibleWidth": 65.604375,
+          "visibleHeight": 178.80703125
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/phone-convoy.png",
+      "warmSignalAreaFraction": 0.05580264916757808,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "attack",
+          "frame": 0,
+          "visibleWidth": 49.18125,
+          "visibleHeight": 69.15517578125
+        },
+        {
+          "id": "enemy-1",
+          "action": "attack",
+          "frame": 3,
+          "visibleWidth": 51.15104166666666,
+          "visibleHeight": 50.19791666666666
+        },
+        {
+          "id": "enemy-2",
+          "action": "walk",
+          "frame": 1,
+          "visibleWidth": 40,
+          "visibleHeight": 68.45360824742268
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r2-after/tablet-convoy.png",
+      "warmSignalAreaFraction": 0.07590040224445646,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "attack",
+          "frame": 0,
+          "visibleWidth": 112.875,
+          "visibleHeight": 158.716796875
+        },
+        {
+          "id": "enemy-1",
+          "action": "attack",
+          "frame": 3,
+          "visibleWidth": 117.39583333333333,
+          "visibleHeight": 115.20833333333333
+        },
+        {
+          "id": "enemy-2",
+          "action": "walk",
+          "frame": 3,
+          "visibleWidth": 120.3125,
+          "visibleHeight": 121.77083333333333
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r2-after/desktop-convoy.png",
+      "warmSignalAreaFraction": 0.052082380124450954,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "attack",
+          "frame": 0,
+          "visibleWidth": 51.48482142857143,
+          "visibleHeight": 72.39429408482144
+        },
+        {
+          "id": "enemy-1",
+          "action": "attack",
+          "frame": 1,
+          "visibleWidth": 45.56473214285714,
+          "visibleHeight": 58.86830357142858
+        },
+        {
+          "id": "enemy-2",
+          "action": "walk",
+          "frame": 0,
+          "visibleWidth": 44.23437500000001,
+          "visibleHeight": 56.87276785714286
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r2-after/landscape-convoy.png",
+      "warmSignalAreaFraction": 0.07377870944221655,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "attack",
+          "frame": 0,
+          "visibleWidth": 24.000000000000004,
+          "visibleHeight": 33.747093023255815
+        },
+        {
+          "id": "enemy-1",
+          "action": "attack",
+          "frame": 3,
+          "visibleWidth": 24.455696202531648,
+          "visibleHeight": 24
+        },
+        {
+          "id": "enemy-2",
+          "action": "walk",
+          "frame": 1,
+          "visibleWidth": 24.000000000000004,
+          "visibleHeight": 41.07216494845361
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r2-after/wide-convoy.png",
+      "warmSignalAreaFraction": 0.04359278549382716,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "attack",
+          "frame": 0,
+          "visibleWidth": 86.26875,
+          "visibleHeight": 121.30498046874999
+        },
+        {
+          "id": "enemy-1",
+          "action": "attack",
+          "frame": 3,
+          "visibleWidth": 89.72395833333331,
+          "visibleHeight": 88.05208333333331
+        },
+        {
+          "id": "enemy-2",
+          "action": "walk",
+          "frame": 0,
+          "visibleWidth": 74.11979166666667,
+          "visibleHeight": 95.296875
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r2-after/phone-bait.png",
+      "warmSignalAreaFraction": 0.04746931583424474,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "idle",
+          "frame": 0,
+          "visibleWidth": 40,
+          "visibleHeight": 91.53496168582376
+        },
+        {
+          "id": "enemy-4",
+          "action": "walk",
+          "frame": 2,
+          "visibleWidth": 46.703125,
+          "visibleHeight": 53.05729166666666
+        },
+        {
+          "id": "enemy-3",
+          "action": "walk",
+          "frame": 1,
+          "visibleWidth": 53.692708333333336,
+          "visibleHeight": 52.10416666666666
+        },
+        {
+          "id": "enemy-1",
+          "action": "walk",
+          "frame": 2,
+          "visibleWidth": 43.208333333333336,
+          "visibleHeight": 55.91666666666666
+        },
+        {
+          "id": "enemy-2",
+          "action": "walk",
+          "frame": 3,
+          "visibleWidth": 52.421875,
+          "visibleHeight": 53.05729166666666
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r2-after/tablet-bait.png",
+      "warmSignalAreaFraction": 0.07818063254912565,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "idle",
+          "frame": 0,
+          "visibleWidth": 81.2,
+          "visibleHeight": 185.81597222222223
+        },
+        {
+          "id": "enemy-4",
+          "action": "walk",
+          "frame": 3,
+          "visibleWidth": 120.3125,
+          "visibleHeight": 121.77083333333333
+        },
+        {
+          "id": "enemy-3",
+          "action": "walk",
+          "frame": 3,
+          "visibleWidth": 128.33333333333331,
+          "visibleHeight": 85.3125
+        },
+        {
+          "id": "enemy-1",
+          "action": "walk",
+          "frame": 0,
+          "visibleWidth": 100.625,
+          "visibleHeight": 130.52083333333331
+        },
+        {
+          "id": "enemy-2",
+          "action": "walk",
+          "frame": 1,
+          "visibleWidth": 70.72916666666667,
+          "visibleHeight": 121.04166666666667
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r2-after/desktop-bait.png",
+      "warmSignalAreaFraction": 0.03835998505368472,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "idle",
+          "frame": 0,
+          "visibleWidth": 37.03714285714286,
+          "visibleHeight": 84.75483630952381
+        },
+        {
+          "id": "enemy-4",
+          "action": "walk",
+          "frame": 1,
+          "visibleWidth": 32.26116071428572,
+          "visibleHeight": 55.20982142857144
+        },
+        {
+          "id": "enemy-3",
+          "action": "walk",
+          "frame": 0,
+          "visibleWidth": 45.89732142857143,
+          "visibleHeight": 59.533482142857146
+        },
+        {
+          "id": "enemy-1",
+          "action": "walk",
+          "frame": 2,
+          "visibleWidth": 45.23214285714286,
+          "visibleHeight": 58.535714285714285
+        },
+        {
+          "id": "enemy-2",
+          "action": "walk",
+          "frame": 2,
+          "visibleWidth": 48.890625,
+          "visibleHeight": 55.542410714285715
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r2-after/landscape-bait.png",
+      "warmSignalAreaFraction": 0.042450480009721715,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "idle",
+          "frame": 0,
+          "visibleWidth": 24,
+          "visibleHeight": 54.92097701149426
+        },
+        {
+          "id": "enemy-4",
+          "action": "walk",
+          "frame": 2,
+          "visibleWidth": 24,
+          "visibleHeight": 27.26530612244898
+        },
+        {
+          "id": "enemy-3",
+          "action": "walk",
+          "frame": 1,
+          "visibleWidth": 24.731707317073173,
+          "visibleHeight": 24
+        },
+        {
+          "id": "enemy-1",
+          "action": "walk",
+          "frame": 3,
+          "visibleWidth": 36.1025641025641,
+          "visibleHeight": 24
+        },
+        {
+          "id": "enemy-2",
+          "action": "walk",
+          "frame": 3,
+          "visibleWidth": 24.000000000000004,
+          "visibleHeight": 24.290909090909093
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r2-after/wide-bait.png",
+      "warmSignalAreaFraction": 0.03658227237654321,
+      "actors": [
+        {
+          "id": "xi",
+          "action": "idle",
+          "frame": 0,
+          "visibleWidth": 62.059999999999995,
+          "visibleHeight": 142.01649305555554
+        },
+        {
+          "id": "enemy-4",
+          "action": "walk",
+          "frame": 1,
+          "visibleWidth": 54.05729166666667,
+          "visibleHeight": 92.51041666666667
+        },
+        {
+          "id": "enemy-3",
+          "action": "walk",
+          "frame": 0,
+          "visibleWidth": 76.90625,
+          "visibleHeight": 99.75520833333331
+        },
+        {
+          "id": "enemy-1",
+          "action": "walk",
+          "frame": 1,
+          "visibleWidth": 94.18229166666667,
+          "visibleHeight": 91.39583333333331
+        },
+        {
+          "id": "enemy-2",
+          "action": "walk",
+          "frame": 2,
+          "visibleWidth": 81.921875,
+          "visibleHeight": 93.06770833333331
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r2-after/phone-night.png",
+      "warmSignalAreaFraction": 0.11430611252886134,
+      "actors": [
+        {
+          "id": "an",
+          "action": "listen",
+          "frame": 2,
+          "visibleWidth": 113.37421875,
+          "visibleHeight": 138.15546874999998
+        },
+        {
+          "id": "xi",
+          "action": "radio",
+          "frame": 0,
+          "visibleWidth": 42.38229166666667,
+          "visibleHeight": 55.272314453125
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/tablet-night.png",
+      "warmSignalAreaFraction": 0.12522253019650262,
+      "actors": [
+        {
+          "id": "an",
+          "action": "listen",
+          "frame": 2,
+          "visibleWidth": 260.203125,
+          "visibleHeight": 317.078125
+        },
+        {
+          "id": "xi",
+          "action": "radio",
+          "frame": 0,
+          "visibleWidth": 97.27083333333334,
+          "visibleHeight": 126.8544921875
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/desktop-night.png",
+      "warmSignalAreaFraction": 0.08091980844314299,
+      "actors": [
+        {
+          "id": "an",
+          "action": "listen",
+          "frame": 2,
+          "visibleWidth": 118.68448660714286,
+          "visibleHeight": 144.62645089285715
+        },
+        {
+          "id": "xi",
+          "action": "radio",
+          "frame": 0,
+          "visibleWidth": 44.36741071428572,
+          "visibleHeight": 57.861181640625006
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/landscape-night.png",
+      "warmSignalAreaFraction": 0.10629784907036093,
+      "actors": [
+        {
+          "id": "an",
+          "action": "listen",
+          "frame": 2,
+          "visibleWidth": 43.27868303571429,
+          "visibleHeight": 52.73850446428572
+        },
+        {
+          "id": "xi",
+          "action": "radio",
+          "frame": 0,
+          "visibleWidth": 24,
+          "visibleHeight": 31.299287856071956
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/wide-night.png",
+      "warmSignalAreaFraction": 0.07218074845679012,
+      "actors": [
+        {
+          "id": "an",
+          "action": "listen",
+          "frame": 2,
+          "visibleWidth": 198.86953125,
+          "visibleHeight": 242.33828125
+        },
+        {
+          "id": "xi",
+          "action": "radio",
+          "frame": 0,
+          "visibleWidth": 74.34270833333333,
+          "visibleHeight": 96.953076171875
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/phone-journal.png",
+      "warmSignalAreaFraction": 0.02301312431644185,
+      "actors": [
+        {
+          "id": "an",
+          "action": "listen",
+          "frame": 2,
+          "visibleWidth": 113.37421875,
+          "visibleHeight": 138.15546874999998
+        },
+        {
+          "id": "xi",
+          "action": "radio",
+          "frame": 0,
+          "visibleWidth": 42.38229166666667,
+          "visibleHeight": 55.272314453125
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/tablet-journal.png",
+      "warmSignalAreaFraction": 0.008925855191995673,
+      "actors": [
+        {
+          "id": "an",
+          "action": "listen",
+          "frame": 2,
+          "visibleWidth": 260.203125,
+          "visibleHeight": 317.078125
+        },
+        {
+          "id": "xi",
+          "action": "radio",
+          "frame": 0,
+          "visibleWidth": 97.27083333333334,
+          "visibleHeight": 126.8544921875
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/desktop-journal.png",
+      "warmSignalAreaFraction": 0.012085735419716935,
+      "actors": [
+        {
+          "id": "an",
+          "action": "listen",
+          "frame": 2,
+          "visibleWidth": 118.68448660714286,
+          "visibleHeight": 144.62645089285715
+        },
+        {
+          "id": "xi",
+          "action": "radio",
+          "frame": 0,
+          "visibleWidth": 44.36741071428572,
+          "visibleHeight": 57.861181640625006
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/landscape-journal.png",
+      "warmSignalAreaFraction": 0.03038643820634342,
+      "actors": [
+        {
+          "id": "an",
+          "action": "listen",
+          "frame": 2,
+          "visibleWidth": 43.27868303571429,
+          "visibleHeight": 52.73850446428572
+        },
+        {
+          "id": "xi",
+          "action": "radio",
+          "frame": 0,
+          "visibleWidth": 24,
+          "visibleHeight": 31.299287856071956
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r2-after/wide-journal.png",
+      "warmSignalAreaFraction": 0.006111593364197531,
+      "actors": [
+        {
+          "id": "an",
+          "action": "listen",
+          "frame": 2,
+          "visibleWidth": 198.86953125,
+          "visibleHeight": 242.33828125
+        },
+        {
+          "id": "xi",
+          "action": "radio",
+          "frame": 0,
+          "visibleWidth": 74.34270833333333,
+          "visibleHeight": 96.953076171875
+        }
+      ],
+      "sampledMaxIdenticalEnemyPose": 0
+    }
+  ]
+}

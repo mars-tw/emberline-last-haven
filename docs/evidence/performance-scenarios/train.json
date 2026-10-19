@@ -1,0 +1,1165 @@
+{
+  "schema": 1,
+  "version": "0.11.3",
+  "screen": "play",
+  "segment": 2,
+  "supplies": 16,
+  "people": 10,
+  "hull": 61,
+  "level": 0,
+  "progress": {
+    "time": 0.016,
+    "x": 180,
+    "cooldown": 0,
+    "spawn": 0,
+    "shot": 0,
+    "enemies": [],
+    "shots": [],
+    "serial": 0,
+    "flung": 0,
+    "kills": 0,
+    "rescued": 0,
+    "bait": "center",
+    "baitLeft": 0,
+    "attracted": 0,
+    "started": true,
+    "night": {
+      "schemaVersion": 6,
+      "runId": "run-f0076a1a-840f-41b5-8a1c-27c228552341",
+      "seed": "emberline-2",
+      "day": 1,
+      "maxDays": 7,
+      "phase": "night",
+      "actionPoints": 5,
+      "rationMode": "standard",
+      "nightPowerDemand": 9,
+      "outcome": "active",
+      "routeId": "R01",
+      "resources": {
+        "energy": 66,
+        "fuel": 40,
+        "food": 5,
+        "water": 6,
+        "parts": 8,
+        "medicine": 1,
+        "data": 0
+      },
+      "survivor": {
+        "health": 85,
+        "stress": 20,
+        "infection": 0,
+        "trust": 50,
+        "sleep": 100,
+        "wakeups": 0
+      },
+      "environment": {
+        "temperature": 22,
+        "noise": 14,
+        "visibility": 34,
+        "hull": 100,
+        "weight": 54
+      },
+      "modules": [
+        {
+          "id": "MI1",
+          "definitionId": "M001",
+          "slotId": "defense-window",
+          "active": true,
+          "powered": true,
+          "durability": 100,
+          "mk": 1
+        },
+        {
+          "id": "MI2",
+          "definitionId": "M002",
+          "slotId": "sleep-floor",
+          "active": true,
+          "powered": true,
+          "durability": 100,
+          "mk": 1
+        },
+        {
+          "id": "MI3",
+          "definitionId": "M003",
+          "slotId": "greenhouse-wall",
+          "active": true,
+          "powered": true,
+          "durability": 100,
+          "mk": 1
+        }
+      ],
+      "decorations": [
+        {
+          "id": "lantern",
+          "carriageId": "sleep",
+          "slotId": "sleep-hook",
+          "x": 18,
+          "y": 34
+        },
+        {
+          "id": "radio",
+          "carriageId": "workshop",
+          "slotId": "workshop-radio",
+          "x": 19,
+          "y": 34
+        },
+        {
+          "id": "toolbox",
+          "carriageId": "defense",
+          "slotId": "defense-bench",
+          "x": 19,
+          "y": 67
+        },
+        {
+          "id": "fern",
+          "carriageId": "greenhouse",
+          "slotId": "greenhouse-sill",
+          "x": 78,
+          "y": 43
+        }
+      ],
+      "crops": [
+        {
+          "id": "plot-a",
+          "stage": 0,
+          "dryDays": 0
+        },
+        {
+          "id": "plot-b",
+          "stage": 0,
+          "dryDays": 0
+        }
+      ],
+      "story": {
+        "version": 3,
+        "flags": {
+          "signalSampleQuality": "none",
+          "extraBunk": false,
+          "duplicateCoordinate": false,
+          "day4Route": null,
+          "rosterGap": false,
+          "rosterMatch": "unchecked",
+          "a07IdentityKnown": false,
+          "clause7Read": false,
+          "authorKnown": false,
+          "trueRouteData": false,
+          "routeSampleCount": 0,
+          "manifestCrossChecks": 0,
+          "isolationTraceCount": 0,
+          "hailed": false,
+          "quarantinePrepared": false,
+          "overrideUsed": false,
+          "controlReturned": false,
+          "toldTruth": false,
+          "decoderInstalled": false,
+          "decoderCalibrated": false,
+          "a07MovedObject": false,
+          "badgePocketed": false,
+          "overrideTechUnlocked": false,
+          "identityMismatchVerified": false
+        },
+        "cargoConversion": "none",
+        "finaleStage": "inactive",
+        "completedContactWaves": 0,
+        "finaleHealthBuffer": 0,
+        "finalDecision": null,
+        "queue": [],
+        "seenEventIds": [],
+        "endingId": null,
+        "endingReasons": [],
+        "dawnLogIds": [],
+        "whiteFrost": null,
+        "greenTide": null
+      },
+      "techOwned": [],
+      "flags": [
+        "handover:D1:roof",
+        "v2-module-visibility:-8",
+        "handover:checked:D1",
+        "handover:matched:D1"
+      ],
+      "ledger": [
+        {
+          "id": "8e876b8f-9509-46bb-9425-ddbd439798b8",
+          "at": 1792304560840,
+          "source": "night.power-grid",
+          "key": "energy",
+          "before": 75,
+          "delta": -9,
+          "after": 66
+        },
+        {
+          "id": "a7436e84-aee5-4d0a-b304-0ec41b62ade0",
+          "at": 1792304560840,
+          "source": "night.heating",
+          "key": "temperature",
+          "before": 18,
+          "delta": 4,
+          "after": 22
+        },
+        {
+          "id": "3887b50f-e89b-4f3b-aba3-efe027e6499a",
+          "at": 1792304560840,
+          "source": "module.visibility",
+          "key": "visibility",
+          "before": 42,
+          "delta": -8,
+          "after": 34
+        }
+      ],
+      "quests": {
+        "version": 1,
+        "runId": "run-f0076a1a-840f-41b5-8a1c-27c228552341",
+        "routeId": "R01",
+        "createdDay": 1,
+        "sequence": 2,
+        "consumedEventIds": [
+          "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:passenger-breathing:action.committed",
+          "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:window-silhouette:action.committed"
+        ],
+        "consumedEventKeys": [
+          "action.committed:D1:inspect:passenger-breathing",
+          "action.committed:D1:inspect:window-silhouette"
+        ],
+        "eventHistory": [
+          {
+            "transactionId": "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:passenger-breathing",
+            "operation": "inspect",
+            "targetId": "passenger-breathing",
+            "result": "success",
+            "eventId": "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:passenger-breathing:action.committed",
+            "runId": "run-f0076a1a-840f-41b5-8a1c-27c228552341",
+            "routeId": "R01",
+            "day": 1,
+            "sequence": 1,
+            "type": "action.committed",
+            "dedupKey": "action.committed:D1:inspect:passenger-breathing"
+          },
+          {
+            "transactionId": "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:window-silhouette",
+            "operation": "inspect",
+            "targetId": "window-silhouette",
+            "result": "success",
+            "eventId": "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:window-silhouette:action.committed",
+            "runId": "run-f0076a1a-840f-41b5-8a1c-27c228552341",
+            "routeId": "R01",
+            "day": 1,
+            "sequence": 2,
+            "type": "action.committed",
+            "dedupKey": "action.committed:D1:inspect:window-silhouette"
+          }
+        ],
+        "missions": {
+          "MAIN-R01-N01": {
+            "id": "MAIN-R01-N01",
+            "lifecycle": "active",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "startedDay": 1
+          },
+          "MAIN-R01-N02": {
+            "id": "MAIN-R01-N02",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "MAIN-R01-N03": {
+            "id": "MAIN-R01-N03",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "MAIN-R01-N04": {
+            "id": "MAIN-R01-N04",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "MAIN-R01-N05": {
+            "id": "MAIN-R01-N05",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "MAIN-R01-N06": {
+            "id": "MAIN-R01-N06",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "MAIN-R01-N07": {
+            "id": "MAIN-R01-N07",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "MAIN-R02-N01": {
+            "id": "MAIN-R02-N01",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R02-N02": {
+            "id": "MAIN-R02-N02",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R02-N03": {
+            "id": "MAIN-R02-N03",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R02-N04": {
+            "id": "MAIN-R02-N04",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R02-N05": {
+            "id": "MAIN-R02-N05",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R02-N06": {
+            "id": "MAIN-R02-N06",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R02-N07": {
+            "id": "MAIN-R02-N07",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R03-N01": {
+            "id": "MAIN-R03-N01",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R03-N02": {
+            "id": "MAIN-R03-N02",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R03-N03": {
+            "id": "MAIN-R03-N03",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R03-N04": {
+            "id": "MAIN-R03-N04",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R03-N05": {
+            "id": "MAIN-R03-N05",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R03-N06": {
+            "id": "MAIN-R03-N06",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "MAIN-R03-N07": {
+            "id": "MAIN-R03-N07",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "TUT-01": {
+            "id": "TUT-01",
+            "lifecycle": "completed",
+            "result": "completed",
+            "progress": [
+              {
+                "count": 1,
+                "matchedEventIds": [
+                  "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:passenger-breathing:action.committed"
+                ]
+              },
+              {
+                "count": 1,
+                "matchedEventIds": [
+                  "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:window-silhouette:action.committed"
+                ]
+              }
+            ],
+            "startedDay": 1,
+            "settledDay": 1
+          },
+          "TUT-02": {
+            "id": "TUT-02",
+            "lifecycle": "available",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "startedDay": 1
+          },
+          "TUT-03": {
+            "id": "TUT-03",
+            "lifecycle": "available",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "startedDay": 1
+          },
+          "TUT-04": {
+            "id": "TUT-04",
+            "lifecycle": "available",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "startedDay": 1
+          },
+          "TUT-05": {
+            "id": "TUT-05",
+            "lifecycle": "available",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "startedDay": 1
+          },
+          "REL-A07-01": {
+            "id": "REL-A07-01",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "REL-A07-02": {
+            "id": "REL-A07-02",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "REL-A07-03": {
+            "id": "REL-A07-03",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "REL-A07-04": {
+            "id": "REL-A07-04",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "REL-A07-05": {
+            "id": "REL-A07-05",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "REL-XU-01": {
+            "id": "REL-XU-01",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "REL-XU-02": {
+            "id": "REL-XU-02",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "REL-XU-03": {
+            "id": "REL-XU-03",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "REL-XU-04": {
+            "id": "REL-XU-04",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "REL-XU-05": {
+            "id": "REL-XU-05",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "FAC-01": {
+            "id": "FAC-01",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "FAC-02": {
+            "id": "FAC-02",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "FAC-03": {
+            "id": "FAC-03",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "FAC-04": {
+            "id": "FAC-04",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "FAC-05": {
+            "id": "FAC-05",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "FAC-06": {
+            "id": "FAC-06",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "FAC-07": {
+            "id": "FAC-07",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "FAC-08": {
+            "id": "FAC-08",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "EXP-R01-01": {
+            "id": "EXP-R01-01",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "EXP-R01-02": {
+            "id": "EXP-R01-02",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "EXP-R02-01": {
+            "id": "EXP-R02-01",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "EXP-R02-02": {
+            "id": "EXP-R02-02",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "EXP-R03-01": {
+            "id": "EXP-R03-01",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "EXP-R03-02": {
+            "id": "EXP-R03-02",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "reason": "route-unavailable"
+          },
+          "CH-01": {
+            "id": "CH-01",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "CH-02": {
+            "id": "CH-02",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "CH-03": {
+            "id": "CH-03",
+            "lifecycle": "available",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "startedDay": 1
+          },
+          "CH-04": {
+            "id": "CH-04",
+            "lifecycle": "locked",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ]
+          },
+          "CH-05": {
+            "id": "CH-05",
+            "lifecycle": "available",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              },
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "startedDay": 1
+          },
+          "CH-06": {
+            "id": "CH-06",
+            "lifecycle": "available",
+            "result": null,
+            "progress": [
+              {
+                "count": 0,
+                "matchedEventIds": []
+              }
+            ],
+            "startedDay": 1
+          }
+        },
+        "trackedMissionIds": [],
+        "branchChoices": {},
+        "rewardReceipts": [],
+        "journalEntries": []
+      },
+      "voyage": {
+        "version": 2,
+        "stoppedDays": {},
+        "expeditions": [],
+        "relationships": {},
+        "facilityChoices": {},
+        "facilities": {},
+        "settlementIds": [],
+        "nightSummaries": [],
+        "inspectedIds": [
+          "D1:passenger-breathing",
+          "D1:window-silhouette"
+        ],
+        "nightStartWakeups": 0
+      },
+      "ended": false,
+      "lastMessage": "今夜耗電 9 E；所有排程設備供電正常。 遠距感測出現異常，等待方向確認。接觸 1/1。",
+      "selectedRouteNodeId": "RN01",
+      "nightStartLedgerIndex": 0,
+      "activeContact": {
+        "id": "contact-1-1",
+        "definitionId": "T003",
+        "stage": "approach",
+        "secondsLeft": 36,
+        "wave": 1,
+        "totalWaves": 1
+      }
+    },
+    "wave": 1,
+    "warning": 31.984,
+    "countered": 0,
+    "impacts": 0,
+    "shake": {
+      "left": 0,
+      "right": 0,
+      "cooldownLeft": 0
+    },
+    "defenseBatch": 0,
+    "baitCooldown": 0,
+    "divertedGroups": [],
+    "diversion": {}
+  },
+  "log": [
+    "甩落 2 隻！連鎖回收補給。",
+    "甩落 1 隻！",
+    "甩落 1 隻！",
+    "甩落 1 隻！",
+    "段落完成，補給 +4。輪班疲勞已記入行車簿。",
+    "西側攔截：已花 1 補給。只引西線，慢速拖住；東線會繼續前進。",
+    "第 1 批來敵已進場，留意裝車區。",
+    "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+    "第 2 批來敵已進場，留意裝車區。",
+    "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+    "第 3 批來敵已進場，留意裝車區。",
+    "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+    "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+    "段落完成，補給 +9。輪班疲勞已記入行車簿。",
+    "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。",
+    "交接已封存，首波預警 32 秒（含交接判讀結果；後續每波依輪班）。"
+  ],
+  "receipts": [
+    "segment:0",
+    "segment:1"
+  ],
+  "archives": {},
+  "sound": true,
+  "reduced": false,
+  "lastReport": "13 隻敵人被誘餌改道。同行者搶修車體 +10％。回收補給可在列車反制或整備護具。",
+  "reward": 9,
+  "crew": {
+    "fatigue": [
+      2,
+      2,
+      0
+    ],
+    "plan": {
+      "driver": 0,
+      "watch": 1,
+      "rest": 2
+    },
+    "rested": 2,
+    "applied": 2,
+    "shield": 0,
+    "driftPenalty": 1.5,
+    "warningPenalty": 4,
+    "history": [
+      {
+        "segment": 0,
+        "plan": {
+          "driver": 0,
+          "watch": 1,
+          "rest": 2
+        },
+        "fatigue": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "segment": 1,
+        "plan": {
+          "driver": 0,
+          "watch": 1,
+          "rest": 2
+        },
+        "fatigue": [
+          2,
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  "relay": {
+    "0": "rescue"
+  },
+  "repairCredit": 0,
+  "defenseRetries": [
+    0,
+    0,
+    0
+  ],
+  "relayResults": {
+    "0": {
+      "before": 61,
+      "repaired": 0,
+      "stored": 0
+    }
+  }
+}

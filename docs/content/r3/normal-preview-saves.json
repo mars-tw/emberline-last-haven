@@ -1,0 +1,466 @@
+[
+  {
+    "schema": 1,
+    "version": "0.11.3",
+    "screen": "play",
+    "segment": 1,
+    "supplies": 11,
+    "people": 8,
+    "hull": 90,
+    "level": 1,
+    "progress": {
+      "time": 0,
+      "x": 180,
+      "cooldown": 0,
+      "spawn": 0,
+      "shot": 0,
+      "enemies": [],
+      "shots": [],
+      "serial": 0,
+      "flung": 0,
+      "kills": 0,
+      "rescued": 0,
+      "bait": "center",
+      "baitLeft": 0,
+      "attracted": 0,
+      "started": false,
+      "night": null,
+      "wave": 0,
+      "warning": 0,
+      "countered": 0,
+      "impacts": 0,
+      "shake": {
+        "left": 0,
+        "right": 0,
+        "cooldownLeft": 0
+      },
+      "defenseBatch": 0,
+      "baitCooldown": 0,
+      "divertedGroups": [],
+      "diversion": {}
+    },
+    "log": [
+      "南岸電台：北方燈塔仍在發訊。",
+      "等敵人攀上車，再甩尾。",
+      "甩落 2 隻！連鎖回收補給。",
+      "甩落 1 隻！",
+      "甩落 1 隻！",
+      "甩落 2 隻！連鎖回收補給。",
+      "甩落 1 隻！",
+      "甩落 1 隻！",
+      "甩落 2 隻！連鎖回收補給。",
+      "段落完成，補給 +4。輪班疲勞已記入行車簿。",
+      "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。"
+    ],
+    "receipts": [
+      "segment:0"
+    ],
+    "archives": {},
+    "sound": true,
+    "reduced": false,
+    "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 3。",
+    "reward": 4,
+    "crew": {
+      "fatigue": [
+        1,
+        0,
+        1
+      ],
+      "plan": {
+        "driver": 0,
+        "watch": 1,
+        "rest": 2
+      },
+      "rested": 1,
+      "applied": 1,
+      "shield": 1,
+      "driftPenalty": 0.75,
+      "warningPenalty": 0,
+      "history": [
+        {
+          "segment": 0,
+          "plan": {
+            "driver": 0,
+            "watch": 2,
+            "rest": 1
+          },
+          "fatigue": [
+            1,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "relay": {},
+    "repairCredit": 0,
+    "defenseRetries": [
+      0,
+      0,
+      0
+    ],
+    "relayResults": {}
+  },
+  {
+    "schema": 1,
+    "version": "0.11.3",
+    "screen": "play",
+    "segment": 4,
+    "supplies": 16,
+    "people": 15,
+    "hull": 90,
+    "level": 2,
+    "progress": {
+      "time": 0,
+      "x": 180,
+      "cooldown": 0,
+      "spawn": 0,
+      "shot": 0,
+      "enemies": [],
+      "shots": [],
+      "serial": 0,
+      "flung": 0,
+      "kills": 0,
+      "rescued": 0,
+      "bait": "center",
+      "baitLeft": 0,
+      "attracted": 0,
+      "started": false,
+      "night": null,
+      "wave": 0,
+      "warning": 0,
+      "countered": 0,
+      "impacts": 0,
+      "shake": {
+        "left": 0,
+        "right": 0,
+        "cooldownLeft": 0
+      },
+      "defenseBatch": 0,
+      "baitCooldown": 0,
+      "divertedGroups": [],
+      "diversion": {}
+    },
+    "log": [
+      "安擋下這次撞擊！車體未受損，擋擊 1→0（車頂）。 第 2 波接觸：先看訊號再反制。",
+      "百葉封住敲窗者。",
+      "百葉封住敲窗者。 第 3 波接觸：先看訊號再反制。",
+      "扣具切離，車頂的拖曳聲消失了。",
+      "段落完成，補給 +4。輪班疲勞已記入行車簿。",
+      "等敵人攀上車，再甩尾。",
+      "老席擋下這次撞擊！車體未受損，擋擊 1→0（車頂）。",
+      "甩落 1 隻！",
+      "甩落 1 隻！",
+      "甩落 1 隻！",
+      "甩落 2 隻！連鎖回收補給。",
+      "甩落 1 隻！",
+      "甩落 1 隻！",
+      "甩落 2 隻！連鎖回收補給。",
+      "段落完成，補給 +5。輪班疲勞已記入行車簿。",
+      "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。"
+    ],
+    "receipts": [
+      "segment:0",
+      "segment:1",
+      "segment:2",
+      "segment:3"
+    ],
+    "archives": {},
+    "sound": true,
+    "reduced": false,
+    "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 7。",
+    "reward": 5,
+    "crew": {
+      "fatigue": [
+        1,
+        0,
+        2
+      ],
+      "plan": {
+        "driver": 0,
+        "watch": 1,
+        "rest": 2
+      },
+      "rested": 1,
+      "applied": 4,
+      "shield": 1,
+      "driftPenalty": 0.75,
+      "warningPenalty": 0,
+      "history": [
+        {
+          "segment": 0,
+          "plan": {
+            "driver": 0,
+            "watch": 2,
+            "rest": 1
+          },
+          "fatigue": [
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "segment": 1,
+          "plan": {
+            "driver": 0,
+            "watch": 1,
+            "rest": 2
+          },
+          "fatigue": [
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "segment": 2,
+          "plan": {
+            "driver": 1,
+            "watch": 2,
+            "rest": 0
+          },
+          "fatigue": [
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "segment": 3,
+          "plan": {
+            "driver": 2,
+            "watch": 0,
+            "rest": 1
+          },
+          "fatigue": [
+            1,
+            0,
+            2
+          ]
+        }
+      ]
+    },
+    "relay": {
+      "0": "rescue"
+    },
+    "repairCredit": 0,
+    "defenseRetries": [
+      0,
+      0,
+      0
+    ],
+    "relayResults": {
+      "0": {
+        "before": 100,
+        "repaired": 0,
+        "stored": 0
+      }
+    }
+  },
+  {
+    "schema": 1,
+    "version": "0.11.3",
+    "screen": "play",
+    "segment": 7,
+    "supplies": 24,
+    "people": 20,
+    "hull": 100,
+    "level": 3,
+    "progress": {
+      "time": 0,
+      "x": 180,
+      "cooldown": 0,
+      "spawn": 0,
+      "shot": 0,
+      "enemies": [],
+      "shots": [],
+      "serial": 0,
+      "flung": 0,
+      "kills": 0,
+      "rescued": 0,
+      "bait": "center",
+      "baitLeft": 0,
+      "attracted": 0,
+      "started": false,
+      "night": null,
+      "wave": 0,
+      "warning": 0,
+      "countered": 0,
+      "impacts": 0,
+      "shake": {
+        "left": 0,
+        "right": 0,
+        "cooldownLeft": 0
+      },
+      "defenseBatch": 0,
+      "baitCooldown": 0,
+      "divertedGroups": [],
+      "diversion": {}
+    },
+    "log": [
+      "甩落 1 隻！",
+      "備用零件自動維修 +1％，剩 14％。",
+      "備用零件自動維修 +1％，剩 13％。",
+      "備用零件自動維修 +1％，剩 12％。",
+      "甩落 2 隻！連鎖回收補給。",
+      "備用零件自動維修 +1％，剩 11％。",
+      "甩落 1 隻！",
+      "備用零件自動維修 +1％，剩 10％。",
+      "備用零件自動維修 +1％，剩 9％。",
+      "甩落 1 隻！",
+      "備用零件自動維修 +1％，剩 8％。",
+      "備用零件自動維修 +1％，剩 7％。",
+      "備用零件自動維修 +1％，剩 6％。",
+      "甩落 2 隻！連鎖回收補給。",
+      "段落完成，補給 +5。輪班疲勞已記入行車簿。",
+      "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。"
+    ],
+    "receipts": [
+      "segment:0",
+      "segment:1",
+      "segment:2",
+      "segment:3",
+      "segment:4",
+      "segment:5",
+      "segment:6"
+    ],
+    "archives": {},
+    "sound": true,
+    "reduced": false,
+    "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +0％。守衛火力現為 9。",
+    "reward": 5,
+    "crew": {
+      "fatigue": [
+        1,
+        0,
+        2
+      ],
+      "plan": {
+        "driver": 0,
+        "watch": 1,
+        "rest": 2
+      },
+      "rested": 1,
+      "applied": 7,
+      "shield": 1,
+      "driftPenalty": 0.75,
+      "warningPenalty": 0,
+      "history": [
+        {
+          "segment": 0,
+          "plan": {
+            "driver": 0,
+            "watch": 2,
+            "rest": 1
+          },
+          "fatigue": [
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "segment": 1,
+          "plan": {
+            "driver": 0,
+            "watch": 1,
+            "rest": 2
+          },
+          "fatigue": [
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "segment": 2,
+          "plan": {
+            "driver": 1,
+            "watch": 2,
+            "rest": 0
+          },
+          "fatigue": [
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "segment": 3,
+          "plan": {
+            "driver": 2,
+            "watch": 0,
+            "rest": 1
+          },
+          "fatigue": [
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "segment": 4,
+          "plan": {
+            "driver": 0,
+            "watch": 1,
+            "rest": 2
+          },
+          "fatigue": [
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "segment": 5,
+          "plan": {
+            "driver": 1,
+            "watch": 2,
+            "rest": 0
+          },
+          "fatigue": [
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "segment": 6,
+          "plan": {
+            "driver": 2,
+            "watch": 0,
+            "rest": 1
+          },
+          "fatigue": [
+            1,
+            0,
+            2
+          ]
+        }
+      ]
+    },
+    "relay": {
+      "0": "rescue",
+      "1": "repair"
+    },
+    "repairCredit": 6,
+    "defenseRetries": [
+      0,
+      0,
+      0
+    ],
+    "relayResults": {
+      "0": {
+        "before": 100,
+        "repaired": 0,
+        "stored": 0
+      },
+      "1": {
+        "before": 100,
+        "repaired": 0,
+        "stored": 18
+      }
+    }
+  }
+]

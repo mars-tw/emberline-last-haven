@@ -1,0 +1,37 @@
+{
+  "status": "VERIFIED",
+  "version": "0.8.0",
+  "finalCommand": "npm run check",
+  "finalExitCode": 0,
+  "rawExecutionLogSha256": "fee825bf51deb1c11238b11e684f7a3e33e82cadc5ed6297472b3176764ca349",
+  "logFormatting": "Terminal line endings and trailing whitespace normalized; execution content retained",
+  "indexSha256": "ebca6ce4fe61e95fc7f779f9144c6db96e42fa421a8e95144ed8cf5498c85c7f",
+  "vitestPassed": 125,
+  "legacyBrowserCases": 95,
+  "contentR1Cases": 54,
+  "contentR2Cases": 24,
+  "contentR2OriginalSizeCaptures": 75,
+  "generatedAssets": 2,
+  "newStoreScreenshots": 2,
+  "secretHits": 0,
+  "sourceFiles": 73,
+  "maxMedianWorkP95Ms": 0.5,
+  "maxMedianFrameP95Ms": 16.799999999999727,
+  "physicalDevices": 0,
+  "humanParticipants": 0,
+  "independentContentMuseScore": null,
+  "resolvedIssues": [
+    "Native WebKit cancel required a virtual UI frame before original exact assertions",
+    "Subsecond trajectory test now reads same-frame read-only render telemetry instead of one-second save checkpoints",
+    "Lure feedback follows the painted crowd positions"
+  ],
+  "artifacts": {
+    "docs/content/r2/receipt.json": "27db3481b9fac747267867c7ba3b20320cb6ebdcf9874631aa1f76a35b0111a9",
+    "docs/content/r2/check-output.txt": "c3b1f03496d668270dd10ca1f15b26b4bdabe8599fb7b55ae9b9781b8737bf30",
+    "docs/content/r2/resolved-check-attempts.txt": "33d49b164c3751580ffb6e4557a0037ff8e4145775ed3233cea69db8cc46ea75",
+    "docs/evidence/unit-tests.json": "08c31ef6d8bbc9050cff8515a516362713296552bcf791946b10f5bf1eed1f8f",
+    "docs/evidence/browser.json": "ef6b978f5cc2e0c11c52cf1c3fea40271087fa317d263ad881ef8e1ac23acf5e",
+    "docs/evidence/performance.json": "22e78ada4bd219d0248e1f4d0b2c999b316212451bd7bcbea9f157ed0029d24f",
+    "docs/evidence/repository-gates.json": "e30323f161db7542bd49d14ebebcffc4f4b06a96f68ce81daaefc00231b4c006"
+  }
+}

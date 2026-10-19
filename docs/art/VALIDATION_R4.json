@@ -1,0 +1,105 @@
+{
+  "status": "VERIFIED",
+  "scope": "Implementation and regression evidence; human acceptance remains BLOCKED",
+  "version": "0.5.0",
+  "command": "npm run check",
+  "exitCode": 0,
+  "log": {
+    "path": "docs/evidence/check-r4.txt",
+    "sha256": "39e46ddc08e27e6421f8e6caa302854bba42a56c5dca9a25f962c82dabfb01c2",
+    "normalization": "UTF-8 LF; trailing whitespace removed only"
+  },
+  "indexSha256": "e2bbcae5ea94ef4a88d93cdae6344f996e5d38183ba3aa5fecccf8dd6c3ffece",
+  "unitTests": 86,
+  "browserCases": 95,
+  "edgeCases": 5,
+  "originalSizeComparisons": 49,
+  "storeScreenshots": 10,
+  "generatedAssets": 9,
+  "runtimeFiles": 26,
+  "runtimeAddedBytes": 3873603,
+  "publicBytes": 19954199,
+  "secretHits": 0,
+  "sourceFilesUnchanged": 73,
+  "shippingQualified": false,
+  "performance": [
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "runs": [
+        {
+          "p95": 0.3000001907348633,
+          "frameIntervalP95": 16.700000000000728,
+          "sampleCount": 332,
+          "entities": 3
+        },
+        {
+          "p95": 0.40000009536743164,
+          "frameIntervalP95": 16.799999999999955,
+          "sampleCount": 332,
+          "entities": 3
+        },
+        {
+          "p95": 0.3000001907348633,
+          "frameIntervalP95": 16.700000000000728,
+          "sampleCount": 332,
+          "entities": 3
+        }
+      ],
+      "medianP95": 0.3000001907348633,
+      "medianFrameIntervalP95": 16.700000000000728,
+      "thresholdMs": 18,
+      "pass": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "runs": [
+        {
+          "p95": 0.2999999523162842,
+          "frameIntervalP95": 16.799999999999727,
+          "sampleCount": 332,
+          "entities": 3
+        },
+        {
+          "p95": 0.2999999523162842,
+          "frameIntervalP95": 16.799999999999727,
+          "sampleCount": 332,
+          "entities": 3
+        },
+        {
+          "p95": 0.39999985694885254,
+          "frameIntervalP95": 16.799999999999727,
+          "sampleCount": 332,
+          "entities": 3
+        }
+      ],
+      "medianP95": 0.2999999523162842,
+      "medianFrameIntervalP95": 16.799999999999727,
+      "thresholdMs": 18,
+      "pass": true
+    }
+  ],
+  "acceptanceBlockers": [
+    {
+      "status": "BLOCKED",
+      "required": ">=80%",
+      "reason": "No recruited human participants; supplied unlabelled 64px five-scene sheet is not a measured recognition score."
+    },
+    {
+      "status": "BLOCKED",
+      "reason": "Permanent landmarks visually cross-checked by executor, no independent text-covered human test."
+    },
+    {
+      "status": "BLOCKED",
+      "target": ">=8/10",
+      "lastHistoricalMuse": 7.4,
+      "reason": "No new independent review was commissioned; user prohibits external delegation."
+    }
+  ],
+  "previewPort4179Closed": true
+}

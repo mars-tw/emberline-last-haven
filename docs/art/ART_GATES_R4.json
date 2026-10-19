@@ -1,0 +1,686 @@
+{
+  "status": "VERIFIED",
+  "archiveAssetRound": 4,
+  "runtimeRegressionRound": 5,
+  "generatedAssets": 9,
+  "runtimeFiles": 26,
+  "runtimeAddedBytes": 3873603,
+  "publicBytes": 26463752,
+  "checks": [
+    {
+      "path": "public/art/r4/xi-front.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.379668775966332,
+      "nearBlack": 0.1410087593748211,
+      "saturation": 0.531003337385793,
+      "lowSaturation": 0.04459838552699376
+    },
+    {
+      "path": "public/art/r4/xi-side.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.3497317302849134,
+      "nearBlack": 0.15222390118914658,
+      "saturation": 0.5324882676281866,
+      "lowSaturation": 0.03974771696997569
+    },
+    {
+      "path": "public/art/r4/xi-back.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.3411496447854504,
+      "nearBlack": 0.14544927536231883,
+      "saturation": 0.551779255470304,
+      "lowSaturation": 0.006666666666666667
+    },
+    {
+      "path": "public/art/r4/xi-portrait.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.4610262745585372,
+      "nearBlack": 0.12286152189221657,
+      "saturation": 0.6482683840281483,
+      "lowSaturation": 0.04577275175013463
+    },
+    {
+      "path": "public/art/r4/xi-gunner.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.4072652493938515,
+      "nearBlack": 0.16783630143877654,
+      "saturation": 0.5824493133605188,
+      "lowSaturation": 0.08991095683670389,
+      "adjacentAlphaDifference": [
+        0.12638346354166666,
+        0.1582573784722222,
+        0.1562228732638889
+      ]
+    },
+    {
+      "path": "public/art/r4/outpost-ready.webp",
+      "hashSizeFormat": true
+    },
+    {
+      "path": "public/art/r4/xi-night.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.40248080671390185,
+      "nearBlack": 0.1447182101387709,
+      "saturation": 0.5678053850126418,
+      "lowSaturation": 0.0723917826721565,
+      "adjacentAlphaDifference": [
+        0.12013753255208333,
+        0.178955078125,
+        0.1868896484375
+      ]
+    },
+    {
+      "path": "public/art/r4/climber-attack.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.3721863078324336,
+      "nearBlack": 0.13320115356885365,
+      "saturation": 0.4196655013844038,
+      "lowSaturation": 0.0676949222370996,
+      "adjacentAlphaDifference": [
+        0.1281467013888889,
+        0.2956000434027778,
+        0.3306206597222222
+      ]
+    },
+    {
+      "path": "public/art/r4/panel.webp",
+      "hashSizeFormat": true
+    },
+    {
+      "path": "public/art/r4/panel-tall.webp",
+      "hashSizeFormat": true
+    },
+    {
+      "path": "public/art/r4/supply.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r4/people.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r4/hull.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r4/armor.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r4/logo.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true
+    },
+    {
+      "path": "public/art/r4/app-192.png",
+      "hashSizeFormat": true
+    },
+    {
+      "path": "public/art/r4/app-512.png",
+      "hashSizeFormat": true
+    },
+    {
+      "path": "public/art/r4/xi-attack.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.3890496048017029,
+      "nearBlack": 0.1272137211452899,
+      "saturation": 0.4956107210388911,
+      "lowSaturation": 0.07910945160783767,
+      "adjacentAlphaDifference": [
+        0.13700358072916666,
+        0.22684733072916666,
+        0.24308268229166666
+      ]
+    },
+    {
+      "path": "public/art/r4/runner-walk.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.4316610183167917,
+      "nearBlack": 0.0728395061728395,
+      "saturation": 0.41566715081094163,
+      "lowSaturation": 0.0021604938271604936,
+      "adjacentAlphaDifference": [
+        0.20231119791666666,
+        0.14640299479166666,
+        0.3333062065972222
+      ]
+    },
+    {
+      "path": "public/art/r4/runner-attack.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.4260997112591345,
+      "nearBlack": 0.07682530188044413,
+      "saturation": 0.416575514276143,
+      "lowSaturation": 0.00231784365770683,
+      "adjacentAlphaDifference": [
+        0.17494032118055555,
+        0.2719184027777778,
+        0.2204047309027778
+      ]
+    },
+    {
+      "path": "public/art/r4/runner-hurt.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.4386090252742851,
+      "nearBlack": 0.07166915794718486,
+      "saturation": 0.4199317291440741,
+      "lowSaturation": 0.0023119083208769306,
+      "adjacentAlphaDifference": [
+        0.110595703125,
+        0.21690538194444445,
+        0.2628851996527778
+      ]
+    },
+    {
+      "path": "public/art/r4/runner-death.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.45402265964751654,
+      "nearBlack": 0.06951023515479614,
+      "saturation": 0.4242124188535167,
+      "lowSaturation": 0.003129758078159364,
+      "adjacentAlphaDifference": [
+        0.2140570746527778,
+        0.2280002170138889,
+        0.17616102430555555
+      ]
+    },
+    {
+      "path": "public/art/r4/shambler-walk.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.4786132426295177,
+      "nearBlack": 0.026472023422251138,
+      "saturation": 0.39061985724673737,
+      "lowSaturation": 0.00012199089134677944,
+      "adjacentAlphaDifference": [
+        0.14756944444444445,
+        0.1672634548611111,
+        0.1611870659722222
+      ]
+    },
+    {
+      "path": "public/art/r4/shambler-attack.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.4838150444785298,
+      "nearBlack": 0.026465344328058835,
+      "saturation": 0.3912226461047238,
+      "lowSaturation": 0.00013000520020800833,
+      "adjacentAlphaDifference": [
+        0.2118869357638889,
+        0.2134331597222222,
+        0.20567491319444445
+      ]
+    },
+    {
+      "path": "public/art/r4/shambler-hurt.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.49243165096241126,
+      "nearBlack": 0.023202928560863777,
+      "saturation": 0.38816670581854984,
+      "lowSaturation": 0.00012941872504067446,
+      "adjacentAlphaDifference": [
+        0.2292751736111111,
+        0.1701388888888889,
+        0.2157931857638889
+      ]
+    },
+    {
+      "path": "public/art/r4/shambler-death.png",
+      "hashSizeFormat": true,
+      "cornersTransparent": true,
+      "invisibleRGBZero": true,
+      "brightness": 0.4962264922656588,
+      "nearBlack": 0.02311713170875359,
+      "saturation": 0.3904226688589495,
+      "lowSaturation": 4.908095904193968e-05,
+      "adjacentAlphaDifference": [
+        0.22813585069444445,
+        0.1626247829861111,
+        0.11897786458333333
+      ]
+    }
+  ],
+  "runtime": [
+    {
+      "path": "docs/art/compare/r5-after/small-departure.png",
+      "minimumTextSideFraction": 0.06932291666666666,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/narrow-departure.png",
+      "minimumTextSideFraction": 0.06879595588235295,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/phone-departure.png",
+      "minimumTextSideFraction": 0.06849662162162162,
+      "paperReduction": 0.2021276595744681,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/tablet-departure.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/landscape-departure.png",
+      "minimumTextSideFraction": 0.07234042553191489,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/desktop-departure.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/wide-departure.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/small-convoy.png",
+      "minimumTextSideFraction": 0.06932291666666666,
+      "enemyCount": 2,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/narrow-convoy.png",
+      "minimumTextSideFraction": 0.06879595588235295,
+      "enemyCount": 2,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/phone-convoy.png",
+      "minimumTextSideFraction": 0.06849662162162162,
+      "paperReduction": 0.2021276595744681,
+      "enemyCount": 2,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/tablet-convoy.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 2,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/landscape-convoy.png",
+      "minimumTextSideFraction": 0.07234042553191489,
+      "enemyCount": 2,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/desktop-convoy.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 2,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/wide-convoy.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 2,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/small-bait.png",
+      "minimumTextSideFraction": 0.06932291666666666,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/narrow-bait.png",
+      "minimumTextSideFraction": 0.06879595588235295,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/phone-bait.png",
+      "minimumTextSideFraction": 0.06849662162162162,
+      "paperReduction": 0.2021276595744681,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/tablet-bait.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/landscape-bait.png",
+      "minimumTextSideFraction": 0.07234042553191489,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/desktop-bait.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/wide-bait.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/small-defense-active.png",
+      "minimumTextSideFraction": 0.06932291666666666,
+      "enemyCount": 4,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/narrow-defense-active.png",
+      "minimumTextSideFraction": 0.06879595588235295,
+      "enemyCount": 4,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/phone-defense-active.png",
+      "minimumTextSideFraction": 0.06849662162162162,
+      "paperReduction": 0.2021276595744681,
+      "enemyCount": 4,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/tablet-defense-active.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 4,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/landscape-defense-active.png",
+      "minimumTextSideFraction": 0.07234042553191489,
+      "enemyCount": 4,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/desktop-defense-active.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 4,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/wide-defense-active.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 4,
+      "maxSameEnemyPose": 1
+    },
+    {
+      "path": "docs/art/compare/r5-after/small-defense-crowd.png",
+      "minimumTextSideFraction": 0.06932291666666666,
+      "enemyCount": 9,
+      "maxSameEnemyPose": 2
+    },
+    {
+      "path": "docs/art/compare/r5-after/narrow-defense-crowd.png",
+      "minimumTextSideFraction": 0.06879595588235295,
+      "enemyCount": 9,
+      "maxSameEnemyPose": 2
+    },
+    {
+      "path": "docs/art/compare/r5-after/phone-defense-crowd.png",
+      "minimumTextSideFraction": 0.06849662162162162,
+      "paperReduction": 0.2021276595744681,
+      "enemyCount": 9,
+      "maxSameEnemyPose": 2
+    },
+    {
+      "path": "docs/art/compare/r5-after/tablet-defense-crowd.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 9,
+      "maxSameEnemyPose": 2
+    },
+    {
+      "path": "docs/art/compare/r5-after/landscape-defense-crowd.png",
+      "minimumTextSideFraction": 0.07234042553191489,
+      "enemyCount": 9,
+      "maxSameEnemyPose": 2
+    },
+    {
+      "path": "docs/art/compare/r5-after/desktop-defense-crowd.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 9,
+      "maxSameEnemyPose": 2
+    },
+    {
+      "path": "docs/art/compare/r5-after/wide-defense-crowd.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 9,
+      "maxSameEnemyPose": 2
+    },
+    {
+      "path": "docs/art/compare/r5-after/small-common-progress.png",
+      "minimumTextSideFraction": 0.06932291666666666,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/narrow-common-progress.png",
+      "minimumTextSideFraction": 0.06879595588235295,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/phone-common-progress.png",
+      "minimumTextSideFraction": 0.06849662162162162,
+      "paperReduction": 0.2021276595744681,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/tablet-common-progress.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/landscape-common-progress.png",
+      "minimumTextSideFraction": 0.07234042553191489,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/desktop-common-progress.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/wide-common-progress.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/small-night.png",
+      "minimumTextSideFraction": 0.06932291666666666,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/narrow-night.png",
+      "minimumTextSideFraction": 0.06879595588235295,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/phone-night.png",
+      "minimumTextSideFraction": 0.06849662162162162,
+      "paperReduction": 0.2021276595744681,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/tablet-night.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/landscape-night.png",
+      "minimumTextSideFraction": 0.07234042553191489,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/desktop-night.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/wide-night.png",
+      "minimumTextSideFraction": 0.075,
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/small-journal.png",
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/narrow-journal.png",
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/phone-journal.png",
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/tablet-journal.png",
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/landscape-journal.png",
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/desktop-journal.png",
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    },
+    {
+      "path": "docs/art/compare/r5-after/wide-journal.png",
+      "enemyCount": 0,
+      "maxSameEnemyPose": 0
+    }
+  ],
+  "storeScreenshots": 10,
+  "stateInjection": false,
+  "enemyContrast": [
+    {
+      "path": "public/art/r4/runner-walk.png",
+      "spriteV": 0.4316610183167917,
+      "groundRegionV": 0.3108310482351104,
+      "difference": 0.12082997008168134
+    },
+    {
+      "path": "public/art/r4/runner-attack.png",
+      "spriteV": 0.4260997112591345,
+      "groundRegionV": 0.3108310482351104,
+      "difference": 0.11526866302402411
+    },
+    {
+      "path": "public/art/r4/runner-hurt.png",
+      "spriteV": 0.4386090252742851,
+      "groundRegionV": 0.3108310482351104,
+      "difference": 0.1277779770391747
+    },
+    {
+      "path": "public/art/r4/runner-death.png",
+      "spriteV": 0.45402265964751654,
+      "groundRegionV": 0.3108310482351104,
+      "difference": 0.14319161141240616
+    },
+    {
+      "path": "public/art/r4/shambler-walk.png",
+      "spriteV": 0.4786132426295177,
+      "groundRegionV": 0.3108310482351104,
+      "difference": 0.16778219439440734
+    },
+    {
+      "path": "public/art/r4/shambler-attack.png",
+      "spriteV": 0.4838150444785298,
+      "groundRegionV": 0.3108310482351104,
+      "difference": 0.17298399624341942
+    },
+    {
+      "path": "public/art/r4/shambler-hurt.png",
+      "spriteV": 0.49243165096241126,
+      "groundRegionV": 0.3108310482351104,
+      "difference": 0.18160060272730089
+    },
+    {
+      "path": "public/art/r4/shambler-death.png",
+      "spriteV": 0.4962264922656588,
+      "groundRegionV": 0.3108310482351104,
+      "difference": 0.18539544403054842
+    }
+  ],
+  "humanBlindRecognition": {
+    "status": "BLOCKED",
+    "required": ">=80%",
+    "reason": "No recruited human participants; supplied unlabelled 64px five-scene sheet is not a measured recognition score."
+  },
+  "sameStationHumanTest": {
+    "status": "BLOCKED",
+    "reason": "Permanent landmarks visually cross-checked by executor, no independent text-covered human test."
+  },
+  "independentScore": {
+    "status": "BLOCKED",
+    "target": ">=9/10",
+    "lastHistoricalMuse": 8.0,
+    "reason": "No new independent review was commissioned; user prohibits external delegation."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "status": "VERIFIED",
+  "metrics": {
+    "brightness": 0.33701068474264706,
+    "nearBlack": 0.18310546875,
+    "saturation": 0.4619923406862745,
+    "lowSaturation": 0.1264453125
+  },
+  "alpha": "not_applicable: intentionally opaque portrait, no cutout requested",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "runtimeSize": [
+    320,
+    320
+  ],
+  "thumbnailSize": [
+    64,
+    64
+  ],
+  "offlineBytesIdentical": true,
+  "physicalDevices": 0,
+  "human64pxRecognition": "BLOCKED"
+}

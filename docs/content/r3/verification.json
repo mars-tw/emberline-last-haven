@@ -1,0 +1,54 @@
+{
+  "status": "VERIFIED",
+  "version": "0.9.0",
+  "verifiedAt": "2026-10-18T18:18:10.892Z",
+  "command": "npm run check",
+  "exitCode": 0,
+  "indexSha256": "c566f517e38ef1497927d1386a12950550d228b8b1134d429ba92cf77a19a5f9",
+  "unitTests": 141,
+  "browserCases": 95,
+  "edgeCases": 5,
+  "contentCases": {
+    "r1": 54,
+    "r2": 24,
+    "r3": 24
+  },
+  "reviewGroups": [
+    {
+      "name": "1．計數封頂與唯一倒數",
+      "evidence": 3,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "2．雙箱選前、獨立結果、無橫幅輪班",
+      "evidence": 10,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "3．側別標記、警告與實際轉向",
+      "evidence": 9,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "4．直向輪班、疲勞不變交換、實際擋擊",
+      "evidence": 7,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "5．第三章、雙翼警告與逐批重試",
+      "evidence": 10,
+      "status": "VERIFIED"
+    }
+  ],
+  "originalR3Captures": 87,
+  "secretHits": 0,
+  "performance": {
+    "context": "並發載量測，僅供參考",
+    "shippingQualified": false,
+    "maxMedianWorkP95": 0.5999999046325684,
+    "maxMedianIntervalP95": 16.799999999999272
+  },
+  "physicalDevices": 0,
+  "humanParticipants": 0,
+  "independentMuseScore": null
+}

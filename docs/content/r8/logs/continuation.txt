@@ -1,0 +1,145 @@
+
+PREPARED scripts/content-r5.mjs
+R5 normal segment 0
+R5 normal segment 1
+R5 normal segment 2
+R5 normal segment 3
+R5 normal segment 4
+R5 normal segment 5
+R5 normal segment 6
+R5 normal segment 7
+R5 normal segment 8
+VERIFIED R5 34 checks 46 originals, 15 review images
+VERIFIED R5 original index, three-view before/after evidence, explicit human-test boundary
+PREPARED scripts/content-r6.mjs
+R6 ordinary segment 0
+R6 ordinary segment 1
+R6 ordinary segment 2
+R6 ordinary segment 3
+R6 ordinary segment 4
+R6 ordinary segment 5
+R6 ordinary segment 6
+R6 ordinary segment 7
+R6 ordinary segment 8
+VERIFIED R6 36 checks 26 captures, 15 review originals
+PREPARED scripts/content-r7.mjs
+R7 ordinary segment 0
+R7 ordinary segment 1
+R7 ordinary segment 2
+R7 ordinary segment 3
+R7 ordinary segment 4
+R7 ordinary segment 5
+R7 ordinary segment 6
+R7 ordinary segment 7
+R7 ordinary segment 8
+VERIFIED R7 42 checks 42 captures; 15 review originals
+PREPARED scripts/content-r8.mjs
+VERIFIED R8: 50 checks, 60 originals, 15 review images
+PREPARED scripts/audit.mjs
+node.exe : warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+At C:\Users\digimkt\Desktop\遊戲\apocalypse-anthology\.audit-tmp\r8\run-tail.ps1:16 char:3
++   & node $script *>&1 | Out-File -Encoding UTF8 -Append -LiteralPath  ...
++   ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: in the... Git touches it:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+warning: in the working copy of 'docs/art/ART_GATES.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'docs/art/ART_GATES_CONTENT_R7.json', CRLF will be replaced by LF the next time Git tou
+ches it
+warning: in the working copy of 'docs/art/ART_GATES_R2.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'docs/art/ASSET_MANIFEST.json', CRLF will be replaced by LF the next time Git touches i
+t
+warning: in the working copy of 'docs/art/ASSET_MANIFEST_R2.json', CRLF will be replaced by LF the next time Git touche
+s it
+warning: in the working copy of 'docs/art/BLIND_64_R4_KEY.json', CRLF will be replaced by LF the next time Git touches
+it
+warning: in the working copy of 'package-lock.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'package.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/art-capture.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/art-r3-capture.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/art-r4-capture.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/art-r4-store.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/art-r5-capture.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/art-r5-store.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/audit.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/browser.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/content-r1.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/content-r2.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/content-r3-verify.mjs', CRLF will be replaced by LF the next time Git touches
+it
+warning: in the working copy of 'scripts/content-r3.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/content-r4-verify.mjs', CRLF will be replaced by LF the next time Git touches
+it
+warning: in the working copy of 'scripts/content-r4.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/content-r5.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/content-r6-layout.mjs', CRLF will be replaced by LF the next time Git touches
+it
+warning: in the working copy of 'scripts/content-r6-verify.mjs', CRLF will be replaced by LF the next time Git touches
+it
+warning: in the working copy of 'scripts/content-r6.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/content-r7-verify.mjs', CRLF will be replaced by LF the next time Git touches
+it
+warning: in the working copy of 'scripts/content-r7.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/deep-playtest.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/deep-verify.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/journey-inputs.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/art-layout.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/campaign.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/dispatch-view.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/feedback.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/journey.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/main.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/render.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/storage.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/style.css', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'tests/content-r2.test.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'tests/content-r5.test.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'tests/content-r6.test.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'tests/content-r7.test.ts', CRLF will be replaced by LF the next time Git touches it
+{
+  "status": "VERIFIED",
+  "version": "0.11.3",
+  "sourceFiles": 73,
+  "sourceResults": [
+    {
+      "repo": "ashes",
+      "head": "ace11fe95350cf6803b3fe5ca6815d320b09163c",
+      "statusUnchanged": true
+    },
+    {
+      "repo": "storm",
+      "head": "7a27333f69c072e7d4fb33419969cb8307317eb5",
+      "statusUnchanged": true
+    },
+    {
+      "repo": "train",
+      "head": "0698530e6ba21536e19017781be94dc3f98370e1",
+      "statusUnchanged": true
+    }
+  ],
+  "secretScan": {
+    "scannedFiles": 401,
+    "hits": 0,
+    "excluded": [
+      ".git",
+      "node_modules",
+      "dist",
+      ".audit-tmp",
+      "binary assets"
+    ],
+    "neverReadSecretsFolder": true
+  },
+  "storeScreenshots": 20,
+  "r2EvidenceCaptures": 75,
+  "r3EvidenceCaptures": 87,
+  "r4EvidenceCaptures": 101,
+  "r4ReviewSet": 15,
+  "r5EvidenceCaptures": 46,
+  "r5ReviewSet": 15,
+  "assets": 164,
+  "diffCheck": true,
+  "mainRepoOnly": true
+}
+VERIFIED R6 audit, 15 original review images, one generated illustration
+VERIFIED R7 audit, original review set, distinct receipt branches, offline portrait
+VERIFIED R8 audit, fixed identities and loss fields, 15 native phone review images, no new artwork

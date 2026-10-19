@@ -1,0 +1,81 @@
+{
+  "status": "VERIFIED",
+  "files": [
+    {
+      "sha256": "95a16b2de69d73beff6f6c305291a67373cb5a8e31ef7b81ba450d7fb66c7fdc",
+      "path": "docs/art/ART_RESCORE2_MUSE.md"
+    },
+    {
+      "sha256": "081e36e337d22772e16375028189ba4e176a4a89df26e7c1638ed8b444746851",
+      "path": "docs/art/ART_RESCORE3_MUSE.md"
+    },
+    {
+      "sha256": "880869ab95144b28bd941328fa3ef7fc5f815e57a597898b58960abba44b238e",
+      "path": "docs/art/ART_RESCORE4_MUSE.md"
+    },
+    {
+      "sha256": "68f807a9f0f7fa49cd15aae1b8880a128c0ea565ebfcb1f503afead94361ea92",
+      "path": "docs/art/ART_RESCORE5_MUSE.md"
+    },
+    {
+      "sha256": "96a9cab6c67648bde71ba688ed3f5e5910fd70c6be81bc74265c20ad9b6e19b1",
+      "path": "docs/art/ART_RESCORE_MUSE.md"
+    },
+    {
+      "sha256": "86cce92310d91d2fd451daa59428ef8c0bfcc01380ab0a0d66bd313eaaee4ffb",
+      "path": "docs/content/CONTENT_REVIEW_R1_MUSE.md"
+    },
+    {
+      "sha256": "3032c4631147a8f03335cae3d1e939f2cca140d507604ed0fe94eea8208ff389",
+      "path": "docs/content/CONTENT_REVIEW_R2_MUSE.md"
+    },
+    {
+      "sha256": "3c21ccc2eff6d9981c17f97b3f1a5886219e18b2c8c6ab0e9c0de8bf1a72271b",
+      "path": "docs/content/CONTENT_REVIEW_R3_MUSE.md"
+    },
+    {
+      "sha256": "e532f06e9b8ede55b5ba8323db9a271dfa9211ae548a7cd6de2943f0b2b49266",
+      "path": "docs/content/CONTENT_REVIEW_R4_MUSE.md"
+    },
+    {
+      "sha256": "29ec90f97bc54bf5b8ea3e02bead34bb100abed36c89dcfbc3988ef76a9585b8",
+      "path": "docs/content/CONTENT_REVIEW_R5_CLAUDE.md"
+    },
+    {
+      "sha256": "445b96bd8ba9c35b24ef6b29a95cf78425a565942387924c961397a920d9be41",
+      "path": "docs/content/CONTENT_REVIEW_R5_GPT.md"
+    },
+    {
+      "sha256": "c466663bc4bf933274a13770ba97bf295ff95675a434d2552fb90262e748ad95",
+      "path": "docs/content/CONTENT_REVIEW_R5_MUSE.md"
+    },
+    {
+      "sha256": "21a96fb56684d3d0bbaf3a1c9994626fd848605830da6596eba7221c2947dd8c",
+      "path": "docs/content/CONTENT_REVIEW_R6_CLAUDE.md"
+    },
+    {
+      "sha256": "d90b2d3d78ac571e1a8a66f9c823c2e7173f9bd34d7057e1491a2418839b14d7",
+      "path": "docs/content/CONTENT_REVIEW_R6_GPT.md"
+    },
+    {
+      "sha256": "c2227dafbd6c779bc90abb0a0832a5a2f73ddb4cd677d54db62b9ca473d0918c",
+      "path": "docs/content/CONTENT_REVIEW_R6_MUSE.md"
+    },
+    {
+      "sha256": "6aa85d958f163cfdf484915ee5ebbb5baf344c6a83514e19bcff9abed877454f",
+      "path": "docs/content/CONTENT_REVIEW_R7_CLAUDE.md"
+    },
+    {
+      "sha256": "0888fc2d021fd736cb5f4d52a5c53cfa0c169b7cc395230c7b06d9be8823f060",
+      "path": "docs/content/CONTENT_REVIEW_R7_GPT.md"
+    },
+    {
+      "sha256": "e7d7b77b7deebcb96abde88b07d4b773078c65b00433c5555dd0bad09ec46862",
+      "path": "docs/content/CONTENT_REVIEW_R7_MUSE.md"
+    },
+    {
+      "sha256": "60bfc33552b243ca2c26015f296b84dd32d602d950770fda176bec06549fc0c0",
+      "path": "docs/content/r1/failure.txt"
+    }
+  ]
+}

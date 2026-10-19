@@ -1,0 +1,32 @@
+{
+  "status": "VERIFIED",
+  "round": "content-r3",
+  "tool": "image_gen__imagegen",
+  "modelSlug": null,
+  "generatedAssets": 1,
+  "assets": [
+    {
+      "id": "shian-portrait",
+      "tool": "image_gen__imagegen",
+      "source": "docs/art/masters/content-r3/shian-portrait.png",
+      "sourceSha256": "3804b6925b4980167ab5db2a232c858adb4160739de6ba67f7c3a1080ec312ba",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "path": "public/art/content-r3/shian-portrait.webp",
+      "sha256": "708ca7edc8b7fd051718cebb322372d06b9e95480ba4c24db97d8df96cbafe0c",
+      "dimensions": [
+        256,
+        256
+      ],
+      "bytes": 24930,
+      "processing": "format conversion and downsample only; no generated identity edits",
+      "license": "MIT (project-owned art)"
+    }
+  ],
+  "retainedPortraits": [
+    "public/art/r5/xi-portrait.png",
+    "public/art/r3/an-poses.png"
+  ]
+}

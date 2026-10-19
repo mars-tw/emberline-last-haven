@@ -1,0 +1,670 @@
+{
+  "status": "VERIFIED",
+  "source": "previous normal UI checkpoints; official import; no state mutation",
+  "results": [
+    {
+      "width": 320,
+      "height": 568,
+      "scroll": 0,
+      "items": [
+        {
+          "id": "dispatch-close",
+          "w": 62.96875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-0",
+          "w": 76.65625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-0",
+          "w": 76.65625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-0",
+          "w": 76.65625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-1",
+          "w": 76.671875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-1",
+          "w": 76.671875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-1",
+          "w": 76.671875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-2",
+          "w": 76.65625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-2",
+          "w": 76.65625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-2",
+          "w": 76.65625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-apply",
+          "w": 88,
+          "h": 49.59375,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "scroll": 0,
+      "items": [
+        {
+          "id": "dispatch-close",
+          "w": 62.96875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-0",
+          "w": 93.65625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-0",
+          "w": 93.65625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-0",
+          "w": 93.65625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-1",
+          "w": 93.671875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-1",
+          "w": 93.671875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-1",
+          "w": 93.671875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-2",
+          "w": 93.65625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-2",
+          "w": 93.65625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-2",
+          "w": 93.65625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-apply",
+          "w": 88,
+          "h": 49.59375,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scroll": 0,
+      "items": [
+        {
+          "id": "dispatch-close",
+          "w": 62.96875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-0",
+          "w": 103.328125,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-0",
+          "w": 103.328125,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-0",
+          "w": 103.34375,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-1",
+          "w": 103.328125,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-1",
+          "w": 103.328125,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-1",
+          "w": 103.34375,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-2",
+          "w": 103.328125,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-2",
+          "w": 103.328125,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-2",
+          "w": 103.34375,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-apply",
+          "w": 116,
+          "h": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "scroll": 0,
+      "items": [
+        {
+          "id": "dispatch-close",
+          "w": 62.96875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-0",
+          "w": 114,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-0",
+          "w": 114,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-0",
+          "w": 114,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-1",
+          "w": 114,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-1",
+          "w": 114,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-1",
+          "w": 114,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-2",
+          "w": 114,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-2",
+          "w": 114,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-2",
+          "w": 114,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-apply",
+          "w": 116,
+          "h": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scroll": 0,
+      "items": [
+        {
+          "id": "dispatch-close",
+          "w": 66.96875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-0",
+          "w": 65.234375,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-0",
+          "w": 65.25,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-0",
+          "w": 65.234375,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-1",
+          "w": 65.234375,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-1",
+          "w": 65.25,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-1",
+          "w": 65.234375,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-2",
+          "w": 65.234375,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-2",
+          "w": 65.25,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-2",
+          "w": 65.234375,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-apply",
+          "w": 354.546875,
+          "h": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 1032,
+      "height": 1376,
+      "scroll": 0,
+      "items": [
+        {
+          "id": "dispatch-close",
+          "w": 66.96875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-0",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-0",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-0",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-1",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-1",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-1",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-2",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-2",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-2",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-apply",
+          "w": 116,
+          "h": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 1376,
+      "height": 1032,
+      "scroll": 0,
+      "items": [
+        {
+          "id": "dispatch-close",
+          "w": 66.96875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-0",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-0",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-0",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-1",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-1",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-1",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-2",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-2",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-2",
+          "w": 216,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-apply",
+          "w": 116,
+          "h": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 600,
+      "scroll": 0,
+      "items": [
+        {
+          "id": "dispatch-close",
+          "w": 66.96875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-0",
+          "w": 64.875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-0",
+          "w": 64.875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-0",
+          "w": 64.890625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-1",
+          "w": 64.875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-1",
+          "w": 64.875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-1",
+          "w": 64.890625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-2",
+          "w": 64.875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-2",
+          "w": 64.875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-2",
+          "w": 64.890625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-apply",
+          "w": 352.734375,
+          "h": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 640,
+      "scroll": 0,
+      "items": [
+        {
+          "id": "dispatch-close",
+          "w": 66.96875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-0",
+          "w": 64.875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-0",
+          "w": 64.875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-0",
+          "w": 64.890625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-1",
+          "w": 64.875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-1",
+          "w": 64.875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-1",
+          "w": 64.890625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-driver-2",
+          "w": 64.875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-watch-2",
+          "w": 64.875,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-rest-2",
+          "w": 64.890625,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "id": "crew-apply",
+          "w": 352.734375,
+          "h": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "test": "compact night cue remains within 24px and canvas",
+      "height": 22.296875,
+      "bottom": 285,
+      "canvasBottom": 289,
+      "iconWidth": "14px"
+    }
+  ]
+}

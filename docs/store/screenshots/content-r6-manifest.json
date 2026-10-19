@@ -1,0 +1,23 @@
+{
+  "status": "VERIFIED",
+  "screenshots": [
+    {
+      "path": "docs/store/screenshots/phone-11-content-r6.png",
+      "sha256": "d5dcb77cbc024beab0af7a4fca92a277b91ec0382d664d26dc10155f85596e9e",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "explicit chapter-3 hull-95 boundary fixture based on normal checkpoint, product file import"
+    },
+    {
+      "path": "docs/store/screenshots/tablet-11-content-r6.png",
+      "sha256": "b7b62767ec77f38bddd3516e999abf243e304ba3ad2e17859ddbb133f727f8b8",
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "source": "unedited ordinary chapter-2 checkpoint; selected repair"
+    }
+  ]
+}

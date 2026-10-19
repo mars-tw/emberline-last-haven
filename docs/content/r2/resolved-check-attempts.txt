@@ -1,0 +1,245 @@
+RESOLVED ATTEMPT: .audit-tmp/content-r2-check-final.log
+
+> emberline-last-haven@0.8.0 check
+> npm run test && npm run build && npm run test:e2e && npm run test:edges && npm run test:art && npm run test:perf && npm run test:deep && npm run test:content && npm run audit
+
+
+> emberline-last-haven@0.8.0 test
+> vitest run --reporter=default --reporter=json --outputFile.json=docs/evidence/unit-tests.json && node vendor/ashes/scripts/test-r86-convoy-latch.js && node vendor/ashes/scripts/test-rules.js && node vendor/ashes/scripts/test-economy.js && node scripts/source-tests.mjs
+
+
+ RUN  v4.1.11 C:/Users/digimkt/Desktop/遊戲/apocalypse-anthology
+
+ ✓ tests/content-r2.test.ts (16 tests) 22ms
+ ✓ vendor/train/tests/r9-night-watch.test.ts (20 tests) 44ms
+ ✓ vendor/train/tests/r10-handover.test.ts (13 tests) 28ms
+ ✓ tests/content-r1.test.ts (17 tests) 26ms
+ ✓ tests/campaign.test.ts (28 tests) 28ms
+ ✓ tests/animation.test.ts (7 tests) 4ms
+ ✓ vendor/train/tests/save.test.ts (15 tests) 15ms
+ ✓ tests/art-layout.test.ts (3 tests) 6ms
+ ✓ tests/feedback.test.ts (4 tests) 4ms
+ ✓ tests/upgrade-save.test.ts (2 tests) 4ms
+
+ Test Files  10 passed (10)
+      Tests  125 passed (125)
+   Start at  00:25:05
+   Duration  3.24s (transform 754ms, setup 0ms, import 1.40s, tests 180ms, environment 1ms)
+
+JSON report written to C:/Users/digimkt/Desktop/遊戲/apocalypse-anthology/docs/evidence/unit-tests.json
+R86 convoy latch rules PASS
+Rules tests PASS
+Economy tests PASS
+PASS starter grants only at fresh wave with no existing tower
+PASS invalid layout safely selects center; every route has a distinct world point
+PASS tactical goal requires two actual attraction events
+PASS reopen preserves meat, tower, resources and selected protagonist
+PASS legacy save without inventory migrates to empty without discarding progress
+PASS corrupt inventory is bounded and malformed JSON remains playable
+PASS storage failure does not stop gameplay saves
+PASS tighter elite column applies to all elite waves with unchanged HP budget and boss
+
+> emberline-last-haven@0.8.0 build
+> tsc --noEmit && vite build && node scripts/precache.mjs
+
+vite v7.3.1 building client environment for production...
+transforming...
+node.exe :
+位於 線路:1 字元:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+/art/r1/panel.webp referenced in /art/r1/panel.webp didn't resolve at build time, it will remain unchanged to be resolv
+ed at runtime
+
+/art/r2/panel.webp referenced in /art/r2/panel.webp didn't resolve at build time, it will remain unchanged to be resolv
+ed at runtime
+
+/art/r3/panel.webp referenced in /art/r3/panel.webp didn't resolve at build time, it will remain unchanged to be resolv
+ed at runtime
+
+/art/r4/panel-tall.webp referenced in /art/r4/panel-tall.webp didn't resolve at build time, it will remain unchanged to
+ be resolved at runtime
+
+/art/r4/panel.webp referenced in /art/r4/panel.webp didn't resolve at build time, it will remain unchanged to be resolv
+ed at runtime
+
+/art/r5/panel-tall.webp referenced in /art/r5/panel-tall.webp didn't resolve at build time, it will remain unchanged to
+ be resolved at runtime
+
+/art/r5/panel.webp referenced in /art/r5/panel.webp didn't resolve at build time, it will remain unchanged to be resolv
+ed at runtime
+✓ 35 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.75 kB │ gzip:   0.51 kB
+dist/assets/index-D-vFC-hu.css   34.88 kB │ gzip:   7.93 kB
+dist/assets/index-DOXOBe5n.js   369.05 kB │ gzip: 105.79 kB
+✓ built in 635ms
+Offline precache: 54 files, revision 02228e3042f12d87
+
+> emberline-last-haven@0.8.0 test:e2e
+> node scripts/browser.mjs
+
+escort start {"segment":0,"hull":100,"level":0,"time":0.6560000000000005}
+escort outcome {"segment":0,"hull":57,"level":0,"time":48.01599999999649,"flung":10,"screen":"report"}
+chromium: first chapter and reload verified
+escort start {"segment":3,"hull":97,"level":1,"time":0}
+escort outcome {"segment":3,"hull":48,"level":1,"time":48.00899999999649,"flung":9,"screen":"report"}
+escort start {"segment":6,"hull":98,"level":2,"time":0}
+escort outcome {"segment":6,"hull":86,"level":2,"time":48.01599999999649,"flung":10,"screen":"report"}
+escort start {"segment":0,"hull":100,"level":0,"time":0}
+escort outcome {"segment":0,"hull":51,"level":0,"time":48.01599999999649,"flung":10,"screen":"report"}
+escort start {"segment":0,"hull":100,"level":0,"time":0}
+escort outcome {"segment":0,"hull":51,"level":0,"time":48.01599999999649,"flung":10,"screen":"report"}
+webkit: first chapter and reload verified
+VERIFIED: 95 browser cases; 12 screenshots; no runtime errors or external requests
+
+> emberline-last-haven@0.8.0 test:edges
+> node scripts/edge-cases.mjs
+
+VERIFIED: 5 import/export/quota browser cases
+
+> emberline-last-haven@0.8.0 test:art
+> python scripts/art-verify.py && python scripts/art-r2-verify.py && python scripts/art-r3-verify.py && node scripts/art-r5-capture.mjs after && python scripts/art-r4-verify.py && python scripts/art-r5-verify.py
+
+VERIFIED 13 RGBA runtime assets, color gates and four distinct A-07 poses
+VERIFIED R2: 35 runtime exports, alpha/color/hash gates, 36 genuine attack/walk/hurt/death frames; 64px contact sheet
+VERIFIED R3: 24 runtime files, 49 captures, paper 6%, actors 40px, roof <=1/3, blue saturation ratio 0.672
+VERIFIED 49 R5 after captures
+VERIFIED R4: 26 runtime files, 49 captures, ten native-size store shots, real three-climber impact
+VERIFIED R5: 33 assets, 49 captures, 10 store images, native alpha and dual colour gates
+
+> emberline-last-haven@0.8.0 test:perf
+> node scripts/performance.mjs
+
+{ width: 1366, height: 600 } convoy 0.3000001907348633 16.799999999999272
+{ width: 1366, height: 600 } defense 0.7999999523162842 16.799999999999272
+{ width: 1366, height: 600 } train 0.3000001907348633 16.799999999999727
+{ width: 390, height: 844 } convoy 0.2999999523162842 16.799999999999272
+{ width: 390, height: 844 } defense 0.5 16.700000000000728
+{ width: 390, height: 844 } train 0.20000004768371582 16.700000000000728
+
+> emberline-last-haven@0.8.0 test:deep
+> node scripts/deep-verify.mjs
+
+VERIFIED deep R1 controls, direct bait, reward, loading failure, cold load and bundle
+
+> emberline-last-haven@0.8.0 test:content
+> node scripts/content-r1.mjs && node scripts/content-r2.mjs
+
+chromium segment 0 hull 100
+chromium segment 1 hull 94
+chromium segment 2 hull 100
+chromium segment 3 hull 100
+chromium segment 4 hull 90
+chromium segment 5 hull 100
+chromium segment 6 hull 100
+chromium segment 7 hull 100
+chromium segment 8 hull 100
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+true !== false
+
+    at file:///C:/Users/digimkt/Desktop/%E9%81%8A%E6%88%B2/apocalypse-anthology/scripts/content-r1.mjs:39:138 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: true,
+  expected: false,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.15.0
+
+
+RESOLVED ATTEMPT: .audit-tmp/content-r2-check-continued.log
+
+> emberline-last-haven@0.8.0 test:content
+> node scripts/content-r1.mjs && node scripts/content-r2.mjs
+
+chromium segment 0 hull 100
+chromium segment 1 hull 90
+chromium segment 2 hull 100
+chromium segment 3 hull 100
+chromium segment 4 hull 90
+chromium segment 5 hull 100
+chromium segment 6 hull 100
+chromium segment 7 hull 100
+chromium segment 8 hull 100
+webkit segment 0 hull 100
+webkit segment 1 hull 90
+webkit segment 2 hull 100
+VERIFIED R1: 54 checks, nine normal-input segments, three carry choices, all roster saves; Chromium + WebKit
+R2 normal segment 0
+R2 normal segment 1
+node.exe : node:internal/modules/run_main:107
+位於 線路:1 字元:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (node:internal/modules/run_main:107:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected "actual" not to be strictly deep-equal to:
+
+[
+  [
+    51.03748141717282,
+    30.398240057461223
+  ],
+  [
+    75,
+    30.4
+  ],
+  [
+    98.96251858282717,
+    30.398240057461223
+  ],
+  [
+    51.03428199768896,
+    6.398528223134139
+  ]
+]
+
+    at file:///C:/Users/digimkt/Desktop/%E9%81%8A%E6%88%B2/apocalypse-anthology/scripts/content-r2.mjs:29:289 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: [
+    [ 51.03748141717282, 30.398240057461223 ],
+    [ 75, 30.4 ],
+    [ 98.96251858282717, 30.398240057461223 ],
+    [ 51.03428199768896, 6.398528223134139 ]
+  ],
+  expected: [
+    [ 51.03748141717282, 30.398240057461223 ],
+    [ 75, 30.4 ],
+    [ 98.96251858282717, 30.398240057461223 ],
+    [ 51.03428199768896, 6.398528223134139 ]
+  ],
+  operator: 'notDeepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.15.0
+
+
+RESOLVED ATTEMPT: .audit-tmp/content-r2-new-final.log
+R2 normal segment 0
+R2 normal segment 1
+R2 normal segment 2
+R2 normal segment 3
+R2 normal segment 4
+R2 normal segment 5
+R2 normal segment 6
+R2 normal segment 7
+R2 normal segment 8
+VERIFIED R2: 24 cases, 75 original-size captures; normal nine segments plus explicit boundary fixtures

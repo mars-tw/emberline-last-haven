@@ -1,0 +1,5882 @@
+{
+  "status": "VERIFIED",
+  "headless": true,
+  "stateInjection": false,
+  "indexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "results": [
+    {
+      "test": "intro-320x568",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 81.015625,
+          "h": 44,
+          "x": 225.984375,
+          "y": 4,
+          "bottom": 48,
+          "right": 307,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "begin",
+          "w": 90,
+          "h": 54,
+          "x": 20,
+          "y": 485.5,
+          "bottom": 539.5,
+          "right": 110,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "dispatch-open",
+          "w": 90,
+          "h": 54,
+          "x": 115,
+          "y": 485.5,
+          "bottom": 539.5,
+          "right": 205,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "old-save",
+          "w": 90,
+          "h": 54,
+          "x": 210,
+          "y": 485.5,
+          "bottom": 539.5,
+          "right": 300,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "intro-375x667",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 274.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 362,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "begin",
+          "w": 108.328125,
+          "h": 54,
+          "x": 20,
+          "y": 576.5,
+          "bottom": 630.5,
+          "right": 128.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "dispatch-open",
+          "w": 108.328125,
+          "h": 54,
+          "x": 133.328125,
+          "y": 576.5,
+          "bottom": 630.5,
+          "right": 241.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "old-save",
+          "w": 108.34375,
+          "h": 54,
+          "x": 246.65625,
+          "y": 576.5,
+          "bottom": 630.5,
+          "right": 355,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "intro-390x844",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 289.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 377,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "begin",
+          "w": 113.328125,
+          "h": 54,
+          "x": 20,
+          "y": 753.5,
+          "bottom": 807.5,
+          "right": 133.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "dispatch-open",
+          "w": 113.328125,
+          "h": 54,
+          "x": 138.328125,
+          "y": 753.5,
+          "bottom": 807.5,
+          "right": 251.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "old-save",
+          "w": 113.34375,
+          "h": 54,
+          "x": 256.65625,
+          "y": 753.5,
+          "bottom": 807.5,
+          "right": 370,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "intro-430x932",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 329.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 417,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "begin",
+          "w": 126.65625,
+          "h": 54,
+          "x": 20,
+          "y": 841.5,
+          "bottom": 895.5,
+          "right": 146.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "dispatch-open",
+          "w": 126.671875,
+          "h": 54,
+          "x": 151.65625,
+          "y": 841.5,
+          "bottom": 895.5,
+          "right": 278.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "old-save",
+          "w": 126.65625,
+          "h": 54,
+          "x": 283.328125,
+          "y": 841.5,
+          "bottom": 895.5,
+          "right": 409.984375,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "intro-844x390",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 101.125,
+          "h": 44,
+          "x": 727.875,
+          "y": 3,
+          "bottom": 47,
+          "right": 829,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "begin",
+          "w": 245,
+          "h": 44,
+          "x": 47.5,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 292.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "dispatch-open",
+          "w": 245,
+          "h": 44,
+          "x": 299.5,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 544.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "old-save",
+          "w": 245,
+          "h": 44,
+          "x": 551.5,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 796.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "intro-768x1024",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 610.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 742,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "begin",
+          "w": 213.328125,
+          "h": 54,
+          "x": 52,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 265.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "dispatch-open",
+          "w": 213.34375,
+          "h": 54,
+          "x": 277.328125,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 490.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "old-save",
+          "w": 213.328125,
+          "h": 54,
+          "x": 502.671875,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 716,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "intro-1024x768",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 866.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 998,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "begin",
+          "w": 245,
+          "h": 54,
+          "x": 132.5,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 377.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "dispatch-open",
+          "w": 245,
+          "h": 54,
+          "x": 389.5,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 634.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "old-save",
+          "w": 245,
+          "h": 54,
+          "x": 646.5,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 891.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "intro-1032x1376",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 874.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1006,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "begin",
+          "w": 245,
+          "h": 54,
+          "x": 136.5,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 381.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "dispatch-open",
+          "w": 245,
+          "h": 54,
+          "x": 393.5,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 638.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "old-save",
+          "w": 245,
+          "h": 54,
+          "x": 650.5,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 895.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "intro-1376x1032",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1218.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1350,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "begin",
+          "w": 245,
+          "h": 54,
+          "x": 308.5,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 553.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "dispatch-open",
+          "w": 245,
+          "h": 54,
+          "x": 565.5,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 810.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "old-save",
+          "w": 245,
+          "h": 54,
+          "x": 822.5,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 1067.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "intro-1366x600",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1208.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1340,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "begin",
+          "w": 245,
+          "h": 54,
+          "x": 303.5,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 548.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "dispatch-open",
+          "w": 245,
+          "h": 54,
+          "x": 560.5,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 805.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "old-save",
+          "w": 245,
+          "h": 54,
+          "x": 817.5,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 1062.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "intro-1280x640",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1122.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1254,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "begin",
+          "w": 245,
+          "h": 54,
+          "x": 260.5,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 505.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "dispatch-open",
+          "w": 245,
+          "h": 54,
+          "x": 517.5,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 762.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "old-save",
+          "w": 245,
+          "h": 54,
+          "x": 774.5,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 1019.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "convoy-320x568",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 81.015625,
+          "h": 44,
+          "x": 225.984375,
+          "y": 4,
+          "bottom": 48,
+          "right": 307,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "left",
+          "w": 90,
+          "h": 62,
+          "x": 20,
+          "y": 481.5,
+          "bottom": 543.5,
+          "right": 110,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "drift",
+          "w": 90,
+          "h": 62,
+          "x": 115,
+          "y": 481.5,
+          "bottom": 543.5,
+          "right": 205,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "right",
+          "w": 90,
+          "h": 62,
+          "x": 210,
+          "y": 481.5,
+          "bottom": 543.5,
+          "right": 300,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "convoy-375x667",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 274.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 362,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "left",
+          "w": 108.328125,
+          "h": 62,
+          "x": 20,
+          "y": 572.5,
+          "bottom": 634.5,
+          "right": 128.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "drift",
+          "w": 108.328125,
+          "h": 62,
+          "x": 133.328125,
+          "y": 572.5,
+          "bottom": 634.5,
+          "right": 241.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "right",
+          "w": 108.34375,
+          "h": 62,
+          "x": 246.65625,
+          "y": 572.5,
+          "bottom": 634.5,
+          "right": 355,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "convoy-390x844",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 289.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 377,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "left",
+          "w": 113.328125,
+          "h": 62,
+          "x": 20,
+          "y": 749.5,
+          "bottom": 811.5,
+          "right": 133.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "drift",
+          "w": 113.328125,
+          "h": 62,
+          "x": 138.328125,
+          "y": 749.5,
+          "bottom": 811.5,
+          "right": 251.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "right",
+          "w": 113.34375,
+          "h": 62,
+          "x": 256.65625,
+          "y": 749.5,
+          "bottom": 811.5,
+          "right": 370,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "convoy-430x932",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 329.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 417,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "left",
+          "w": 126.65625,
+          "h": 62,
+          "x": 20,
+          "y": 837.5,
+          "bottom": 899.5,
+          "right": 146.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "drift",
+          "w": 126.671875,
+          "h": 62,
+          "x": 151.65625,
+          "y": 837.5,
+          "bottom": 899.5,
+          "right": 278.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "right",
+          "w": 126.65625,
+          "h": 62,
+          "x": 283.328125,
+          "y": 837.5,
+          "bottom": 899.5,
+          "right": 409.984375,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "convoy-844x390",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 101.125,
+          "h": 44,
+          "x": 727.875,
+          "y": 3,
+          "bottom": 47,
+          "right": 829,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "left",
+          "w": 245,
+          "h": 44,
+          "x": 47.5,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 292.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "drift",
+          "w": 245,
+          "h": 44,
+          "x": 299.5,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 544.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "right",
+          "w": 245,
+          "h": 44,
+          "x": 551.5,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 796.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "convoy-768x1024",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 610.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 742,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "left",
+          "w": 213.328125,
+          "h": 54,
+          "x": 52,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 265.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "drift",
+          "w": 213.34375,
+          "h": 54,
+          "x": 277.328125,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 490.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "right",
+          "w": 213.328125,
+          "h": 54,
+          "x": 502.671875,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 716,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "convoy-1024x768",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 866.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 998,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "left",
+          "w": 245,
+          "h": 54,
+          "x": 132.5,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 377.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "drift",
+          "w": 245,
+          "h": 54,
+          "x": 389.5,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 634.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "right",
+          "w": 245,
+          "h": 54,
+          "x": 646.5,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 891.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "convoy-1032x1376",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 874.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1006,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "left",
+          "w": 245,
+          "h": 54,
+          "x": 136.5,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 381.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "drift",
+          "w": 245,
+          "h": 54,
+          "x": 393.5,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 638.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "right",
+          "w": 245,
+          "h": 54,
+          "x": 650.5,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 895.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "convoy-1376x1032",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1218.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1350,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "left",
+          "w": 245,
+          "h": 54,
+          "x": 308.5,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 553.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "drift",
+          "w": 245,
+          "h": 54,
+          "x": 565.5,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 810.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "right",
+          "w": 245,
+          "h": 54,
+          "x": 822.5,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 1067.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "convoy-1366x600",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1208.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1340,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "left",
+          "w": 245,
+          "h": 54,
+          "x": 303.5,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 548.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "drift",
+          "w": 245,
+          "h": 54,
+          "x": 560.5,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 805.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "right",
+          "w": 245,
+          "h": 54,
+          "x": 817.5,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 1062.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "convoy-1280x640",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1122.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1254,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "left",
+          "w": 245,
+          "h": 54,
+          "x": 260.5,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 505.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "drift",
+          "w": 245,
+          "h": 54,
+          "x": 517.5,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 762.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "right",
+          "w": 245,
+          "h": 54,
+          "x": 774.5,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 1019.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "chromium-pause",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 340.109375,
+          "y": 280.5,
+          "bottom": 324.5,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 120,
+          "h": 44,
+          "x": 27,
+          "y": 336.5,
+          "bottom": 380.5,
+          "right": 147,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 120,
+          "h": 44,
+          "x": 155,
+          "y": 336.5,
+          "bottom": 380.5,
+          "right": 275,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 120,
+          "h": 44,
+          "x": 283,
+          "y": 336.5,
+          "bottom": 380.5,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 184.5,
+          "h": 44,
+          "x": 27,
+          "y": 577.46875,
+          "bottom": 621.46875,
+          "right": 211.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 184.5,
+          "h": 44,
+          "x": 218.5,
+          "y": 577.46875,
+          "bottom": 621.46875,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-settings-320x568",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 230.109375,
+          "y": 80.53125,
+          "bottom": 124.53125,
+          "right": 293,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 83.328125,
+          "h": 44,
+          "x": 27,
+          "y": 136.53125,
+          "bottom": 180.53125,
+          "right": 110.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 83.34375,
+          "h": 44,
+          "x": 118.328125,
+          "y": 136.53125,
+          "bottom": 180.53125,
+          "right": 201.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 83.328125,
+          "h": 44,
+          "x": 209.671875,
+          "y": 136.53125,
+          "bottom": 180.53125,
+          "right": 293,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "sound",
+          "w": 100.3125,
+          "h": 44,
+          "x": 27,
+          "y": 250.125,
+          "bottom": 294.125,
+          "right": 127.3125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "motion",
+          "w": 126.828125,
+          "h": 44,
+          "x": 135.3125,
+          "y": 250.125,
+          "bottom": 294.125,
+          "right": 262.140625,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-settings-375x667",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 285.109375,
+          "y": 130.03125,
+          "bottom": 174.03125,
+          "right": 348,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 101.65625,
+          "h": 44,
+          "x": 27,
+          "y": 186.03125,
+          "bottom": 230.03125,
+          "right": 128.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 101.671875,
+          "h": 44,
+          "x": 136.65625,
+          "y": 186.03125,
+          "bottom": 230.03125,
+          "right": 238.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 101.671875,
+          "h": 44,
+          "x": 246.328125,
+          "y": 186.03125,
+          "bottom": 230.03125,
+          "right": 348,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "sound",
+          "w": 100.3125,
+          "h": 44,
+          "x": 27,
+          "y": 299.625,
+          "bottom": 343.625,
+          "right": 127.3125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "motion",
+          "w": 126.828125,
+          "h": 44,
+          "x": 135.3125,
+          "y": 299.625,
+          "bottom": 343.625,
+          "right": 262.140625,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-settings-390x844",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 300.109375,
+          "y": 218.53125,
+          "bottom": 262.53125,
+          "right": 363,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 106.65625,
+          "h": 44,
+          "x": 27,
+          "y": 274.53125,
+          "bottom": 318.53125,
+          "right": 133.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 106.671875,
+          "h": 44,
+          "x": 141.65625,
+          "y": 274.53125,
+          "bottom": 318.53125,
+          "right": 248.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 106.671875,
+          "h": 44,
+          "x": 256.328125,
+          "y": 274.53125,
+          "bottom": 318.53125,
+          "right": 363,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "sound",
+          "w": 100.3125,
+          "h": 44,
+          "x": 27,
+          "y": 388.125,
+          "bottom": 432.125,
+          "right": 127.3125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "motion",
+          "w": 126.828125,
+          "h": 44,
+          "x": 135.3125,
+          "y": 388.125,
+          "bottom": 432.125,
+          "right": 262.140625,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-settings-430x932",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 340.109375,
+          "y": 279,
+          "bottom": 323,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 120,
+          "h": 44,
+          "x": 27,
+          "y": 335,
+          "bottom": 379,
+          "right": 147,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 120,
+          "h": 44,
+          "x": 155,
+          "y": 335,
+          "bottom": 379,
+          "right": 275,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 120,
+          "h": 44,
+          "x": 283,
+          "y": 335,
+          "bottom": 379,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "sound",
+          "w": 100.3125,
+          "h": 44,
+          "x": 27,
+          "y": 448.59375,
+          "bottom": 492.59375,
+          "right": 127.3125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "motion",
+          "w": 126.828125,
+          "h": 44,
+          "x": 135.3125,
+          "y": 448.59375,
+          "bottom": 492.59375,
+          "right": 262.140625,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-settings-844x390",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 78.890625,
+          "h": 44,
+          "x": 702.109375,
+          "y": 106.703125,
+          "bottom": 150.703125,
+          "right": 781,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 130.65625,
+          "h": 44,
+          "x": 208,
+          "y": 111.703125,
+          "bottom": 155.703125,
+          "right": 338.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 130.671875,
+          "h": 44,
+          "x": 346.65625,
+          "y": 111.703125,
+          "bottom": 155.703125,
+          "right": 477.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 130.671875,
+          "h": 44,
+          "x": 485.328125,
+          "y": 111.703125,
+          "bottom": 155.703125,
+          "right": 616,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "sound",
+          "w": 341,
+          "h": 44,
+          "x": 432,
+          "y": 154.703125,
+          "bottom": 198.703125,
+          "right": 773,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "motion",
+          "w": 341,
+          "h": 44,
+          "x": 63,
+          "y": 206.703125,
+          "bottom": 250.703125,
+          "right": 404,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-settings-768x1024",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 588.71875,
+          "y": 317.5,
+          "bottom": 361.5,
+          "right": 688,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 80,
+          "y": 373.5,
+          "bottom": 417.5,
+          "right": 277.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 285.328125,
+          "y": 373.5,
+          "bottom": 417.5,
+          "right": 482.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 490.671875,
+          "y": 373.5,
+          "bottom": 417.5,
+          "right": 688,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "sound",
+          "w": 100.3125,
+          "h": 44,
+          "x": 80,
+          "y": 487.09375,
+          "bottom": 531.09375,
+          "right": 180.3125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "motion",
+          "w": 126.828125,
+          "h": 44,
+          "x": 188.3125,
+          "y": 487.09375,
+          "bottom": 531.09375,
+          "right": 315.140625,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-settings-1024x768",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 716.71875,
+          "y": 189.5,
+          "bottom": 233.5,
+          "right": 816,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 208,
+          "y": 245.5,
+          "bottom": 289.5,
+          "right": 405.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 413.328125,
+          "y": 245.5,
+          "bottom": 289.5,
+          "right": 610.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 618.671875,
+          "y": 245.5,
+          "bottom": 289.5,
+          "right": 816,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "sound",
+          "w": 100.3125,
+          "h": 44,
+          "x": 208,
+          "y": 359.09375,
+          "bottom": 403.09375,
+          "right": 308.3125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "motion",
+          "w": 126.828125,
+          "h": 44,
+          "x": 316.3125,
+          "y": 359.09375,
+          "bottom": 403.09375,
+          "right": 443.140625,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-settings-1032x1376",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 720.71875,
+          "y": 493.5,
+          "bottom": 537.5,
+          "right": 820,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 212,
+          "y": 549.5,
+          "bottom": 593.5,
+          "right": 409.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 417.328125,
+          "y": 549.5,
+          "bottom": 593.5,
+          "right": 614.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 622.671875,
+          "y": 549.5,
+          "bottom": 593.5,
+          "right": 820,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "sound",
+          "w": 100.3125,
+          "h": 44,
+          "x": 212,
+          "y": 663.09375,
+          "bottom": 707.09375,
+          "right": 312.3125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "motion",
+          "w": 126.828125,
+          "h": 44,
+          "x": 320.3125,
+          "y": 663.09375,
+          "bottom": 707.09375,
+          "right": 447.140625,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-settings-1376x1032",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 892.71875,
+          "y": 321.5,
+          "bottom": 365.5,
+          "right": 992,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 384,
+          "y": 377.5,
+          "bottom": 421.5,
+          "right": 581.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 589.328125,
+          "y": 377.5,
+          "bottom": 421.5,
+          "right": 786.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 794.671875,
+          "y": 377.5,
+          "bottom": 421.5,
+          "right": 992,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "sound",
+          "w": 100.3125,
+          "h": 44,
+          "x": 384,
+          "y": 491.09375,
+          "bottom": 535.09375,
+          "right": 484.3125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "motion",
+          "w": 126.828125,
+          "h": 44,
+          "x": 492.3125,
+          "y": 491.09375,
+          "bottom": 535.09375,
+          "right": 619.140625,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-settings-1366x600",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 887.71875,
+          "y": 105.5,
+          "bottom": 149.5,
+          "right": 987,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 379,
+          "y": 161.5,
+          "bottom": 205.5,
+          "right": 576.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 584.328125,
+          "y": 161.5,
+          "bottom": 205.5,
+          "right": 781.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 789.671875,
+          "y": 161.5,
+          "bottom": 205.5,
+          "right": 987,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "sound",
+          "w": 100.3125,
+          "h": 44,
+          "x": 379,
+          "y": 275.09375,
+          "bottom": 319.09375,
+          "right": 479.3125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "motion",
+          "w": 126.828125,
+          "h": 44,
+          "x": 487.3125,
+          "y": 275.09375,
+          "bottom": 319.09375,
+          "right": 614.140625,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-settings-1280x640",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 844.71875,
+          "y": 125.5,
+          "bottom": 169.5,
+          "right": 944,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 336,
+          "y": 181.5,
+          "bottom": 225.5,
+          "right": 533.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 541.328125,
+          "y": 181.5,
+          "bottom": 225.5,
+          "right": 738.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 746.671875,
+          "y": 181.5,
+          "bottom": 225.5,
+          "right": 944,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "sound",
+          "w": 100.3125,
+          "h": 44,
+          "x": 336,
+          "y": 295.09375,
+          "bottom": 339.09375,
+          "right": 436.3125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "motion",
+          "w": 126.828125,
+          "h": 44,
+          "x": 444.3125,
+          "y": 295.09375,
+          "bottom": 339.09375,
+          "right": 571.140625,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-import-320x568",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 230.109375,
+          "y": 39.828125,
+          "bottom": 83.828125,
+          "right": 293,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 83.328125,
+          "h": 44,
+          "x": 27,
+          "y": 95.828125,
+          "bottom": 139.828125,
+          "right": 110.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 83.34375,
+          "h": 44,
+          "x": 118.328125,
+          "y": 95.828125,
+          "bottom": 139.828125,
+          "right": 201.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 83.328125,
+          "h": 44,
+          "x": 209.671875,
+          "y": 95.828125,
+          "bottom": 139.828125,
+          "right": 293,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "source",
+          "w": 228,
+          "h": 44,
+          "x": 65,
+          "y": 293.59375,
+          "bottom": 337.59375,
+          "right": 293,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "legacy",
+          "w": 197.53125,
+          "h": 44,
+          "x": 95.46875,
+          "y": 348.984375,
+          "bottom": 392.984375,
+          "right": 293,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "confirm-import",
+          "w": 129.5,
+          "h": 44,
+          "x": 27,
+          "y": 487.15625,
+          "bottom": 531.15625,
+          "right": 156.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export-before",
+          "w": 129.5,
+          "h": 44,
+          "x": 163.5,
+          "y": 487.15625,
+          "bottom": 531.15625,
+          "right": 293,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-import-375x667",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 285.109375,
+          "y": 89.328125,
+          "bottom": 133.328125,
+          "right": 348,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 101.65625,
+          "h": 44,
+          "x": 27,
+          "y": 145.328125,
+          "bottom": 189.328125,
+          "right": 128.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 101.671875,
+          "h": 44,
+          "x": 136.65625,
+          "y": 145.328125,
+          "bottom": 189.328125,
+          "right": 238.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 101.671875,
+          "h": 44,
+          "x": 246.328125,
+          "y": 145.328125,
+          "bottom": 189.328125,
+          "right": 348,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "source",
+          "w": 283,
+          "h": 44,
+          "x": 65,
+          "y": 343.09375,
+          "bottom": 387.09375,
+          "right": 348,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "legacy",
+          "w": 249.421875,
+          "h": 44,
+          "x": 98.578125,
+          "y": 398.484375,
+          "bottom": 442.484375,
+          "right": 348,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "confirm-import",
+          "w": 157,
+          "h": 44,
+          "x": 27,
+          "y": 536.65625,
+          "bottom": 580.65625,
+          "right": 184,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export-before",
+          "w": 157,
+          "h": 44,
+          "x": 191,
+          "y": 536.65625,
+          "bottom": 580.65625,
+          "right": 348,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-import-390x844",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 300.109375,
+          "y": 200.328125,
+          "bottom": 244.328125,
+          "right": 363,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 106.65625,
+          "h": 44,
+          "x": 27,
+          "y": 256.328125,
+          "bottom": 300.328125,
+          "right": 133.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 106.671875,
+          "h": 44,
+          "x": 141.65625,
+          "y": 256.328125,
+          "bottom": 300.328125,
+          "right": 248.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 106.671875,
+          "h": 44,
+          "x": 256.328125,
+          "y": 256.328125,
+          "bottom": 300.328125,
+          "right": 363,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "source",
+          "w": 298,
+          "h": 44,
+          "x": 65,
+          "y": 430.703125,
+          "bottom": 474.703125,
+          "right": 363,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "legacy",
+          "w": 263.734375,
+          "h": 44,
+          "x": 99.265625,
+          "y": 486.09375,
+          "bottom": 530.09375,
+          "right": 363,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "confirm-import",
+          "w": 164.5,
+          "h": 44,
+          "x": 27,
+          "y": 602.671875,
+          "bottom": 646.671875,
+          "right": 191.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export-before",
+          "w": 164.5,
+          "h": 44,
+          "x": 198.5,
+          "y": 602.671875,
+          "bottom": 646.671875,
+          "right": 363,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-import-430x932",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 340.109375,
+          "y": 244.328125,
+          "bottom": 288.328125,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 120,
+          "h": 44,
+          "x": 27,
+          "y": 300.328125,
+          "bottom": 344.328125,
+          "right": 147,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 120,
+          "h": 44,
+          "x": 155,
+          "y": 300.328125,
+          "bottom": 344.328125,
+          "right": 275,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 120,
+          "h": 44,
+          "x": 283,
+          "y": 300.328125,
+          "bottom": 344.328125,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "source",
+          "w": 338,
+          "h": 44,
+          "x": 65,
+          "y": 474.703125,
+          "bottom": 518.703125,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "legacy",
+          "w": 302.09375,
+          "h": 44,
+          "x": 100.90625,
+          "y": 530.09375,
+          "bottom": 574.09375,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "confirm-import",
+          "w": 184.5,
+          "h": 44,
+          "x": 27,
+          "y": 646.671875,
+          "bottom": 690.671875,
+          "right": 211.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export-before",
+          "w": 184.5,
+          "h": 44,
+          "x": 218.5,
+          "y": 646.671875,
+          "bottom": 690.671875,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-import-844x390",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 78.890625,
+          "h": 44,
+          "x": 702.109375,
+          "y": 97.90625,
+          "bottom": 141.90625,
+          "right": 781,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 130.65625,
+          "h": 44,
+          "x": 208,
+          "y": 102.90625,
+          "bottom": 146.90625,
+          "right": 338.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 130.671875,
+          "h": 44,
+          "x": 346.65625,
+          "y": 102.90625,
+          "bottom": 146.90625,
+          "right": 477.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 130.671875,
+          "h": 44,
+          "x": 485.328125,
+          "y": 102.90625,
+          "bottom": 146.90625,
+          "right": 616,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "source",
+          "w": 315,
+          "h": 44,
+          "x": 97,
+          "y": 194.09375,
+          "bottom": 238.09375,
+          "right": 412,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "legacy",
+          "w": 283.96875,
+          "h": 44,
+          "x": 497.03125,
+          "y": 194.09375,
+          "bottom": 238.09375,
+          "right": 781,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "confirm-import",
+          "w": 168.5,
+          "h": 44,
+          "x": 432,
+          "y": 246.09375,
+          "bottom": 290.09375,
+          "right": 600.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export-before",
+          "w": 168.5,
+          "h": 44,
+          "x": 612.5,
+          "y": 246.09375,
+          "bottom": 290.09375,
+          "right": 781,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-import-768x1024",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 588.71875,
+          "y": 290.328125,
+          "bottom": 334.328125,
+          "right": 688,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 80,
+          "y": 346.328125,
+          "bottom": 390.328125,
+          "right": 277.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 285.328125,
+          "y": 346.328125,
+          "bottom": 390.328125,
+          "right": 482.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 490.671875,
+          "y": 346.328125,
+          "bottom": 390.328125,
+          "right": 688,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "source",
+          "w": 570,
+          "h": 44,
+          "x": 118,
+          "y": 520.703125,
+          "bottom": 564.703125,
+          "right": 688,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "legacy",
+          "w": 528.515625,
+          "h": 44,
+          "x": 159.484375,
+          "y": 576.09375,
+          "bottom": 620.09375,
+          "right": 688,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "confirm-import",
+          "w": 298,
+          "h": 44,
+          "x": 80,
+          "y": 692.671875,
+          "bottom": 736.671875,
+          "right": 378,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export-before",
+          "w": 298,
+          "h": 44,
+          "x": 390,
+          "y": 692.671875,
+          "bottom": 736.671875,
+          "right": 688,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-import-1024x768",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 716.71875,
+          "y": 162.328125,
+          "bottom": 206.328125,
+          "right": 816,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 208,
+          "y": 218.328125,
+          "bottom": 262.328125,
+          "right": 405.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 413.328125,
+          "y": 218.328125,
+          "bottom": 262.328125,
+          "right": 610.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 618.671875,
+          "y": 218.328125,
+          "bottom": 262.328125,
+          "right": 816,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "source",
+          "w": 570,
+          "h": 44,
+          "x": 246,
+          "y": 392.703125,
+          "bottom": 436.703125,
+          "right": 816,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "legacy",
+          "w": 528.515625,
+          "h": 44,
+          "x": 287.484375,
+          "y": 448.09375,
+          "bottom": 492.09375,
+          "right": 816,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "confirm-import",
+          "w": 298,
+          "h": 44,
+          "x": 208,
+          "y": 564.671875,
+          "bottom": 608.671875,
+          "right": 506,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export-before",
+          "w": 298,
+          "h": 44,
+          "x": 518,
+          "y": 564.671875,
+          "bottom": 608.671875,
+          "right": 816,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-import-1032x1376",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 720.71875,
+          "y": 466.328125,
+          "bottom": 510.328125,
+          "right": 820,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 212,
+          "y": 522.328125,
+          "bottom": 566.328125,
+          "right": 409.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 417.328125,
+          "y": 522.328125,
+          "bottom": 566.328125,
+          "right": 614.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 622.671875,
+          "y": 522.328125,
+          "bottom": 566.328125,
+          "right": 820,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "source",
+          "w": 570,
+          "h": 44,
+          "x": 250,
+          "y": 696.703125,
+          "bottom": 740.703125,
+          "right": 820,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "legacy",
+          "w": 528.515625,
+          "h": 44,
+          "x": 291.484375,
+          "y": 752.09375,
+          "bottom": 796.09375,
+          "right": 820,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "confirm-import",
+          "w": 298,
+          "h": 44,
+          "x": 212,
+          "y": 868.671875,
+          "bottom": 912.671875,
+          "right": 510,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export-before",
+          "w": 298,
+          "h": 44,
+          "x": 522,
+          "y": 868.671875,
+          "bottom": 912.671875,
+          "right": 820,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-import-1376x1032",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 892.71875,
+          "y": 294.328125,
+          "bottom": 338.328125,
+          "right": 992,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 384,
+          "y": 350.328125,
+          "bottom": 394.328125,
+          "right": 581.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 589.328125,
+          "y": 350.328125,
+          "bottom": 394.328125,
+          "right": 786.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 794.671875,
+          "y": 350.328125,
+          "bottom": 394.328125,
+          "right": 992,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "source",
+          "w": 570,
+          "h": 44,
+          "x": 422,
+          "y": 524.703125,
+          "bottom": 568.703125,
+          "right": 992,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "legacy",
+          "w": 528.515625,
+          "h": 44,
+          "x": 463.484375,
+          "y": 580.09375,
+          "bottom": 624.09375,
+          "right": 992,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "confirm-import",
+          "w": 298,
+          "h": 44,
+          "x": 384,
+          "y": 696.671875,
+          "bottom": 740.671875,
+          "right": 682,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export-before",
+          "w": 298,
+          "h": 44,
+          "x": 694,
+          "y": 696.671875,
+          "bottom": 740.671875,
+          "right": 992,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-import-1366x600",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 887.71875,
+          "y": 78.328125,
+          "bottom": 122.328125,
+          "right": 987,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 379,
+          "y": 134.328125,
+          "bottom": 178.328125,
+          "right": 576.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 584.328125,
+          "y": 134.328125,
+          "bottom": 178.328125,
+          "right": 781.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 789.671875,
+          "y": 134.328125,
+          "bottom": 178.328125,
+          "right": 987,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "source",
+          "w": 570,
+          "h": 44,
+          "x": 417,
+          "y": 308.703125,
+          "bottom": 352.703125,
+          "right": 987,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "legacy",
+          "w": 528.515625,
+          "h": 44,
+          "x": 458.484375,
+          "y": 364.09375,
+          "bottom": 408.09375,
+          "right": 987,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "confirm-import",
+          "w": 298,
+          "h": 44,
+          "x": 379,
+          "y": 480.671875,
+          "bottom": 524.671875,
+          "right": 677,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export-before",
+          "w": 298,
+          "h": 44,
+          "x": 689,
+          "y": 480.671875,
+          "bottom": 524.671875,
+          "right": 987,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-import-1280x640",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 844.71875,
+          "y": 98.328125,
+          "bottom": 142.328125,
+          "right": 944,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 336,
+          "y": 154.328125,
+          "bottom": 198.328125,
+          "right": 533.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 541.328125,
+          "y": 154.328125,
+          "bottom": 198.328125,
+          "right": 738.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 746.671875,
+          "y": 154.328125,
+          "bottom": 198.328125,
+          "right": 944,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "source",
+          "w": 570,
+          "h": 44,
+          "x": 374,
+          "y": 328.703125,
+          "bottom": 372.703125,
+          "right": 944,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "legacy",
+          "w": 528.515625,
+          "h": 44,
+          "x": 415.484375,
+          "y": 384.09375,
+          "bottom": 428.09375,
+          "right": 944,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "confirm-import",
+          "w": 298,
+          "h": 44,
+          "x": 336,
+          "y": 500.671875,
+          "bottom": 544.671875,
+          "right": 634,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export-before",
+          "w": 298,
+          "h": 44,
+          "x": 646,
+          "y": 500.671875,
+          "bottom": 544.671875,
+          "right": 944,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-journal-320x568",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 230.109375,
+          "y": 98.5,
+          "bottom": 142.5,
+          "right": 293,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 83.328125,
+          "h": 44,
+          "x": 27,
+          "y": 154.5,
+          "bottom": 198.5,
+          "right": 110.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 83.34375,
+          "h": 44,
+          "x": 118.328125,
+          "y": 154.5,
+          "bottom": 198.5,
+          "right": 201.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 83.328125,
+          "h": 44,
+          "x": 209.671875,
+          "y": 154.5,
+          "bottom": 198.5,
+          "right": 293,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 129.5,
+          "h": 44,
+          "x": 27,
+          "y": 418.859375,
+          "bottom": 462.859375,
+          "right": 156.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 129.5,
+          "h": 44,
+          "x": 163.5,
+          "y": 418.859375,
+          "bottom": 462.859375,
+          "right": 293,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-journal-375x667",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 285.109375,
+          "y": 148,
+          "bottom": 192,
+          "right": 348,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 101.65625,
+          "h": 44,
+          "x": 27,
+          "y": 204,
+          "bottom": 248,
+          "right": 128.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 101.671875,
+          "h": 44,
+          "x": 136.65625,
+          "y": 204,
+          "bottom": 248,
+          "right": 238.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 101.671875,
+          "h": 44,
+          "x": 246.328125,
+          "y": 204,
+          "bottom": 248,
+          "right": 348,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 157,
+          "h": 44,
+          "x": 27,
+          "y": 468.359375,
+          "bottom": 512.359375,
+          "right": 184,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 157,
+          "h": 44,
+          "x": 191,
+          "y": 468.359375,
+          "bottom": 512.359375,
+          "right": 348,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-journal-390x844",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 300.109375,
+          "y": 236.5,
+          "bottom": 280.5,
+          "right": 363,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 106.65625,
+          "h": 44,
+          "x": 27,
+          "y": 292.5,
+          "bottom": 336.5,
+          "right": 133.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 106.671875,
+          "h": 44,
+          "x": 141.65625,
+          "y": 292.5,
+          "bottom": 336.5,
+          "right": 248.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 106.671875,
+          "h": 44,
+          "x": 256.328125,
+          "y": 292.5,
+          "bottom": 336.5,
+          "right": 363,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 164.5,
+          "h": 44,
+          "x": 27,
+          "y": 556.859375,
+          "bottom": 600.859375,
+          "right": 191.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 164.5,
+          "h": 44,
+          "x": 198.5,
+          "y": 556.859375,
+          "bottom": 600.859375,
+          "right": 363,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-journal-430x932",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 340.109375,
+          "y": 280.5,
+          "bottom": 324.5,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 120,
+          "h": 44,
+          "x": 27,
+          "y": 336.5,
+          "bottom": 380.5,
+          "right": 147,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 120,
+          "h": 44,
+          "x": 155,
+          "y": 336.5,
+          "bottom": 380.5,
+          "right": 275,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 120,
+          "h": 44,
+          "x": 283,
+          "y": 336.5,
+          "bottom": 380.5,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 184.5,
+          "h": 44,
+          "x": 27,
+          "y": 577.46875,
+          "bottom": 621.46875,
+          "right": 211.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 184.5,
+          "h": 44,
+          "x": 218.5,
+          "y": 577.46875,
+          "bottom": 621.46875,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-journal-844x390",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 78.890625,
+          "h": 44,
+          "x": 702.109375,
+          "y": 87.109375,
+          "bottom": 131.109375,
+          "right": 781,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 130.65625,
+          "h": 44,
+          "x": 208,
+          "y": 92.109375,
+          "bottom": 136.109375,
+          "right": 338.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 130.671875,
+          "h": 44,
+          "x": 346.65625,
+          "y": 92.109375,
+          "bottom": 136.109375,
+          "right": 477.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 130.671875,
+          "h": 44,
+          "x": 485.328125,
+          "y": 92.109375,
+          "bottom": 136.109375,
+          "right": 616,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 168.5,
+          "h": 44,
+          "x": 63,
+          "y": 256.890625,
+          "bottom": 300.890625,
+          "right": 231.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 168.5,
+          "h": 44,
+          "x": 243.5,
+          "y": 256.890625,
+          "bottom": 300.890625,
+          "right": 412,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-journal-768x1024",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 588.71875,
+          "y": 319,
+          "bottom": 363,
+          "right": 688,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 80,
+          "y": 375,
+          "bottom": 419,
+          "right": 277.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 285.328125,
+          "y": 375,
+          "bottom": 419,
+          "right": 482.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 490.671875,
+          "y": 375,
+          "bottom": 419,
+          "right": 688,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 298,
+          "h": 44,
+          "x": 80,
+          "y": 619.5625,
+          "bottom": 663.5625,
+          "right": 378,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 298,
+          "h": 44,
+          "x": 390,
+          "y": 619.5625,
+          "bottom": 663.5625,
+          "right": 688,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-journal-1024x768",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 716.71875,
+          "y": 191,
+          "bottom": 235,
+          "right": 816,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 208,
+          "y": 247,
+          "bottom": 291,
+          "right": 405.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 413.328125,
+          "y": 247,
+          "bottom": 291,
+          "right": 610.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 618.671875,
+          "y": 247,
+          "bottom": 291,
+          "right": 816,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 298,
+          "h": 44,
+          "x": 208,
+          "y": 491.5625,
+          "bottom": 535.5625,
+          "right": 506,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 298,
+          "h": 44,
+          "x": 518,
+          "y": 491.5625,
+          "bottom": 535.5625,
+          "right": 816,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-journal-1032x1376",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 720.71875,
+          "y": 495,
+          "bottom": 539,
+          "right": 820,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 212,
+          "y": 551,
+          "bottom": 595,
+          "right": 409.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 417.328125,
+          "y": 551,
+          "bottom": 595,
+          "right": 614.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 622.671875,
+          "y": 551,
+          "bottom": 595,
+          "right": 820,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 298,
+          "h": 44,
+          "x": 212,
+          "y": 795.5625,
+          "bottom": 839.5625,
+          "right": 510,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 298,
+          "h": 44,
+          "x": 522,
+          "y": 795.5625,
+          "bottom": 839.5625,
+          "right": 820,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-journal-1376x1032",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 892.71875,
+          "y": 323,
+          "bottom": 367,
+          "right": 992,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 384,
+          "y": 379,
+          "bottom": 423,
+          "right": 581.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 589.328125,
+          "y": 379,
+          "bottom": 423,
+          "right": 786.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 794.671875,
+          "y": 379,
+          "bottom": 423,
+          "right": 992,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 298,
+          "h": 44,
+          "x": 384,
+          "y": 623.5625,
+          "bottom": 667.5625,
+          "right": 682,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 298,
+          "h": 44,
+          "x": 694,
+          "y": 623.5625,
+          "bottom": 667.5625,
+          "right": 992,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-journal-1366x600",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 887.71875,
+          "y": 107,
+          "bottom": 151,
+          "right": 987,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 379,
+          "y": 163,
+          "bottom": 207,
+          "right": 576.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 584.328125,
+          "y": 163,
+          "bottom": 207,
+          "right": 781.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 789.671875,
+          "y": 163,
+          "bottom": 207,
+          "right": 987,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 298,
+          "h": 44,
+          "x": 379,
+          "y": 407.5625,
+          "bottom": 451.5625,
+          "right": 677,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 298,
+          "h": 44,
+          "x": 689,
+          "y": 407.5625,
+          "bottom": 451.5625,
+          "right": 987,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "book-journal-1280x640",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 99.28125,
+          "h": 44,
+          "x": 844.71875,
+          "y": 127,
+          "bottom": 171,
+          "right": 944,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 197.328125,
+          "h": 44,
+          "x": 336,
+          "y": 183,
+          "bottom": 227,
+          "right": 533.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 197.34375,
+          "h": 44,
+          "x": 541.328125,
+          "y": 183,
+          "bottom": 227,
+          "right": 738.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 197.328125,
+          "h": 44,
+          "x": 746.671875,
+          "y": 183,
+          "bottom": 227,
+          "right": 944,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 298,
+          "h": 44,
+          "x": 336,
+          "y": 427.5625,
+          "bottom": 471.5625,
+          "right": 634,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 298,
+          "h": 44,
+          "x": 646,
+          "y": 427.5625,
+          "bottom": 471.5625,
+          "right": 944,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "defense-320x568",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 81.015625,
+          "h": 44,
+          "x": 225.984375,
+          "y": 4,
+          "bottom": 48,
+          "right": 307,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-west",
+          "w": 90,
+          "h": 50,
+          "x": 20,
+          "y": 451,
+          "bottom": 501,
+          "right": 110,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-center",
+          "w": 90,
+          "h": 50,
+          "x": 115,
+          "y": 451,
+          "bottom": 501,
+          "right": 205,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-east",
+          "w": 90,
+          "h": 50,
+          "x": 210,
+          "y": 451,
+          "bottom": 501,
+          "right": 300,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "defend",
+          "w": 280,
+          "h": 44,
+          "x": 20,
+          "y": 503,
+          "bottom": 547,
+          "right": 300,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "defense-375x667",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 274.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 362,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-west",
+          "w": 108.328125,
+          "h": 44,
+          "x": 20,
+          "y": 551,
+          "bottom": 595,
+          "right": 128.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-center",
+          "w": 108.328125,
+          "h": 44,
+          "x": 133.328125,
+          "y": 551,
+          "bottom": 595,
+          "right": 241.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-east",
+          "w": 108.34375,
+          "h": 44,
+          "x": 246.65625,
+          "y": 551,
+          "bottom": 595,
+          "right": 355,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "defend",
+          "w": 335,
+          "h": 44,
+          "x": 20,
+          "y": 600,
+          "bottom": 644,
+          "right": 355,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "defense-390x844",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 289.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 377,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-west",
+          "w": 113.328125,
+          "h": 44,
+          "x": 20,
+          "y": 728,
+          "bottom": 772,
+          "right": 133.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-center",
+          "w": 113.328125,
+          "h": 44,
+          "x": 138.328125,
+          "y": 728,
+          "bottom": 772,
+          "right": 251.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-east",
+          "w": 113.34375,
+          "h": 44,
+          "x": 256.65625,
+          "y": 728,
+          "bottom": 772,
+          "right": 370,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "defend",
+          "w": 350,
+          "h": 44,
+          "x": 20,
+          "y": 777,
+          "bottom": 821,
+          "right": 370,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "defense-430x932",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 329.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 417,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-west",
+          "w": 126.65625,
+          "h": 44,
+          "x": 20,
+          "y": 816,
+          "bottom": 860,
+          "right": 146.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-center",
+          "w": 126.671875,
+          "h": 44,
+          "x": 151.65625,
+          "y": 816,
+          "bottom": 860,
+          "right": 278.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-east",
+          "w": 126.65625,
+          "h": 44,
+          "x": 283.328125,
+          "y": 816,
+          "bottom": 860,
+          "right": 409.984375,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "defend",
+          "w": 389.984375,
+          "h": 44,
+          "x": 20,
+          "y": 865,
+          "bottom": 909,
+          "right": 409.984375,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "defense-844x390",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 101.125,
+          "h": 44,
+          "x": 727.875,
+          "y": 3,
+          "bottom": 47,
+          "right": 829,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-west",
+          "w": 190.75,
+          "h": 44,
+          "x": 30,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 220.75,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-center",
+          "w": 190.75,
+          "h": 44,
+          "x": 227.75,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 418.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-east",
+          "w": 190.75,
+          "h": 44,
+          "x": 425.5,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 616.25,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "defend",
+          "w": 190.75,
+          "h": 44,
+          "x": 623.25,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 814,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "defense-768x1024",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 610.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 742,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-west",
+          "w": 157,
+          "h": 54,
+          "x": 52,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 209,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-center",
+          "w": 157,
+          "h": 54,
+          "x": 221,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 378,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-east",
+          "w": 157,
+          "h": 54,
+          "x": 390,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 547,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "defend",
+          "w": 157,
+          "h": 54,
+          "x": 559,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 716,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "defense-1024x768",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 866.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 998,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-west",
+          "w": 221,
+          "h": 54,
+          "x": 52,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 273,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-center",
+          "w": 221,
+          "h": 54,
+          "x": 285,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 506,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-east",
+          "w": 221,
+          "h": 54,
+          "x": 518,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 739,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "defend",
+          "w": 221,
+          "h": 54,
+          "x": 751,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 972,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "defense-1032x1376",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 874.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1006,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-west",
+          "w": 223,
+          "h": 54,
+          "x": 52,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 275,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-center",
+          "w": 223,
+          "h": 54,
+          "x": 287,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 510,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-east",
+          "w": 223,
+          "h": 54,
+          "x": 522,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 745,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "defend",
+          "w": 223,
+          "h": 54,
+          "x": 757,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 980,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "defense-1376x1032",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1218.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1350,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-west",
+          "w": 245,
+          "h": 54,
+          "x": 180,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 425,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-center",
+          "w": 245,
+          "h": 54,
+          "x": 437,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 682,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-east",
+          "w": 245,
+          "h": 54,
+          "x": 694,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 939,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "defend",
+          "w": 245,
+          "h": 54,
+          "x": 951,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 1196,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "defense-1366x600",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1208.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1340,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-west",
+          "w": 245,
+          "h": 54,
+          "x": 175,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 420,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-center",
+          "w": 245,
+          "h": 54,
+          "x": 432,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 677,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-east",
+          "w": 245,
+          "h": 54,
+          "x": 689,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 934,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "defend",
+          "w": 245,
+          "h": 54,
+          "x": 946,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 1191,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "defense-1280x640",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1122.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1254,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-west",
+          "w": 245,
+          "h": 54,
+          "x": 132,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 377,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-center",
+          "w": 245,
+          "h": 54,
+          "x": 389,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 634,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "bait-east",
+          "w": 245,
+          "h": 54,
+          "x": 646,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 891,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "defend",
+          "w": 245,
+          "h": 54,
+          "x": 903,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 1148,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-observe-320x568",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 81.015625,
+          "h": 44,
+          "x": 225.984375,
+          "y": 4,
+          "bottom": 48,
+          "right": 307,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "breath",
+          "w": 137.5,
+          "h": 44,
+          "x": 20,
+          "y": 457,
+          "bottom": 501,
+          "right": 157.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "window",
+          "w": 137.5,
+          "h": 44,
+          "x": 162.5,
+          "y": 457,
+          "bottom": 501,
+          "right": 300,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-window",
+          "w": 137.5,
+          "h": 44,
+          "x": 20,
+          "y": 506,
+          "bottom": 550,
+          "right": 157.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-roof",
+          "w": 137.5,
+          "h": 44,
+          "x": 162.5,
+          "y": 506,
+          "bottom": 550,
+          "right": 300,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-observe-375x667",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 274.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 362,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "breath",
+          "w": 165,
+          "h": 44,
+          "x": 20,
+          "y": 551,
+          "bottom": 595,
+          "right": 185,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "window",
+          "w": 165,
+          "h": 44,
+          "x": 190,
+          "y": 551,
+          "bottom": 595,
+          "right": 355,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-window",
+          "w": 165,
+          "h": 44,
+          "x": 20,
+          "y": 600,
+          "bottom": 644,
+          "right": 185,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-roof",
+          "w": 165,
+          "h": 44,
+          "x": 190,
+          "y": 600,
+          "bottom": 644,
+          "right": 355,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-observe-390x844",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 289.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 377,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "breath",
+          "w": 172.5,
+          "h": 44,
+          "x": 20,
+          "y": 728,
+          "bottom": 772,
+          "right": 192.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "window",
+          "w": 172.5,
+          "h": 44,
+          "x": 197.5,
+          "y": 728,
+          "bottom": 772,
+          "right": 370,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-window",
+          "w": 172.5,
+          "h": 44,
+          "x": 20,
+          "y": 777,
+          "bottom": 821,
+          "right": 192.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-roof",
+          "w": 172.5,
+          "h": 44,
+          "x": 197.5,
+          "y": 777,
+          "bottom": 821,
+          "right": 370,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-observe-430x932",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 329.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 417,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "breath",
+          "w": 192.5,
+          "h": 44,
+          "x": 20,
+          "y": 816,
+          "bottom": 860,
+          "right": 212.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "window",
+          "w": 192.5,
+          "h": 44,
+          "x": 217.5,
+          "y": 816,
+          "bottom": 860,
+          "right": 410,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-window",
+          "w": 192.5,
+          "h": 44,
+          "x": 20,
+          "y": 865,
+          "bottom": 909,
+          "right": 212.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-roof",
+          "w": 192.5,
+          "h": 44,
+          "x": 217.5,
+          "y": 865,
+          "bottom": 909,
+          "right": 410,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-observe-844x390",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 101.125,
+          "h": 44,
+          "x": 727.875,
+          "y": 3,
+          "bottom": 47,
+          "right": 829,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "breath",
+          "w": 190.75,
+          "h": 44,
+          "x": 30,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 220.75,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "window",
+          "w": 190.75,
+          "h": 44,
+          "x": 227.75,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 418.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-window",
+          "w": 190.75,
+          "h": 44,
+          "x": 425.5,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 616.25,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-roof",
+          "w": 190.75,
+          "h": 44,
+          "x": 623.25,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 814,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-observe-768x1024",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 610.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 742,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "breath",
+          "w": 157,
+          "h": 54,
+          "x": 52,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 209,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "window",
+          "w": 157,
+          "h": 54,
+          "x": 221,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 378,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-window",
+          "w": 157,
+          "h": 54,
+          "x": 390,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 547,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-roof",
+          "w": 157,
+          "h": 54,
+          "x": 559,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 716,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-observe-1024x768",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 866.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 998,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "breath",
+          "w": 221,
+          "h": 54,
+          "x": 52,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 273,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "window",
+          "w": 221,
+          "h": 54,
+          "x": 285,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 506,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-window",
+          "w": 221,
+          "h": 54,
+          "x": 518,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 739,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-roof",
+          "w": 221,
+          "h": 54,
+          "x": 751,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 972,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-observe-1032x1376",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 874.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1006,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "breath",
+          "w": 223,
+          "h": 54,
+          "x": 52,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 275,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "window",
+          "w": 223,
+          "h": 54,
+          "x": 287,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 510,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-window",
+          "w": 223,
+          "h": 54,
+          "x": 522,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 745,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-roof",
+          "w": 223,
+          "h": 54,
+          "x": 757,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 980,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-observe-1376x1032",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1218.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1350,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "breath",
+          "w": 245,
+          "h": 54,
+          "x": 180,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 425,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "window",
+          "w": 245,
+          "h": 54,
+          "x": 437,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 682,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-window",
+          "w": 245,
+          "h": 54,
+          "x": 694,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 939,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-roof",
+          "w": 245,
+          "h": 54,
+          "x": 951,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 1196,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-observe-1366x600",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1208.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1340,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "breath",
+          "w": 245,
+          "h": 54,
+          "x": 175,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 420,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "window",
+          "w": 245,
+          "h": 54,
+          "x": 432,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 677,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-window",
+          "w": 245,
+          "h": 54,
+          "x": 689,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 934,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-roof",
+          "w": 245,
+          "h": 54,
+          "x": 946,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 1191,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-observe-1280x640",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1122.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1254,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "breath",
+          "w": 245,
+          "h": 54,
+          "x": 132,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 377,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "window",
+          "w": 245,
+          "h": 54,
+          "x": 389,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 634,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-window",
+          "w": 245,
+          "h": 54,
+          "x": 646,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 891,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "seal-roof",
+          "w": 245,
+          "h": 54,
+          "x": 903,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 1148,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-counters-320x568",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 81.015625,
+          "h": 44,
+          "x": 225.984375,
+          "y": 4,
+          "bottom": 48,
+          "right": 307,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-window",
+          "w": 90,
+          "h": 62,
+          "x": 20,
+          "y": 481.5,
+          "bottom": 543.5,
+          "right": 110,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-roof",
+          "w": 90,
+          "h": 62,
+          "x": 115,
+          "y": 481.5,
+          "bottom": 543.5,
+          "right": 205,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "brace",
+          "w": 90,
+          "h": 62,
+          "x": 210,
+          "y": 481.5,
+          "bottom": 543.5,
+          "right": 300,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-counters-375x667",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 274.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 362,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-window",
+          "w": 108.328125,
+          "h": 62,
+          "x": 20,
+          "y": 572.5,
+          "bottom": 634.5,
+          "right": 128.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-roof",
+          "w": 108.328125,
+          "h": 62,
+          "x": 133.328125,
+          "y": 572.5,
+          "bottom": 634.5,
+          "right": 241.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "brace",
+          "w": 108.34375,
+          "h": 62,
+          "x": 246.65625,
+          "y": 572.5,
+          "bottom": 634.5,
+          "right": 355,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-counters-390x844",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 289.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 377,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-window",
+          "w": 113.328125,
+          "h": 62,
+          "x": 20,
+          "y": 749.5,
+          "bottom": 811.5,
+          "right": 133.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-roof",
+          "w": 113.328125,
+          "h": 62,
+          "x": 138.328125,
+          "y": 749.5,
+          "bottom": 811.5,
+          "right": 251.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "brace",
+          "w": 113.34375,
+          "h": 62,
+          "x": 256.65625,
+          "y": 749.5,
+          "bottom": 811.5,
+          "right": 370,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-counters-430x932",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 87.125,
+          "h": 44,
+          "x": 329.875,
+          "y": 8,
+          "bottom": 52,
+          "right": 417,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-window",
+          "w": 126.65625,
+          "h": 62,
+          "x": 20,
+          "y": 837.5,
+          "bottom": 899.5,
+          "right": 146.65625,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-roof",
+          "w": 126.671875,
+          "h": 62,
+          "x": 151.65625,
+          "y": 837.5,
+          "bottom": 899.5,
+          "right": 278.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "brace",
+          "w": 126.65625,
+          "h": 62,
+          "x": 283.328125,
+          "y": 837.5,
+          "bottom": 899.5,
+          "right": 409.984375,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-counters-844x390",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 101.125,
+          "h": 44,
+          "x": 727.875,
+          "y": 3,
+          "bottom": 47,
+          "right": 829,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-window",
+          "w": 245,
+          "h": 44,
+          "x": 47.5,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 292.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-roof",
+          "w": 245,
+          "h": 44,
+          "x": 299.5,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 544.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "brace",
+          "w": 245,
+          "h": 44,
+          "x": 551.5,
+          "y": 320.5,
+          "bottom": 364.5,
+          "right": 796.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-counters-768x1024",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 610.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 742,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-window",
+          "w": 213.328125,
+          "h": 54,
+          "x": 52,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 265.328125,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-roof",
+          "w": 213.34375,
+          "h": 54,
+          "x": 277.328125,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 490.671875,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "brace",
+          "w": 213.328125,
+          "h": 54,
+          "x": 502.671875,
+          "y": 933.5,
+          "bottom": 987.5,
+          "right": 716,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-counters-1024x768",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 866.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 998,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-window",
+          "w": 245,
+          "h": 54,
+          "x": 132.5,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 377.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-roof",
+          "w": 245,
+          "h": 54,
+          "x": 389.5,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 634.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "brace",
+          "w": 245,
+          "h": 54,
+          "x": 646.5,
+          "y": 677.5,
+          "bottom": 731.5,
+          "right": 891.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-counters-1032x1376",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 874.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1006,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-window",
+          "w": 245,
+          "h": 54,
+          "x": 136.5,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 381.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-roof",
+          "w": 245,
+          "h": 54,
+          "x": 393.5,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 638.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "brace",
+          "w": 245,
+          "h": 54,
+          "x": 650.5,
+          "y": 1285.5,
+          "bottom": 1339.5,
+          "right": 895.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-counters-1376x1032",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1218.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1350,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-window",
+          "w": 245,
+          "h": 54,
+          "x": 308.5,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 553.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-roof",
+          "w": 245,
+          "h": 54,
+          "x": 565.5,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 810.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "brace",
+          "w": 245,
+          "h": 54,
+          "x": 822.5,
+          "y": 941.5,
+          "bottom": 995.5,
+          "right": 1067.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-counters-1366x600",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1208.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1340,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-window",
+          "w": 245,
+          "h": 54,
+          "x": 303.5,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 548.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-roof",
+          "w": 245,
+          "h": 54,
+          "x": 560.5,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 805.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "brace",
+          "w": 245,
+          "h": 54,
+          "x": 817.5,
+          "y": 509.5,
+          "bottom": 563.5,
+          "right": 1062.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "train-counters-1280x640",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "pause",
+          "w": 131.625,
+          "h": 44,
+          "x": 1122.375,
+          "y": 12,
+          "bottom": 56,
+          "right": 1254,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-window",
+          "w": 245,
+          "h": 54,
+          "x": 260.5,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 505.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "counter-roof",
+          "w": 245,
+          "h": 54,
+          "x": 517.5,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 762.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "brace",
+          "w": 245,
+          "h": 54,
+          "x": 774.5,
+          "y": 549.5,
+          "bottom": 603.5,
+          "right": 1019.5,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "chromium-normal-input-campaign",
+      "status": "VERIFIED",
+      "segments": 9,
+      "people": 10,
+      "countered": 3
+    },
+    {
+      "test": "chromium-offline-new-tab",
+      "status": "VERIFIED",
+      "method": "browser transport offline"
+    },
+    {
+      "test": "natural contact expiry applies one impact and advances through normal runtime",
+      "status": "VERIFIED"
+    },
+    {
+      "test": "webkit-pause",
+      "status": "VERIFIED",
+      "overflow": false,
+      "buttons": [
+        {
+          "id": "close",
+          "w": 62.890625,
+          "h": 44,
+          "x": 340.109375,
+          "y": 280.5,
+          "bottom": 324.5,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "旅程",
+          "w": 120,
+          "h": 44,
+          "x": 27,
+          "y": 336.5,
+          "bottom": 380.5,
+          "right": 147,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "設定",
+          "w": 120,
+          "h": 44,
+          "x": 155,
+          "y": 336.5,
+          "bottom": 380.5,
+          "right": 275,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "舊作進度",
+          "w": 120,
+          "h": 44,
+          "x": 283,
+          "y": 336.5,
+          "bottom": 380.5,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "export",
+          "w": 184.5,
+          "h": 44,
+          "x": 27,
+          "y": 577.46875,
+          "bottom": 621.46875,
+          "right": 211.5,
+          "visible": true,
+          "hit": true
+        },
+        {
+          "id": "return",
+          "w": 184.5,
+          "h": 44,
+          "x": 218.5,
+          "y": 577.46875,
+          "bottom": 621.46875,
+          "right": 403,
+          "visible": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "test": "webkit-normal-input-campaign",
+      "status": "VERIFIED",
+      "segments": 3,
+      "people": 10,
+      "countered": 3
+    },
+    {
+      "test": "webkit-offline-new-tab",
+      "status": "VERIFIED",
+      "method": "HTTP server stopped and all its sockets closed"
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

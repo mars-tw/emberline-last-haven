@@ -1,0 +1,53 @@
+
+> emberline-last-haven@0.11.3 build
+> tsc --noEmit && vite build && node scripts/precache.mjs
+
+vite v7.3.1 building client environment for production...
+transforming...
+npm.cmd :
+At C:\Users\digimkt\Desktop\遊戲\apocalypse-anthology\.audit-tmp\r8\rebuild.ps1:7 char:1
++ & npm.cmd run build *>&1 | Out-File -Encoding UTF8 -LiteralPath '.aud ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+/art/r1/panel.webp referenced in /art/r1/panel.webp didn't resolve at build time, it will remain unchanged to be resolv
+ed at runtime
+
+/art/r2/panel.webp referenced in /art/r2/panel.webp didn't resolve at build time, it will remain unchanged to be resolv
+ed at runtime
+
+/art/r3/panel.webp referenced in /art/r3/panel.webp didn't resolve at build time, it will remain unchanged to be resolv
+ed at runtime
+
+/art/r4/panel-tall.webp referenced in /art/r4/panel-tall.webp didn't resolve at build time, it will remain unchanged to
+ be resolved at runtime
+
+/art/r4/panel.webp referenced in /art/r4/panel.webp didn't resolve at build time, it will remain unchanged to be resolv
+ed at runtime
+
+/art/r5/panel-tall.webp referenced in /art/r5/panel-tall.webp didn't resolve at build time, it will remain unchanged to
+ be resolved at runtime
+
+/art/r5/panel.webp referenced in /art/r5/panel.webp didn't resolve at build time, it will remain unchanged to be resolv
+ed at runtime
+
+/art/content-r3/shian-portrait.webp referenced in /art/content-r3/shian-portrait.webp didn't resolve at build time, it
+will remain unchanged to be resolved at runtime
+
+/art/r5/xi-portrait.png referenced in /art/r5/xi-portrait.png didn't resolve at build time, it will remain unchanged to
+ be resolved at runtime
+
+/art/r3/an-poses.png referenced in /art/r3/an-poses.png didn't resolve at build time, it will remain unchanged to be re
+solved at runtime
+
+/art/content-r7/an-portrait.webp referenced in /art/content-r7/an-portrait.webp didn't resolve at build time, it will r
+emain unchanged to be resolved at runtime
+✓ 35 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.75 kB │ gzip:   0.52 kB
+dist/assets/index-Bhv6Vsxl.css   48.35 kB │ gzip:  10.51 kB
+dist/assets/index-CUUlVxL0.js   388.36 kB │ gzip: 112.73 kB
+✓ built in 471ms
+Offline precache: 59 files, revision 0ee51289b95532f8

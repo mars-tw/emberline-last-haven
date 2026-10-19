@@ -1,6 +1,6 @@
 {
   "status": "VERIFIED",
-  "version": "0.1.0",
+  "version": "0.11.3",
   "sourceFiles": 73,
   "sourceResults": [
     {
@@ -20,7 +20,7 @@
     }
   ],
   "secretScan": {
-    "scannedFiles": 110,
+    "scannedFiles": 417,
     "hits": 0,
     "excluded": [
       ".git",
@@ -31,8 +31,20 @@
     ],
     "neverReadSecretsFolder": true
   },
-  "storeScreenshots": 10,
-  "assets": 19,
+  "storeScreenshots": 26,
+  "r2EvidenceCaptures": 75,
+  "r3EvidenceCaptures": 87,
+  "r4EvidenceCaptures": 101,
+  "r4ReviewSet": 15,
+  "r5EvidenceCaptures": 46,
+  "r5ReviewSet": 15,
+  "assets": 166,
   "diffCheck": true,
-  "mainRepoOnly": true
+  "mainRepoOnly": true,
+  "r6EvidenceCaptures": 26,
+  "r6ReviewSet": 15,
+  "r7EvidenceCaptures": 42,
+  "r7ReviewSet": 15,
+  "r8EvidenceCaptures": 60,
+  "r8ReviewSet": 15
 }

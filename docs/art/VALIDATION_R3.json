@@ -1,0 +1,93 @@
+{
+  "status": "VERIFIED",
+  "version": "0.4.0",
+  "branch": "main",
+  "baselineCommit": "3f89e9f8f8589c07ecf5e517dd41e9da789268d9",
+  "command": "npm run check",
+  "exitCode": 0,
+  "unitTests": 86,
+  "browserCases": 95,
+  "edgeCases": 5,
+  "r3Captures": 49,
+  "storeScreenshots": 10,
+  "generatedAssets": 10,
+  "runtimeFiles": 24,
+  "runtimeAddedBytes": 3559320,
+  "publicBytes": 16080596,
+  "indexSha256": "2f77594b2a49db069b751957a462637ba1cbf1011fd3fbb57e38333290e673e3",
+  "secretScanHits": 0,
+  "headless": true,
+  "stateInjection": false,
+  "shippingQualified": false,
+  "previewPort4179Closed": true,
+  "externalActions": [],
+  "incomplete": [
+    "Human 64px blind recognition >=80%",
+    "New independent score >=8/10",
+    "Physical-device and native builds",
+    "Clean-machine shipping performance"
+  ],
+  "artifacts": [
+    {
+      "path": "docs/evidence/check-r3.txt",
+      "sha256": "fc01189290d4380aa3241424f509efb5c5e2afb7fb3366ed217df6b9262bbaa8",
+      "bytes": 14236
+    },
+    {
+      "path": "docs/evidence/check-r3-initial-failure.txt",
+      "sha256": "c8bbd483569c9a18db41fb1b2ead2c1e8f64dcbb4905e12541d7c63b0ac5b335",
+      "bytes": 8026
+    },
+    {
+      "path": "docs/evidence/unit-tests.json",
+      "sha256": "9510c2be6a11b5695f4bceef53040b83ae7fe7533a750c54eb94e7fe782b6a4f",
+      "bytes": 28849
+    },
+    {
+      "path": "docs/evidence/browser.json",
+      "sha256": "a7a07977d5f7c7fe3fa6547924b34ba957ca87ac862a4a21ba56179439364933",
+      "bytes": 122986
+    },
+    {
+      "path": "docs/evidence/edge-cases.json",
+      "sha256": "5c08e4422af1da6ded028ae8845cfffd7a830ca9b6f3fdcaecaaf1b28856ad2e",
+      "bytes": 714
+    },
+    {
+      "path": "docs/evidence/performance.json",
+      "sha256": "70e3e0a2859ec7263dfc6610965b023048171ac28970b5f0ff24a7b54f5107f9",
+      "bytes": 1764
+    },
+    {
+      "path": "docs/art/ART_GATES_R3.json",
+      "sha256": "9825a309ad372c8556079aa215bc3e7b0feb014b7c893bd4405e74fce70d87c8",
+      "bytes": 23001
+    },
+    {
+      "path": "docs/art/ASSET_MANIFEST_R3.json",
+      "sha256": "7996eef675b026e8dea95783ec3ed823c5a2fd0734135294456cb33b535a4f29",
+      "bytes": 20879
+    },
+    {
+      "path": "docs/art/compare/r3-before/captures.json",
+      "sha256": "eba255ea2e5f82c945064611e54736771b86975845b0a7d8c611a5c513435b43",
+      "bytes": 724409
+    },
+    {
+      "path": "docs/art/compare/r3-after/captures.json",
+      "sha256": "ed1cc3c01ba83d72476f1e484b26dc7516543bc518386f5bab33efdfd5a43a5a",
+      "bytes": 749316
+    },
+    {
+      "path": "docs/store/screenshots/manifest.json",
+      "sha256": "ed753149cb15acd7b688b06b225eac27d6034455b00c3be0e5d6985706118570",
+      "bytes": 2867
+    },
+    {
+      "path": "docs/store/asset-manifest.json",
+      "sha256": "1f84d7b94f001bfb45ab76aba0d2993f6a118c03937616b5f139e41473896da0",
+      "bytes": 48154
+    }
+  ],
+  "textArtifactLineEndings": "Hash-bound R3 JSON uses canonical LF, identical in working tree and Git blobs."
+}

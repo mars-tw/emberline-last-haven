@@ -1,0 +1,245 @@
+{
+  "status": "VERIFIED",
+  "version": "0.11.0",
+  "headless": true,
+  "indexSha256": "8eac7ac3ef616d5361df3d72915112b9c3a4bc8348e892f1216b53a3216e53dd",
+  "command": {
+    "command": "npm run check",
+    "exitCode": 1,
+    "reason": "Chromium Page.captureScreenshot protocol failure on the R2 diagnostic-only long HTML at DPR3; DPR1 capture passed",
+    "log": {
+      "source": ".audit-tmp/r5-check-final.log",
+      "path": "docs/content/r5/check-final.log.gz",
+      "exitCode": 1,
+      "sha256": "4f866e83e93f34fea339c4ec8dbc39cd8a0e3bc146429c8a120a6b503227b39a",
+      "gzipSha256": "fa1e93ebfd7526ae6367d8e5b429dac3870c40fdabd85e988e19b1b0d95b5e7a",
+      "encoding": "UTF-16LE"
+    }
+  },
+  "contentAttempts": [
+    {
+      "exitCode": 1,
+      "reason": "R2 passed after DPR1 repair; R3 still required three real shooting poses before redirecting east",
+      "log": {
+        "source": ".audit-tmp/r5-content-recheck.log",
+        "path": "docs/content/r5/content-recheck.log.gz",
+        "exitCode": 1,
+        "sha256": "e1673415d1c0e0e69c130b280761688b8c874dde3f3e07e96bcd027b4387be8a",
+        "gzipSha256": "2154b88ff5e7022494928501e26c16320560e490b9bed81b27902a3d5712621a",
+        "encoding": "UTF-16LE"
+      }
+    },
+    {
+      "exitCode": 1,
+      "reason": "R3 and R4 passed; R5 intro checkpoint was read before the first ordinary UI save",
+      "log": {
+        "source": ".audit-tmp/r5-content-recheck-final.log",
+        "path": "docs/content/r5/content-recheck-final.log.gz",
+        "exitCode": 1,
+        "sha256": "62f97aa985b0bde55100675d6db4c64d3fa4fb87bc84d72420cc4069a5e356f2",
+        "gzipSha256": "dac569efd438d190469b716fff0be441f18cc9f87b31d3d064c2e406de98b7ae",
+        "encoding": "UTF-16LE"
+      }
+    }
+  ],
+  "continuation": {
+    "command": "content-r5, npm run audit",
+    "exitCode": 0,
+    "log": {
+      "source": ".audit-tmp/r5-final-r5-audit.log",
+      "path": "docs/content/r5/r5-audit-final.log.gz",
+      "exitCode": 0,
+      "sha256": "1b2caff5315215b47b0e71b7ae084a30f13ca0af2a67878758b26a6dc9eac879",
+      "gzipSha256": "56b13c3bd7ced4c1bb91a10a787eb6573c26e2f1617a24ea0f2672e048726510",
+      "encoding": "UTF-16LE"
+    },
+    "method": "same-build phased validation; diagnostic page DPR1, real-input pose timing and initial UI save capture repaired; game/store DPR3/2 and all assertions preserved"
+  },
+  "previousAttempt": {
+    "source": ".audit-tmp/r5-check.log",
+    "path": "docs/content/r5/check-initial.log.gz",
+    "exitCode": 1,
+    "sha256": "9f013cc396b38c45531b5507cc807c7f31b8bf58d412956c083df44c3fc35816",
+    "gzipSha256": "c44441cb704c2e1058aa5cca33260155105fb6686c3052ed9f7c29e09992068b",
+    "encoding": "UTF-16LE"
+  },
+  "unit": {
+    "passed": 167,
+    "failed": 0
+  },
+  "browser": {
+    "checks": 95,
+    "errors": 0,
+    "externalRequests": 0
+  },
+  "content": [
+    {
+      "round": 1,
+      "checks": 54,
+      "captures": 32
+    },
+    {
+      "round": 2,
+      "checks": 24,
+      "captures": 75
+    },
+    {
+      "round": 3,
+      "checks": 24,
+      "captures": 87
+    },
+    {
+      "round": 4,
+      "checks": 25,
+      "captures": 101
+    },
+    {
+      "round": 5,
+      "checks": 34,
+      "captures": 46
+    }
+  ],
+  "performance": {
+    "status": "VERIFIED",
+    "maxSynchronousMedianP95": 0.40000009536743164,
+    "maxFrameIntervalMedianP95": 16.799999999999727,
+    "shippingQualified": false,
+    "scope": "並發載量測，僅供參考"
+  },
+  "secretScan": {
+    "scannedFiles": 317,
+    "hits": 0,
+    "excluded": [
+      ".git",
+      "node_modules",
+      "dist",
+      ".audit-tmp",
+      "binary assets"
+    ],
+    "neverReadSecretsFolder": true
+  },
+  "reviewSet": {
+    "count": 15,
+    "distribution": {
+      "flank": 6,
+      "relay": 4,
+      "crew": 5
+    },
+    "manifest": "docs/content/r5/review-set-manifest.json"
+  },
+  "artifacts": [
+    {
+      "path": "docs/evidence/browser.json",
+      "sha256": "5917e02f5a6d5aab7706186c6b1112fb42d8ace941a0a75db51d9ebd9b5e14a9",
+      "checks": 95
+    },
+    {
+      "path": "docs/evidence/deep-r1-after/receipt.json",
+      "sha256": "55c3d80fa39794be3813d34b2865ab4c12baaf03c729776d2cd4afa77ced89ff",
+      "checks": 6
+    },
+    {
+      "path": "docs/art/compare/r5-after/captures.json",
+      "sha256": "eaa69519242e5c5bab5ddaa96989759e5075a679b9439b5d0dd80d3903c1f3bd",
+      "checks": 49
+    },
+    {
+      "path": "docs/content/r1/receipt.json",
+      "sha256": "fbe79adf57ab28d68f6b851dde9c706aa5a8c890a21028578107fdb037498b96",
+      "checks": 54
+    },
+    {
+      "path": "docs/content/r2/receipt.json",
+      "sha256": "78e7d912ff9d08547b855599471c995246aa5a8f16b1936bbd89e7eb805baa95",
+      "checks": 24
+    },
+    {
+      "path": "docs/content/r3/receipt.json",
+      "sha256": "978d7cbd59036112b4d1700565746a2a1c6db738bc548d29cff0e8fbebef8a80",
+      "checks": 24
+    },
+    {
+      "path": "docs/content/r4/receipt.json",
+      "sha256": "9eb83ec45905067d6bf56ed35554c263788d1ee3a48cca9dc6d3d4bca353076a",
+      "checks": 25
+    },
+    {
+      "path": "docs/content/r5/receipt.json",
+      "sha256": "46717e261a871343123458adaf9e529e9d56d95cf3eb69a15efa4248f88dfb04",
+      "checks": 34
+    }
+  ],
+  "sourceHashFormat": "SHA-256 of UTF-8 with CRLF normalized to LF",
+  "sources": [
+    {
+      "path": "src/animation.ts",
+      "sha256": "02cca1b671b7a4ac685d465143d3c106264a1083dc266f900d5abcb66fb07e3d"
+    },
+    {
+      "path": "src/art-layout.ts",
+      "sha256": "fbd6273ff7f90f4e2e2029d52251256914c05cc1e357ec5c2e16f6e061ad65be"
+    },
+    {
+      "path": "src/campaign.ts",
+      "sha256": "4d6a8523e7954ed7f777b38a9ad0cea0fadb7e72ebe70a4b12f881f4b2424fdc"
+    },
+    {
+      "path": "src/dispatch-view.ts",
+      "sha256": "5c0f414d96f4bcd44272d1972c6522f851a52a9185239193440885e50b6b4b15"
+    },
+    {
+      "path": "src/feedback.ts",
+      "sha256": "d3aa756508c652ec8eacbf77651c9e1eb94e4be4b46a5541a767dcbaeb7fcdad"
+    },
+    {
+      "path": "src/journey.ts",
+      "sha256": "5012fe6f35840612436323d66b3fb9f3375bdaa3fcb09f475c5092e7d89048e1"
+    },
+    {
+      "path": "src/main.ts",
+      "sha256": "32ad54584a9d4f522dd4af1127514f3929af32f8dae798dc0c4a37a06cbc5086"
+    },
+    {
+      "path": "src/render.ts",
+      "sha256": "4cce74441707066049717c786dff2bba0e0b7453727906d042e18f32f2c629d4"
+    },
+    {
+      "path": "src/storage.ts",
+      "sha256": "2e7c6be81ff89eaa64bdfef4b1f7ee2dd54c57d1cd41db2dda1454f185c8e092"
+    },
+    {
+      "path": "src/style.css",
+      "sha256": "d3f4cd7730df9346a07f00714f3c275548d771410a30fe68177ae6c143f82aa2"
+    },
+    {
+      "path": "package.json",
+      "sha256": "725a8e0844508d6ab4fdf59a2c589e876759008430a1a2da01a4be864a86452f"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "3a4865277a3bb0afeb23df65e859b46d4bee7f8cabadcceff8fa5951a7d891dd"
+    },
+    {
+      "path": "scripts/content-r2.mjs",
+      "sha256": "18b8fa81bda12a14b6f79995df7f2525e3ba6fb3608ad095ee95d9f913d28850"
+    },
+    {
+      "path": "scripts/content-r5.mjs",
+      "sha256": "88e90e3d09f93b8dec9a81cdefca07d893a56a5494a4f653e0484f445184514e"
+    },
+    {
+      "path": "scripts/content-r5-verify.mjs",
+      "sha256": "b417e80cba7d4b07bb58239a032b130bfab10f306e097ef903c66f2dd372d6c3"
+    }
+  ],
+  "blocked": [
+    "Muse independent rescore >=8",
+    "five-second first-player scout identification",
+    "physical phone and iPad",
+    "human parent-child playtest",
+    "exclusive clean-host shipping performance"
+  ],
+  "physicalDevices": 0,
+  "humanParticipants": 0,
+  "independentMuseScore": null
+}

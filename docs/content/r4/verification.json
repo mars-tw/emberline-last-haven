@@ -1,0 +1,141 @@
+{
+  "status": "VERIFIED",
+  "version": "0.10.0",
+  "verifiedAt": "2026-10-18T20:58:57.069234+00:00",
+  "branch": "main",
+  "headless": true,
+  "indexSha256": "244a5f1dfe4095a1d625bf7db07202b928b8ab9fd9343396d0312ac345a1c100",
+  "allCheckStagesVerified": true,
+  "singleFullCommand": {
+    "command": "npm run check",
+    "exitCode": 1,
+    "interruption": "Chromium Page.captureScreenshot protocol error on diagnostic HTML results page"
+  },
+  "recovery": {
+    "command": "npm run test:content && npm run audit",
+    "exitCode": 0,
+    "change": "software rendering only for the diagnostic HTML page; dimensions and assertions preserved"
+  },
+  "sameBuildArtifacts": {
+    "docs/evidence/browser.json": "a24842893ebddd7ed0c73b9ffa9e20a33759e8b06b8ea26f01c0c2c7ccb9c1ec",
+    "docs/art/compare/r5-after/captures.json": "d1596f6ef332888fbed7d85579aae830595d761048c9a1df0abfc3c16531e2d9",
+    "docs/evidence/deep-r1-after/receipt.json": "8e3fe3200ec14896d60c32c286e107cd233996278e651f4b8764cdfb894e8048",
+    "docs/content/r1/receipt.json": "7ba4c395e1b33d9b3822bed7268bf33f63d7caf2e94bd29a01fdbb884f4fab3a",
+    "docs/content/r2/receipt.json": "b7f4bcd78cfeb37dd90b6a2b71d7f13ae32d234a18e3a081cad534202e78410a",
+    "docs/content/r3/receipt.json": "f46c605f3062685cef48b75aab0c240d2227aba87a45afedc8e0c1a721e052d7",
+    "docs/content/r4/receipt.json": "4168b2f02087ea7d8a09f838751f22147158899ed391002f2b4221b6e3ad62ac",
+    "docs/store/screenshots/content-r4-manifest.json": "e9576fc4288bcd4e45890ff6a49faa1087495742cd01ffd8a1754ff8467c585a"
+  },
+  "unitTests": 153,
+  "browserCases": 95,
+  "edgeCases": 5,
+  "contentCases": {
+    "r1": 54,
+    "r2": 24,
+    "r3": 24,
+    "r4": 25
+  },
+  "r4OriginalScreenshots": 100,
+  "reviewSet": {
+    "count": 15,
+    "distribution": {
+      "flank": 5,
+      "relay": 5,
+      "crew": 5
+    },
+    "dimensions": [
+      1290,
+      2796
+    ]
+  },
+  "newStoreScreenshots": [
+    {
+      "path": "docs/store/screenshots/phone-09-content-r4.png",
+      "sha256": "e535d6e21e41cd765f16a6391924e0eac201e9ee797462088955f5519216cdf6",
+      "dimensions": [
+        1290,
+        2796
+      ],
+      "source": "normal UI journey"
+    },
+    {
+      "path": "docs/store/screenshots/tablet-09-content-r4.png",
+      "sha256": "899323d5676edf846f2517a4b6c3855f8a96041f8b1768f83eefe9e5f6a490a9",
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "source": "unmodified normal-play save restored through file UI"
+    }
+  ],
+  "newGeneratedArt": 0,
+  "performance": {
+    "maxMedianWorkP95": 1.0999999046325684,
+    "maxMedianFrameIntervalP95": 16.799999999999272,
+    "thresholdMs": 18,
+    "context": "並發載量測，僅供參考",
+    "shippingQualified": false
+  },
+  "secretScan": {
+    "scannedFiles": 296,
+    "hits": 0,
+    "excluded": [
+      ".git",
+      "node_modules",
+      "dist",
+      ".audit-tmp",
+      "binary assets"
+    ],
+    "neverReadSecretsFolder": true
+  },
+  "sourceResults": [
+    {
+      "repo": "ashes",
+      "head": "ace11fe95350cf6803b3fe5ca6815d320b09163c",
+      "statusUnchanged": true
+    },
+    {
+      "repo": "storm",
+      "head": "7a27333f69c072e7d4fb33419969cb8307317eb5",
+      "statusUnchanged": true
+    },
+    {
+      "repo": "train",
+      "head": "0698530e6ba21536e19017781be94dc3f98370e1",
+      "statusUnchanged": true
+    }
+  ],
+  "rawLogs": [
+    {
+      "path": "docs/content/r4/check.log",
+      "sha256": "3e40b484c237c2bdb2ae82b4673660398b82260cbc9eb3c444c7af53f9822c74",
+      "archive": "docs/content/r4/check.log.gz",
+      "archiveSha256": "63cf649efef80b825927e9dfe995486f996e5b439289a41b491e6ea78a367104"
+    },
+    {
+      "path": "docs/content/r4/content-recheck.log",
+      "sha256": "618d37337defb9b38f7af72c8d48f334c9e7cf41fa97bd4e0545418b4d0f9c42",
+      "archive": "docs/content/r4/content-recheck.log.gz",
+      "archiveSha256": "77fff82d00c3cd8f5167fb113176ec480d9cc99dfa0721febee94102679356fb"
+    },
+    {
+      "path": "docs/content/r4/audit-recheck.log",
+      "sha256": "b5a41960244d3df04ba6b105bbd32a4310cd94242df7f5e020695979d97d3ae2",
+      "archive": "docs/content/r4/audit-recheck.log.gz",
+      "archiveSha256": "caa7b269668377a0d795a0b11445a9ec0a319ef6776bd2b15170220d069abda4"
+    }
+  ],
+  "blocked": [
+    "independent Muse rescore >=8",
+    "physical phone and iPad",
+    "human and family playtest",
+    "clean exclusive-host performance"
+  ],
+  "finalAudit": {
+    "status": "VERIFIED",
+    "path": "docs/evidence/repository-gates.json",
+    "sha256": "b3d93cac2d6ac8733522e19cb970ad1fbaf1ab9ff218f771eda8b20aeb4f6db4",
+    "sourceFiles": 73,
+    "storeScreenshots": 18
+  }
+}

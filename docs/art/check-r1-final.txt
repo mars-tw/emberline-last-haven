@@ -1,0 +1,141 @@
+
+> emberline-last-haven@0.2.0 check
+> npm run test && npm run build && npm run test:e2e && npm run test:edges && npm run test:perf && npm run test:art && npm run audit
+
+
+> emberline-last-haven@0.2.0 test
+> vitest run --reporter=default --reporter=json --outputFile.json=docs/evidence/unit-tests.json && node vendor/ashes/scripts/test-r86-convoy-latch.js && node vendor/ashes/scripts/test-rules.js && node vendor/ashes/scripts/test-economy.js && node scripts/source-tests.mjs
+
+
+ RUN  v4.1.11 C:/Users/digimkt/Desktop/遊戲/apocalypse-anthology
+
+ ✓ vendor/train/tests/r9-night-watch.test.ts (20 tests) 37ms
+ ✓ vendor/train/tests/r10-handover.test.ts (13 tests) 29ms
+ ✓ tests/campaign.test.ts (28 tests) 19ms
+ ✓ vendor/train/tests/save.test.ts (15 tests) 12ms
+ ✓ tests/animation.test.ts (3 tests) 7ms
+
+ Test Files  5 passed (5)
+      Tests  79 passed (79)
+   Start at  17:54:55
+   Duration  1.23s (transform 298ms, setup 0ms, import 562ms, tests 104ms, environment 0ms)
+
+JSON report written to C:/Users/digimkt/Desktop/遊戲/apocalypse-anthology/docs/evidence/unit-tests.json
+R86 convoy latch rules PASS
+Rules tests PASS
+Economy tests PASS
+PASS starter grants only at fresh wave with no existing tower
+PASS invalid layout safely selects center; every route has a distinct world point
+PASS tactical goal requires two actual attraction events
+PASS reopen preserves meat, tower, resources and selected protagonist
+PASS legacy save without inventory migrates to empty without discarding progress
+PASS corrupt inventory is bounded and malformed JSON remains playable
+PASS storage failure does not stop gameplay saves
+PASS tighter elite column applies to all elite waves with unchanged HP budget and boss
+
+> emberline-last-haven@0.2.0 build
+> tsc --noEmit && vite build && node scripts/precache.mjs
+
+vite v7.3.1 building client environment for production...
+transforming...
+✓ 31 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.75 kB │ gzip:  0.52 kB
+dist/assets/index-BLPlTTjk.css   14.63 kB │ gzip:  3.98 kB
+dist/assets/index-CtqXmKFi.js   345.45 kB │ gzip: 96.64 kB
+✓ built in 878ms
+Offline precache: 45 files, revision 59824bbf4f36eb70
+
+> emberline-last-haven@0.2.0 test:e2e
+> node scripts/browser.mjs
+
+escort start {"segment":0,"hull":100,"level":0,"time":1.3989999999999998}
+escort outcome {"segment":0,"hull":59,"level":0,"time":48.00599999999649,"flung":9,"screen":"report"}
+chromium: first chapter and reload verified
+escort start {"segment":3,"hull":97,"level":1,"time":0}
+escort outcome {"segment":3,"hull":50,"level":1,"time":48.0159999999965,"flung":10,"screen":"report"}
+escort start {"segment":6,"hull":95,"level":2,"time":0}
+escort outcome {"segment":6,"hull":83,"level":2,"time":48.0159999999965,"flung":10,"screen":"report"}
+escort start {"segment":0,"hull":100,"level":0,"time":0.066}
+escort outcome {"segment":0,"hull":55,"level":0,"time":48.01499999999649,"flung":9,"screen":"report"}
+escort start {"segment":0,"hull":100,"level":0,"time":0.5990000000000004}
+escort outcome {"segment":0,"hull":63,"level":0,"time":48.00499999999649,"flung":10,"screen":"report"}
+webkit: first chapter and reload verified
+VERIFIED: 95 browser cases; 12 screenshots; no runtime errors or external requests
+
+> emberline-last-haven@0.2.0 test:edges
+> node scripts/edge-cases.mjs
+
+VERIFIED: 5 import/export/quota browser cases
+
+> emberline-last-haven@0.2.0 test:perf
+> node scripts/performance.mjs
+
+{ width: 1366, height: 600 } 0.2999999523162842 16.700000000000728
+{ width: 390, height: 844 } 0.20000004768371582 16.799999999999727
+
+> emberline-last-haven@0.2.0 test:art
+> python scripts/art-verify.py
+
+VERIFIED 13 RGBA runtime assets, color gates and four distinct A-07 poses
+
+> emberline-last-haven@0.2.0 audit
+> node scripts/audit.mjs
+
+node.exe : warning: in the working copy of 'CREDITS.md', CRLF will be replaced by LF the next time Git touches it
+位於 線路:1 字元:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: in the... Git touches it:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'docs/evidence/animation-frames.json', CRLF will be replaced by LF the next time Git to
+uches it
+warning: in the working copy of 'index.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'package-lock.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'package.json', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'public/manifest.webmanifest', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'scripts/audit.mjs', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/campaign.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/main.ts', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'src/style.css', CRLF will be replaced by LF the next time Git touches it
+{
+  "status": "VERIFIED",
+  "version": "0.2.0",
+  "sourceFiles": 73,
+  "sourceResults": [
+    {
+      "repo": "ashes",
+      "head": "ace11fe95350cf6803b3fe5ca6815d320b09163c",
+      "statusUnchanged": true
+    },
+    {
+      "repo": "storm",
+      "head": "7a27333f69c072e7d4fb33419969cb8307317eb5",
+      "statusUnchanged": true
+    },
+    {
+      "repo": "train",
+      "head": "0698530e6ba21536e19017781be94dc3f98370e1",
+      "statusUnchanged": true
+    }
+  ],
+  "secretScan": {
+    "scannedFiles": 126,
+    "hits": 0,
+    "excluded": [
+      ".git",
+      "node_modules",
+      "dist",
+      ".audit-tmp",
+      "binary assets"
+    ],
+    "neverReadSecretsFolder": true
+  },
+  "storeScreenshots": 10,
+  "assets": 40,
+  "diffCheck": true,
+  "mainRepoOnly": true
+}
