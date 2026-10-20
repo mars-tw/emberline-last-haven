@@ -3,7 +3,7 @@ import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 const dir='docs/content/r3',sha=b=>createHash('sha256').update(b).digest('hex');
 const r=JSON.parse(await readFile(`${dir}/receipt.json`,'utf8'));
-assert.equal(r.status,'VERIFIED');assert.equal(r.version,'0.11.3');assert.equal(r.indexSha256,sha(await readFile('dist/index.html')));assert.equal(r.normalJourneyStateInjection,false);assert.deepEqual(r.errors,[]);assert.deepEqual(r.externalRequests,[]);
+assert.equal(r.status,'VERIFIED');assert.equal(r.version,'0.11.4');assert.equal(r.indexSha256,sha(await readFile('dist/index.html')));assert.equal(r.normalJourneyStateInjection,false);assert.deepEqual(r.errors,[]);assert.deepEqual(r.externalRequests,[]);
 for(const c of r.captures){const b=await readFile(c.path);assert.equal(sha(b),c.sha256);assert.deepEqual(c.dimensions,c.path.includes('tablet-')?[2064,2752]:[1290,2796]);}
 await writeFile('docs/store/screenshots/content-r3-manifest.json',JSON.stringify({status:'VERIFIED',version:r.version,indexSha256:r.indexSha256,captureTool:'Playwright Chromium (headless)',sourceIndex:`${dir}/receipt.json`,screenshots:r.captures.filter(c=>c.path.includes('/store/screenshots/')).map(({path,sha256,dimensions,source})=>({path,sha256,dimensions,source}))},null,2));
 const capture=name=>{const c=r.captures.find(c=>c.path===`${dir}/phone-${name}.png`);assert.ok(c,`missing review evidence ${name}`);return c;};

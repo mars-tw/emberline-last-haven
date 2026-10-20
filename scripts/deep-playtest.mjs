@@ -1,3 +1,4 @@
+import {nightSignal} from './journey-inputs.mjs';
 import {commitBait} from './journey-inputs.mjs';
 import {continueJourney} from './journey-inputs.mjs';
 import {chromium} from 'playwright';
@@ -33,7 +34,7 @@ try{
    else if(!s.progress.started)await page.locator('#defend').click();
   }else if(s.screen==='play'){
    if(!s.progress.started){await page.locator('#breath').click();await page.waitForTimeout(2500);await page.locator('#window').click();await page.waitForTimeout(2500);const cue=await page.locator('#scene-message').innerText();await page.locator(cue.includes('玻璃')?'#seal-window':'#seal-roof').click();}
-   else if(s.progress.warning<10){const cue=await page.locator('#contact-signal').innerText();await page.locator(s.supplies<2?'#brace':cue.includes('玻璃')?'#counter-window':'#counter-roof').click();}
+   else if(s.progress.warning<10){const cue=await nightSignal(page);await page.locator(s.supplies<2?'#brace':cue.includes('玻璃')?'#counter-window':'#counter-roof').click();}
   }
   await page.waitForTimeout(700);
  }

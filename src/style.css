@@ -385,3 +385,24 @@ footer #upgrade{white-space:nowrap}
 #crew-risk-details{padding:10px;border:2px solid #e7826b;background:#392b2a;color:#f0e7d5}#crew-risk-details h3{margin:0 0 7px;color:#ffd1b9;font-size:18px}.risk-person{display:grid;grid-template-columns:48px 1fr;gap:9px;margin:5px 0}.risk-person .crew-portrait{width:48px;height:48px;float:none;margin:0}#crew-risk-details p{font-size:12px;line-height:1.4;margin:7px 0 0}
 #crew-risk-details .crew-card-plan{grid-column:2;grid-row:1;min-width:0}.risk-person .crew-portrait{grid-column:1;grid-row:1}
 @media(max-width:700px) and (max-height:760px){.crew-row:has(.crew-risk) .crew-risk,.crew-row:has(.crew-risk) .card-source{display:none}#crew-risk-details .crew-card-plan{font-size:11px;gap:2px}}
+/* R9: one painted portrait treatment, local route numbers and explicit outcomes. */
+.portrait-0{background-image:url('/art/content-r9/laoxi-portrait.webp')}
+.portrait-1{background-image:url('/art/content-r9/xi-portrait.webp')}
+.portrait-2{background-image:url('/art/content-r9/an-portrait.webp')}
+.crew-portrait{background-size:cover;background-position:center}
+.swap-panel:has(#crew-preview-cancel){grid-template-columns:1fr 140px 140px}
+footer:has(#bait-west) button{font-size:12px;line-height:1.4;padding:5px 7px;text-wrap:balance}
+footer[data-result]:not([data-result=""]){position:relative}
+footer #night-result{position:absolute;bottom:100%;left:0;right:0;text-align:center;background:#24323af5;border:2px solid #9ed6c8;color:#d8ffed;font-weight:bold;padding:5px;pointer-events:none}
+#night-result:empty{display:none}
+@media(max-width:700px){.swap-panel:has(#crew-preview-cancel){grid-template-columns:1fr 1fr}.swap-panel:has(#crew-preview-cancel) p{grid-column:1/-1}}
+@media(max-height:500px){.swap-panel:has(#crew-preview-cancel){grid-template-columns:1fr 130px 130px}.swap-panel:has(#crew-preview-cancel) p{grid-column:auto}footer:has(#bait-west) button{font-size:11px;line-height:1.25;padding:3px}}
+@media(max-width:700px) and (max-height:650px){#dispatch .relay-intro{display:none}}
+@media(max-width:700px) and (max-height:650px){#dispatch .crew-history{display:none}}
+#dispatch:has(#crew-preview-cancel) .roster-intro{display:none}
+@media(max-width:700px) and (min-height:761px){#dispatch .case-grid article{padding:9px}}
+@media(min-width:701px) and (max-height:500px){#dispatch[data-choice=true] .case-grid article{padding:6px}}
+#dispatch .relay-choice:not(:has(article[data-selected=true]))>.table-art{display:none}
+@media(max-width:700px) and (min-height:761px) and (max-height:900px){#dispatch .relay-choice>.table-art{height:85px}}
+@media(max-width:700px) and (max-height:900px){#dispatch .relay-intro{display:none}}
+@media(max-width:700px) and (max-height:900px){#dispatch .relay-forecast,#dispatch .relay-lock{margin:4px 0}#dispatch .case-grid{margin:6px 0}}

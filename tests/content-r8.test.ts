@@ -9,7 +9,7 @@ it.each([69,95,100])('both loss fields at %s contain only forgone benefits and b
  for(const choice of ['rescue','repair'] as const){const c=newCampaign();c.segment=4;begin(c);finish(c);c.hull=hull;c.people=21;c.level=0;const before=structuredClone(c);
  const losses=['rescue','repair'].map(id=>relayLoss(c,id as typeof choice));for(const loss of losses){expect(loss).not.toMatch(/維持|仍生效|不變|同行 \+2/);expect(loss.split('；')).toHaveLength(new Set(loss.split('；')).size);}
  expect(losses[0]).toContain('林叔、阿禾不會加入');expect(dispatchView(c,choice).match(/封箱後同行/g)).toHaveLength(1);expect(dispatchView(c,choice)).toContain('/art/content-r5/rescue.webp');expect(dispatchView(c,choice)).not.toContain('relay-table.webp');expect(c).toEqual(before);
- chooseRelay(c,choice);expect(c.people).toBe(21+(choice==='rescue'?2:0));expect(c.supplies).toBe(before.supplies-(choice==='rescue'?3:0));expect(c.hull).toBe(choice==='repair'?Math.min(100,hull+18):hull);expect(c.repairCredit).toBe(choice==='repair'?Math.max(0,hull-82):0);expect(relayReceipt(c)).toContain('/art/content-r5/rescue.webp');expect(parse(JSON.stringify(c))).toEqual(c);expect(chooseRelay(c,choice)).toBe(false);
+ chooseRelay(c,choice);expect(c.people).toBe(21+(choice==='rescue'?2:0));expect(c.supplies).toBe(before.supplies+(choice==='rescue'?4:0));expect(c.hull).toBe(choice==='repair'?Math.min(100,hull+18):hull);expect(c.repairCredit).toBe(choice==='repair'?Math.max(0,hull-82):0);expect(relayReceipt(c)).toContain('/art/content-r5/rescue.webp');expect(parse(JSON.stringify(c))).toEqual(c);expect(chooseRelay(c,choice)).toBe(false);
  }
 });
 it('stable display slots survive sorting, crossing, and removal of a neighbour',()=>{

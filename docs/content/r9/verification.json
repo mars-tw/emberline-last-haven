@@ -1,0 +1,50 @@
+{
+  "status": "VERIFIED",
+  "version": "0.11.4",
+  "indexSha256": "2b3b2b3fec041281ec91a4f29a34351f1aa3665051a9f2c8d519aaea4c895f29",
+  "unitTests": 220,
+  "browserChecks": 43,
+  "originalCaptures": 61,
+  "reviewSet": 15,
+  "distribution": {
+    "flank": 5,
+    "relay": 4,
+    "crew": 6
+  },
+  "allStagesPassed": true,
+  "singleInvocationNpmCheckExitCode": 0,
+  "continuationExitCode": null,
+  "fullCheckExitCode": 0,
+  "additionalLayoutChecks": 162,
+  "checkMode": "full-npm-check",
+  "preservedUntrackedFiles": 22,
+  "secretScan": {
+    "scannedFiles": 458,
+    "hits": 0,
+    "excluded": [
+      ".git",
+      "node_modules",
+      "dist",
+      ".audit-tmp",
+      "binary assets"
+    ],
+    "neverReadSecretsFolder": true
+  },
+  "performance": {
+    "status": "VERIFIED",
+    "shippingQualified": false,
+    "context": "並發載量測，僅供參考",
+    "maxMedianP95": 0.6000001430511475,
+    "maxMedianFrameIntervalP95": 16.799999999999727
+  },
+  "generatedMasters": 2,
+  "generationCalls": 4,
+  "runtimeIllustrations": 4,
+  "physicalDevices": 0,
+  "humanParticipants": 0,
+  "museRescore": {
+    "status": "BLOCKED",
+    "score": null,
+    "target": 8
+  }
+}

@@ -9,15 +9,15 @@
     "fixtures": {
       "defense": {
         "path": "docs/evidence/performance-scenarios/defense.json",
-        "sha256": "19fbf1dac1cc06ae19c8c86bc127da1e3c45d4e927a5f1a838830ecf9406e518",
+        "sha256": "d3949cb9ac9b5f460a8effab8ceed0b76d7f29719d0d8f86872d767b89d74225",
         "sourcePath": "docs/art/compare/r5-after/phone-defense-active.png",
-        "sourceIndexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0"
+        "sourceIndexSha256": "2b3b2b3fec041281ec91a4f29a34351f1aa3665051a9f2c8d519aaea4c895f29"
       },
       "train": {
         "path": "docs/evidence/performance-scenarios/train.json",
-        "sha256": "dd6df9745d91d1bcc18f99f3c4fd951333d37754fa05af83ed8d1011c2fd1198",
+        "sha256": "015b0d798ba90f385d96bfb9c7a8e53f27d9e0a1cf6d676814790ad7cf0bd532",
         "sourcePath": "docs/art/compare/r5-after/phone-night.png",
-        "sourceIndexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0"
+        "sourceIndexSha256": "2b3b2b3fec041281ec91a4f29a34351f1aa3665051a9f2c8d519aaea4c895f29"
       }
     }
   },
@@ -30,26 +30,26 @@
       "mode": "convoy",
       "runs": [
         {
-          "p95": 0.39999985694885254,
-          "frameIntervalP95": 16.700000000000728,
+          "p95": 0.3000001907348633,
+          "frameIntervalP95": 16.799999999999272,
           "sampleCount": 332,
           "entities": 3
         },
         {
-          "p95": 0.3000001907348633,
-          "frameIntervalP95": 16.799999999999727,
-          "sampleCount": 333,
+          "p95": 0.5,
+          "frameIntervalP95": 16.799999999999272,
+          "sampleCount": 332,
           "entities": 3
         },
         {
-          "p95": 0.3000001907348633,
-          "frameIntervalP95": 16.800000000000182,
+          "p95": 0.40000009536743164,
+          "frameIntervalP95": 16.799999999999727,
           "sampleCount": 332,
           "entities": 3
         }
       ],
-      "medianP95": 0.3000001907348633,
-      "medianFrameIntervalP95": 16.799999999999727,
+      "medianP95": 0.40000009536743164,
+      "medianFrameIntervalP95": 16.799999999999272,
       "thresholdMs": 18,
       "pass": true
     },
@@ -61,13 +61,13 @@
       "mode": "defense",
       "runs": [
         {
-          "p95": 0.5999999046325684,
-          "frameIntervalP95": 16.800000000000182,
+          "p95": 0.6000001430511475,
+          "frameIntervalP95": 16.700000000000728,
           "sampleCount": 332,
           "entities": 4
         },
         {
-          "p95": 0.5999999046325684,
+          "p95": 0.6000001430511475,
           "frameIntervalP95": 16.700000000000728,
           "sampleCount": 332,
           "entities": 4
@@ -79,7 +79,7 @@
           "entities": 4
         }
       ],
-      "medianP95": 0.5999999046325684,
+      "medianP95": 0.6000001430511475,
       "medianFrameIntervalP95": 16.700000000000728,
       "thresholdMs": 18,
       "pass": true
@@ -92,25 +92,25 @@
       "mode": "train",
       "runs": [
         {
-          "p95": 0.2999999523162842,
-          "frameIntervalP95": 16.700000000000728,
-          "sampleCount": 332,
-          "entities": 0
-        },
-        {
-          "p95": 0.2999999523162842,
-          "frameIntervalP95": 16.700000000000728,
-          "sampleCount": 332,
-          "entities": 0
-        },
-        {
           "p95": 0.3000001907348633,
           "frameIntervalP95": 16.700000000000728,
           "sampleCount": 332,
           "entities": 0
+        },
+        {
+          "p95": 0.39999985694885254,
+          "frameIntervalP95": 16.700000000000728,
+          "sampleCount": 332,
+          "entities": 0
+        },
+        {
+          "p95": 0.5,
+          "frameIntervalP95": 16.799999999999727,
+          "sampleCount": 332,
+          "entities": 0
         }
       ],
-      "medianP95": 0.2999999523162842,
+      "medianP95": 0.39999985694885254,
       "medianFrameIntervalP95": 16.700000000000728,
       "thresholdMs": 18,
       "pass": true
@@ -123,8 +123,8 @@
       "mode": "convoy",
       "runs": [
         {
-          "p95": 0.3000001907348633,
-          "frameIntervalP95": 16.700000000000728,
+          "p95": 0.40000009536743164,
+          "frameIntervalP95": 16.800000000000182,
           "sampleCount": 332,
           "entities": 3
         },
@@ -136,13 +136,13 @@
         },
         {
           "p95": 0.3000001907348633,
-          "frameIntervalP95": 16.799999999999955,
+          "frameIntervalP95": 16.799999999999727,
           "sampleCount": 332,
           "entities": 3
         }
       ],
       "medianP95": 0.3000001907348633,
-      "medianFrameIntervalP95": 16.700000000000728,
+      "medianFrameIntervalP95": 16.799999999999727,
       "thresholdMs": 18,
       "pass": true
     },
@@ -155,24 +155,24 @@
       "runs": [
         {
           "p95": 0.5999999046325684,
-          "frameIntervalP95": 16.799999999999727,
-          "sampleCount": 332,
-          "entities": 4
-        },
-        {
-          "p95": 0.5999999046325684,
           "frameIntervalP95": 16.700000000000728,
           "sampleCount": 332,
           "entities": 4
         },
         {
-          "p95": 0.5999999046325684,
+          "p95": 0.5,
+          "frameIntervalP95": 16.700000000000728,
+          "sampleCount": 332,
+          "entities": 4
+        },
+        {
+          "p95": 0.5,
           "frameIntervalP95": 16.700000000000728,
           "sampleCount": 332,
           "entities": 4
         }
       ],
-      "medianP95": 0.5999999046325684,
+      "medianP95": 0.5,
       "medianFrameIntervalP95": 16.700000000000728,
       "thresholdMs": 18,
       "pass": true
@@ -185,14 +185,14 @@
       "mode": "train",
       "runs": [
         {
-          "p95": 0.2999999523162842,
-          "frameIntervalP95": 16.700000000000728,
+          "p95": 0.3000001907348633,
+          "frameIntervalP95": 16.799999999999272,
           "sampleCount": 332,
           "entities": 0
         },
         {
           "p95": 0.2999999523162842,
-          "frameIntervalP95": 16.799999999999272,
+          "frameIntervalP95": 16.799999999999727,
           "sampleCount": 332,
           "entities": 0
         },
@@ -204,7 +204,7 @@
         }
       ],
       "medianP95": 0.2999999523162842,
-      "medianFrameIntervalP95": 16.700000000000728,
+      "medianFrameIntervalP95": 16.799999999999272,
       "thresholdMs": 18,
       "pass": true
     }

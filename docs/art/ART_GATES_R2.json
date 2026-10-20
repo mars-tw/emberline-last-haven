@@ -3,7 +3,7 @@
   "generatedAssets": 12,
   "runtimeFiles": 35,
   "runtimeAddedBytes": 4496251,
-  "publicBytes": 26463752,
+  "publicBytes": 27764704,
   "method": "HSV V/S on alpha>200; V<.15 near-black, S<.20 low saturation. Genuine source alpha and independent limb silhouettes. Hash uniqueness is not artistic review.",
   "humanBlindRecognitionTest": {
     "status": "BLOCKED",

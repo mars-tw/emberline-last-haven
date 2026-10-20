@@ -1,0 +1,6 @@
+{
+  "version": "0.11.3",
+  "sourceCommit": "5fb73b47558d2282efac9cf5d209e1f0cf8900be",
+  "source": "unchanged R8 build, imported retained ordinary checkpoints through product UI",
+  "headless": true
+}

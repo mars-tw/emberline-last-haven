@@ -1,0 +1,22 @@
+{
+  "status": "VERIFIED",
+  "checks": 162,
+  "indexSha256": "2b3b2b3fec041281ec91a4f29a34351f1aa3665051a9f2c8d519aaea4c895f29",
+  "viewports": 9,
+  "people": [
+    8,
+    21
+  ],
+  "hull": [
+    69,
+    95,
+    100
+  ],
+  "states": [
+    "unselected",
+    "rescue",
+    "repair"
+  ],
+  "minimumTarget": 44,
+  "noScroll": true
+}

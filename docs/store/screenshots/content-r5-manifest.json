@@ -4,7 +4,7 @@
   "screenshots": [
     {
       "path": "docs/store/screenshots/phone-10-content-r5.png",
-      "sha256": "91e56e3dcd51513e203482a49410317a9b9b6397962509b81d851f9d2bdad3fc",
+      "sha256": "270e11426e6835c139fb066e8646efbcec13c9d38ab94d2bfd1e776ffdbebbd9",
       "dimensions": [
         1290,
         2796
@@ -13,7 +13,7 @@
     },
     {
       "path": "docs/store/screenshots/tablet-10-content-r5.png",
-      "sha256": "30728d8ba590f8504d97b6a8b5b24837519e08b87832fb20ce6f8541a2f9b614",
+      "sha256": "a82cd64dfee1d3f9e7dea2ab810a23297e7aee339c4b5f7e747dbdc144238057",
       "dimensions": [
         2064,
         2752

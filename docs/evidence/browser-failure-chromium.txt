@@ -1,8 +1,5 @@
-AssertionError [ERR_ASSERTION]: convoy must survive normal steering + drift
-+ actual - expected
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
 
-+ 'stranded'
-- 'report'
+2 !== 3
 
-    at drive (file:///C:/Users/digimkt/Desktop/%E9%81%8A%E6%88%B2/apocalypse-anthology/scripts/browser.mjs:24:35)
-    at async file:///C:/Users/digimkt/Desktop/%E9%81%8A%E6%88%B2/apocalypse-anthology/scripts/browser.mjs:56:77
+    at file:///C:/Users/digimkt/Desktop/%E9%81%8A%E6%88%B2/apocalypse-anthology/scripts/browser.mjs:57:89

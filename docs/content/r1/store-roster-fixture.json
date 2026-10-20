@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "version": "0.11.3",
+  "version": "0.11.4",
   "screen": "report",
   "segment": 1,
-  "supplies": 12,
+  "supplies": 19,
   "people": 10,
   "hull": 100,
   "level": 1,
   "progress": {
-    "time": 50.19799999999625,
+    "time": 50.19999999999625,
     "x": 180,
     "cooldown": 0,
     "spawn": 0,
@@ -28,7 +28,7 @@
         "group": "3:center",
         "lane": "center",
         "exit": "center",
-        "escapedAt": 49.42999999999633
+        "escapedAt": 49.431999999996336
       },
       {
         "id": 15,
@@ -44,7 +44,7 @@
         "group": "3:center",
         "lane": "center",
         "exit": "center",
-        "escapedAt": 50.19799999999625
+        "escapedAt": 50.19999999999625
       },
       {
         "id": 16,
@@ -60,7 +60,7 @@
         "group": "3:center",
         "lane": "center",
         "exit": "center",
-        "escapedAt": 50.08599999999626
+        "escapedAt": 50.08799999999626
       },
       {
         "id": 17,
@@ -76,7 +76,7 @@
         "group": "3:center",
         "lane": "center",
         "exit": "center",
-        "escapedAt": 50.037999999996266
+        "escapedAt": 50.03999999999627
       }
     ],
     "shots": [],
@@ -135,7 +135,7 @@
     "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
     "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
     "段落完成，補給 +9。輪班疲勞已記入行車簿。",
-    "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。"
+    "阿岑與小路登車：「我們帶了四份庫存，上車後接手警戒。」同行 +2，補給 +4，警戒協作火力 +1；工具箱留在站內。"
   ],
   "receipts": [
     "segment:0",

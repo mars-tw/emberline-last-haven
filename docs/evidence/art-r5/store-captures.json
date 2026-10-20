@@ -2,12 +2,12 @@
   "status": "VERIFIED",
   "headless": true,
   "stateInjection": false,
-  "indexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "indexSha256": "2b3b2b3fec041281ec91a4f29a34351f1aa3665051a9f2c8d519aaea4c895f29",
   "screenshots": [
     {
       "path": "docs/store/screenshots/phone-01-departure.png",
-      "sha256": "4c5c7af02831b8bf6550cf58c0946ca555e23d08d6ba921f9c10bfe2e30040e3",
-      "bytes": 2943359,
+      "sha256": "35d4dff51d1c1c9d0eba38c00570769475adff8489c4f17f314eea1486b2fa41",
+      "bytes": 2975378,
       "dimensions": [
         1290,
         2796
@@ -32,25 +32,25 @@
           }
         ],
         "artPaths": [
-          "r3/an-poses.png",
-          "r2/wreck.png",
           "content-r1/relay-table.webp",
-          "r2/sign.png",
+          "r1/trailer.png",
           "r2/luggage.png",
+          "r3/an-poses.png",
           "r2/concrete.png",
           "r2/road-0.webp",
           "r2/road-1.webp",
           "r2/road-2.webp",
-          "r1/trailer.png",
           "r5/climber-attack.png",
           "r5/xi-gunner.png",
-          "r3/truck.png",
           "r5/xi-attack.png",
+          "r3/truck.png",
           "r5/runner-walk.png",
           "r5/runner-attack.png",
           "r5/runner-hurt.png",
           "r5/runner-death.png",
+          "r2/wreck.png",
           "r5/shambler-walk.png",
+          "r2/sign.png",
           "r5/shambler-attack.png",
           "r5/shambler-hurt.png",
           "r5/shambler-death.png",
@@ -67,6 +67,7 @@
           "r5/battery.png",
           "r4/outpost-ready.webp",
           "content-r6/xi-brace.webp",
+          "content-r9/xi-roof.webp",
           "content-r2/coldstore.webp",
           "content-r2/lighthouse.webp"
         ],
@@ -75,6 +76,7 @@
         "luredIds": [],
         "arrowLanes": [],
         "roofRatio": 0,
+        "nightPresentation": null,
         "cssScale": 1.0232142857142856,
         "lureStates": [],
         "liveProgress": {
@@ -121,15 +123,15 @@
     },
     {
       "path": "docs/store/screenshots/phone-02-convoy.png",
-      "sha256": "54674df2534b34a9451f2bfa76e46abb7aaf78876bc8122629079ad9bc793109",
-      "bytes": 3110128,
+      "sha256": "c4f812c2ff4d4281f8fc4b349e45cef2357624ad19d051a2defe5a536882f18f",
+      "bytes": 3161091,
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 0,
         "supplies": 8,
@@ -137,7 +139,7 @@
         "hull": 54,
         "level": 0,
         "progress": {
-          "time": 13.15400000000001,
+          "time": 13.12000000000001,
           "x": 180,
           "cooldown": 0,
           "spawn": 0.9079999999999977,
@@ -149,7 +151,7 @@
               "y": 350,
               "hp": 3,
               "state": "attack",
-              "age": 0.8160000000000006,
+              "age": 0.7680000000000006,
               "slot": 0,
               "type": "runner",
               "hit": true,
@@ -289,25 +291,25 @@
           }
         ],
         "artPaths": [
-          "r3/an-poses.png",
-          "r2/wreck.png",
           "content-r1/relay-table.webp",
-          "r2/sign.png",
+          "r1/trailer.png",
           "r2/luggage.png",
+          "r3/an-poses.png",
           "r2/concrete.png",
           "r2/road-0.webp",
           "r2/road-1.webp",
           "r2/road-2.webp",
-          "r1/trailer.png",
           "r5/climber-attack.png",
           "r5/xi-gunner.png",
-          "r3/truck.png",
           "r5/xi-attack.png",
+          "r3/truck.png",
           "r5/runner-walk.png",
           "r5/runner-attack.png",
           "r5/runner-hurt.png",
           "r5/runner-death.png",
+          "r2/wreck.png",
           "r5/shambler-walk.png",
+          "r2/sign.png",
           "r5/shambler-attack.png",
           "r5/shambler-hurt.png",
           "r5/shambler-death.png",
@@ -324,6 +326,7 @@
           "r5/battery.png",
           "r4/outpost-ready.webp",
           "content-r6/xi-brace.webp",
+          "content-r9/xi-roof.webp",
           "content-r2/coldstore.webp",
           "content-r2/lighthouse.webp"
         ],
@@ -332,6 +335,7 @@
         "luredIds": [],
         "arrowLanes": [],
         "roofRatio": 0.280283023568688,
+        "nightPresentation": null,
         "cssScale": 1.0232142857142856,
         "lureStates": [
           {
@@ -354,10 +358,10 @@
           }
         ],
         "liveProgress": {
-          "time": 13.41000000000001,
+          "time": 13.44000000000001,
           "x": 180,
           "cooldown": 0,
-          "spawn": 0.6519999999999975,
+          "spawn": 0.5879999999999974,
           "shot": 0,
           "enemies": [
             {
@@ -366,7 +370,7 @@
               "y": 350,
               "hp": 3,
               "state": "attack",
-              "age": 0.20800000000000007,
+              "age": 0.2240000000000001,
               "slot": 0,
               "type": "runner",
               "hit": true,
@@ -378,7 +382,7 @@
               "y": 350,
               "hp": 3,
               "state": "attack",
-              "age": 0.112,
+              "age": 0.17600000000000005,
               "slot": 1,
               "type": "shambler",
               "hit": false,
@@ -390,7 +394,7 @@
               "y": 442,
               "hp": 3,
               "state": "attack",
-              "age": 0.016,
+              "age": 0.08,
               "slot": 2,
               "type": "shambler",
               "hit": false,
@@ -434,15 +438,15 @@
     },
     {
       "path": "docs/store/screenshots/phone-03-bait.png",
-      "sha256": "26acbdaa77c2c10543faf1654fb0fbdb4176102c849947f13746890b9e93e1ed",
-      "bytes": 3413262,
+      "sha256": "f1b1408fbad4d8ccad3b3c9d602ecb94c49deecd4458cf62d9ce46c58ff0298e",
+      "bytes": 3426998,
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 1,
         "supplies": 15,
@@ -558,25 +562,25 @@
           }
         ],
         "artPaths": [
-          "r3/an-poses.png",
-          "r2/wreck.png",
           "content-r1/relay-table.webp",
-          "r2/sign.png",
+          "r1/trailer.png",
           "r2/luggage.png",
+          "r3/an-poses.png",
           "r2/concrete.png",
           "r2/road-0.webp",
           "r2/road-1.webp",
           "r2/road-2.webp",
-          "r1/trailer.png",
           "r5/climber-attack.png",
           "r5/xi-gunner.png",
-          "r3/truck.png",
           "r5/xi-attack.png",
+          "r3/truck.png",
           "r5/runner-walk.png",
           "r5/runner-attack.png",
           "r5/runner-hurt.png",
           "r5/runner-death.png",
+          "r2/wreck.png",
           "r5/shambler-walk.png",
+          "r2/sign.png",
           "r5/shambler-attack.png",
           "r5/shambler-hurt.png",
           "r5/shambler-death.png",
@@ -593,6 +597,7 @@
           "r5/battery.png",
           "r4/outpost-ready.webp",
           "content-r6/xi-brace.webp",
+          "content-r9/xi-roof.webp",
           "content-r2/coldstore.webp",
           "content-r2/lighthouse.webp"
         ],
@@ -603,6 +608,7 @@
           "west"
         ],
         "roofRatio": 0,
+        "nightPresentation": null,
         "cssScale": 1,
         "lureStates": [],
         "liveProgress": {
@@ -649,15 +655,15 @@
     },
     {
       "path": "docs/store/screenshots/phone-04-common-progress.png",
-      "sha256": "663ee81606ec1e8f4edf6c223f128759bdeb7a9577e7ef4fa402414c9a88e7dc",
-      "bytes": 3567697,
+      "sha256": "b57fd4bc6a27a90091ce1f88a9ca1c2a4ef1fb4de2e74998e8ce721aa8d4b6d3",
+      "bytes": 3669181,
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
         "supplies": 19,
@@ -876,25 +882,25 @@
           }
         ],
         "artPaths": [
-          "r3/an-poses.png",
-          "r2/wreck.png",
           "content-r1/relay-table.webp",
-          "r2/sign.png",
+          "r1/trailer.png",
           "r2/luggage.png",
+          "r3/an-poses.png",
           "r2/concrete.png",
           "r2/road-0.webp",
           "r2/road-1.webp",
           "r2/road-2.webp",
-          "r1/trailer.png",
           "r5/climber-attack.png",
           "r5/xi-gunner.png",
-          "r3/truck.png",
           "r5/xi-attack.png",
+          "r3/truck.png",
           "r5/runner-walk.png",
           "r5/runner-attack.png",
           "r5/runner-hurt.png",
           "r5/runner-death.png",
+          "r2/wreck.png",
           "r5/shambler-walk.png",
+          "r2/sign.png",
           "r5/shambler-attack.png",
           "r5/shambler-hurt.png",
           "r5/shambler-death.png",
@@ -911,6 +917,7 @@
           "r5/battery.png",
           "r4/outpost-ready.webp",
           "content-r6/xi-brace.webp",
+          "content-r9/xi-roof.webp",
           "content-r2/coldstore.webp",
           "content-r2/lighthouse.webp"
         ],
@@ -921,6 +928,7 @@
         ],
         "arrowLanes": [],
         "roofRatio": 0,
+        "nightPresentation": null,
         "cssScale": 1,
         "lureStates": [
           {
@@ -1081,18 +1089,18 @@
     },
     {
       "path": "docs/store/screenshots/phone-05-night.png",
-      "sha256": "e496892e15c373c52deb968a96868ae383e27daf3ff4e16d4a76e7b9abdb15b3",
-      "bytes": 3339837,
+      "sha256": "bd3ad950a34b67930474d36f5400ec14682fe5a8fd88a6119a6840bb98af03a3",
+      "bytes": 3350441,
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 2,
-        "supplies": 16,
+        "supplies": 23,
         "people": 10,
         "hull": 35,
         "level": 0,
@@ -1114,7 +1122,7 @@
           "started": true,
           "night": {
             "schemaVersion": 6,
-            "runId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d",
+            "runId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e",
             "seed": "emberline-2",
             "day": 1,
             "maxDays": 7,
@@ -1269,8 +1277,8 @@
             ],
             "ledger": [
               {
-                "id": "105aa263-ecff-4951-a905-f5036e5ca270",
-                "at": 1792304559660,
+                "id": "122d0503-40f0-4637-bda4-f50af2ad3f49",
+                "at": 1792304559720,
                 "source": "night.power-grid",
                 "key": "energy",
                 "before": 75,
@@ -1278,8 +1286,8 @@
                 "after": 66
               },
               {
-                "id": "047ff731-2d5f-4d45-935f-1a5485fa69d8",
-                "at": 1792304559660,
+                "id": "d4fc37b7-97ae-41df-82cc-33954f33c4db",
+                "at": 1792304559720,
                 "source": "night.heating",
                 "key": "temperature",
                 "before": 18,
@@ -1287,8 +1295,8 @@
                 "after": 22
               },
               {
-                "id": "0387ead7-d8a7-4a36-b814-14571dd721b4",
-                "at": 1792304559660,
+                "id": "e639a98f-568e-4aa0-8e4a-df45bd9c4e3c",
+                "at": 1792304559720,
                 "source": "module.visibility",
                 "key": "visibility",
                 "before": 42,
@@ -1298,13 +1306,13 @@
             ],
             "quests": {
               "version": 1,
-              "runId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d",
+              "runId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e",
               "routeId": "R01",
               "createdDay": 1,
               "sequence": 2,
               "consumedEventIds": [
-                "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:passenger-breathing:action.committed",
-                "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:window-silhouette:action.committed"
+                "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:passenger-breathing:action.committed",
+                "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:window-silhouette:action.committed"
               ],
               "consumedEventKeys": [
                 "action.committed:D1:inspect:passenger-breathing",
@@ -1312,12 +1320,12 @@
               ],
               "eventHistory": [
                 {
-                  "transactionId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:passenger-breathing",
+                  "transactionId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:passenger-breathing",
                   "operation": "inspect",
                   "targetId": "passenger-breathing",
                   "result": "success",
-                  "eventId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:passenger-breathing:action.committed",
-                  "runId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d",
+                  "eventId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:passenger-breathing:action.committed",
+                  "runId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e",
                   "routeId": "R01",
                   "day": 1,
                   "sequence": 1,
@@ -1325,12 +1333,12 @@
                   "dedupKey": "action.committed:D1:inspect:passenger-breathing"
                 },
                 {
-                  "transactionId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:window-silhouette",
+                  "transactionId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:window-silhouette",
                   "operation": "inspect",
                   "targetId": "window-silhouette",
                   "result": "success",
-                  "eventId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:window-silhouette:action.committed",
-                  "runId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d",
+                  "eventId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:window-silhouette:action.committed",
+                  "runId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e",
                   "routeId": "R01",
                   "day": 1,
                   "sequence": 2,
@@ -1689,13 +1697,13 @@
                     {
                       "count": 1,
                       "matchedEventIds": [
-                        "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:passenger-breathing:action.committed"
+                        "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:passenger-breathing:action.committed"
                       ]
                     },
                     {
                       "count": 1,
                       "matchedEventIds": [
-                        "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:window-silhouette:action.committed"
+                        "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:window-silhouette:action.committed"
                       ]
                     }
                   ],
@@ -2178,7 +2186,7 @@
           "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
           "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
           "段落完成，補給 +9。輪班疲勞已記入行車簿。",
-          "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。",
+          "阿岑與小路登車：「我們帶了四份庫存，上車後接手警戒。」同行 +2，補給 +4，警戒協作火力 +1；工具箱留在站內。",
           "交接已封存，首波預警 32 秒（含交接判讀結果；後續每波依輪班）。"
         ],
         "receipts": [
@@ -2281,25 +2289,25 @@
           }
         ],
         "artPaths": [
-          "r3/an-poses.png",
-          "r2/wreck.png",
           "content-r1/relay-table.webp",
-          "r2/sign.png",
+          "r1/trailer.png",
           "r2/luggage.png",
+          "r3/an-poses.png",
           "r2/concrete.png",
           "r2/road-0.webp",
           "r2/road-1.webp",
           "r2/road-2.webp",
-          "r1/trailer.png",
           "r5/climber-attack.png",
           "r5/xi-gunner.png",
-          "r3/truck.png",
           "r5/xi-attack.png",
+          "r3/truck.png",
           "r5/runner-walk.png",
           "r5/runner-attack.png",
           "r5/runner-hurt.png",
           "r5/runner-death.png",
+          "r2/wreck.png",
           "r5/shambler-walk.png",
+          "r2/sign.png",
           "r5/shambler-attack.png",
           "r5/shambler-hurt.png",
           "r5/shambler-death.png",
@@ -2316,6 +2324,7 @@
           "r5/battery.png",
           "r4/outpost-ready.webp",
           "content-r6/xi-brace.webp",
+          "content-r9/xi-roof.webp",
           "content-r2/coldstore.webp",
           "content-r2/lighthouse.webp"
         ],
@@ -2326,6 +2335,7 @@
         ],
         "arrowLanes": [],
         "roofRatio": 0,
+        "nightPresentation": null,
         "cssScale": 1.0232142857142856,
         "lureStates": [],
         "liveProgress": {
@@ -2346,7 +2356,7 @@
           "started": true,
           "night": {
             "schemaVersion": 6,
-            "runId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d",
+            "runId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e",
             "seed": "emberline-2",
             "day": 1,
             "maxDays": 7,
@@ -2501,8 +2511,8 @@
             ],
             "ledger": [
               {
-                "id": "105aa263-ecff-4951-a905-f5036e5ca270",
-                "at": 1792304559660,
+                "id": "122d0503-40f0-4637-bda4-f50af2ad3f49",
+                "at": 1792304559720,
                 "source": "night.power-grid",
                 "key": "energy",
                 "before": 75,
@@ -2510,8 +2520,8 @@
                 "after": 66
               },
               {
-                "id": "047ff731-2d5f-4d45-935f-1a5485fa69d8",
-                "at": 1792304559660,
+                "id": "d4fc37b7-97ae-41df-82cc-33954f33c4db",
+                "at": 1792304559720,
                 "source": "night.heating",
                 "key": "temperature",
                 "before": 18,
@@ -2519,8 +2529,8 @@
                 "after": 22
               },
               {
-                "id": "0387ead7-d8a7-4a36-b814-14571dd721b4",
-                "at": 1792304559660,
+                "id": "e639a98f-568e-4aa0-8e4a-df45bd9c4e3c",
+                "at": 1792304559720,
                 "source": "module.visibility",
                 "key": "visibility",
                 "before": 42,
@@ -2530,13 +2540,13 @@
             ],
             "quests": {
               "version": 1,
-              "runId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d",
+              "runId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e",
               "routeId": "R01",
               "createdDay": 1,
               "sequence": 2,
               "consumedEventIds": [
-                "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:passenger-breathing:action.committed",
-                "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:window-silhouette:action.committed"
+                "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:passenger-breathing:action.committed",
+                "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:window-silhouette:action.committed"
               ],
               "consumedEventKeys": [
                 "action.committed:D1:inspect:passenger-breathing",
@@ -2544,12 +2554,12 @@
               ],
               "eventHistory": [
                 {
-                  "transactionId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:passenger-breathing",
+                  "transactionId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:passenger-breathing",
                   "operation": "inspect",
                   "targetId": "passenger-breathing",
                   "result": "success",
-                  "eventId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:passenger-breathing:action.committed",
-                  "runId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d",
+                  "eventId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:passenger-breathing:action.committed",
+                  "runId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e",
                   "routeId": "R01",
                   "day": 1,
                   "sequence": 1,
@@ -2557,12 +2567,12 @@
                   "dedupKey": "action.committed:D1:inspect:passenger-breathing"
                 },
                 {
-                  "transactionId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:window-silhouette",
+                  "transactionId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:window-silhouette",
                   "operation": "inspect",
                   "targetId": "window-silhouette",
                   "result": "success",
-                  "eventId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:window-silhouette:action.committed",
-                  "runId": "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d",
+                  "eventId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:window-silhouette:action.committed",
+                  "runId": "run-126a2d79-b150-4fe2-84fb-ee35be1c679e",
                   "routeId": "R01",
                   "day": 1,
                   "sequence": 2,
@@ -2921,13 +2931,13 @@
                     {
                       "count": 1,
                       "matchedEventIds": [
-                        "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:passenger-breathing:action.committed"
+                        "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:passenger-breathing:action.committed"
                       ]
                     },
                     {
                       "count": 1,
                       "matchedEventIds": [
-                        "run-6f9f89f8-5bcb-4c66-b89f-704c181dec0d:D1:window-silhouette:action.committed"
+                        "run-126a2d79-b150-4fe2-84fb-ee35be1c679e:D1:window-silhouette:action.committed"
                       ]
                     }
                   ],
@@ -3408,8 +3418,8 @@
     },
     {
       "path": "docs/store/screenshots/tablet-01-departure.png",
-      "sha256": "b8626740245fd9f5773add5e76fe2a3f5968f93e74e47ef481aa7206688e1f3a",
-      "bytes": 4958103,
+      "sha256": "5b89d6cbe2760ad0f909ebfd8378622ac612547ffdaf2a895d9fac46453752d3",
+      "bytes": 5034882,
       "dimensions": [
         2064,
         2752
@@ -3437,8 +3447,8 @@
           "content-r1/relay-table.webp",
           "r1/trailer.png",
           "r3/truck.png",
-          "r3/an-poses.png",
           "r2/wreck.png",
+          "r3/an-poses.png",
           "r2/sign.png",
           "r2/luggage.png",
           "r2/concrete.png",
@@ -3463,12 +3473,13 @@
           "r5/xi-front.png",
           "r5/xi-side.png",
           "r5/xi-night.png",
-          "r5/fence.png",
           "r5/bait.png",
           "r5/wreckage.png",
+          "r5/fence.png",
           "r5/battery.png",
           "r4/outpost-ready.webp",
           "content-r6/xi-brace.webp",
+          "content-r9/xi-roof.webp",
           "content-r2/coldstore.webp",
           "content-r2/lighthouse.webp"
         ],
@@ -3477,6 +3488,7 @@
         "luredIds": [],
         "arrowLanes": [],
         "roofRatio": 0,
+        "nightPresentation": null,
         "cssScale": 1.75,
         "lureStates": [],
         "liveProgress": {
@@ -3523,15 +3535,15 @@
     },
     {
       "path": "docs/store/screenshots/tablet-02-convoy.png",
-      "sha256": "6a0527ba522a048363e94464f749e3679680dbf0bcfca8735ccb895653122bfb",
-      "bytes": 5267138,
+      "sha256": "489e96a64cb24ceb55deb1fd9ee0eb3ea2fd3b2e6f8c55ca077103991d02eddd",
+      "bytes": 5346153,
       "dimensions": [
         2064,
         2752
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 0,
         "supplies": 8,
@@ -3694,8 +3706,8 @@
           "content-r1/relay-table.webp",
           "r1/trailer.png",
           "r3/truck.png",
-          "r3/an-poses.png",
           "r2/wreck.png",
+          "r3/an-poses.png",
           "r2/sign.png",
           "r2/luggage.png",
           "r2/concrete.png",
@@ -3720,12 +3732,13 @@
           "r5/xi-front.png",
           "r5/xi-side.png",
           "r5/xi-night.png",
-          "r5/fence.png",
           "r5/bait.png",
           "r5/wreckage.png",
+          "r5/fence.png",
           "r5/battery.png",
           "r4/outpost-ready.webp",
           "content-r6/xi-brace.webp",
+          "content-r9/xi-roof.webp",
           "content-r2/coldstore.webp",
           "content-r2/lighthouse.webp"
         ],
@@ -3734,6 +3747,7 @@
         "luredIds": [],
         "arrowLanes": [],
         "roofRatio": 0.280283023568688,
+        "nightPresentation": null,
         "cssScale": 1.75,
         "lureStates": [
           {
@@ -3836,15 +3850,15 @@
     },
     {
       "path": "docs/store/screenshots/tablet-03-bait.png",
-      "sha256": "6c01379b7b4579a142bf64714722284e5ee220a94bfd545e9f11b3ced91ed567",
-      "bytes": 5648297,
+      "sha256": "3399d515308bcc599913a25785faef8457ac51295d9d4f0b2d075376d6f60d5f",
+      "bytes": 5655190,
       "dimensions": [
         2064,
         2752
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 1,
         "supplies": 15,
@@ -3963,8 +3977,8 @@
           "content-r1/relay-table.webp",
           "r1/trailer.png",
           "r3/truck.png",
-          "r3/an-poses.png",
           "r2/wreck.png",
+          "r3/an-poses.png",
           "r2/sign.png",
           "r2/luggage.png",
           "r2/concrete.png",
@@ -3989,12 +4003,13 @@
           "r5/xi-front.png",
           "r5/xi-side.png",
           "r5/xi-night.png",
-          "r5/fence.png",
           "r5/bait.png",
           "r5/wreckage.png",
+          "r5/fence.png",
           "r5/battery.png",
           "r4/outpost-ready.webp",
           "content-r6/xi-brace.webp",
+          "content-r9/xi-roof.webp",
           "content-r2/coldstore.webp",
           "content-r2/lighthouse.webp"
         ],
@@ -4005,6 +4020,7 @@
           "west"
         ],
         "roofRatio": 0,
+        "nightPresentation": null,
         "cssScale": 1.75,
         "lureStates": [],
         "liveProgress": {
@@ -4051,15 +4067,15 @@
     },
     {
       "path": "docs/store/screenshots/tablet-04-common-progress.png",
-      "sha256": "949a7bf025a6fc2b01796158b4a2aad7c701a5a6af56e075ae3800945d7eb13b",
-      "bytes": 5984768,
+      "sha256": "a1de3ce8fbf2794687d8fc86cf54bd0f63fba7d3c75c9b6e9953f326e7f8da03",
+      "bytes": 6056154,
       "dimensions": [
         2064,
         2752
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
         "supplies": 19,
@@ -4281,8 +4297,8 @@
           "content-r1/relay-table.webp",
           "r1/trailer.png",
           "r3/truck.png",
-          "r3/an-poses.png",
           "r2/wreck.png",
+          "r3/an-poses.png",
           "r2/sign.png",
           "r2/luggage.png",
           "r2/concrete.png",
@@ -4307,12 +4323,13 @@
           "r5/xi-front.png",
           "r5/xi-side.png",
           "r5/xi-night.png",
-          "r5/fence.png",
           "r5/bait.png",
           "r5/wreckage.png",
+          "r5/fence.png",
           "r5/battery.png",
           "r4/outpost-ready.webp",
           "content-r6/xi-brace.webp",
+          "content-r9/xi-roof.webp",
           "content-r2/coldstore.webp",
           "content-r2/lighthouse.webp"
         ],
@@ -4323,6 +4340,7 @@
         ],
         "arrowLanes": [],
         "roofRatio": 0,
+        "nightPresentation": null,
         "cssScale": 1.75,
         "lureStates": [
           {
@@ -4483,18 +4501,18 @@
     },
     {
       "path": "docs/store/screenshots/tablet-05-night.png",
-      "sha256": "7c3bcba7380bd6a7cf1e5b90fe5411f5aba746db912ccf6eae746e323c82405d",
-      "bytes": 5512756,
+      "sha256": "5c9f21a5d67bd92fb7f14a362f6488fc4b914c5ce5fd7636bdbbc7736d006477",
+      "bytes": 5519965,
       "dimensions": [
         2064,
         2752
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 2,
-        "supplies": 16,
+        "supplies": 23,
         "people": 10,
         "hull": 35,
         "level": 0,
@@ -4516,7 +4534,7 @@
           "started": true,
           "night": {
             "schemaVersion": 6,
-            "runId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d",
+            "runId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b",
             "seed": "emberline-2",
             "day": 1,
             "maxDays": 7,
@@ -4671,7 +4689,7 @@
             ],
             "ledger": [
               {
-                "id": "e86431dd-b344-4545-bbb5-f58442b8fad4",
+                "id": "fa5d8308-9543-4d19-8f70-2531accbfc12",
                 "at": 1792304559720,
                 "source": "night.power-grid",
                 "key": "energy",
@@ -4680,7 +4698,7 @@
                 "after": 66
               },
               {
-                "id": "43679c2c-8566-49c8-8f51-5e3c575d9c2e",
+                "id": "95ba9879-1107-48d0-9d90-30dc5fb01d1a",
                 "at": 1792304559720,
                 "source": "night.heating",
                 "key": "temperature",
@@ -4689,7 +4707,7 @@
                 "after": 22
               },
               {
-                "id": "63d86fa9-ed2e-4b01-baa4-c5271fee031b",
+                "id": "1160dc1e-0771-4e73-94b9-d7d2decbb06e",
                 "at": 1792304559720,
                 "source": "module.visibility",
                 "key": "visibility",
@@ -4700,13 +4718,13 @@
             ],
             "quests": {
               "version": 1,
-              "runId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d",
+              "runId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b",
               "routeId": "R01",
               "createdDay": 1,
               "sequence": 2,
               "consumedEventIds": [
-                "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:passenger-breathing:action.committed",
-                "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:window-silhouette:action.committed"
+                "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:passenger-breathing:action.committed",
+                "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:window-silhouette:action.committed"
               ],
               "consumedEventKeys": [
                 "action.committed:D1:inspect:passenger-breathing",
@@ -4714,12 +4732,12 @@
               ],
               "eventHistory": [
                 {
-                  "transactionId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:passenger-breathing",
+                  "transactionId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:passenger-breathing",
                   "operation": "inspect",
                   "targetId": "passenger-breathing",
                   "result": "success",
-                  "eventId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:passenger-breathing:action.committed",
-                  "runId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d",
+                  "eventId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:passenger-breathing:action.committed",
+                  "runId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b",
                   "routeId": "R01",
                   "day": 1,
                   "sequence": 1,
@@ -4727,12 +4745,12 @@
                   "dedupKey": "action.committed:D1:inspect:passenger-breathing"
                 },
                 {
-                  "transactionId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:window-silhouette",
+                  "transactionId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:window-silhouette",
                   "operation": "inspect",
                   "targetId": "window-silhouette",
                   "result": "success",
-                  "eventId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:window-silhouette:action.committed",
-                  "runId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d",
+                  "eventId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:window-silhouette:action.committed",
+                  "runId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b",
                   "routeId": "R01",
                   "day": 1,
                   "sequence": 2,
@@ -5091,13 +5109,13 @@
                     {
                       "count": 1,
                       "matchedEventIds": [
-                        "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:passenger-breathing:action.committed"
+                        "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:passenger-breathing:action.committed"
                       ]
                     },
                     {
                       "count": 1,
                       "matchedEventIds": [
-                        "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:window-silhouette:action.committed"
+                        "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:window-silhouette:action.committed"
                       ]
                     }
                   ],
@@ -5580,7 +5598,7 @@
           "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
           "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
           "段落完成，補給 +9。輪班疲勞已記入行車簿。",
-          "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。",
+          "阿岑與小路登車：「我們帶了四份庫存，上車後接手警戒。」同行 +2，補給 +4，警戒協作火力 +1；工具箱留在站內。",
           "交接已封存，首波預警 32 秒（含交接判讀結果；後續每波依輪班）。"
         ],
         "receipts": [
@@ -5686,8 +5704,8 @@
           "content-r1/relay-table.webp",
           "r1/trailer.png",
           "r3/truck.png",
-          "r3/an-poses.png",
           "r2/wreck.png",
+          "r3/an-poses.png",
           "r2/sign.png",
           "r2/luggage.png",
           "r2/concrete.png",
@@ -5712,12 +5730,13 @@
           "r5/xi-front.png",
           "r5/xi-side.png",
           "r5/xi-night.png",
-          "r5/fence.png",
           "r5/bait.png",
           "r5/wreckage.png",
+          "r5/fence.png",
           "r5/battery.png",
           "r4/outpost-ready.webp",
           "content-r6/xi-brace.webp",
+          "content-r9/xi-roof.webp",
           "content-r2/coldstore.webp",
           "content-r2/lighthouse.webp"
         ],
@@ -5728,6 +5747,7 @@
         ],
         "arrowLanes": [],
         "roofRatio": 0,
+        "nightPresentation": null,
         "cssScale": 1.75,
         "lureStates": [],
         "liveProgress": {
@@ -5748,7 +5768,7 @@
           "started": true,
           "night": {
             "schemaVersion": 6,
-            "runId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d",
+            "runId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b",
             "seed": "emberline-2",
             "day": 1,
             "maxDays": 7,
@@ -5903,7 +5923,7 @@
             ],
             "ledger": [
               {
-                "id": "e86431dd-b344-4545-bbb5-f58442b8fad4",
+                "id": "fa5d8308-9543-4d19-8f70-2531accbfc12",
                 "at": 1792304559720,
                 "source": "night.power-grid",
                 "key": "energy",
@@ -5912,7 +5932,7 @@
                 "after": 66
               },
               {
-                "id": "43679c2c-8566-49c8-8f51-5e3c575d9c2e",
+                "id": "95ba9879-1107-48d0-9d90-30dc5fb01d1a",
                 "at": 1792304559720,
                 "source": "night.heating",
                 "key": "temperature",
@@ -5921,7 +5941,7 @@
                 "after": 22
               },
               {
-                "id": "63d86fa9-ed2e-4b01-baa4-c5271fee031b",
+                "id": "1160dc1e-0771-4e73-94b9-d7d2decbb06e",
                 "at": 1792304559720,
                 "source": "module.visibility",
                 "key": "visibility",
@@ -5932,13 +5952,13 @@
             ],
             "quests": {
               "version": 1,
-              "runId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d",
+              "runId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b",
               "routeId": "R01",
               "createdDay": 1,
               "sequence": 2,
               "consumedEventIds": [
-                "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:passenger-breathing:action.committed",
-                "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:window-silhouette:action.committed"
+                "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:passenger-breathing:action.committed",
+                "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:window-silhouette:action.committed"
               ],
               "consumedEventKeys": [
                 "action.committed:D1:inspect:passenger-breathing",
@@ -5946,12 +5966,12 @@
               ],
               "eventHistory": [
                 {
-                  "transactionId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:passenger-breathing",
+                  "transactionId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:passenger-breathing",
                   "operation": "inspect",
                   "targetId": "passenger-breathing",
                   "result": "success",
-                  "eventId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:passenger-breathing:action.committed",
-                  "runId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d",
+                  "eventId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:passenger-breathing:action.committed",
+                  "runId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b",
                   "routeId": "R01",
                   "day": 1,
                   "sequence": 1,
@@ -5959,12 +5979,12 @@
                   "dedupKey": "action.committed:D1:inspect:passenger-breathing"
                 },
                 {
-                  "transactionId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:window-silhouette",
+                  "transactionId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:window-silhouette",
                   "operation": "inspect",
                   "targetId": "window-silhouette",
                   "result": "success",
-                  "eventId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:window-silhouette:action.committed",
-                  "runId": "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d",
+                  "eventId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:window-silhouette:action.committed",
+                  "runId": "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b",
                   "routeId": "R01",
                   "day": 1,
                   "sequence": 2,
@@ -6323,13 +6343,13 @@
                     {
                       "count": 1,
                       "matchedEventIds": [
-                        "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:passenger-breathing:action.committed"
+                        "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:passenger-breathing:action.committed"
                       ]
                     },
                     {
                       "count": 1,
                       "matchedEventIds": [
-                        "run-d7a6c545-005f-4ccd-963e-2dc0f8317b1d:D1:window-silhouette:action.committed"
+                        "run-2d852a1a-bfea-4037-ac7c-41b8f6a8b83b:D1:window-silhouette:action.committed"
                       ]
                     }
                   ],

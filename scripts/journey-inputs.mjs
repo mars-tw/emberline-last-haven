@@ -1,3 +1,4 @@
+export async function nightSignal(page){await page.clock.runFor(1800);return page.locator('#contact-signal').innerText();}
 /** Existing regression journeys take the new mandatory relay decision via real UI. */
 export async function assignRole(page,role,person){
  if(await page.locator('#relay-roster').count())await page.locator('#relay-roster').click();

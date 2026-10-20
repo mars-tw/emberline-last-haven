@@ -1,7 +1,7 @@
 {
   "status": "VERIFIED",
   "beforeSourceCommit": "c0d9830",
-  "indexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "indexSha256": "2b3b2b3fec041281ec91a4f29a34351f1aa3665051a9f2c8d519aaea4c895f29",
   "sourceAfterIndex": "docs/art/compare/r5-after/captures.json",
   "captures": [
     {
@@ -22,7 +22,7 @@
         390,
         844
       ],
-      "sha256": "3f64a2d72601e28c846d7f62c5b65d15430f653f2d7011f0ca415541a02b3151"
+      "sha256": "6e721c8c31985e9cf4e8e16354e3f7f5903f1ee85d34596edf5fd9ffeb77a5aa"
     },
     {
       "phase": "before",
@@ -42,7 +42,7 @@
         1032,
         1376
       ],
-      "sha256": "1869eb94ff1a356a07d8bf214db82abd221be9c9e5bff7f1d8f29a6e0c0e7cbd"
+      "sha256": "ff3942a1918ded63069b2372520e5281cad9d407f19e39c09f29ba27a19f9bf3"
     },
     {
       "phase": "before",
@@ -62,7 +62,7 @@
         1366,
         600
       ],
-      "sha256": "7a356185f097e540880cf86a4040fb77bcb67e77002e17d5bc4d112748caa5b5"
+      "sha256": "aaa76ad2667a1da1773c8697ac7c5bfe0366cb20a88b85929fac8fbee34a3bc9"
     }
   ]
 }

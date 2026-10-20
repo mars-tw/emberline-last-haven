@@ -1,6 +1,6 @@
 {
   "name": "emberline-last-haven",
-  "version": "0.11.3",
+  "version": "0.11.4",
   "private": false,
   "type": "module",
   "license": "MIT",
@@ -13,11 +13,12 @@
     "test:perf": "node scripts/performance.mjs",
     "test:edges": "node scripts/edge-cases.mjs",
     "audit": "node scripts/audit.mjs",
-    "test:art": "python scripts/art-verify.py && python scripts/art-r2-verify.py && python scripts/art-r3-verify.py && node scripts/art-r5-capture.mjs after && python scripts/art-r4-verify.py && python scripts/art-r5-verify.py && python scripts/content-r7-art.py",
+    "test:art": "python scripts/art-verify.py && python scripts/art-r2-verify.py && python scripts/art-r3-verify.py && node scripts/art-r5-capture.mjs after && python scripts/art-r4-verify.py && python scripts/art-r5-verify.py && python scripts/content-r7-art.py && python scripts/content-r9-art.py",
     "check": "npm run test && npm run build && npm run test:e2e && npm run test:edges && npm run test:art && npm run test:perf && npm run test:deep && npm run test:content && npm run audit",
     "test:deep": "node scripts/deep-verify.mjs",
-    "test:content": "node scripts/content-r1.mjs && node scripts/content-r2.mjs && node scripts/content-r3.mjs && node scripts/content-r3-verify.mjs && node scripts/content-r4.mjs && node scripts/content-r5.mjs && node scripts/content-r6.mjs && node scripts/content-r7.mjs && node scripts/content-r8.mjs",
-    "test:content:r8": "node scripts/content-r8.mjs"
+    "test:content": "node scripts/content-r1.mjs && node scripts/content-r2.mjs && node scripts/content-r3.mjs && node scripts/content-r3-verify.mjs && node scripts/content-r4.mjs && node scripts/content-r5.mjs && node scripts/content-r6.mjs && node scripts/content-r7.mjs && node scripts/content-r8.mjs && node scripts/content-r9-layout.mjs && node scripts/content-r9.mjs",
+    "test:content:r8": "node scripts/content-r8.mjs",
+    "test:content:r9": "node scripts/content-r9.mjs"
   },
   "devDependencies": {
     "@types/node": "24.0.0",

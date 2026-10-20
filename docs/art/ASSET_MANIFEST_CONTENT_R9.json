@@ -1,0 +1,136 @@
+{
+  "status": "VERIFIED",
+  "round": "content-r9",
+  "tool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "modelEvidence": "The actual built-in tool returned local output paths and images; it did not expose a model slug.",
+  "generatedImages": 2,
+  "runtimeIllustrations": 4,
+  "sources": [
+    {
+      "path": "docs/art/masters/content-r9/portraits-final.png",
+      "sha256": "fee4d5ca4aa9b85ce920614342c3efb95a2ff214888a16b8d90d8a03f9f913f3",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "bytes": 3257229
+    },
+    {
+      "path": "docs/art/masters/content-r9/portraits-graded.png",
+      "sha256": "518ceeb627d86bf557b50432cc3286e4a4d901bba95c501bbc4eab76d793cdf5",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "bytes": 3455638
+    },
+    {
+      "path": "docs/art/masters/content-r9/portraits-source.png",
+      "sha256": "cd95ac761aacc882bdb98b19606ca61a3940326357c5d0fda2b9e83ed5c7fbe9",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "bytes": 3331820
+    },
+    {
+      "path": "docs/art/masters/content-r9/xi-roof-source.png",
+      "sha256": "6714f977dd7d90410f78c2cc8b1feab7454683ada23f884b3a6fc45576fb463d",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "bytes": 1514882
+    }
+  ],
+  "assets": [
+    {
+      "path": "public/art/content-r9/an-portrait.webp",
+      "sha256": "4f051f4f85aec1a86a77841f2a5af72946e9b2374ded07153d922d23dea01cd2",
+      "dimensions": [
+        384,
+        384
+      ],
+      "bytes": 86630
+    },
+    {
+      "path": "public/art/content-r9/laoxi-portrait.webp",
+      "sha256": "e054c71998435aaef29db6693780126ff9d42fdb017dc9c491eb4efcfd652623",
+      "dimensions": [
+        384,
+        384
+      ],
+      "bytes": 84190
+    },
+    {
+      "path": "public/art/content-r9/xi-portrait.webp",
+      "sha256": "c140cd66b23e522d970391cd25735d6a08286314eb3d2faf34babfe47e0d66a4",
+      "dimensions": [
+        384,
+        384
+      ],
+      "bytes": 88202
+    },
+    {
+      "path": "public/art/content-r9/xi-roof.webp",
+      "sha256": "246bcb6c3ee0a0e330358f60fb3f6be74424830b14ac8c555240fefed50f7446",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "bytes": 1041930
+    }
+  ],
+  "metrics": {
+    "public/art/content-r9/an-portrait.webp": {
+      "brightness": 0.4588603898590687,
+      "nearBlack": 0.09562174479166667,
+      "saturation": 0.47023856634667754,
+      "lowSaturation": 0.1133083767361111
+    },
+    "public/art/content-r9/laoxi-portrait.webp": {
+      "brightness": 0.4489859121817129,
+      "nearBlack": 0.11954752604166667,
+      "saturation": 0.4956199363425926,
+      "lowSaturation": 0.1382717556423611
+    },
+    "public/art/content-r9/xi-portrait.webp": {
+      "brightness": 0.5473892644080203,
+      "nearBlack": 0.04702419704861111,
+      "saturation": 0.57615573193253,
+      "lowSaturation": 0.08599853515625
+    },
+    "public/art/content-r9/xi-roof.webp": {
+      "brightness": 0.41865237982652564,
+      "nearBlack": 0.1299504356325746,
+      "saturation": 0.5596767582838005,
+      "lowSaturation": 0.04503424953479396
+    }
+  },
+  "processing": "Two retained image-generation tonal correction calls on the portrait atlas; equal-panel crop and resize, roof PNG-to-lossless-WebP preserving alpha. Metrics use the existing HSV-V gate, not RGB luminance. Drafts remain for provenance.",
+  "stylePrefix": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark.",
+  "references": [
+    "public/art/content-r3/shian-portrait.webp",
+    "public/art/r5/xi-portrait.png",
+    "public/art/content-r7/an-portrait.webp",
+    "public/art/content-r6/xi-brace.webp"
+  ],
+  "licensing": "Project generated assets, included in the MIT project; tool/model distinction recorded.",
+  "limitations": [
+    "Portrait style is visually checked by Codex, not an independent human identity test.",
+    "Two distinct bracing stills plus staged game feedback; not newly generated skeletal or frame-by-frame blocking animation."
+  ],
+  "generationCalls": 4,
+  "selectedSources": [
+    "docs/art/masters/content-r9/portraits-final.png",
+    "docs/art/masters/content-r9/xi-roof-source.png"
+  ],
+  "fullPromptFile": "docs/art/PROMPT_CONTENT_R9_FULL.txt",
+  "offlineRuntimeSet": [
+    "art/content-r9/an-portrait.webp",
+    "art/content-r9/laoxi-portrait.webp",
+    "art/content-r9/xi-portrait.webp",
+    "art/content-r9/xi-roof.webp"
+  ]
+}

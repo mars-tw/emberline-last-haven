@@ -1,17 +1,18 @@
-import {modeFor,actualThreat,guardPower,campaignRaids,type Campaign,type Enemy} from './campaign';
+import {modeFor,actualThreat,nightPresentation,guardPower,campaignRaids,type Campaign,type Enemy} from './campaign';
 import {LANE_NAMES,LANE_COLORS,raidComparison,raidsFor,baitMatches,type Lane} from './journey';
 import {lureState} from './feedback';
 import {attackFrame,gunnerFrame} from './animation';
-import {roofLayout,defensePoint} from './art-layout';
+import {roofLayout,defensePoint,defenseCrowd} from './art-layout';
 const paths=['content-r1/relay-table.webp','r1/trailer.png','r3/truck.png','r3/an-poses.png',...['wreck','sign','luggage','concrete'].map(p=>'r2/'+p+'.png'),...Array.from({length:3},(_,i)=>'r2/road-'+i+'.webp'),...['climber-attack.png','xi-gunner.png','xi-attack.png',...['runner','shambler'].flatMap(e=>['walk','attack','hurt','death'].map(a=>e+'-'+a+'.png'))].map(p=>'r5/'+p),...['departure.webp','train.webp','train-wide.webp','outpost-wide.webp','xi-front.png','xi-side.png','xi-night.png','bait.png','wreckage.png','fence.png','battery.png'].map(p=>'r5/'+p),'r4/outpost-ready.webp'];
 type Actor={id:string;action:string;frame:number;visibleWidth:number;visibleHeight:number;path:string;x:number;y:number};
-paths.push('content-r6/xi-brace.webp','content-r2/coldstore.webp','content-r2/lighthouse.webp');
+paths.push('content-r6/xi-brace.webp','content-r9/xi-roof.webp','content-r2/coldstore.webp','content-r2/lighthouse.webp');
 export class Renderer {
  images=new Map<string,HTMLImageElement>();ready:Promise<void>;ctx:CanvasRenderingContext2D;
  bounds=new Map<string,{w:number;h:number}[]>();actors:Actor[]=[];cssScale=1;
  transform={scale:1,ox:0,oy:0,dpr:1};
  blockEvent='';blockUntil=0;
  previewLane:Lane|null=null;
+ defenseChapter=0;
  labels:{id:number;text:string;x:number;y:number;w:number;h:number}[]=[];sceneArt='';roofRatio=0;poseCounts=new Map<string,number>();luredIds:number[]=[];arrowLanes:string[]=[];
  constructor(public canvas:HTMLCanvasElement){
   this.ctx=canvas.getContext('2d',{alpha:false})!;
@@ -31,7 +32,7 @@ export class Renderer {
   this.ctx.drawImage(im,frame*im.width/bounds.length,0,im.width/bounds.length,im.height,x-w/2,y-h,w,h);
   if(id)this.actors.push({id,action,frame,path,x:x*this.cssScale,y:y*this.cssScale,visibleWidth:w*b.w*this.cssScale,visibleHeight:h*b.h*this.cssScale});
  }
- enemy(e:Enemy,reduced:boolean,minimum:number,point={x:e.x,y:e.y+14}){
+ enemy(e:Enemy,reduced:boolean,minimum:number,point={x:e.x,y:e.y+14},size=80){
   const action=e.state==='flung'?'hurt':e.state;
   let frame=action==='attack'?attackFrame(e.age,e.slot>=0):action==='walk'?Math.floor(e.age/(reduced?.28:.16)+e.id*.73)%4:Math.min(3,Math.floor(e.age/(action==='death'?.65:.24)*4));
   // Only locomotion can vary phase. Attack/hurt/death stay tied to impact ages.
@@ -42,7 +43,8 @@ export class Renderer {
   // State ages and impact frames still come from combat.
   const climbing=e.slot>=0&&action==='attack',path=climbing?'r5/climber-attack.png':'r5/'+e.type+'-'+action+'.png';
   ctx.save();if(climbing&&e.slot%2){ctx.translate(point.x*2,0);ctx.scale(-1,1);}
-  this.sprite(path,point.x,point.y,climbing?70:80,climbing?70:80,frame,'enemy-'+e.id,action,action==='death'?0:minimum);ctx.restore();
+  if(size===64&&this.defenseChapter===2)ctx.filter='sepia(.35) saturate(1.25)';
+  this.sprite(path,point.x,point.y,climbing?70:size,climbing?70:size,frame,'enemy-'+e.id,action,action==='death'?0:minimum);ctx.restore();
  }
  road(w:number,h:number,time:number){
   const tileH=Math.max(h,w),offset=(time*52)%(tileH*3);
@@ -78,16 +80,11 @@ export class Renderer {
    if(e.attracted)return;
    ctx.save();ctx.strokeStyle=LANE_COLORS[lane];ctx.lineWidth=2;
    ctx.beginPath();ctx.ellipse(x,y+3,17,8,0,0,lureState(c,e)==='turning'?Math.PI:Math.PI*2);ctx.stroke();
-   const candidates=[{x:x,y:y+18},{x:x+27,y:y+13},{x:x-27,y:y+13},{x:x+37,y:y+23},{x:x-37,y:y+23},{x:x+44,y:y+5},{x:x-44,y:y+5},{x:x+25,y:y+31},{x:x-25,y:y+31}];
-   candidates.push(...Array.from({length:18},(_,row)=>Array.from({length:17},(_,col)=>({x:20+col*20,y:152+row*18}))).flat());
-   const mark=candidates.find(v=>v.x>=19&&v.x<=341&&v.y>=159&&v.y<=473&&
-    !(v.y+9>309&&v.y-9<330&&[75,180,285].some(b=>Math.abs(v.x-b)<33))&&
-    this.actors.every(body=>{const bx=body.x/this.cssScale,by=body.y/this.cssScale,bw=body.visibleWidth/this.cssScale,bh=body.visibleHeight/this.cssScale;return v.x+10<bx-bw/2||v.x-10>bx+bw/2||v.y+10<by-bh||v.y-10>by;})&&
-    this.labels.every(l=>v.x+9<l.x||v.x-9>l.x+l.w||v.y+9<l.y||v.y-9>l.y+l.h))??{x:20+(this.labels.length%17)*20,y:470};
-   const lx=mark.x,ly=mark.y,text=String(e.id);
+   // The tag follows this actor's head, never a battlefield-wide slot.
+   const lx=x,ly=y-a!.visibleHeight/this.cssScale-12,text=String(e.id);
    this.labels.push({id:e.id,text,x:lx-9,y:ly-9,w:18,h:18});
    ctx.fillStyle='#24323aee';ctx.beginPath();ctx.arc(lx,ly,9,0,Math.PI*2);ctx.fill();
-   ctx.strokeStyle=LANE_COLORS[lane];ctx.setLineDash(this.luredIds.includes(e.id)?[]:[2,2]);ctx.beginPath();if(lane==='west'){ctx.moveTo(lx,ly-10);ctx.lineTo(lx+10,ly);ctx.lineTo(lx,ly+10);ctx.lineTo(lx-10,ly);ctx.closePath();}else if(lane==='center')ctx.rect(lx-9,ly-9,18,18);else{ctx.moveTo(lx,ly-11);ctx.lineTo(lx+10,ly+9);ctx.lineTo(lx-10,ly+9);ctx.closePath();}ctx.stroke();ctx.setLineDash([]);ctx.beginPath();ctx.moveTo(lx,ly-9);ctx.lineTo(x,y+4);ctx.lineWidth=.7;ctx.stroke();ctx.fillStyle=LANE_COLORS[lane];ctx.textAlign='center';ctx.font='bold 11px sans-serif';ctx.fillText(text,lx,ly+4);ctx.restore();
+   ctx.strokeStyle=LANE_COLORS[lane];ctx.setLineDash(this.luredIds.includes(e.id)||this.previewLane===lane?[]:[2,2]);ctx.beginPath();if(lane==='west'){ctx.moveTo(lx,ly-10);ctx.lineTo(lx+10,ly);ctx.lineTo(lx,ly+10);ctx.lineTo(lx-10,ly);ctx.closePath();}else if(lane==='center')ctx.rect(lx-9,ly-9,18,18);else{ctx.moveTo(lx,ly-11);ctx.lineTo(lx+10,ly+9);ctx.lineTo(lx-10,ly+9);ctx.closePath();}ctx.stroke();ctx.setLineDash([]);ctx.fillStyle=LANE_COLORS[lane];ctx.textAlign='center';ctx.font='bold 11px sans-serif';ctx.fillText(text,lx,ly+4);ctx.restore();
   });
 
  }
@@ -103,6 +100,7 @@ export class Renderer {
   if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}
   ctx.setTransform(1,0,0,1,0,0);ctx.fillStyle='#2b2620';ctx.fillRect(0,0,w,h);this.actors=[];this.labels=[];this.poseCounts.clear();this.roofRatio=0;
   const m=modeFor(c.segment),p=c.progress,cover=c.screen==='intro'||c.screen==='ending';
+  this.defenseChapter=Math.floor(c.segment/3);
   const nightWide=!cover&&m==='train'&&rect.width/rect.height>1.7,stationWide=!cover&&m==='defense'&&rect.width/rect.height>1.7;
   this.sceneArt=cover?'r5/departure.webp':m==='train'?(nightWide?'r5/train-wide.webp':'r5/train.webp'):m==='convoy'?'r2/road-0.webp':stationWide?'r5/outpost-wide.webp':'r4/outpost-ready.webp';
   if(!cover&&m==='defense'&&c.segment>=3)this.sceneArt=c.segment<6?'content-r2/coldstore.webp':'content-r2/lighthouse.webp';
@@ -145,10 +143,12 @@ export class Renderer {
    this.sprite('r5/battery.png',306,512,42,48);
    this.image('r1/trailer.png',274,404,48,87);
    const firing=p.shot>0&&c.screen==='play';
-   this.sprite(firing?'r5/xi-attack.png':'r5/xi-front.png',178,488,76,116,firing?gunnerFrame(p.shot,Math.max(.25,1.2/guardPower(c))):0,'xi',firing?'attack':'idle',minimum);
+   this.sprite(firing?'r5/xi-attack.png':'r5/xi-front.png',178,488,76,116,firing?gunnerFrame(p.shot,Math.max(.12,1.2/guardPower(c))):0,'xi',firing?'attack':'idle',minimum);
    const raids=campaignRaids(c),crowd=p.enemies.filter(e=>e.escapedAt===undefined).sort((a,b)=>a.id-b.id);
    const ordinal=(e:Enemy)=>{let first=1;for(const [batch,r] of raids.entries())for(const g of r.lanes){if(`${batch+1}:${g.lane}`===e.group)return e.id-first;first+=g.count;}return (e.id-1)%4;};
-   crowd.forEach(e=>this.enemy(e,c.reduced,minimum,defensePoint(e,ordinal(e))));
+   const reserved=this.actors.map(a=>({x:a.x/this.cssScale,y:a.y/this.cssScale,w:a.visibleWidth/this.cssScale,h:a.visibleHeight/this.cssScale}));
+   const points=defenseCrowd(crowd.map(e=>defensePoint(e,ordinal(e))),reserved);
+   crowd.forEach((e,i)=>this.enemy(e,c.reduced,minimum,points[i],64));
    ctx.fillStyle='#f4d88d';for(const b of p.shots)ctx.fillRect(b.x-1,b.y,3,10);
    for(const [i,id] of ['west','center','east'].entries()){const x=75+i*105,active=p.bait===id&&p.baitLeft>0;ctx.fillStyle='#292f32e8';ctx.fillRect(x-24,309,48,21);ctx.strokeStyle=active?'#ffd184':'#a5b6b8';ctx.strokeRect(x-24,309,48,21);ctx.font='bold 12px sans-serif';ctx.textAlign='center';ctx.fillStyle=active?'#ffd184':'#eee5cd';ctx.fillText(['西側','中央','東側'][i],x,324);}ctx.textAlign='left';
    if(c.screen==='play')this.scout(c);
@@ -157,12 +157,15 @@ export class Renderer {
    ctx.save();ctx.globalAlpha=.72;this.sprite('r3/an-poses.png',132,nightWide?318:420,78,112,f,'an','listen',minimum);ctx.restore();
    // Xi is physically present in the foreground, with An still the observed passenger.
    const xiPose=p.impacts?3:p.started&&actualThreat(c)==='roof'?2:p.started?1:0;
-   const blockLog=c.log.at(-1)??'';
-   if(blockLog.includes('熹擋下這次撞擊')){if(this.blockEvent!==blockLog){this.blockEvent=blockLog;this.blockUntil=now+1.5;}}else this.blockEvent='';
-   const blocked=Boolean(this.blockEvent)&&now<this.blockUntil&&c.crew.plan.watch===1&&p.started;
-   if(blocked){const windowBlock=this.blockEvent.includes('窗側'),cx=windowBlock?55:196,cy=windowBlock?231:87;ctx.save();const flash=ctx.createRadialGradient(cx,cy,2,cx,cy,100);flash.addColorStop(0,'#e6f8eba0');flash.addColorStop(1,'#9ed6c800');ctx.fillStyle=flash;ctx.fillRect(cx-100,cy-100,200,200);ctx.strokeStyle='#d8ffed';ctx.lineWidth=4;ctx.strokeRect(windowBlock?29:130,windowBlock?186:62,windowBlock?70:120,windowBlock?91:45);ctx.restore();}
-   this.sprite(blocked?'content-r6/xi-brace.webp':'r5/xi-night.png',blocked&&this.blockEvent.includes('??')?93:blocked?155:244,nightWide?345:524,174,blocked?174:232,blocked?0:xiPose,'xi',blocked?'block':'listen',minimum);
-   const roof=p.started&&actualThreat(c)==='roof',window=p.started&&!roof;
+   const event=nightPresentation(c),blocked=event?.phase==='blocked',impact=event?.phase==='impact';
+   const zone=event?.threat??actualThreat(c),windowBlock=zone==='window';
+   if(event){const cx=windowBlock?55:196,cy=windowBlock?231:87;ctx.save();const flash=ctx.createRadialGradient(cx,cy,2,cx,cy,100);flash.addColorStop(0,blocked?'#e6f8ebb8':'#f4bd6888');flash.addColorStop(1,'#9ed6c800');ctx.fillStyle=flash;ctx.fillRect(cx-100,cy-100,200,200);ctx.strokeStyle=blocked?'#d8ffed':'#f4bd68';ctx.lineWidth=blocked?5:3;ctx.strokeRect(windowBlock?29:130,windowBlock?186:62,windowBlock?70:120,windowBlock?91:45);
+    if(impact){ctx.strokeStyle='#f0e7d5';for(let i=0;i<5;i++){ctx.beginPath();ctx.moveTo(cx-22+i*10,cy-18);ctx.lineTo(cx-16+i*10,cy+20);ctx.stroke();}}
+    ctx.fillStyle='#24323af5';ctx.fillRect(cx-38,cy+24,76,24);ctx.fillStyle=blocked?'#d8ffed':'#f4bd68';ctx.textAlign='center';ctx.font='bold 16px sans-serif';ctx.fillText(impact?'撞擊！':blocked?'擋下！':event.outcome==='damaged'?'受損':'已反制',cx,cy+42);ctx.restore();
+   }
+   const xiBlocks=blocked&&c.crew.plan.watch===1;
+   this.sprite(xiBlocks?(windowBlock?'content-r6/xi-brace.webp':'content-r9/xi-roof.webp'):'r5/xi-night.png',xiBlocks?(windowBlock?125:196):244,xiBlocks?(windowBlock?(nightWide?365:480):(nightWide?345:460)):(nightWide?345:524),xiBlocks?(windowBlock?(nightWide?225:270):(nightWide?217:310)):174,xiBlocks?(windowBlock?(nightWide?250:300):(nightWide?258:370)):232,xiBlocks?0:xiPose,'xi',xiBlocks?'block':'listen',minimum);
+   const roof=p.started&&zone==='roof',window=p.started&&!roof;
    if(roof||window){const cx=roof?196:55,cy=roof?87:231,g=ctx.createRadialGradient(cx,cy,2,cx,cy,roof?78:67);g.addColorStop(0,'#e8a33d35');g.addColorStop(1,'#e8a33d00');ctx.fillStyle=g;ctx.fillRect(cx-80,cy-80,160,160);}
    ctx.strokeStyle=roof?'#e8bc7080':'#a3bcc02a';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(136,68);ctx.lineTo(138,96);ctx.moveTo(241,68);ctx.lineTo(239,96);ctx.stroke();
    ctx.strokeStyle=window?'#e8bd8190':'#b7d3df30';ctx.lineWidth=1;ctx.beginPath();for(let i=0;i<3;i++){ctx.moveTo(39+i*9,202);ctx.lineTo(33+i*9,246);}ctx.stroke();

@@ -1,3 +1,4 @@
+import {nightSignal} from './journey-inputs.mjs';
 import {commitBait} from './journey-inputs.mjs';
 import {assignRole} from './journey-inputs.mjs';
 import {startServer} from './server.mjs';
@@ -35,7 +36,7 @@ async function defense(p,engine){
  let n=0;while((await state(p)).screen==='play'){assert.ok(++n<65);await step(p,1);const s=await state(p);if(s.screen!=='play')break;if(!s.progress.baitLeft){const cue=[...cues].reverse().find(x=>x.at<=s.progress.time)??cues[0];await commitBait(p,'#bait-'+cue.side);}}
  const end=await state(p);assert.equal(end.screen,'report');assert.ok(end.progress.attracted>=2);assert.equal(end.progress.defenseBatch,3);return end;
 }
-async function night(p,block){await p.locator('#breath').click();await p.locator('#window').click();const cue=await p.locator('#scene-message').innerText();await p.locator(cue.includes('玻璃')?'#seal-window':'#seal-roof').click();if(block){const s=await state(p);assert.equal(s.crew.shield,1);await p.locator('#brace').click();const after=await state(p);assert.equal(after.hull,s.hull);assert.equal(after.crew.shield,0);checks.push({test:'rested watcher absorbs exactly one real night impact',status:'VERIFIED'});}for(let i=block?1:0;i<3;i++){const signal=await p.locator('#contact-signal').innerText();await p.locator(signal.includes('玻璃')?'#counter-window':'#counter-roof').click();}assert.equal((await state(p)).screen,'report');}
+async function night(p,block){await p.locator('#breath').click();await p.locator('#window').click();const cue=await p.locator('#scene-message').innerText();await p.locator(cue.includes('玻璃')?'#seal-window':'#seal-roof').click();if(block){const s=await state(p);assert.equal(s.crew.shield,1);await p.locator('#brace').click();const after=await state(p);assert.equal(after.hull,s.hull);assert.equal(after.crew.shield,0);checks.push({test:'rested watcher absorbs exactly one real night impact',status:'VERIFIED'});}for(let i=block?1:0;i<3;i++){const signal=await nightSignal(p);await p.locator(signal.includes('玻璃')?'#counter-window':'#counter-roof').click();}assert.equal((await state(p)).screen,'report');}
 for(const engine of ['chromium','webkit']){
  const server=engine==='webkit'?await startServer():null,url=server?.url??'http://127.0.0.1:4179';const browser=await ({chromium,webkit}[engine]).launch({headless:true});
  try{

@@ -1,0 +1,2217 @@
+{
+  "status": "VERIFIED",
+  "headless": true,
+  "beforeVersion": "0.11.3",
+  "afterVersion": "0.11.4",
+  "indexSha256": "2b3b2b3fec041281ec91a4f29a34351f1aa3665051a9f2c8d519aaea4c895f29",
+  "captures": [
+    {
+      "view": "phone",
+      "content": "flank",
+      "before": {
+        "path": "docs/evidence/content-r9-before/phone-flank.png",
+        "sha256": "c3f7d484d549e47df3080ce9dbfa5ba576fbb5e70bc494fdea8f20300c68036a"
+      },
+      "after": {
+        "path": "docs/evidence/content-r9-after/phone-flank.png",
+        "sha256": "1ccfba9d484229012b09968179d7d0c93fa2713c199e21941b3de174883bdd83"
+      },
+      "dimensions": [
+        430,
+        932
+      ],
+      "fixture": {
+        "schema": 1,
+        "version": "0.11.3",
+        "screen": "play",
+        "segment": 1,
+        "supplies": 15,
+        "people": 8,
+        "hull": 51,
+        "level": 0,
+        "progress": {
+          "time": 0,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [],
+          "shots": [],
+          "serial": 0,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 0,
+          "attracted": 0,
+          "started": false,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          },
+          "defenseBatch": 0,
+          "baitCooldown": 0,
+          "divertedGroups": [],
+          "diversion": {}
+        },
+        "log": [
+          "南岸電台：北方燈塔仍在發訊。",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "段落完成，補給 +4。輪班疲勞已記入行車簿。"
+        ],
+        "receipts": [
+          "segment:0"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 3。",
+        "reward": 4,
+        "crew": {
+          "fatigue": [
+            1,
+            1,
+            0
+          ],
+          "plan": {
+            "driver": 0,
+            "watch": 1,
+            "rest": 2
+          },
+          "rested": 2,
+          "applied": 1,
+          "shield": 0,
+          "driftPenalty": 0.75,
+          "warningPenalty": 2,
+          "history": [
+            {
+              "segment": 0,
+              "plan": {
+                "driver": 0,
+                "watch": 1,
+                "rest": 2
+              },
+              "fatigue": [
+                1,
+                1,
+                0
+              ]
+            }
+          ]
+        },
+        "relay": {},
+        "repairCredit": 0,
+        "defenseRetries": [
+          0,
+          0,
+          0
+        ],
+        "relayResults": {}
+      }
+    },
+    {
+      "view": "landscape",
+      "content": "flank",
+      "before": {
+        "path": "docs/evidence/content-r9-before/landscape-flank.png",
+        "sha256": "93688c29544b3a5f377125597d38820318cd7caf610cf55dd2a1c960c4c7a325"
+      },
+      "after": {
+        "path": "docs/evidence/content-r9-after/landscape-flank.png",
+        "sha256": "47de758db743062ef97a0725ba0d1a95298a5a0931e2b39f50c956e1319d7ec2"
+      },
+      "dimensions": [
+        844,
+        390
+      ],
+      "fixture": {
+        "schema": 1,
+        "version": "0.11.3",
+        "screen": "play",
+        "segment": 1,
+        "supplies": 15,
+        "people": 8,
+        "hull": 51,
+        "level": 0,
+        "progress": {
+          "time": 0,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [],
+          "shots": [],
+          "serial": 0,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 0,
+          "attracted": 0,
+          "started": false,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          },
+          "defenseBatch": 0,
+          "baitCooldown": 0,
+          "divertedGroups": [],
+          "diversion": {}
+        },
+        "log": [
+          "南岸電台：北方燈塔仍在發訊。",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "段落完成，補給 +4。輪班疲勞已記入行車簿。"
+        ],
+        "receipts": [
+          "segment:0"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 3。",
+        "reward": 4,
+        "crew": {
+          "fatigue": [
+            1,
+            1,
+            0
+          ],
+          "plan": {
+            "driver": 0,
+            "watch": 1,
+            "rest": 2
+          },
+          "rested": 2,
+          "applied": 1,
+          "shield": 0,
+          "driftPenalty": 0.75,
+          "warningPenalty": 2,
+          "history": [
+            {
+              "segment": 0,
+              "plan": {
+                "driver": 0,
+                "watch": 1,
+                "rest": 2
+              },
+              "fatigue": [
+                1,
+                1,
+                0
+              ]
+            }
+          ]
+        },
+        "relay": {},
+        "repairCredit": 0,
+        "defenseRetries": [
+          0,
+          0,
+          0
+        ],
+        "relayResults": {}
+      }
+    },
+    {
+      "view": "tablet",
+      "content": "flank",
+      "before": {
+        "path": "docs/evidence/content-r9-before/tablet-flank.png",
+        "sha256": "1ceba73b01c90c8f0f66275c1e010977dddb98a20d712add3ff31d0e9c0ece10"
+      },
+      "after": {
+        "path": "docs/evidence/content-r9-after/tablet-flank.png",
+        "sha256": "34cc78ab5a03f5f233c36ede2907c9dc4d4633dacf32596bf7c6613b717cfcb2"
+      },
+      "dimensions": [
+        1032,
+        1376
+      ],
+      "fixture": {
+        "schema": 1,
+        "version": "0.11.3",
+        "screen": "play",
+        "segment": 1,
+        "supplies": 15,
+        "people": 8,
+        "hull": 51,
+        "level": 0,
+        "progress": {
+          "time": 0,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [],
+          "shots": [],
+          "serial": 0,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 0,
+          "attracted": 0,
+          "started": false,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          },
+          "defenseBatch": 0,
+          "baitCooldown": 0,
+          "divertedGroups": [],
+          "diversion": {}
+        },
+        "log": [
+          "南岸電台：北方燈塔仍在發訊。",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "段落完成，補給 +4。輪班疲勞已記入行車簿。"
+        ],
+        "receipts": [
+          "segment:0"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 3。",
+        "reward": 4,
+        "crew": {
+          "fatigue": [
+            1,
+            1,
+            0
+          ],
+          "plan": {
+            "driver": 0,
+            "watch": 1,
+            "rest": 2
+          },
+          "rested": 2,
+          "applied": 1,
+          "shield": 0,
+          "driftPenalty": 0.75,
+          "warningPenalty": 2,
+          "history": [
+            {
+              "segment": 0,
+              "plan": {
+                "driver": 0,
+                "watch": 1,
+                "rest": 2
+              },
+              "fatigue": [
+                1,
+                1,
+                0
+              ]
+            }
+          ]
+        },
+        "relay": {},
+        "repairCredit": 0,
+        "defenseRetries": [
+          0,
+          0,
+          0
+        ],
+        "relayResults": {}
+      }
+    },
+    {
+      "view": "phone",
+      "content": "relay",
+      "before": {
+        "path": "docs/evidence/content-r9-before/phone-relay.png",
+        "sha256": "168c8408e78be257766c3b42967d5dd5c968602a8ee43b42874885cc07b34f6e"
+      },
+      "after": {
+        "path": "docs/evidence/content-r9-after/phone-relay.png",
+        "sha256": "0b78463c77d55e35266ccb4d8d8bd29b33eb4b7ae0ffd39d67361584fac27eec"
+      },
+      "dimensions": [
+        430,
+        932
+      ],
+      "fixture": {
+        "schema": 1,
+        "version": "0.11.3",
+        "screen": "report",
+        "segment": 4,
+        "supplies": 22,
+        "people": 21,
+        "hull": 69,
+        "level": 0,
+        "progress": {
+          "time": 40.01599999999737,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [
+            {
+              "id": 12,
+              "x": 49.447882999089956,
+              "y": 290.25805794984234,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 13,
+              "x": 58.052766587396384,
+              "y": 290.29324467476664,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 14,
+              "x": 65.91209432304647,
+              "y": 290.26072626991555,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 15,
+              "x": 40.716376720193885,
+              "y": 286.87671070119217,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 16,
+              "x": 49.43445708172415,
+              "y": 287.25577865637086,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 17,
+              "x": 57.632671370104255,
+              "y": 287.41573342945713,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 18,
+              "x": 37.86665204574454,
+              "y": 282.17327879773757,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 19,
+              "x": 46.177294555347196,
+              "y": 283.18375669615347,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            }
+          ],
+          "shots": [],
+          "serial": 19,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "west",
+          "baitLeft": 7.983999999999996,
+          "attracted": 11,
+          "started": true,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          },
+          "defenseBatch": 3,
+          "baitCooldown": 7.983999999999996,
+          "divertedGroups": [
+            "1:east",
+            "2:center"
+          ],
+          "diversion": {
+            "1:east": {
+              "total": 5,
+              "escaped": 5
+            },
+            "2:center": {
+              "total": 6,
+              "escaped": 6
+            },
+            "3:west": {
+              "total": 8,
+              "escaped": 0
+            }
+          }
+        },
+        "log": [
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 2 隻！連鎖回收補給。",
+          "段落完成，補給 +5。輪班疲勞已記入行車簿。",
+          "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。",
+          "東側繞行：已花 1 補給。只引東線，快速引進射界；西線不受影響。",
+          "第 1 批來敵已進場，留意裝車區。",
+          "第 2 批來敵已進場，留意裝車區。",
+          "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+          "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+          "第 3 批來敵已進場，留意裝車區。",
+          "西側攔截：已花 1 補給。只引西線，慢速拖住；東線會繼續前進。",
+          "段落完成，補給 +9。輪班疲勞已記入行車簿。"
+        ],
+        "receipts": [
+          "segment:0",
+          "segment:1",
+          "segment:2",
+          "segment:3",
+          "segment:4"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "11 隻敵人被誘餌改道。同行者搶修車體 +13％。回收補給可在列車反制或整備護具。",
+        "reward": 9,
+        "crew": {
+          "fatigue": [
+            3,
+            3,
+            0
+          ],
+          "plan": {
+            "driver": 0,
+            "watch": 1,
+            "rest": 2
+          },
+          "rested": 2,
+          "applied": 4,
+          "shield": 0,
+          "driftPenalty": 2.25,
+          "warningPenalty": 4,
+          "history": [
+            {
+              "segment": 0,
+              "plan": {
+                "driver": 0,
+                "watch": 2,
+                "rest": 1
+              },
+              "fatigue": [
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "segment": 1,
+              "plan": {
+                "driver": 0,
+                "watch": 2,
+                "rest": 1
+              },
+              "fatigue": [
+                2,
+                0,
+                2
+              ]
+            },
+            {
+              "segment": 2,
+              "plan": {
+                "driver": 0,
+                "watch": 1,
+                "rest": 2
+              },
+              "fatigue": [
+                3,
+                1,
+                0
+              ]
+            },
+            {
+              "segment": 3,
+              "plan": {
+                "driver": 0,
+                "watch": 1,
+                "rest": 2
+              },
+              "fatigue": [
+                3,
+                2,
+                0
+              ]
+            },
+            {
+              "segment": 4,
+              "plan": {
+                "driver": 0,
+                "watch": 1,
+                "rest": 2
+              },
+              "fatigue": [
+                3,
+                3,
+                0
+              ]
+            }
+          ]
+        },
+        "relay": {
+          "0": "rescue"
+        },
+        "repairCredit": 0,
+        "defenseRetries": [
+          0,
+          0,
+          0
+        ],
+        "relayResults": {
+          "0": {
+            "before": 88,
+            "repaired": 0,
+            "stored": 0
+          }
+        }
+      }
+    },
+    {
+      "view": "landscape",
+      "content": "relay",
+      "before": {
+        "path": "docs/evidence/content-r9-before/landscape-relay.png",
+        "sha256": "138c8886473c5eb44b8b703f2a53ed6a47332bc5da42afb1affbe6dcc6e076eb"
+      },
+      "after": {
+        "path": "docs/evidence/content-r9-after/landscape-relay.png",
+        "sha256": "18c5e3cbbd0fe727d154067e2118571e7122a79e49a7956d8265d4fbc006641e"
+      },
+      "dimensions": [
+        844,
+        390
+      ],
+      "fixture": {
+        "schema": 1,
+        "version": "0.11.3",
+        "screen": "report",
+        "segment": 4,
+        "supplies": 22,
+        "people": 21,
+        "hull": 69,
+        "level": 0,
+        "progress": {
+          "time": 40.01599999999737,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [
+            {
+              "id": 12,
+              "x": 49.447882999089956,
+              "y": 290.25805794984234,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 13,
+              "x": 58.052766587396384,
+              "y": 290.29324467476664,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 14,
+              "x": 65.91209432304647,
+              "y": 290.26072626991555,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 15,
+              "x": 40.716376720193885,
+              "y": 286.87671070119217,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 16,
+              "x": 49.43445708172415,
+              "y": 287.25577865637086,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 17,
+              "x": 57.632671370104255,
+              "y": 287.41573342945713,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 18,
+              "x": 37.86665204574454,
+              "y": 282.17327879773757,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 19,
+              "x": 46.177294555347196,
+              "y": 283.18375669615347,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            }
+          ],
+          "shots": [],
+          "serial": 19,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "west",
+          "baitLeft": 7.983999999999996,
+          "attracted": 11,
+          "started": true,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          },
+          "defenseBatch": 3,
+          "baitCooldown": 7.983999999999996,
+          "divertedGroups": [
+            "1:east",
+            "2:center"
+          ],
+          "diversion": {
+            "1:east": {
+              "total": 5,
+              "escaped": 5
+            },
+            "2:center": {
+              "total": 6,
+              "escaped": 6
+            },
+            "3:west": {
+              "total": 8,
+              "escaped": 0
+            }
+          }
+        },
+        "log": [
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 2 隻！連鎖回收補給。",
+          "段落完成，補給 +5。輪班疲勞已記入行車簿。",
+          "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。",
+          "東側繞行：已花 1 補給。只引東線，快速引進射界；西線不受影響。",
+          "第 1 批來敵已進場，留意裝車區。",
+          "第 2 批來敵已進場，留意裝車區。",
+          "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+          "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+          "第 3 批來敵已進場，留意裝車區。",
+          "西側攔截：已花 1 補給。只引西線，慢速拖住；東線會繼續前進。",
+          "段落完成，補給 +9。輪班疲勞已記入行車簿。"
+        ],
+        "receipts": [
+          "segment:0",
+          "segment:1",
+          "segment:2",
+          "segment:3",
+          "segment:4"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "11 隻敵人被誘餌改道。同行者搶修車體 +13％。回收補給可在列車反制或整備護具。",
+        "reward": 9,
+        "crew": {
+          "fatigue": [
+            3,
+            3,
+            0
+          ],
+          "plan": {
+            "driver": 0,
+            "watch": 1,
+            "rest": 2
+          },
+          "rested": 2,
+          "applied": 4,
+          "shield": 0,
+          "driftPenalty": 2.25,
+          "warningPenalty": 4,
+          "history": [
+            {
+              "segment": 0,
+              "plan": {
+                "driver": 0,
+                "watch": 2,
+                "rest": 1
+              },
+              "fatigue": [
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "segment": 1,
+              "plan": {
+                "driver": 0,
+                "watch": 2,
+                "rest": 1
+              },
+              "fatigue": [
+                2,
+                0,
+                2
+              ]
+            },
+            {
+              "segment": 2,
+              "plan": {
+                "driver": 0,
+                "watch": 1,
+                "rest": 2
+              },
+              "fatigue": [
+                3,
+                1,
+                0
+              ]
+            },
+            {
+              "segment": 3,
+              "plan": {
+                "driver": 0,
+                "watch": 1,
+                "rest": 2
+              },
+              "fatigue": [
+                3,
+                2,
+                0
+              ]
+            },
+            {
+              "segment": 4,
+              "plan": {
+                "driver": 0,
+                "watch": 1,
+                "rest": 2
+              },
+              "fatigue": [
+                3,
+                3,
+                0
+              ]
+            }
+          ]
+        },
+        "relay": {
+          "0": "rescue"
+        },
+        "repairCredit": 0,
+        "defenseRetries": [
+          0,
+          0,
+          0
+        ],
+        "relayResults": {
+          "0": {
+            "before": 88,
+            "repaired": 0,
+            "stored": 0
+          }
+        }
+      }
+    },
+    {
+      "view": "tablet",
+      "content": "relay",
+      "before": {
+        "path": "docs/evidence/content-r9-before/tablet-relay.png",
+        "sha256": "0eee455fd13fb6ef6ec6f878c224c0cb163c0b85cf3b51a4c324cab89ba2e32b"
+      },
+      "after": {
+        "path": "docs/evidence/content-r9-after/tablet-relay.png",
+        "sha256": "76a5f5c600d8acb3cd88abf7b278ba178e6d2375e0462a68a4d3f7fbf3ff6ad3"
+      },
+      "dimensions": [
+        1032,
+        1376
+      ],
+      "fixture": {
+        "schema": 1,
+        "version": "0.11.3",
+        "screen": "report",
+        "segment": 4,
+        "supplies": 22,
+        "people": 21,
+        "hull": 69,
+        "level": 0,
+        "progress": {
+          "time": 40.01599999999737,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [
+            {
+              "id": 12,
+              "x": 49.447882999089956,
+              "y": 290.25805794984234,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 13,
+              "x": 58.052766587396384,
+              "y": 290.29324467476664,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 14,
+              "x": 65.91209432304647,
+              "y": 290.26072626991555,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 15,
+              "x": 40.716376720193885,
+              "y": 286.87671070119217,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 16,
+              "x": 49.43445708172415,
+              "y": 287.25577865637086,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 17,
+              "x": 57.632671370104255,
+              "y": 287.41573342945713,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 18,
+              "x": 37.86665204574454,
+              "y": 282.17327879773757,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            },
+            {
+              "id": 19,
+              "x": 46.177294555347196,
+              "y": 283.18375669615347,
+              "hp": 4,
+              "state": "walk",
+              "age": 14.01600000000001,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:west",
+              "lane": "west",
+              "exit": "west"
+            }
+          ],
+          "shots": [],
+          "serial": 19,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "west",
+          "baitLeft": 7.983999999999996,
+          "attracted": 11,
+          "started": true,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          },
+          "defenseBatch": 3,
+          "baitCooldown": 7.983999999999996,
+          "divertedGroups": [
+            "1:east",
+            "2:center"
+          ],
+          "diversion": {
+            "1:east": {
+              "total": 5,
+              "escaped": 5
+            },
+            "2:center": {
+              "total": 6,
+              "escaped": 6
+            },
+            "3:west": {
+              "total": 8,
+              "escaped": 0
+            }
+          }
+        },
+        "log": [
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 2 隻！連鎖回收補給。",
+          "段落完成，補給 +5。輪班疲勞已記入行車簿。",
+          "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。",
+          "東側繞行：已花 1 補給。只引東線，快速引進射界；西線不受影響。",
+          "第 1 批來敵已進場，留意裝車區。",
+          "第 2 批來敵已進場，留意裝車區。",
+          "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+          "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+          "第 3 批來敵已進場，留意裝車區。",
+          "西側攔截：已花 1 補給。只引西線，慢速拖住；東線會繼續前進。",
+          "段落完成，補給 +9。輪班疲勞已記入行車簿。"
+        ],
+        "receipts": [
+          "segment:0",
+          "segment:1",
+          "segment:2",
+          "segment:3",
+          "segment:4"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "11 隻敵人被誘餌改道。同行者搶修車體 +13％。回收補給可在列車反制或整備護具。",
+        "reward": 9,
+        "crew": {
+          "fatigue": [
+            3,
+            3,
+            0
+          ],
+          "plan": {
+            "driver": 0,
+            "watch": 1,
+            "rest": 2
+          },
+          "rested": 2,
+          "applied": 4,
+          "shield": 0,
+          "driftPenalty": 2.25,
+          "warningPenalty": 4,
+          "history": [
+            {
+              "segment": 0,
+              "plan": {
+                "driver": 0,
+                "watch": 2,
+                "rest": 1
+              },
+              "fatigue": [
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "segment": 1,
+              "plan": {
+                "driver": 0,
+                "watch": 2,
+                "rest": 1
+              },
+              "fatigue": [
+                2,
+                0,
+                2
+              ]
+            },
+            {
+              "segment": 2,
+              "plan": {
+                "driver": 0,
+                "watch": 1,
+                "rest": 2
+              },
+              "fatigue": [
+                3,
+                1,
+                0
+              ]
+            },
+            {
+              "segment": 3,
+              "plan": {
+                "driver": 0,
+                "watch": 1,
+                "rest": 2
+              },
+              "fatigue": [
+                3,
+                2,
+                0
+              ]
+            },
+            {
+              "segment": 4,
+              "plan": {
+                "driver": 0,
+                "watch": 1,
+                "rest": 2
+              },
+              "fatigue": [
+                3,
+                3,
+                0
+              ]
+            }
+          ]
+        },
+        "relay": {
+          "0": "rescue"
+        },
+        "repairCredit": 0,
+        "defenseRetries": [
+          0,
+          0,
+          0
+        ],
+        "relayResults": {
+          "0": {
+            "before": 88,
+            "repaired": 0,
+            "stored": 0
+          }
+        }
+      }
+    },
+    {
+      "view": "phone",
+      "content": "crew",
+      "before": {
+        "path": "docs/evidence/content-r9-before/phone-crew.png",
+        "sha256": "bdc9c5e0e1447f95944b610b15986d4d06fd970d696114ca71ca91f5211886ab"
+      },
+      "after": {
+        "path": "docs/evidence/content-r9-after/phone-crew.png",
+        "sha256": "a414ac36438418102b277b5393f4ba1dca2b0d5e2822dc19ecb0f969f7c820a5"
+      },
+      "dimensions": [
+        430,
+        932
+      ],
+      "fixture": {
+        "schema": 1,
+        "version": "0.11.3",
+        "screen": "report",
+        "segment": 1,
+        "supplies": 13,
+        "people": 10,
+        "hull": 88,
+        "level": 1,
+        "progress": {
+          "time": 40.00299999999737,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [
+            {
+              "id": 9,
+              "x": 219.69745918087264,
+              "y": 273.23659786753996,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 10,
+              "x": 221.53600000000046,
+              "y": 273.35999999999825,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 11,
+              "x": 221.96654081912826,
+              "y": 273.23659786753996,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 12,
+              "x": 202.20642789080992,
+              "y": 273.32635579672666,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 13,
+              "x": 203.93600000000026,
+              "y": 273.3599999999983,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 14,
+              "x": 204.2575721091906,
+              "y": 273.32635579672666,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 15,
+              "x": 184.6963490292838,
+              "y": 273.40238684772964,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 16,
+              "x": 186.33600000000007,
+              "y": 273.3599999999983,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 17,
+              "x": 186.56765097071633,
+              "y": 273.40238684772964,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            }
+          ],
+          "shots": [],
+          "serial": 17,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 2.4799999999999915,
+          "attracted": 8,
+          "started": true,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          },
+          "defenseBatch": 3,
+          "baitCooldown": 2.4799999999999915,
+          "divertedGroups": [
+            "1:west",
+            "2:east"
+          ],
+          "diversion": {
+            "1:west": {
+              "total": 4,
+              "escaped": 4
+            },
+            "2:east": {
+              "total": 4,
+              "escaped": 4
+            },
+            "3:center": {
+              "total": 9,
+              "escaped": 0
+            }
+          }
+        },
+        "log": [
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "段落完成，補給 +4。輪班疲勞已記入行車簿。",
+          "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。",
+          "西側攔截：已花 1 補給。只引西線，慢速拖住；東線會繼續前進。",
+          "第 1 批來敵已進場，留意裝車區。",
+          "第 2 批來敵已進場，留意裝車區。",
+          "東側繞行：已花 1 補給。只引東線，快速引進射界；西線不受影響。",
+          "第 3 批來敵已進場，留意裝車區。",
+          "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+          "段落完成，補給 +9。輪班疲勞已記入行車簿。",
+          "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。"
+        ],
+        "receipts": [
+          "segment:0",
+          "segment:1"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "8 隻敵人被誘餌改道。同行者搶修車體 +10％。回收補給可在列車反制或整備護具。",
+        "reward": 9,
+        "crew": {
+          "fatigue": [
+            2,
+            0,
+            2
+          ],
+          "plan": {
+            "driver": 0,
+            "watch": 2,
+            "rest": 1
+          },
+          "rested": 1,
+          "applied": 1,
+          "shield": 0,
+          "driftPenalty": 0.75,
+          "warningPenalty": 2,
+          "history": [
+            {
+              "segment": 0,
+              "plan": {
+                "driver": 0,
+                "watch": 2,
+                "rest": 1
+              },
+              "fatigue": [
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "segment": 1,
+              "plan": {
+                "driver": 0,
+                "watch": 2,
+                "rest": 1
+              },
+              "fatigue": [
+                2,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        "relay": {
+          "0": "rescue"
+        },
+        "repairCredit": 0,
+        "defenseRetries": [
+          0,
+          0,
+          0
+        ],
+        "relayResults": {
+          "0": {
+            "before": 88,
+            "repaired": 0,
+            "stored": 0
+          }
+        }
+      }
+    },
+    {
+      "view": "landscape",
+      "content": "crew",
+      "before": {
+        "path": "docs/evidence/content-r9-before/landscape-crew.png",
+        "sha256": "080845a5666e8aea9c788adebd3b702fe56ca29b073488c5219a34b78b78ad63"
+      },
+      "after": {
+        "path": "docs/evidence/content-r9-after/landscape-crew.png",
+        "sha256": "87872452385fe20dc413835e17216d49ec25a126cde140bfc9529f3d39b6b1a7"
+      },
+      "dimensions": [
+        844,
+        390
+      ],
+      "fixture": {
+        "schema": 1,
+        "version": "0.11.3",
+        "screen": "report",
+        "segment": 1,
+        "supplies": 13,
+        "people": 10,
+        "hull": 88,
+        "level": 1,
+        "progress": {
+          "time": 40.00299999999737,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [
+            {
+              "id": 9,
+              "x": 219.69745918087264,
+              "y": 273.23659786753996,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 10,
+              "x": 221.53600000000046,
+              "y": 273.35999999999825,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 11,
+              "x": 221.96654081912826,
+              "y": 273.23659786753996,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 12,
+              "x": 202.20642789080992,
+              "y": 273.32635579672666,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 13,
+              "x": 203.93600000000026,
+              "y": 273.3599999999983,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 14,
+              "x": 204.2575721091906,
+              "y": 273.32635579672666,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 15,
+              "x": 184.6963490292838,
+              "y": 273.40238684772964,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 16,
+              "x": 186.33600000000007,
+              "y": 273.3599999999983,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 17,
+              "x": 186.56765097071633,
+              "y": 273.40238684772964,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            }
+          ],
+          "shots": [],
+          "serial": 17,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 2.4799999999999915,
+          "attracted": 8,
+          "started": true,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          },
+          "defenseBatch": 3,
+          "baitCooldown": 2.4799999999999915,
+          "divertedGroups": [
+            "1:west",
+            "2:east"
+          ],
+          "diversion": {
+            "1:west": {
+              "total": 4,
+              "escaped": 4
+            },
+            "2:east": {
+              "total": 4,
+              "escaped": 4
+            },
+            "3:center": {
+              "total": 9,
+              "escaped": 0
+            }
+          }
+        },
+        "log": [
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "段落完成，補給 +4。輪班疲勞已記入行車簿。",
+          "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。",
+          "西側攔截：已花 1 補給。只引西線，慢速拖住；東線會繼續前進。",
+          "第 1 批來敵已進場，留意裝車區。",
+          "第 2 批來敵已進場，留意裝車區。",
+          "東側繞行：已花 1 補給。只引東線，快速引進射界；西線不受影響。",
+          "第 3 批來敵已進場，留意裝車區。",
+          "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+          "段落完成，補給 +9。輪班疲勞已記入行車簿。",
+          "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。"
+        ],
+        "receipts": [
+          "segment:0",
+          "segment:1"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "8 隻敵人被誘餌改道。同行者搶修車體 +10％。回收補給可在列車反制或整備護具。",
+        "reward": 9,
+        "crew": {
+          "fatigue": [
+            2,
+            0,
+            2
+          ],
+          "plan": {
+            "driver": 0,
+            "watch": 2,
+            "rest": 1
+          },
+          "rested": 1,
+          "applied": 1,
+          "shield": 0,
+          "driftPenalty": 0.75,
+          "warningPenalty": 2,
+          "history": [
+            {
+              "segment": 0,
+              "plan": {
+                "driver": 0,
+                "watch": 2,
+                "rest": 1
+              },
+              "fatigue": [
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "segment": 1,
+              "plan": {
+                "driver": 0,
+                "watch": 2,
+                "rest": 1
+              },
+              "fatigue": [
+                2,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        "relay": {
+          "0": "rescue"
+        },
+        "repairCredit": 0,
+        "defenseRetries": [
+          0,
+          0,
+          0
+        ],
+        "relayResults": {
+          "0": {
+            "before": 88,
+            "repaired": 0,
+            "stored": 0
+          }
+        }
+      }
+    },
+    {
+      "view": "tablet",
+      "content": "crew",
+      "before": {
+        "path": "docs/evidence/content-r9-before/tablet-crew.png",
+        "sha256": "a3dbb986732fda3bcadbd1a3ca8de9b032100cc9280d8fac4c75e74a0e40f44d"
+      },
+      "after": {
+        "path": "docs/evidence/content-r9-after/tablet-crew.png",
+        "sha256": "4c90d0077ccf3654f29feedd347f791c0aef6d6ac6cb54b55298d9994a8e8cb1"
+      },
+      "dimensions": [
+        1032,
+        1376
+      ],
+      "fixture": {
+        "schema": 1,
+        "version": "0.11.3",
+        "screen": "report",
+        "segment": 1,
+        "supplies": 13,
+        "people": 10,
+        "hull": 88,
+        "level": 1,
+        "progress": {
+          "time": 40.00299999999737,
+          "x": 180,
+          "cooldown": 0,
+          "spawn": 0,
+          "shot": 0,
+          "enemies": [
+            {
+              "id": 9,
+              "x": 219.69745918087264,
+              "y": 273.23659786753996,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 10,
+              "x": 221.53600000000046,
+              "y": 273.35999999999825,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 11,
+              "x": 221.96654081912826,
+              "y": 273.23659786753996,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 12,
+              "x": 202.20642789080992,
+              "y": 273.32635579672666,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 13,
+              "x": 203.93600000000026,
+              "y": 273.3599999999983,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 14,
+              "x": 204.2575721091906,
+              "y": 273.32635579672666,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 15,
+              "x": 184.6963490292838,
+              "y": 273.40238684772964,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 16,
+              "x": 186.33600000000007,
+              "y": 273.3599999999983,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "shambler",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            },
+            {
+              "id": 17,
+              "x": 186.56765097071633,
+              "y": 273.40238684772964,
+              "hp": 3,
+              "state": "walk",
+              "age": 10.016000000000007,
+              "slot": -1,
+              "type": "runner",
+              "hit": false,
+              "attracted": false,
+              "group": "3:center",
+              "lane": "center",
+              "exit": "center"
+            }
+          ],
+          "shots": [],
+          "serial": 17,
+          "flung": 0,
+          "kills": 0,
+          "rescued": 0,
+          "bait": "center",
+          "baitLeft": 2.4799999999999915,
+          "attracted": 8,
+          "started": true,
+          "night": null,
+          "wave": 0,
+          "warning": 0,
+          "countered": 0,
+          "impacts": 0,
+          "shake": {
+            "left": 0,
+            "right": 0,
+            "cooldownLeft": 0
+          },
+          "defenseBatch": 3,
+          "baitCooldown": 2.4799999999999915,
+          "divertedGroups": [
+            "1:west",
+            "2:east"
+          ],
+          "diversion": {
+            "1:west": {
+              "total": 4,
+              "escaped": 4
+            },
+            "2:east": {
+              "total": 4,
+              "escaped": 4
+            },
+            "3:center": {
+              "total": 9,
+              "escaped": 0
+            }
+          }
+        },
+        "log": [
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "甩落 1 隻！",
+          "甩落 2 隻！連鎖回收補給。",
+          "甩落 1 隻！",
+          "段落完成，補給 +4。輪班疲勞已記入行車簿。",
+          "護具已強化：全隊火力、夜間承受能力與車體維修同步改善。",
+          "西側攔截：已花 1 補給。只引西線，慢速拖住；東線會繼續前進。",
+          "第 1 批來敵已進場，留意裝車區。",
+          "第 2 批來敵已進場，留意裝車區。",
+          "東側繞行：已花 1 補給。只引東線，快速引進射界；西線不受影響。",
+          "第 3 批來敵已進場，留意裝車區。",
+          "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
+          "段落完成，補給 +9。輪班疲勞已記入行車簿。",
+          "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。"
+        ],
+        "receipts": [
+          "segment:0",
+          "segment:1"
+        ],
+        "archives": {},
+        "sound": true,
+        "reduced": false,
+        "lastReport": "8 隻敵人被誘餌改道。同行者搶修車體 +10％。回收補給可在列車反制或整備護具。",
+        "reward": 9,
+        "crew": {
+          "fatigue": [
+            2,
+            0,
+            2
+          ],
+          "plan": {
+            "driver": 0,
+            "watch": 2,
+            "rest": 1
+          },
+          "rested": 1,
+          "applied": 1,
+          "shield": 0,
+          "driftPenalty": 0.75,
+          "warningPenalty": 2,
+          "history": [
+            {
+              "segment": 0,
+              "plan": {
+                "driver": 0,
+                "watch": 2,
+                "rest": 1
+              },
+              "fatigue": [
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "segment": 1,
+              "plan": {
+                "driver": 0,
+                "watch": 2,
+                "rest": 1
+              },
+              "fatigue": [
+                2,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        "relay": {
+          "0": "rescue"
+        },
+        "repairCredit": 0,
+        "defenseRetries": [
+          0,
+          0,
+          0
+        ],
+        "relayResults": {
+          "0": {
+            "before": 88,
+            "repaired": 0,
+            "stored": 0
+          }
+        }
+      }
+    }
+  ]
+}

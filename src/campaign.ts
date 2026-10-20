@@ -8,7 +8,7 @@ import { pickLatchSlot, resolveLatchBiteDamage, resolveMultiFlingParts, driftRea
 import latch from './origins/latch-config.js';
 import {freshCrew,depart,settle,assign,raidsFor,baitMatches,BAIT_HINTS,driftSeconds,watchBonus,repairAmounts,CREW_NAMES,type Crew,type Role,type Lane} from './journey';
 
-export const VERSION='0.11.3';
+export const VERSION='0.11.4';
 export const RESCUED_NAMES=[['阿岑','小路'],['林叔','阿禾'],['阿澄','以寧']] as const;
 export const CHAPTERS=[
  {name:'灰燼出城',place:'南岸公路 → 雪線中繼站 → 灰霧鐵道',story:'老席收到北方燈塔的求救訊號。熹把最後的補給搬上拖車，A-07 指向地圖上仍亮著的那盞燈。先把公路上的人帶走。',end:'中繼站有人接住了車隊。A-07 第一次說出自己的名字：安。北方的訊號還在。'},
@@ -21,17 +21,24 @@ export interface Segment {
  time:number; x:number; cooldown:number; spawn:number; shot:number; enemies:Enemy[]; shots:{x:number;y:number}[];
  serial:number;flung:number; kills:number; rescued:number; bait:string; baitLeft:number; attracted:number; started:boolean;
  night:RunState|null; wave:number; warning:number; countered:number; impacts:number; shake:{left:number;right:number;cooldownLeft:number};
+ nightFeedback?:NightFeedback;
  defenseBatch:number;baitCooldown:number;divertedGroups:string[];diversion:Record<string,{total:number;escaped:number}>;
 }
 export interface Campaign {
  schema:1;version:string; screen:'intro'|'play'|'report'|'ending'|'stranded'; segment:number; supplies:number;people:number;hull:number;level:number;
  progress:Segment; log:string[]; receipts:string[]; archives:Record<string,unknown>; sound:boolean; reduced:boolean;
  lastReport:string; reward:number;
+ nightRepair?:{before:number;base:number;extra:number;after:number;rescued:boolean};
  crew:Crew;relay:Record<string,'rescue'|'repair'|'passed'>;repairCredit:number;defenseRetries:number[];relayResults:Record<string,{before:number;repaired:number;stored:number}>;
 }
 export const modeFor=(segment:number):Mode=>(['convoy','defense','train'] as const)[segment%3];
 export const chapterFor=(c:Campaign)=>CHAPTERS[Math.floor(c.segment/3)];
-export const guardPower=(c:Campaign)=>1+Math.floor(c.people/3)+c.level;
+export const rescueTeams=(c:Campaign)=>Object.values(c.relay).filter(v=>v==='rescue').length;
+export const guardPower=(c:Campaign)=>1+Math.floor(c.people/3)+c.level+rescueTeams(c);
+export const RESCUE_SUPPLY_GAIN=4;
+export type NightFeedback={age:number;wave:number;threat:'window'|'roof';beforeHull:number;afterHull:number;beforeShield:number;afterShield:number;outcome:'blocked'|'damaged'|'countered'};
+export function nightPresentation(c:Campaign){const f=c.progress.nightFeedback;if(c.screen!=='play'||!f||f.age>=1.5)return null;return {...f,phase:f.age<.28?'impact':f.outcome};}
+
 export const service=new RunService();
 export function freshSegment():Segment { return {time:0,x:180,cooldown:0,spawn:0,shot:0,enemies:[],shots:[],serial:0,flung:0,kills:0,rescued:0,bait:'center',baitLeft:0,attracted:0,started:false,night:null,wave:0,warning:0,countered:0,impacts:0,shake:{left:0,right:0,cooldownLeft:0},defenseBatch:0,baitCooldown:0,divertedGroups:[],diversion:{}}; }
 export function newCampaign():Campaign {return {schema:1,version:VERSION,screen:'intro',segment:0,supplies:8,people:3,hull:100,level:0,progress:freshSegment(),log:['南岸電台：北方燈塔仍在發訊。'],receipts:[],archives:{},sound:true,reduced:false,lastReport:'',reward:0,crew:freshCrew(),relay:{},repairCredit:0,defenseRetries:[0,0,0],relayResults:{}};}
@@ -39,10 +46,10 @@ export const campaignRaids=(c:Campaign)=>raidsFor(c.segment,c.defenseRetries[Mat
 export function begin(c:Campaign) { if(c.screen!=='intro')return false;depart(c.crew,c.segment);c.screen='play';return true; }
 export const relayPending=(c:Campaign)=>c.screen==='report'&&modeFor(c.segment)==='defense'&&!c.relay[String(Math.floor(c.segment/3))];
 export function chooseRelay(c:Campaign,choice:'rescue'|'repair') {
- if(!relayPending(c)||!['rescue','repair'].includes(choice)||choice==='rescue'&&c.supplies<3)return false;
+ if(!relayPending(c)||!['rescue','repair'].includes(choice))return false;
  c.relay[String(Math.floor(c.segment/3))]=choice;
  const key=String(Math.floor(c.segment/3)),before=c.hull;
- if(choice==='rescue'){c.supplies-=3;c.people+=2;c.relayResults[key]={before,repaired:0,stored:0};note(c,`${RESCUED_NAMES[Number(key)].join('與')}登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。`);}
+ if(choice==='rescue'){c.supplies+=RESCUE_SUPPLY_GAIN;c.people+=2;c.relayResults[key]={before,repaired:0,stored:0};note(c,`${RESCUED_NAMES[Number(key)].join('與')}登車：「我們帶了四份庫存，上車後接手警戒。」同行 +2，補給 +4，警戒協作火力 +1；工具箱留在站內。`);}
  else{const {repaired:repair,stored}=repairAmounts(c.hull);c.hull+=repair;c.repairCredit+=stored;c.relayResults[key]={before,repaired:repair,stored};note(c,`工具箱已帶走：${repair?`車體 ${before}→${c.hull}％`:'車體已滿'}；${c.repairCredit?`備用維修 ${c.repairCredit}％，下段受損時扣用`:'沒有備用維修'}。救援包留站封存。`);}return true;
 }
 export function assignCrew(c:Campaign,role:Role,person:number){if(!['intro','report'].includes(c.screen)||c.screen==='report'&&c.segment===8||!['driver','watch','rest'].includes(role))return false;return assign(c.crew,role,person);}
@@ -64,9 +71,11 @@ export function counter(c:Campaign,choice:'window'|'roof'|'brace') {
  const p=c.progress;if(c.screen!=='play'||modeFor(c.segment)!=='train'||!p.started||(p.warning<=0&&choice!=='brace'))return false;
  const cost=choice==='brace'?0:2;
  if(c.supplies<cost) {note(c,'補給不足。可以選擇加固承受，保留資源。');return false;}
+ const threat=actualThreat(c),beforeHull=c.hull,beforeShield=c.crew.shield,wave=p.wave;
  c.supplies-=cost;
- if(choice===actualThreat(c)) {p.countered++;note(c,choice==='window'?'百葉封住敲窗者。':'扣具切離，車頂的拖曳聲消失了。');}
+ if(choice===threat) {p.countered++;note(c,choice==='window'?'百葉封住敲窗者。':'扣具切離，車頂的拖曳聲消失了。');}
  else {const damage=choice==='brace'?Math.max(3,7-c.level):12;p.impacts++;note(c,choice==='brace'?'你帶大家伏低，準備承受撞擊。':'反制方向不符，撞擊逼近。');impact(c,damage);}
+ p.nightFeedback={age:0,wave,threat,beforeHull,afterHull:c.hull,beforeShield,afterShield:c.crew.shield,outcome:beforeShield>c.crew.shield?'blocked':choice===threat?'countered':'damaged'};
  if(c.hull<=0){c.screen='stranded';note(c,'車體失去動力。需要撤回安全點搶修。');return true;}if(p.wave===3) finish(c);else {const outcome=c.log.at(-1);p.wave++;p.warning=Math.max(6,16+c.level*2-c.crew.warningPenalty)+watchBonus(c.crew);note(c,`${outcome} 第 ${p.wave} 波接觸：先看訊號再反制。`);}return true;
 }
 export function layBait(c:Campaign,id:string) {
@@ -90,13 +99,13 @@ export function finish(c:Campaign) {
  const p=c.progress,mode=modeFor(c.segment);let reward=0;
  if(mode==='convoy') {const rescued=2+Math.min(3,Math.floor(p.flung/2));p.rescued=rescued;c.people+=rescued;const repair=Math.min(100-c.hull,rescued*3);c.hull+=repair;reward=3+p.kills%3;c.lastReport=`救回 ${rescued} 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +${repair}％。守衛火力現為 ${guardPower(c)}。`;}
  if(mode==='defense') {const repair=Math.min(100-c.hull,6+Math.floor(c.people/2));c.hull+=repair;reward=5+Math.min(4,p.attracted);c.lastReport=`${p.attracted} 隻敵人被誘餌改道。同行者搶修車體 +${repair}％。回收補給可在列車反制或整備護具。`;}
- if(mode==='train') {reward=2+p.countered;c.hull=Math.min(100,c.hull+5+c.people);c.lastReport=`正確反制 ${p.countered}／3 波，${p.impacts} 次撞擊。${chapterFor(c).end}`;}
+ if(mode==='train') {reward=2+p.countered;const rescued=c.relay[String(Math.floor(c.segment/3))]==='rescue',before=c.hull,base=Math.min(100-c.hull,5+c.people-(rescued?2:0));c.hull+=base;const extra=rescued?Math.min(2,100-c.hull):0;c.hull+=extra;c.nightRepair={before,base,extra,after:c.hull,rescued};c.lastReport=`正確反制 ${p.countered}／3 波，${p.impacts} 次撞擊。${chapterFor(c).end}`;}
  c.supplies+=reward;c.reward=reward;c.receipts.push(receipt);settle(c.crew,c.segment);c.screen='report';note(c,`段落完成，補給 +${reward}。輪班疲勞已記入行車簿。`);return true;
 }
 function spawn(c:Campaign,side:boolean,lane?:Lane,index=0) {const p=c.progress;p.serial++;const rear=side&&p.serial%3!==0;p.enemies.push({id:p.serial,x:lane?({west:75,center:180,east:285}[lane]+(index%3-1)*24):rear?(p.serial%2?50:310):50+(p.serial*71)%260,y:lane?30-Math.floor(index/3)*24:rear?390:30,hp:3+Math.floor(c.segment/3),state:'walk',age:0,slot:-1,type:p.serial%2?'runner':'shambler',hit:false,attracted:false,group:lane?`${p.defenseBatch}:${lane}`:undefined,lane});}
 export function tick(c:Campaign,dt:number,steer=0) {
  if(c.screen!=='play')return;const p=c.progress,mode=modeFor(c.segment);dt=Math.max(0,Math.min(.05,dt));
- if(mode==='train') {if(!p.started)return;p.time+=dt;p.warning=Math.max(0,p.warning-dt);if(p.warning===0)counter(c,'brace');return;}
+ if(mode==='train') {if(!p.started)return;p.time+=dt;if(p.nightFeedback&&p.nightFeedback.age<1.5){p.nightFeedback.age+=dt;return;}p.warning=Math.max(0,p.warning-dt);if(p.warning===0)counter(c,'brace');return;}
  if(mode==='defense'&&!p.started)return;
  p.time+=dt;
  if(mode==='convoy') {const old=p.x;p.x=Math.max(70,Math.min(290,p.x+steer*155*dt));const shake=updateShakeTracker(p.shake,p.x-old,dt,latch);p.shake=shake.tracker;if(shake.triggered)drift(c);}
@@ -135,7 +144,7 @@ export function tick(c:Campaign,dt:number,steer=0) {
  }
  p.shot=Math.max(0,p.shot-dt);if(p.shot<=0) {
   const target=p.enemies.find(e=>!e.exit&&e.slot<0&&(e.state==='walk'||e.state==='attack')&&(mode==='convoy'?e.y<320:e.attracted||e.y>340));
-  if(target){p.shots.push({x:target.x,y:mode==='convoy'?320:470});p.shot=mode==='convoy'?.6:Math.max(.25,1.2/guardPower(c));}
+  if(target){p.shots.push({x:target.x,y:mode==='convoy'?320:470});p.shot=mode==='convoy'?.6:Math.max(.12,1.2/guardPower(c));}
  }
  for(const shot of p.shots) {shot.y-=300*dt;const e=p.enemies.find(e=>!e.exit&&e.slot<0&&e.state!=='death'&&e.state!=='flung'&&Math.hypot(e.x-shot.x,e.y-shot.y)<20);if(e){e.hp-=1+c.level;e.state=e.hp<=0?'death':'hurt';e.age=0;if(e.hp<=0)p.kills++;shot.y=-100;}}
  if(c.hull<=0){c.screen='stranded';note(c,'車體失去動力。需要撤回安全點搶修。');return;}

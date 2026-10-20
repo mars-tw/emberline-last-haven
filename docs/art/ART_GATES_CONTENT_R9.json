@@ -1,0 +1,34 @@
+{
+  "status": "VERIFIED",
+  "metrics": {
+    "public/art/content-r9/an-portrait.webp": {
+      "brightness": 0.4588603898590687,
+      "nearBlack": 0.09562174479166667,
+      "saturation": 0.47023856634667754,
+      "lowSaturation": 0.1133083767361111
+    },
+    "public/art/content-r9/laoxi-portrait.webp": {
+      "brightness": 0.4489859121817129,
+      "nearBlack": 0.11954752604166667,
+      "saturation": 0.4956199363425926,
+      "lowSaturation": 0.1382717556423611
+    },
+    "public/art/content-r9/xi-portrait.webp": {
+      "brightness": 0.5473892644080203,
+      "nearBlack": 0.04702419704861111,
+      "saturation": 0.57615573193253,
+      "lowSaturation": 0.08599853515625
+    },
+    "public/art/content-r9/xi-roof.webp": {
+      "brightness": 0.41865237982652564,
+      "nearBlack": 0.1299504356325746,
+      "saturation": 0.5596767582838005,
+      "lowSaturation": 0.04503424953479396
+    }
+  },
+  "portraitSaturationSpread": 0.10591716558585246,
+  "sourceHashesVerified": true,
+  "offlineBytesIdentical": true,
+  "modelSlug": null,
+  "humanIdentityTest": "BLOCKED"
+}

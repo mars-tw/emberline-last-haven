@@ -1,0 +1,13 @@
+{
+  "round": "content-r9",
+  "tool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "stylePrefix": "Emberline: Last Haven, cinematic ink-and-gouache graphic novel, grounded adult anatomy, tactile brushwork and etched contours, readable midtones, ash slate #657C8A, rust orange #C96F2E, amber #E8A33D, upper-left cool fill with warm practical rim, no anime gloss, no pixel art, no vector sticker, no watermark.",
+  "fullPromptFile": "docs/art/PROMPT_CONTENT_R9_FULL.txt",
+  "generationCalls": 4,
+  "selectedMasters": [
+    "docs/art/masters/content-r9/portraits-final.png",
+    "docs/art/masters/content-r9/xi-roof-source.png"
+  ],
+  "draftsRetained": true
+}

@@ -10,6 +10,7 @@ export async function captureR5Store(){
  const dir='docs/store/screenshots';await mkdir('docs/evidence/art-r5',{recursive:true});
  try{
   for(const [label,width,height,dpr] of [['phone',430,932,3],['tablet',1032,1376,2]]){
+   console.log('R5 store journey',label);
    const context=await browser.newContext({viewport:{width,height},deviceScaleFactor:dpr,hasTouch:true}),p=await context.newPage();
    p.on('pageerror',e=>errors.push(e.message));await p.goto(server.url);await p.waitForFunction(()=>window.emberlineTelemetry?.().loaded);
    await p.clock.install({time:new Date('2026-10-18T06:20:00Z')});await p.clock.pauseAt(new Date('2026-10-18T06:21:00Z'));
@@ -44,7 +45,7 @@ export async function captureR5Store(){
    }
    assert.equal((await state()).screen,'report');if(await p.locator('#dispatch').evaluate(d=>d.open))await p.locator('#dispatch-close').click();await shot('04-common-progress');await continueJourney(p);
    await p.locator('#breath').click();await p.locator('#window').click();const cue=await p.locator('#scene-message').innerText();await p.locator(cue.includes('玻璃')?'#seal-window':'#seal-roof').click();await step(.12);await shot('05-night');
-   await context.close();
+   await context.close();console.log('R5 store captured',label);
   }
  }finally{await browser.close();await server.stop();}
  assert.deepEqual(errors,[]);await writeFile('docs/evidence/art-r5/store-captures.json',JSON.stringify({status:'VERIFIED',headless:true,stateInjection:false,indexSha256:server.indexSha256,screenshots,errors},null,2));return screenshots;

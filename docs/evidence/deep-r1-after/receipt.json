@@ -2,7 +2,7 @@
   "status": "VERIFIED",
   "headless": true,
   "stateInjection": false,
-  "indexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "indexSha256": "2b3b2b3fec041281ec91a4f29a34351f1aa3665051a9f2c8d519aaea4c895f29",
   "checks": [
     "held steering survives action log render and release outside stops it",
     "background pause blocks footer and simulation until explicit resume",
@@ -15,30 +15,30 @@
   "coldLoad": [
     {
       "run": 1,
-      "criticalReadyMs": 190.25060000000002,
-      "offlineReadyMs": 193.973,
+      "criticalReadyMs": 208.56390000000005,
+      "offlineReadyMs": 247.9377,
       "resources": [
         {
-          "name": "/assets/index-CUUlVxL0.js",
-          "duration": 8.5,
-          "transferSize": 113028,
-          "decodedBodySize": 388355
+          "name": "/assets/index-CW3ZxzFB.js",
+          "duration": 10,
+          "transferSize": 114687,
+          "decodedBodySize": 393251
         },
         {
-          "name": "/assets/index-Bhv6Vsxl.css",
-          "duration": 3.3000001907348633,
-          "transferSize": 10811,
-          "decodedBodySize": 48354
+          "name": "/assets/index-Cww9vvDu.css",
+          "duration": 3.700000047683716,
+          "transferSize": 11071,
+          "decodedBodySize": 50313
         },
         {
           "name": "/art/r5/logo.png",
-          "duration": 4.5,
+          "duration": 4,
           "transferSize": 201450,
           "decodedBodySize": 201150
         },
         {
           "name": "/art/r5/supply.png",
-          "duration": 3.3999998569488525,
+          "duration": 5,
           "transferSize": 13510,
           "decodedBodySize": 13210
         },
@@ -56,551 +56,273 @@
         },
         {
           "name": "/art/r5/armor.png",
-          "duration": 5,
+          "duration": 5.200000047683716,
           "transferSize": 15285,
           "decodedBodySize": 14985
         },
         {
           "name": "/art/r5/xi-portrait.png",
-          "duration": 6,
+          "duration": 5.5,
           "transferSize": 96628,
           "decodedBodySize": 96328
         },
         {
-          "name": "/art/r3/an-poses.png",
-          "duration": 10.599999904632568,
-          "transferSize": 333721,
-          "decodedBodySize": 333421
-        },
-        {
-          "name": "/art/r1/trailer.png",
-          "duration": 8.699999809265137,
-          "transferSize": 95414,
-          "decodedBodySize": 95114
-        },
-        {
-          "name": "/art/r2/wreck.png",
-          "duration": 9.799999952316284,
-          "transferSize": 85548,
-          "decodedBodySize": 85248
-        },
-        {
-          "name": "/art/r3/truck.png",
-          "duration": 9.899999856948853,
-          "transferSize": 213703,
-          "decodedBodySize": 213403
-        },
-        {
           "name": "/art/content-r1/relay-table.webp",
-          "duration": 9,
+          "duration": 8.200000047683716,
           "transferSize": 188524,
           "decodedBodySize": 188224
         },
         {
-          "name": "/art/r2/sign.png",
+          "name": "/art/r1/trailer.png",
+          "duration": 8,
+          "transferSize": 95414,
+          "decodedBodySize": 95114
+        },
+        {
+          "name": "/art/r3/truck.png",
           "duration": 9.5,
+          "transferSize": 213703,
+          "decodedBodySize": 213403
+        },
+        {
+          "name": "/art/r3/an-poses.png",
+          "duration": 9.900000095367432,
+          "transferSize": 333721,
+          "decodedBodySize": 333421
+        },
+        {
+          "name": "/art/r2/wreck.png",
+          "duration": 8.900000095367432,
+          "transferSize": 85548,
+          "decodedBodySize": 85248
+        },
+        {
+          "name": "/art/r2/sign.png",
+          "duration": 8.700000047683716,
           "transferSize": 49164,
           "decodedBodySize": 48864
         },
         {
           "name": "/art/r2/luggage.png",
-          "duration": 12.800000190734863,
+          "duration": 10.799999952316284,
           "transferSize": 71957,
           "decodedBodySize": 71657
         },
         {
           "name": "/art/r2/concrete.png",
-          "duration": 13.200000047683716,
+          "duration": 12.199999809265137,
           "transferSize": 75234,
           "decodedBodySize": 74934
         },
         {
           "name": "/art/r2/road-0.webp",
-          "duration": 13.700000047683716,
+          "duration": 12.699999809265137,
           "transferSize": 135704,
           "decodedBodySize": 135404
         },
         {
-          "name": "/art/r2/road-2.webp",
-          "duration": 13.800000190734863,
-          "transferSize": 116802,
-          "decodedBodySize": 116502
-        },
-        {
           "name": "/art/r2/road-1.webp",
-          "duration": 14,
+          "duration": 12.599999904632568,
           "transferSize": 127530,
           "decodedBodySize": 127230
         },
         {
+          "name": "/art/r2/road-2.webp",
+          "duration": 12.599999904632568,
+          "transferSize": 116802,
+          "decodedBodySize": 116502
+        },
+        {
           "name": "/art/r5/climber-attack.png",
-          "duration": 14.5,
+          "duration": 13.100000143051147,
           "transferSize": 132360,
           "decodedBodySize": 132060
         },
         {
           "name": "/art/r5/xi-gunner.png",
-          "duration": 25.90000009536743,
+          "duration": 15.800000190734863,
           "transferSize": 241010,
           "decodedBodySize": 240710
         },
         {
-          "name": "/art/r5/runner-walk.png",
-          "duration": 25,
-          "transferSize": 157218,
-          "decodedBodySize": 156918
-        },
-        {
           "name": "/art/r5/xi-attack.png",
-          "duration": 24.59999990463257,
+          "duration": 16.100000143051147,
           "transferSize": 190485,
           "decodedBodySize": 190185
         },
         {
+          "name": "/art/r5/runner-walk.png",
+          "duration": 16.40000009536743,
+          "transferSize": 157218,
+          "decodedBodySize": 156918
+        },
+        {
           "name": "/art/r5/runner-attack.png",
-          "duration": 25.299999952316284,
+          "duration": 16.90000009536743,
           "transferSize": 171553,
           "decodedBodySize": 171253
         },
         {
           "name": "/art/r5/runner-hurt.png",
-          "duration": 30.600000143051147,
+          "duration": 17.5,
           "transferSize": 160667,
           "decodedBodySize": 160367
         },
         {
           "name": "/art/r5/runner-death.png",
-          "duration": 31,
+          "duration": 17.600000143051147,
           "transferSize": 149763,
           "decodedBodySize": 149463
         },
         {
-          "name": "/art/r5/shambler-walk.png",
-          "duration": 30.90000009536743,
-          "transferSize": 150806,
-          "decodedBodySize": 150506
-        },
-        {
           "name": "/art/r5/shambler-attack.png",
-          "duration": 31.399999856948853,
+          "duration": 31.40000009536743,
           "transferSize": 166295,
           "decodedBodySize": 165995
         },
         {
           "name": "/art/r5/shambler-hurt.png",
-          "duration": 31.59999990463257,
+          "duration": 31.600000143051147,
           "transferSize": 164912,
           "decodedBodySize": 164612
         },
         {
-          "name": "/art/r5/departure.webp",
-          "duration": 36,
-          "transferSize": 348522,
-          "decodedBodySize": 348222
+          "name": "/art/r5/shambler-walk.png",
+          "duration": 31.799999952316284,
+          "transferSize": 150806,
+          "decodedBodySize": 150506
         },
         {
           "name": "/art/r5/shambler-death.png",
-          "duration": 33.799999952316284,
+          "duration": 32.90000009536743,
           "transferSize": 125575,
           "decodedBodySize": 125275
         },
         {
+          "name": "/art/r5/departure.webp",
+          "duration": 35,
+          "transferSize": 348522,
+          "decodedBodySize": 348222
+        },
+        {
           "name": "/art/r5/train.webp",
-          "duration": 35.19999980926514,
+          "duration": 38.10000014305115,
           "transferSize": 250028,
           "decodedBodySize": 249728
         },
         {
           "name": "/art/r5/outpost-wide.webp",
-          "duration": 35.09999990463257,
+          "duration": 38,
           "transferSize": 257700,
           "decodedBodySize": 257400
         },
         {
           "name": "/art/r5/train-wide.webp",
-          "duration": 34.89999985694885,
+          "duration": 38.09999990463257,
           "transferSize": 211040,
           "decodedBodySize": 210740
         },
         {
           "name": "/art/r5/xi-front.png",
-          "duration": 38.40000009536743,
+          "duration": 36.700000047683716,
           "transferSize": 58508,
           "decodedBodySize": 58208
         },
         {
           "name": "/art/r5/xi-side.png",
-          "duration": 37.700000047683716,
+          "duration": 37.90000009536743,
           "transferSize": 48334,
           "decodedBodySize": 48034
         },
         {
           "name": "/art/r5/xi-night.png",
-          "duration": 39.10000014305115,
+          "duration": 39.200000047683716,
           "transferSize": 323602,
           "decodedBodySize": 323302
         },
         {
           "name": "/art/r5/bait.png",
-          "duration": 38.200000047683716,
+          "duration": 41.90000009536743,
           "transferSize": 23663,
           "decodedBodySize": 23363
         },
         {
           "name": "/art/r5/wreckage.png",
-          "duration": 38.299999952316284,
+          "duration": 42.200000047683716,
           "transferSize": 32708,
           "decodedBodySize": 32408
         },
         {
           "name": "/art/r5/fence.png",
-          "duration": 42.200000047683716,
+          "duration": 42.40000009536743,
           "transferSize": 29719,
           "decodedBodySize": 29419
         },
         {
           "name": "/art/r5/battery.png",
-          "duration": 41.5,
+          "duration": 51.30000019073486,
           "transferSize": 26997,
           "decodedBodySize": 26697
         },
         {
+          "name": "/art/content-r9/xi-roof.webp",
+          "duration": 74.70000004768372,
+          "transferSize": 1042230,
+          "decodedBodySize": 1041930
+        },
+        {
           "name": "/art/r4/outpost-ready.webp",
-          "duration": 42.90000009536743,
+          "duration": 65,
           "transferSize": 345208,
           "decodedBodySize": 344908
         },
         {
           "name": "/art/content-r6/xi-brace.webp",
-          "duration": 41.40000009536743,
-          "transferSize": 300,
+          "duration": 55.39999985694885,
+          "transferSize": 133504,
           "decodedBodySize": 133204
         },
         {
           "name": "/art/content-r2/coldstore.webp",
-          "duration": 43.10000014305115,
+          "duration": 69.90000009536743,
           "transferSize": 300,
           "decodedBodySize": 636706
         },
         {
           "name": "/art/content-r2/lighthouse.webp",
-          "duration": 43.200000047683716,
+          "duration": 73.40000009536743,
           "transferSize": 300,
           "decodedBodySize": 583006
         },
         {
           "name": "/art/r5/panel.webp",
-          "duration": 40.40000009536743,
+          "duration": 41,
           "transferSize": 36432,
           "decodedBodySize": 36132
         }
       ],
-      "loadedImages": 37
+      "loadedImages": 38
     },
     {
       "run": 2,
-      "criticalReadyMs": 178.42039999999906,
-      "offlineReadyMs": 180.8011000000006,
+      "criticalReadyMs": 179.9452999999994,
+      "offlineReadyMs": 182.2914000000019,
       "resources": [
         {
-          "name": "/assets/index-CUUlVxL0.js",
-          "duration": 7.700000047683716,
-          "transferSize": 113028,
-          "decodedBodySize": 388355
+          "name": "/assets/index-CW3ZxzFB.js",
+          "duration": 8.400000095367432,
+          "transferSize": 114687,
+          "decodedBodySize": 393251
         },
         {
-          "name": "/assets/index-Bhv6Vsxl.css",
-          "duration": 2.8000001907348633,
-          "transferSize": 10811,
-          "decodedBodySize": 48354
+          "name": "/assets/index-Cww9vvDu.css",
+          "duration": 3.6999998092651367,
+          "transferSize": 11071,
+          "decodedBodySize": 50313
         },
         {
           "name": "/art/r5/logo.png",
-          "duration": 4.700000047683716,
-          "transferSize": 201450,
-          "decodedBodySize": 201150
-        },
-        {
-          "name": "/art/r5/supply.png",
-          "duration": 3.9000000953674316,
-          "transferSize": 13510,
-          "decodedBodySize": 13210
-        },
-        {
-          "name": "/art/r5/people.png",
-          "duration": 5.5,
-          "transferSize": 14551,
-          "decodedBodySize": 14251
-        },
-        {
-          "name": "/art/r5/hull.png",
-          "duration": 6,
-          "transferSize": 15567,
-          "decodedBodySize": 15267
-        },
-        {
-          "name": "/art/r5/armor.png",
-          "duration": 6.299999952316284,
-          "transferSize": 15285,
-          "decodedBodySize": 14985
-        },
-        {
-          "name": "/art/r5/xi-portrait.png",
-          "duration": 7.1000001430511475,
-          "transferSize": 96628,
-          "decodedBodySize": 96328
-        },
-        {
-          "name": "/art/content-r1/relay-table.webp",
-          "duration": 7.6000001430511475,
-          "transferSize": 188524,
-          "decodedBodySize": 188224
-        },
-        {
-          "name": "/art/r1/trailer.png",
-          "duration": 8.799999952316284,
-          "transferSize": 95414,
-          "decodedBodySize": 95114
-        },
-        {
-          "name": "/art/r3/truck.png",
-          "duration": 9.699999809265137,
-          "transferSize": 213703,
-          "decodedBodySize": 213403
-        },
-        {
-          "name": "/art/r3/an-poses.png",
-          "duration": 11.299999952316284,
-          "transferSize": 333721,
-          "decodedBodySize": 333421
-        },
-        {
-          "name": "/art/r2/wreck.png",
-          "duration": 10.5,
-          "transferSize": 85548,
-          "decodedBodySize": 85248
-        },
-        {
-          "name": "/art/r2/sign.png",
-          "duration": 10.399999856948853,
-          "transferSize": 49164,
-          "decodedBodySize": 48864
-        },
-        {
-          "name": "/art/r2/luggage.png",
-          "duration": 10.700000047683716,
-          "transferSize": 71957,
-          "decodedBodySize": 71657
-        },
-        {
-          "name": "/art/r2/concrete.png",
-          "duration": 11.900000095367432,
-          "transferSize": 75234,
-          "decodedBodySize": 74934
-        },
-        {
-          "name": "/art/r2/road-0.webp",
-          "duration": 13.400000095367432,
-          "transferSize": 135704,
-          "decodedBodySize": 135404
-        },
-        {
-          "name": "/art/r2/road-1.webp",
-          "duration": 13.600000143051147,
-          "transferSize": 127530,
-          "decodedBodySize": 127230
-        },
-        {
-          "name": "/art/r2/road-2.webp",
-          "duration": 14.5,
-          "transferSize": 116802,
-          "decodedBodySize": 116502
-        },
-        {
-          "name": "/art/r5/climber-attack.png",
-          "duration": 15.200000047683716,
-          "transferSize": 132360,
-          "decodedBodySize": 132060
-        },
-        {
-          "name": "/art/r5/xi-gunner.png",
-          "duration": 16.100000143051147,
-          "transferSize": 241010,
-          "decodedBodySize": 240710
-        },
-        {
-          "name": "/art/r5/xi-attack.png",
-          "duration": 15.700000047683716,
-          "transferSize": 190485,
-          "decodedBodySize": 190185
-        },
-        {
-          "name": "/art/r5/runner-walk.png",
-          "duration": 20,
-          "transferSize": 157218,
-          "decodedBodySize": 156918
-        },
-        {
-          "name": "/art/r5/runner-attack.png",
-          "duration": 20.299999952316284,
-          "transferSize": 171553,
-          "decodedBodySize": 171253
-        },
-        {
-          "name": "/art/r5/runner-hurt.png",
-          "duration": 20.5,
-          "transferSize": 160667,
-          "decodedBodySize": 160367
-        },
-        {
-          "name": "/art/r5/shambler-walk.png",
-          "duration": 20.600000143051147,
-          "transferSize": 150806,
-          "decodedBodySize": 150506
-        },
-        {
-          "name": "/art/r5/runner-death.png",
-          "duration": 20.90000009536743,
-          "transferSize": 149763,
-          "decodedBodySize": 149463
-        },
-        {
-          "name": "/art/r5/shambler-attack.png",
-          "duration": 25.5,
-          "transferSize": 166295,
-          "decodedBodySize": 165995
-        },
-        {
-          "name": "/art/r5/shambler-death.png",
-          "duration": 24.899999856948853,
-          "transferSize": 125575,
-          "decodedBodySize": 125275
-        },
-        {
-          "name": "/art/r5/shambler-hurt.png",
-          "duration": 26.299999952316284,
-          "transferSize": 164912,
-          "decodedBodySize": 164612
-        },
-        {
-          "name": "/art/r5/departure.webp",
-          "duration": 27.299999952316284,
-          "transferSize": 348522,
-          "decodedBodySize": 348222
-        },
-        {
-          "name": "/art/r5/train.webp",
-          "duration": 30.700000047683716,
-          "transferSize": 250028,
-          "decodedBodySize": 249728
-        },
-        {
-          "name": "/art/r5/train-wide.webp",
-          "duration": 30.90000009536743,
-          "transferSize": 211040,
-          "decodedBodySize": 210740
-        },
-        {
-          "name": "/art/r5/outpost-wide.webp",
-          "duration": 30.90000009536743,
-          "transferSize": 257700,
-          "decodedBodySize": 257400
-        },
-        {
-          "name": "/art/r5/xi-front.png",
-          "duration": 30.799999952316284,
-          "transferSize": 58508,
-          "decodedBodySize": 58208
-        },
-        {
-          "name": "/art/r5/xi-side.png",
-          "duration": 32.200000047683716,
-          "transferSize": 48334,
-          "decodedBodySize": 48034
-        },
-        {
-          "name": "/art/r5/xi-night.png",
-          "duration": 36.60000014305115,
-          "transferSize": 323602,
-          "decodedBodySize": 323302
-        },
-        {
-          "name": "/art/r5/bait.png",
-          "duration": 35.200000047683716,
-          "transferSize": 23663,
-          "decodedBodySize": 23363
-        },
-        {
-          "name": "/art/r5/wreckage.png",
-          "duration": 35.40000009536743,
-          "transferSize": 32708,
-          "decodedBodySize": 32408
-        },
-        {
-          "name": "/art/r5/fence.png",
-          "duration": 35.299999952316284,
-          "transferSize": 29719,
-          "decodedBodySize": 29419
-        },
-        {
-          "name": "/art/r5/battery.png",
-          "duration": 35.5,
-          "transferSize": 26997,
-          "decodedBodySize": 26697
-        },
-        {
-          "name": "/art/r4/outpost-ready.webp",
-          "duration": 36.89999985694885,
-          "transferSize": 345208,
-          "decodedBodySize": 344908
-        },
-        {
-          "name": "/art/content-r2/coldstore.webp",
-          "duration": 40,
-          "transferSize": 300,
-          "decodedBodySize": 636706
-        },
-        {
-          "name": "/art/content-r6/xi-brace.webp",
-          "duration": 39.700000047683716,
-          "transferSize": 300,
-          "decodedBodySize": 133204
-        },
-        {
-          "name": "/art/content-r2/lighthouse.webp",
-          "duration": 40,
-          "transferSize": 300,
-          "decodedBodySize": 583006
-        },
-        {
-          "name": "/art/r5/panel.webp",
-          "duration": 38.19999980926514,
-          "transferSize": 36432,
-          "decodedBodySize": 36132
-        }
-      ],
-      "loadedImages": 37
-    },
-    {
-      "run": 3,
-      "criticalReadyMs": 200.35740000000078,
-      "offlineReadyMs": 202.88260000000082,
-      "resources": [
-        {
-          "name": "/assets/index-CUUlVxL0.js",
-          "duration": 8.700000047683716,
-          "transferSize": 113028,
-          "decodedBodySize": 388355
-        },
-        {
-          "name": "/assets/index-Bhv6Vsxl.css",
-          "duration": 3.3999998569488525,
-          "transferSize": 10811,
-          "decodedBodySize": 48354
-        },
-        {
-          "name": "/art/r5/logo.png",
-          "duration": 5.900000095367432,
+          "duration": 5.200000047683716,
           "transferSize": 201450,
           "decodedBodySize": 201150
         },
@@ -612,266 +334,562 @@
         },
         {
           "name": "/art/r5/people.png",
-          "duration": 6.5,
+          "duration": 4.8999998569488525,
           "transferSize": 14551,
           "decodedBodySize": 14251
         },
         {
           "name": "/art/r5/hull.png",
-          "duration": 6.699999809265137,
+          "duration": 6.200000047683716,
           "transferSize": 15567,
           "decodedBodySize": 15267
         },
         {
           "name": "/art/r5/armor.png",
-          "duration": 7.099999904632568,
+          "duration": 6.3999998569488525,
           "transferSize": 15285,
           "decodedBodySize": 14985
         },
         {
           "name": "/art/r5/xi-portrait.png",
-          "duration": 7.799999952316284,
+          "duration": 7,
           "transferSize": 96628,
           "decodedBodySize": 96328
         },
         {
-          "name": "/art/r1/trailer.png",
-          "duration": 11.5,
-          "transferSize": 95414,
-          "decodedBodySize": 95114
-        },
-        {
           "name": "/art/content-r1/relay-table.webp",
-          "duration": 12.300000190734863,
+          "duration": 7.8999998569488525,
           "transferSize": 188524,
           "decodedBodySize": 188224
         },
         {
+          "name": "/art/r1/trailer.png",
+          "duration": 8.599999904632568,
+          "transferSize": 95414,
+          "decodedBodySize": 95114
+        },
+        {
           "name": "/art/r3/truck.png",
-          "duration": 13,
+          "duration": 10.200000047683716,
           "transferSize": 213703,
           "decodedBodySize": 213403
         },
         {
           "name": "/art/r3/an-poses.png",
-          "duration": 13.700000047683716,
+          "duration": 11.299999952316284,
           "transferSize": 333721,
           "decodedBodySize": 333421
         },
         {
           "name": "/art/r2/wreck.png",
-          "duration": 12.400000095367432,
+          "duration": 9.700000047683716,
           "transferSize": 85548,
           "decodedBodySize": 85248
         },
         {
           "name": "/art/r2/sign.png",
-          "duration": 11.599999904632568,
+          "duration": 9.900000095367432,
           "transferSize": 49164,
           "decodedBodySize": 48864
         },
         {
           "name": "/art/r2/luggage.png",
-          "duration": 16.5,
+          "duration": 11.5,
           "transferSize": 71957,
           "decodedBodySize": 71657
         },
         {
           "name": "/art/r2/concrete.png",
-          "duration": 16.700000047683716,
+          "duration": 11.799999952316284,
           "transferSize": 75234,
           "decodedBodySize": 74934
         },
         {
-          "name": "/art/r2/road-1.webp",
-          "duration": 17,
-          "transferSize": 127530,
-          "decodedBodySize": 127230
-        },
-        {
           "name": "/art/r2/road-0.webp",
-          "duration": 17.5,
+          "duration": 13.200000047683716,
           "transferSize": 135704,
           "decodedBodySize": 135404
         },
         {
+          "name": "/art/r2/road-1.webp",
+          "duration": 12.899999856948853,
+          "transferSize": 127530,
+          "decodedBodySize": 127230
+        },
+        {
           "name": "/art/r2/road-2.webp",
-          "duration": 17.09999990463257,
+          "duration": 13.5,
           "transferSize": 116802,
           "decodedBodySize": 116502
         },
         {
           "name": "/art/r5/climber-attack.png",
-          "duration": 17.59999990463257,
+          "duration": 14.700000047683716,
           "transferSize": 132360,
           "decodedBodySize": 132060
         },
         {
           "name": "/art/r5/xi-gunner.png",
-          "duration": 22.799999952316284,
+          "duration": 15.700000047683716,
           "transferSize": 241010,
           "decodedBodySize": 240710
         },
         {
           "name": "/art/r5/xi-attack.png",
-          "duration": 22.59999990463257,
+          "duration": 15.399999856948853,
           "transferSize": 190485,
           "decodedBodySize": 190185
         },
         {
           "name": "/art/r5/runner-walk.png",
-          "duration": 23.09999990463257,
+          "duration": 17.200000047683716,
           "transferSize": 157218,
           "decodedBodySize": 156918
         },
         {
           "name": "/art/r5/runner-attack.png",
-          "duration": 23.799999952316284,
+          "duration": 17.40000009536743,
           "transferSize": 171553,
           "decodedBodySize": 171253
         },
         {
           "name": "/art/r5/runner-hurt.png",
-          "duration": 27.700000047683716,
+          "duration": 17.399999856948853,
           "transferSize": 160667,
           "decodedBodySize": 160367
         },
         {
           "name": "/art/r5/runner-death.png",
-          "duration": 28.800000190734863,
+          "duration": 18.59999990463257,
           "transferSize": 149763,
           "decodedBodySize": 149463
         },
         {
           "name": "/art/r5/shambler-walk.png",
-          "duration": 29.100000143051147,
+          "duration": 19.199999809265137,
           "transferSize": 150806,
           "decodedBodySize": 150506
         },
         {
           "name": "/art/r5/shambler-attack.png",
-          "duration": 29.40000009536743,
+          "duration": 19.299999952316284,
           "transferSize": 166295,
           "decodedBodySize": 165995
         },
         {
           "name": "/art/r5/shambler-hurt.png",
-          "duration": 29.700000047683716,
+          "duration": 21,
           "transferSize": 164912,
           "decodedBodySize": 164612
         },
         {
           "name": "/art/r5/shambler-death.png",
-          "duration": 31.300000190734863,
+          "duration": 20.59999990463257,
           "transferSize": 125575,
           "decodedBodySize": 125275
         },
         {
           "name": "/art/r5/departure.webp",
-          "duration": 34.09999990463257,
+          "duration": 22.799999952316284,
           "transferSize": 348522,
           "decodedBodySize": 348222
         },
         {
           "name": "/art/r5/train.webp",
-          "duration": 33.299999952316284,
+          "duration": 23.799999952316284,
           "transferSize": 250028,
           "decodedBodySize": 249728
         },
         {
           "name": "/art/r5/train-wide.webp",
-          "duration": 34.09999990463257,
+          "duration": 24.5,
           "transferSize": 211040,
           "decodedBodySize": 210740
         },
         {
           "name": "/art/r5/outpost-wide.webp",
-          "duration": 35.5,
+          "duration": 24.90000009536743,
           "transferSize": 257700,
           "decodedBodySize": 257400
         },
         {
           "name": "/art/r5/xi-front.png",
-          "duration": 34.39999985694885,
+          "duration": 24,
           "transferSize": 58508,
           "decodedBodySize": 58208
         },
         {
           "name": "/art/r5/xi-side.png",
-          "duration": 34.69999980926514,
+          "duration": 24.600000143051147,
           "transferSize": 48334,
           "decodedBodySize": 48034
         },
         {
           "name": "/art/r5/xi-night.png",
-          "duration": 39.5,
+          "duration": 30.40000009536743,
           "transferSize": 323602,
           "decodedBodySize": 323302
         },
         {
           "name": "/art/r5/bait.png",
-          "duration": 38.19999980926514,
+          "duration": 29.5,
           "transferSize": 23663,
           "decodedBodySize": 23363
         },
         {
           "name": "/art/r5/wreckage.png",
-          "duration": 38.39999985694885,
+          "duration": 28.59999990463257,
           "transferSize": 32708,
           "decodedBodySize": 32408
         },
         {
           "name": "/art/r5/fence.png",
-          "duration": 38.59999990463257,
+          "duration": 29.5,
           "transferSize": 29719,
           "decodedBodySize": 29419
         },
         {
           "name": "/art/r5/battery.png",
-          "duration": 38.799999952316284,
+          "duration": 29.799999952316284,
           "transferSize": 26997,
           "decodedBodySize": 26697
         },
         {
-          "name": "/art/content-r2/coldstore.webp",
-          "duration": 44,
-          "transferSize": 300,
-          "decodedBodySize": 636706
-        },
-        {
-          "name": "/art/content-r2/lighthouse.webp",
-          "duration": 44.700000047683716,
-          "transferSize": 300,
-          "decodedBodySize": 583006
-        },
-        {
           "name": "/art/r4/outpost-ready.webp",
-          "duration": 44.90000009536743,
+          "duration": 35.60000014305115,
           "transferSize": 345208,
           "decodedBodySize": 344908
         },
         {
           "name": "/art/content-r6/xi-brace.webp",
-          "duration": 45,
-          "transferSize": 300,
+          "duration": 34.10000014305115,
+          "transferSize": 133504,
           "decodedBodySize": 133204
         },
         {
+          "name": "/art/content-r2/coldstore.webp",
+          "duration": 33.299999952316284,
+          "transferSize": 300,
+          "decodedBodySize": 636706
+        },
+        {
+          "name": "/art/content-r9/xi-roof.webp",
+          "duration": 38,
+          "transferSize": 1042230,
+          "decodedBodySize": 1041930
+        },
+        {
+          "name": "/art/content-r2/lighthouse.webp",
+          "duration": 37.19999980926514,
+          "transferSize": 583306,
+          "decodedBodySize": 583006
+        },
+        {
           "name": "/art/r5/panel.webp",
-          "duration": 42.59999990463257,
+          "duration": 33.30000019073486,
           "transferSize": 36432,
           "decodedBodySize": 36132
         }
       ],
-      "loadedImages": 37
+      "loadedImages": 38
+    },
+    {
+      "run": 3,
+      "criticalReadyMs": 186.10169999999925,
+      "offlineReadyMs": 188.2489999999998,
+      "resources": [
+        {
+          "name": "/assets/index-Cww9vvDu.css",
+          "duration": 3.200000047683716,
+          "transferSize": 11071,
+          "decodedBodySize": 50313
+        },
+        {
+          "name": "/assets/index-CW3ZxzFB.js",
+          "duration": 8.600000143051147,
+          "transferSize": 114687,
+          "decodedBodySize": 393251
+        },
+        {
+          "name": "/art/r5/logo.png",
+          "duration": 6.099999904632568,
+          "transferSize": 201450,
+          "decodedBodySize": 201150
+        },
+        {
+          "name": "/art/r5/supply.png",
+          "duration": 4.099999904632568,
+          "transferSize": 13510,
+          "decodedBodySize": 13210
+        },
+        {
+          "name": "/art/r5/people.png",
+          "duration": 5,
+          "transferSize": 14551,
+          "decodedBodySize": 14251
+        },
+        {
+          "name": "/art/r5/hull.png",
+          "duration": 6.299999952316284,
+          "transferSize": 15567,
+          "decodedBodySize": 15267
+        },
+        {
+          "name": "/art/r5/armor.png",
+          "duration": 6.6000001430511475,
+          "transferSize": 15285,
+          "decodedBodySize": 14985
+        },
+        {
+          "name": "/art/r5/xi-portrait.png",
+          "duration": 7.6000001430511475,
+          "transferSize": 96628,
+          "decodedBodySize": 96328
+        },
+        {
+          "name": "/art/content-r1/relay-table.webp",
+          "duration": 9.200000047683716,
+          "transferSize": 188524,
+          "decodedBodySize": 188224
+        },
+        {
+          "name": "/art/r1/trailer.png",
+          "duration": 10.799999952316284,
+          "transferSize": 95414,
+          "decodedBodySize": 95114
+        },
+        {
+          "name": "/art/r3/truck.png",
+          "duration": 12,
+          "transferSize": 213703,
+          "decodedBodySize": 213403
+        },
+        {
+          "name": "/art/r3/an-poses.png",
+          "duration": 12.700000047683716,
+          "transferSize": 333721,
+          "decodedBodySize": 333421
+        },
+        {
+          "name": "/art/r2/wreck.png",
+          "duration": 11.400000095367432,
+          "transferSize": 85548,
+          "decodedBodySize": 85248
+        },
+        {
+          "name": "/art/r2/sign.png",
+          "duration": 11,
+          "transferSize": 49164,
+          "decodedBodySize": 48864
+        },
+        {
+          "name": "/art/r2/luggage.png",
+          "duration": 12.700000047683716,
+          "transferSize": 71957,
+          "decodedBodySize": 71657
+        },
+        {
+          "name": "/art/r2/concrete.png",
+          "duration": 13.799999952316284,
+          "transferSize": 75234,
+          "decodedBodySize": 74934
+        },
+        {
+          "name": "/art/r2/road-1.webp",
+          "duration": 14.200000047683716,
+          "transferSize": 127530,
+          "decodedBodySize": 127230
+        },
+        {
+          "name": "/art/r2/road-2.webp",
+          "duration": 16.200000047683716,
+          "transferSize": 116802,
+          "decodedBodySize": 116502
+        },
+        {
+          "name": "/art/r2/road-0.webp",
+          "duration": 16.800000190734863,
+          "transferSize": 135704,
+          "decodedBodySize": 135404
+        },
+        {
+          "name": "/art/r5/climber-attack.png",
+          "duration": 16.399999856948853,
+          "transferSize": 132360,
+          "decodedBodySize": 132060
+        },
+        {
+          "name": "/art/r5/xi-gunner.png",
+          "duration": 17.59999990463257,
+          "transferSize": 241010,
+          "decodedBodySize": 240710
+        },
+        {
+          "name": "/art/r5/xi-attack.png",
+          "duration": 17.700000047683716,
+          "transferSize": 190485,
+          "decodedBodySize": 190185
+        },
+        {
+          "name": "/art/r5/runner-walk.png",
+          "duration": 22,
+          "transferSize": 157218,
+          "decodedBodySize": 156918
+        },
+        {
+          "name": "/art/r5/runner-attack.png",
+          "duration": 22.299999952316284,
+          "transferSize": 171553,
+          "decodedBodySize": 171253
+        },
+        {
+          "name": "/art/r5/runner-hurt.png",
+          "duration": 22.399999856948853,
+          "transferSize": 160667,
+          "decodedBodySize": 160367
+        },
+        {
+          "name": "/art/r5/runner-death.png",
+          "duration": 22.700000047683716,
+          "transferSize": 149763,
+          "decodedBodySize": 149463
+        },
+        {
+          "name": "/art/r5/shambler-walk.png",
+          "duration": 22.700000047683716,
+          "transferSize": 150806,
+          "decodedBodySize": 150506
+        },
+        {
+          "name": "/art/r5/shambler-attack.png",
+          "duration": 25.200000047683716,
+          "transferSize": 166295,
+          "decodedBodySize": 165995
+        },
+        {
+          "name": "/art/r5/shambler-hurt.png",
+          "duration": 27.799999952316284,
+          "transferSize": 164912,
+          "decodedBodySize": 164612
+        },
+        {
+          "name": "/art/r5/shambler-death.png",
+          "duration": 27.09999990463257,
+          "transferSize": 125575,
+          "decodedBodySize": 125275
+        },
+        {
+          "name": "/art/r5/departure.webp",
+          "duration": 29.09999990463257,
+          "transferSize": 348522,
+          "decodedBodySize": 348222
+        },
+        {
+          "name": "/art/r5/train.webp",
+          "duration": 28.5,
+          "transferSize": 250028,
+          "decodedBodySize": 249728
+        },
+        {
+          "name": "/art/r5/train-wide.webp",
+          "duration": 28.59999990463257,
+          "transferSize": 211040,
+          "decodedBodySize": 210740
+        },
+        {
+          "name": "/art/r5/outpost-wide.webp",
+          "duration": 32,
+          "transferSize": 257700,
+          "decodedBodySize": 257400
+        },
+        {
+          "name": "/art/r5/xi-side.png",
+          "duration": 31.700000047683716,
+          "transferSize": 48334,
+          "decodedBodySize": 48034
+        },
+        {
+          "name": "/art/r5/xi-night.png",
+          "duration": 33.40000009536743,
+          "transferSize": 323602,
+          "decodedBodySize": 323302
+        },
+        {
+          "name": "/art/r5/xi-front.png",
+          "duration": 32.200000047683716,
+          "transferSize": 58508,
+          "decodedBodySize": 58208
+        },
+        {
+          "name": "/art/r5/bait.png",
+          "duration": 33.40000009536743,
+          "transferSize": 23663,
+          "decodedBodySize": 23363
+        },
+        {
+          "name": "/art/r5/wreckage.png",
+          "duration": 35.5,
+          "transferSize": 32708,
+          "decodedBodySize": 32408
+        },
+        {
+          "name": "/art/r5/battery.png",
+          "duration": 36,
+          "transferSize": 26997,
+          "decodedBodySize": 26697
+        },
+        {
+          "name": "/art/r4/outpost-ready.webp",
+          "duration": 38.200000047683716,
+          "transferSize": 345208,
+          "decodedBodySize": 344908
+        },
+        {
+          "name": "/art/content-r6/xi-brace.webp",
+          "duration": 37.09999990463257,
+          "transferSize": 133504,
+          "decodedBodySize": 133204
+        },
+        {
+          "name": "/art/r5/fence.png",
+          "duration": 36.5,
+          "transferSize": 29719,
+          "decodedBodySize": 29419
+        },
+        {
+          "name": "/art/content-r9/xi-roof.webp",
+          "duration": 41.5,
+          "transferSize": 1042230,
+          "decodedBodySize": 1041930
+        },
+        {
+          "name": "/art/content-r2/coldstore.webp",
+          "duration": 42,
+          "transferSize": 300,
+          "decodedBodySize": 636706
+        },
+        {
+          "name": "/art/content-r2/lighthouse.webp",
+          "duration": 42.10000014305115,
+          "transferSize": 300,
+          "decodedBodySize": 583006
+        },
+        {
+          "name": "/art/r5/panel.webp",
+          "duration": 40.09999990463257,
+          "transferSize": 36432,
+          "decodedBodySize": 36132
+        }
+      ],
+      "loadedImages": 38
     }
   ],
-  "criticalReadyMedianMs": 190.25060000000002,
-  "offlineReadyMedianMs": 193.973,
+  "criticalReadyMedianMs": 186.10169999999925,
+  "offlineReadyMedianMs": 188.2489999999998,
   "measurementScope": "Fresh isolated browser contexts on localhost, shared Windows host; not network or physical-device estimates",
   "webBundle": {
-    "bytes": 8608434,
-    "files": 60
+    "bytes": 9916949,
+    "files": 64
   },
   "nativeIPA": null,
   "nativeAAB": null

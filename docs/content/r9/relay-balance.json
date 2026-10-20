@@ -1,0 +1,28 @@
+{
+  "status": "VERIFIED",
+  "basis": "Conditional hull-equivalent exchange, not win-rate or universal utility",
+  "supplyHullRate": 3.75,
+  "rows": [
+    {
+      "hull": 69,
+      "rescueEquivalent": 17,
+      "repairEquivalent": 18,
+      "difference": 0.05555555555555555
+    },
+    {
+      "hull": 95,
+      "rescueEquivalent": 15,
+      "repairEquivalent": 18,
+      "difference": 0.16666666666666666
+    },
+    {
+      "hull": 100,
+      "rescueEquivalent": 15,
+      "repairEquivalent": 18,
+      "difference": 0.16666666666666666
+    }
+  ],
+  "inputPerturbationVerified": true,
+  "formulaErrors": 0,
+  "actualExcelApp": "not run"
+}

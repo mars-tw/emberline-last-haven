@@ -1,3 +1,4 @@
+import {nightSignal} from './journey-inputs.mjs';
 import {commitBait} from './journey-inputs.mjs';
 import {chromium} from 'playwright';
 import {mkdir,writeFile,readFile} from 'node:fs/promises';
@@ -26,7 +27,7 @@ for(const [label,width,height] of (phase==='r2-after'?viewports.slice(0,1):viewp
   const clickWorld=(x,y)=>p.mouse.click(rect.x+ox+x*s,rect.y+oy+y*s);
   await clickWorld(200,350);await clickWorld(60,250);
   assert.equal((await state(p)).progress.night.voyage.inspectedIds.length,2,'diegetic passenger/window observations use real input');
-  await shot('night');await p.locator('#seal-window').click();const cue=await p.locator('#contact-signal').innerText(),before=await state(p);await clickWorld(cue.includes('玻璃')?60:200,cue.includes('玻璃')?250:90);assert.equal((await state(p)).progress.countered,before.progress.countered+1,'diegetic threat hotspot uses actual counter rule');
+  await shot('night');await p.locator('#seal-window').click();const cue=await nightSignal(p),before=await state(p);await clickWorld(cue.includes('玻璃')?60:200,cue.includes('玻璃')?250:90);assert.equal((await state(p)).progress.countered,before.progress.countered+1,'diegetic threat hotspot uses actual counter rule');
  }else{await p.locator('#breath').click();await p.locator('#window').click();await shot('night');}
  await p.locator('#pause').click();await shot('journal');
  const geometry=await p.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth||document.documentElement.scrollHeight>innerHeight}));assert.equal(geometry.overflow,false);

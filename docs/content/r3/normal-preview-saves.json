@@ -1,7 +1,7 @@
 [
   {
     "schema": 1,
-    "version": "0.11.3",
+    "version": "0.11.4",
     "screen": "play",
     "segment": 1,
     "supplies": 11,
@@ -103,10 +103,10 @@
   },
   {
     "schema": 1,
-    "version": "0.11.3",
+    "version": "0.11.4",
     "screen": "play",
     "segment": 4,
-    "supplies": 16,
+    "supplies": 23,
     "people": 15,
     "hull": 90,
     "level": 2,
@@ -168,7 +168,7 @@
     "archives": {},
     "sound": true,
     "reduced": false,
-    "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 7。",
+    "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 8。",
     "reward": 5,
     "crew": {
       "fatigue": [
@@ -256,14 +256,21 @@
         "repaired": 0,
         "stored": 0
       }
+    },
+    "nightRepair": {
+      "before": 100,
+      "base": 0,
+      "extra": 0,
+      "after": 100,
+      "rescued": true
     }
   },
   {
     "schema": 1,
-    "version": "0.11.3",
+    "version": "0.11.4",
     "screen": "play",
     "segment": 7,
-    "supplies": 24,
+    "supplies": 31,
     "people": 20,
     "hull": 100,
     "level": 3,
@@ -328,7 +335,7 @@
     "archives": {},
     "sound": true,
     "reduced": false,
-    "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +0％。守衛火力現為 9。",
+    "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +0％。守衛火力現為 10。",
     "reward": 5,
     "crew": {
       "fatigue": [
@@ -461,6 +468,13 @@
         "repaired": 0,
         "stored": 18
       }
+    },
+    "nightRepair": {
+      "before": 100,
+      "base": 0,
+      "extra": 0,
+      "after": 100,
+      "rescued": false
     }
   }
 ]

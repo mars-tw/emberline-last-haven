@@ -5,7 +5,7 @@ export const KEY='emberline.campaign.v1';
 type StorageLike=Pick<Storage,'getItem'|'setItem'>;
 const finite=(v:unknown,min:number,max:number)=>typeof v==='number'&&Number.isFinite(v)&&v>=min&&v<=max;
 export function parse(raw:string|null):Campaign|null {
- try {const c=JSON.parse(raw??'null');if(!c||c.schema!==1||![VERSION,'0.11.2','0.11.1','0.11.0','0.10.0','0.9.0','0.8.0','0.7.0','0.6.0','0.5.0'].includes(c.version)||!['intro','play','report','ending','stranded'].includes(c.screen)||!Number.isInteger(c.segment)||!finite(c.segment,0,8)||!finite(c.supplies,0,1000000)||!finite(c.people,0,100000)||!finite(c.hull,0,100)||!Number.isInteger(c.level)||!finite(c.level,0,3))return null;
+ try {const c=JSON.parse(raw??'null');if(!c||c.schema!==1||![VERSION,'0.11.3','0.11.2','0.11.1','0.11.0','0.10.0','0.9.0','0.8.0','0.7.0','0.6.0','0.5.0'].includes(c.version)||!['intro','play','report','ending','stranded'].includes(c.screen)||!Number.isInteger(c.segment)||!finite(c.segment,0,8)||!finite(c.supplies,0,1000000)||!finite(c.people,0,100000)||!finite(c.hull,0,100)||!Number.isInteger(c.level)||!finite(c.level,0,3))return null;
  const p=c.progress;if(!p||!finite(p.time,0,10000)||!finite(p.x,0,360)||!Array.isArray(p.enemies)||p.enemies.length>60||!Array.isArray(p.shots)||p.shots.length>100||!Array.isArray(c.receipts)||!Array.isArray(c.log)||!c.archives||typeof c.archives!=='object'||Array.isArray(c.archives))return null;
  // Persisted simulation data is untrusted, including nested animation/timer values.
  for(const k of ['cooldown','spawn','shot','serial','flung','kills','rescued','baitLeft','attracted','wave','warning','countered','impacts'])if(!finite(p[k],-1,100000))return null;
@@ -43,6 +43,8 @@ export function parse(raw:string|null):Campaign|null {
  if(!Number.isInteger(p.defenseBatch)||!finite(p.defenseBatch,0,3)||p.enemies.some((e:any)=>e.lane!==undefined&&!['west','center','east'].includes(e.lane)))return null;
  if(!finite(p.baitCooldown,0,14)||!finite(c.repairCredit,0,54)||!Array.isArray(c.defenseRetries)||c.defenseRetries.length!==3||c.defenseRetries.some((n:unknown)=>!Number.isInteger(n)||!finite(n,0,100000)))return null;
  if(!c.relayResults||Array.isArray(c.relayResults)||typeof c.relayResults!=='object'||Object.entries(c.relayResults).some(([k,r]:[string,any])=>!['0','1','2'].includes(k)||!c.relay[k]||!r||!finite(r.before,0,100)||!finite(r.repaired,0,18)||!finite(r.stored,0,18)||r.repaired+r.stored>18))return null;
+ if(p.nightFeedback){const f=p.nightFeedback;if(!finite(f.age,0,2)||!Number.isInteger(f.wave)||!finite(f.wave,1,3)||!['roof','window'].includes(f.threat)||!['blocked','damaged','countered'].includes(f.outcome)||!finite(f.beforeHull,0,100)||!finite(f.afterHull,0,100)||![f.beforeShield,f.afterShield].every(v=>Number.isInteger(v)&&finite(v,0,1)))return null;}
+ if(c.nightRepair){const r=c.nightRepair;if(!finite(r.before,0,100)||!finite(r.base,0,100)||!finite(r.extra,0,2)||!finite(r.after,0,100)||typeof r.rescued!=='boolean'||Math.abs(r.before+r.base+r.extra-r.after)>.0001)return null;}
  c.version=VERSION;return c as Campaign;}catch{return null;}
 }
 export function load(storage:StorageLike):{campaign:Campaign;message:string;found:boolean} {

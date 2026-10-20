@@ -3,7 +3,7 @@
   "headless": true,
   "stateInjection": false,
   "clock": "Playwright virtual clock; all decisions through normal UI, not a real-time play-duration study",
-  "indexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "indexSha256": "2b3b2b3fec041281ec91a4f29a34351f1aa3665051a9f2c8d519aaea4c895f29",
   "checks": [
     {
       "test": "chromium roster 320x568: planning controls fit, all >=44px and hittable",
@@ -229,14 +229,14 @@
   "captures": [
     {
       "path": "docs/content/r1/roster-320x568.png",
-      "sha256": "1ebd0452824ffbde6949759e398308b6036750cac9c110c0aeb4e1765541ba1c",
+      "sha256": "85ec8f3aa27985aa1aeca8c3cd6c2d166af5f8d408564f9075c904f2c480d5d6",
       "dimensions": [
         960,
         1704
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "intro",
         "segment": 0,
         "supplies": 8,
@@ -313,14 +313,14 @@
     },
     {
       "path": "docs/content/r1/roster-390x844.png",
-      "sha256": "94ce7a2fcdcfb7de4137256b401e3ee85b12e4e5f29a0ed16394fc7dd557dd67",
+      "sha256": "7df892d6f28b7454d2eaac1982d67df3303aa5374e18ea24bd6fd7eeabbb0ec0",
       "dimensions": [
         1170,
         2532
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "intro",
         "segment": 0,
         "supplies": 8,
@@ -397,14 +397,14 @@
     },
     {
       "path": "docs/content/r1/roster-844x390.png",
-      "sha256": "d265cf5433bb71b2c9030824a3bd4f67eb93ce5d69c76723e8d5aae84b4ac800",
+      "sha256": "59d8974d91599f9191fe0718b5721fd2b7aa673729c3a76f6561227cae797725",
       "dimensions": [
         2532,
         1170
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "intro",
         "segment": 0,
         "supplies": 8,
@@ -481,14 +481,14 @@
     },
     {
       "path": "docs/content/r1/roster-1032x1376.png",
-      "sha256": "501374db4c5dece6190a81a387f07e779b275dccc58d3b62f3cd772a38f6bfb3",
+      "sha256": "de3eeb35feec436a067b34537e67b0a94b0f445ed675bee639d1b3e65864cc06",
       "dimensions": [
         3096,
         4128
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "intro",
         "segment": 0,
         "supplies": 8,
@@ -565,14 +565,14 @@
     },
     {
       "path": "docs/content/r1/roster-1376x1032.png",
-      "sha256": "e6c6ce27175a4d0a6dde3dd71f8f2623c0fc0a9f223b9769ac29143ab686952b",
+      "sha256": "05566305b4b83705c59f68b79132d6fdf30150f31225d9ed571a993077604e33",
       "dimensions": [
         4128,
         3096
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "intro",
         "segment": 0,
         "supplies": 8,
@@ -649,14 +649,14 @@
     },
     {
       "path": "docs/content/r1/roster-1366x600.png",
-      "sha256": "21ef831d1aa6ed10dd917820402f5cae802b2011a07584f2715cf8a03ca602bd",
+      "sha256": "f10258d5036f82c481b38effca07b6e9d570b7940b4ce4795ab4c75fe5a15ca0",
       "dimensions": [
         4098,
         1800
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "intro",
         "segment": 0,
         "supplies": 8,
@@ -733,14 +733,14 @@
     },
     {
       "path": "docs/content/r1/roster-1280x640.png",
-      "sha256": "9053706b7fb28eba41d4796a19f02036e44b3577f1af2447f513f901f8c27c26",
+      "sha256": "abff164837efa7a2a187170398f6b456bbbd4868f329af5af5f257a6378e3978",
       "dimensions": [
         3840,
         1920
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "intro",
         "segment": 0,
         "supplies": 8,
@@ -817,14 +817,14 @@
     },
     {
       "path": "docs/content/r1/chromium-flank-1-preview.png",
-      "sha256": "2488df1c6875eeb16c0a528221f2f642d27fce4799e5a9c6f83c3aec0b18fb7c",
+      "sha256": "d5957ac9c143821b6ac95cd34d456722de96ff1d201998963fb83e43790dccdc",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 1,
         "supplies": 11,
@@ -927,14 +927,14 @@
     },
     {
       "path": "docs/content/r1/chromium-flank-1-active.png",
-      "sha256": "d4b54f5f8bff474a6b628d07d9d690bd1e44f6a3933c602e942bd66ec6398ff8",
+      "sha256": "e20989e1d30c189ad650ef412d2393d7840b337a6f2bec45b8a5f1f9ac945ca9",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 1,
         "supplies": 10,
@@ -942,7 +942,7 @@
         "hull": 90,
         "level": 1,
         "progress": {
-          "time": 2.0310000000000015,
+          "time": 2.0320000000000014,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -950,11 +950,11 @@
           "enemies": [
             {
               "id": 1,
-              "x": 55.75779739237489,
-              "y": 80.55159729398396,
+              "x": 55.76013998094819,
+              "y": 80.5764872975753,
               "hp": 3,
               "state": "walk",
-              "age": 2.0310000000000015,
+              "age": 2.0320000000000014,
               "slot": -1,
               "type": "runner",
               "hit": false,
@@ -965,10 +965,10 @@
             {
               "id": 2,
               "x": 75,
-              "y": 80.77500000000012,
+              "y": 80.80000000000011,
               "hp": 3,
               "state": "walk",
-              "age": 2.0310000000000015,
+              "age": 2.0320000000000014,
               "slot": -1,
               "type": "shambler",
               "hit": false,
@@ -978,11 +978,11 @@
             },
             {
               "id": 3,
-              "x": 94.2422026076248,
-              "y": 80.55159729398396,
+              "x": 94.2398600190515,
+              "y": 80.5764872975753,
               "hp": 3,
               "state": "walk",
-              "age": 2.0310000000000015,
+              "age": 2.0320000000000014,
               "slot": -1,
               "type": "runner",
               "hit": false,
@@ -992,11 +992,11 @@
             },
             {
               "id": 4,
-              "x": 55.35167108164201,
-              "y": 56.588176324089595,
+              "x": 55.35381370649757,
+              "y": 56.613084338035485,
               "hp": 3,
               "state": "walk",
-              "age": 2.0310000000000015,
+              "age": 2.0320000000000014,
               "slot": -1,
               "type": "shambler",
               "hit": false,
@@ -1011,7 +1011,7 @@
           "kills": 0,
           "rescued": 0,
           "bait": "west",
-          "baitLeft": 9.968999999999998,
+          "baitLeft": 9.967999999999998,
           "attracted": 0,
           "started": true,
           "night": null,
@@ -1025,7 +1025,7 @@
             "cooldownLeft": 0
           },
           "defenseBatch": 1,
-          "baitCooldown": 9.968999999999998,
+          "baitCooldown": 9.967999999999998,
           "divertedGroups": [],
           "diversion": {
             "1:west": {
@@ -1101,14 +1101,14 @@
     },
     {
       "path": "docs/content/r1/relay-320x568.png",
-      "sha256": "cc6b732c960387aff9099a32f1c31c8b6641b58b023d4e52d72cf200eeb681ea",
+      "sha256": "5e63c6851fc6997108b030d77aee7988dd8c804191285582f098c8d68c854d77",
       "dimensions": [
         960,
         1704
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
         "supplies": 15,
@@ -1116,7 +1116,7 @@
         "hull": 100,
         "level": 1,
         "progress": {
-          "time": 50.19799999999625,
+          "time": 50.19999999999625,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -1136,7 +1136,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 49.42999999999633
+              "escapedAt": 49.431999999996336
             },
             {
               "id": 15,
@@ -1152,7 +1152,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.19799999999625
+              "escapedAt": 50.19999999999625
             },
             {
               "id": 16,
@@ -1168,7 +1168,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.08599999999626
+              "escapedAt": 50.08799999999626
             },
             {
               "id": 17,
@@ -1184,7 +1184,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.037999999996266
+              "escapedAt": 50.03999999999627
             }
           ],
           "shots": [],
@@ -1311,14 +1311,14 @@
     },
     {
       "path": "docs/content/r1/relay-844x390.png",
-      "sha256": "11a2562225a3924db2c4f5e6f83253db6e2d751f17cff18abe9b06c75271b5e8",
+      "sha256": "88a7dca3ed1548490b87a1f17793e3bfe65a69a86697ea875d7c05eae7581e7a",
       "dimensions": [
         2532,
         1170
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
         "supplies": 15,
@@ -1326,7 +1326,7 @@
         "hull": 100,
         "level": 1,
         "progress": {
-          "time": 50.19799999999625,
+          "time": 50.19999999999625,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -1346,7 +1346,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 49.42999999999633
+              "escapedAt": 49.431999999996336
             },
             {
               "id": 15,
@@ -1362,7 +1362,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.19799999999625
+              "escapedAt": 50.19999999999625
             },
             {
               "id": 16,
@@ -1378,7 +1378,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.08599999999626
+              "escapedAt": 50.08799999999626
             },
             {
               "id": 17,
@@ -1394,7 +1394,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.037999999996266
+              "escapedAt": 50.03999999999627
             }
           ],
           "shots": [],
@@ -1521,14 +1521,14 @@
     },
     {
       "path": "docs/content/r1/relay-1032x1376.png",
-      "sha256": "7fd7b2bb2958bdcb06ae6ed7d801ef33a3f095ab2779277fa2109b36c295368b",
+      "sha256": "092f2f5d38d6f5f0ee78ab0683502cc80809ee94ac8fb2ebe2112e7b3859813b",
       "dimensions": [
         3096,
         4128
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
         "supplies": 15,
@@ -1536,7 +1536,7 @@
         "hull": 100,
         "level": 1,
         "progress": {
-          "time": 50.19799999999625,
+          "time": 50.19999999999625,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -1556,7 +1556,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 49.42999999999633
+              "escapedAt": 49.431999999996336
             },
             {
               "id": 15,
@@ -1572,7 +1572,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.19799999999625
+              "escapedAt": 50.19999999999625
             },
             {
               "id": 16,
@@ -1588,7 +1588,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.08599999999626
+              "escapedAt": 50.08799999999626
             },
             {
               "id": 17,
@@ -1604,7 +1604,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.037999999996266
+              "escapedAt": 50.03999999999627
             }
           ],
           "shots": [],
@@ -1731,14 +1731,14 @@
     },
     {
       "path": "docs/content/r1/relay-1376x1032.png",
-      "sha256": "239b23d3a0a13f196aea7a59533bf374d682c3db6de59d7056d962710deb6fa3",
+      "sha256": "e6989791b749e2207502f673000e27686ac880f3abb58f0503ffe800edfc6684",
       "dimensions": [
         4128,
         3096
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
         "supplies": 15,
@@ -1746,7 +1746,7 @@
         "hull": 100,
         "level": 1,
         "progress": {
-          "time": 50.19799999999625,
+          "time": 50.19999999999625,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -1766,7 +1766,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 49.42999999999633
+              "escapedAt": 49.431999999996336
             },
             {
               "id": 15,
@@ -1782,7 +1782,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.19799999999625
+              "escapedAt": 50.19999999999625
             },
             {
               "id": 16,
@@ -1798,7 +1798,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.08599999999626
+              "escapedAt": 50.08799999999626
             },
             {
               "id": 17,
@@ -1814,7 +1814,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.037999999996266
+              "escapedAt": 50.03999999999627
             }
           ],
           "shots": [],
@@ -1941,14 +1941,14 @@
     },
     {
       "path": "docs/content/r1/relay-1366x600.png",
-      "sha256": "08fcf17f97f18fd66c6b5b92c9b2a098381544de0a95a84811de184ca99fcc94",
+      "sha256": "caceea8f7d3e081784c6a2d0b9af1480759fcee554ff2f5ddbd7b3b6464e62be",
       "dimensions": [
         4098,
         1800
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
         "supplies": 15,
@@ -1956,7 +1956,7 @@
         "hull": 100,
         "level": 1,
         "progress": {
-          "time": 50.19799999999625,
+          "time": 50.19999999999625,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -1976,7 +1976,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 49.42999999999633
+              "escapedAt": 49.431999999996336
             },
             {
               "id": 15,
@@ -1992,7 +1992,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.19799999999625
+              "escapedAt": 50.19999999999625
             },
             {
               "id": 16,
@@ -2008,7 +2008,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.08599999999626
+              "escapedAt": 50.08799999999626
             },
             {
               "id": 17,
@@ -2024,7 +2024,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.037999999996266
+              "escapedAt": 50.03999999999627
             }
           ],
           "shots": [],
@@ -2151,14 +2151,14 @@
     },
     {
       "path": "docs/content/r1/relay-1280x640.png",
-      "sha256": "f99ceecfffc9804bb1130a15e06d41d4bde8d9e8ba8cb1d1333fb1c790f3c529",
+      "sha256": "336869168cd50ac2f342a318a7112f7fe61f544f2739266643ebe3404c65046f",
       "dimensions": [
         3840,
         1920
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
         "supplies": 15,
@@ -2166,7 +2166,7 @@
         "hull": 100,
         "level": 1,
         "progress": {
-          "time": 50.19799999999625,
+          "time": 50.19999999999625,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -2186,7 +2186,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 49.42999999999633
+              "escapedAt": 49.431999999996336
             },
             {
               "id": 15,
@@ -2202,7 +2202,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.19799999999625
+              "escapedAt": 50.19999999999625
             },
             {
               "id": 16,
@@ -2218,7 +2218,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.08599999999626
+              "escapedAt": 50.08799999999626
             },
             {
               "id": 17,
@@ -2234,7 +2234,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.037999999996266
+              "escapedAt": 50.03999999999627
             }
           ],
           "shots": [],
@@ -2361,14 +2361,14 @@
     },
     {
       "path": "docs/content/r1/chromium-relay-1-before-choice.png",
-      "sha256": "fba1d0c590d90495fdb996f1ce6dfaaba0afbc443742c17d699fb89da4bb3b9f",
+      "sha256": "e60ce873bce2a0369effdfaae538754d7e1ead36d2687bbaad09d5f661c2f1c9",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
         "supplies": 15,
@@ -2376,7 +2376,7 @@
         "hull": 100,
         "level": 1,
         "progress": {
-          "time": 50.19799999999625,
+          "time": 50.19999999999625,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -2396,7 +2396,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 49.42999999999633
+              "escapedAt": 49.431999999996336
             },
             {
               "id": 15,
@@ -2412,7 +2412,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.19799999999625
+              "escapedAt": 50.19999999999625
             },
             {
               "id": 16,
@@ -2428,7 +2428,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.08599999999626
+              "escapedAt": 50.08799999999626
             },
             {
               "id": 17,
@@ -2444,7 +2444,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.037999999996266
+              "escapedAt": 50.03999999999627
             }
           ],
           "shots": [],
@@ -2571,22 +2571,22 @@
     },
     {
       "path": "docs/content/r1/chromium-crew-1-after-choice.png",
-      "sha256": "f43fbfcadfddaff44114b4157a6e594d5d0b6c834bf072689df7ea11cc9f3d7e",
+      "sha256": "cbc8f98a60c37b25d7b1d374bdbaa411413fcbce8a7d7bcc14f015bd99f465b2",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
-        "supplies": 12,
+        "supplies": 19,
         "people": 10,
         "hull": 100,
         "level": 1,
         "progress": {
-          "time": 50.19799999999625,
+          "time": 50.19999999999625,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -2606,7 +2606,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 49.42999999999633
+              "escapedAt": 49.431999999996336
             },
             {
               "id": 15,
@@ -2622,7 +2622,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.19799999999625
+              "escapedAt": 50.19999999999625
             },
             {
               "id": 16,
@@ -2638,7 +2638,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.08599999999626
+              "escapedAt": 50.08799999999626
             },
             {
               "id": 17,
@@ -2654,7 +2654,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.037999999996266
+              "escapedAt": 50.03999999999627
             }
           ],
           "shots": [],
@@ -2713,7 +2713,7 @@
           "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
           "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
           "段落完成，補給 +9。輪班疲勞已記入行車簿。",
-          "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。"
+          "阿岑與小路登車：「我們帶了四份庫存，上車後接手警戒。」同行 +2，補給 +4，警戒協作火力 +1；工具箱留在站內。"
         ],
         "receipts": [
           "segment:0",
@@ -2789,22 +2789,22 @@
     },
     {
       "path": "docs/store/screenshots/phone-06-content-r1.png",
-      "sha256": "af4d3e82a95c46bd12d600d3e21ad2b42305c69aa39600ccdb18285635fe668a",
+      "sha256": "1d9077d48696ea94c16e4e2ce8e38aaec158c7b22b4f29a5f2064eb71a46e8df",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
-        "supplies": 12,
+        "supplies": 19,
         "people": 10,
         "hull": 100,
         "level": 1,
         "progress": {
-          "time": 50.19799999999625,
+          "time": 50.19999999999625,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -2824,7 +2824,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 49.42999999999633
+              "escapedAt": 49.431999999996336
             },
             {
               "id": 15,
@@ -2840,7 +2840,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.19799999999625
+              "escapedAt": 50.19999999999625
             },
             {
               "id": 16,
@@ -2856,7 +2856,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.08599999999626
+              "escapedAt": 50.08799999999626
             },
             {
               "id": 17,
@@ -2872,7 +2872,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.037999999996266
+              "escapedAt": 50.03999999999627
             }
           ],
           "shots": [],
@@ -2931,7 +2931,7 @@
           "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
           "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
           "段落完成，補給 +9。輪班疲勞已記入行車簿。",
-          "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。"
+          "阿岑與小路登車：「我們帶了四份庫存，上車後接手警戒。」同行 +2，補給 +4，警戒協作火力 +1；工具箱留在站內。"
         ],
         "receipts": [
           "segment:0",
@@ -3007,17 +3007,17 @@
     },
     {
       "path": "docs/content/r1/chromium-flank-4-preview.png",
-      "sha256": "31f31bec8c106ffd95c57a6ea6228d9a4b847bfed9b4ffae0cd46d69711e186d",
+      "sha256": "a4acab7cd9928e28f044c1ac5dc8eecb2f80fbf09caa416a68eda3fb4d2ef4c1",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 4,
-        "supplies": 15,
+        "supplies": 22,
         "people": 15,
         "hull": 90,
         "level": 2,
@@ -3079,7 +3079,7 @@
         "archives": {},
         "sound": true,
         "reduced": false,
-        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 7。",
+        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 8。",
         "reward": 5,
         "crew": {
           "fatigue": [
@@ -3167,27 +3167,34 @@
             "repaired": 0,
             "stored": 0
           }
+        },
+        "nightRepair": {
+          "before": 100,
+          "base": 0,
+          "extra": 0,
+          "after": 100,
+          "rescued": true
         }
       }
     },
     {
       "path": "docs/content/r1/chromium-flank-4-active.png",
-      "sha256": "fa62eb3f8b949868e8773357259b33d3a16fc04888c8ae30d2dd630871a33a1a",
+      "sha256": "85c86d665d07ca71114b3c7f977615a5178ea372bde4048ac43aae4fade68555",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 4,
-        "supplies": 14,
+        "supplies": 21,
         "people": 15,
         "hull": 90,
         "level": 2,
         "progress": {
-          "time": 2.0230000000000015,
+          "time": 2.0240000000000014,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -3195,11 +3202,11 @@
           "enemies": [
             {
               "id": 1,
-              "x": 268.58249069406014,
-              "y": 110.56396362440502,
+              "x": 268.5862388357774,
+              "y": 110.60378763015115,
               "hp": 4,
               "state": "walk",
-              "age": 2.0230000000000015,
+              "age": 2.0240000000000014,
               "slot": -1,
               "type": "runner",
               "hit": false,
@@ -3210,10 +3217,10 @@
             {
               "id": 2,
               "x": 285,
-              "y": 110.92000000000007,
+              "y": 110.96000000000006,
               "hp": 4,
               "state": "walk",
-              "age": 2.0230000000000015,
+              "age": 2.0240000000000014,
               "slot": -1,
               "type": "shambler",
               "hit": false,
@@ -3223,11 +3230,11 @@
             },
             {
               "id": 3,
-              "x": 301.41750930593986,
-              "y": 110.56396362440502,
+              "x": 301.4137611642226,
+              "y": 110.60378763015115,
               "hp": 4,
               "state": "walk",
-              "age": 2.0230000000000015,
+              "age": 2.0240000000000014,
               "slot": -1,
               "type": "runner",
               "hit": false,
@@ -3237,11 +3244,11 @@
             },
             {
               "id": 4,
-              "x": 267.93524813247495,
-              "y": 86.62225954003624,
+              "x": 267.93867633224386,
+              "y": 86.66211236234965,
               "hp": 4,
               "state": "walk",
-              "age": 2.0230000000000015,
+              "age": 2.0240000000000014,
               "slot": -1,
               "type": "shambler",
               "hit": false,
@@ -3252,10 +3259,10 @@
             {
               "id": 5,
               "x": 285,
-              "y": 86.92000000000006,
+              "y": 86.96000000000006,
               "hp": 4,
               "state": "walk",
-              "age": 2.0230000000000015,
+              "age": 2.0240000000000014,
               "slot": -1,
               "type": "runner",
               "hit": false,
@@ -3270,7 +3277,7 @@
           "kills": 0,
           "rescued": 0,
           "bait": "east",
-          "baitLeft": 9.976999999999999,
+          "baitLeft": 9.975999999999999,
           "attracted": 0,
           "started": true,
           "night": null,
@@ -3284,7 +3291,7 @@
             "cooldownLeft": 0
           },
           "defenseBatch": 1,
-          "baitCooldown": 9.976999999999999,
+          "baitCooldown": 9.975999999999999,
           "divertedGroups": [],
           "diversion": {
             "1:east": {
@@ -3320,7 +3327,7 @@
         "archives": {},
         "sound": true,
         "reduced": false,
-        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 7。",
+        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +15％。守衛火力現為 8。",
         "reward": 5,
         "crew": {
           "fatigue": [
@@ -3408,46 +3415,39 @@
             "repaired": 0,
             "stored": 0
           }
+        },
+        "nightRepair": {
+          "before": 100,
+          "base": 0,
+          "extra": 0,
+          "after": 100,
+          "rescued": true
         }
       }
     },
     {
       "path": "docs/content/r1/chromium-relay-4-before-choice.png",
-      "sha256": "ba9b50553d4ac4d0beffcf43c655e224864f51fd5646e36eee19a8fe1895ade7",
+      "sha256": "e21f92e9ea306484cd09337e355f65b9be5b23da1d13a42e2e9f89383c13adf7",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 4,
-        "supplies": 20,
+        "supplies": 27,
         "people": 15,
         "hull": 100,
         "level": 2,
         "progress": {
-          "time": 40.00599999999737,
+          "time": 40.007999999997374,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
           "shot": 0,
           "enemies": [
-            {
-              "id": 12,
-              "x": 89.56946048024562,
-              "y": 297.3587011216733,
-              "hp": 4,
-              "state": "walk",
-              "age": 14.01600000000001,
-              "slot": -1,
-              "type": "shambler",
-              "hit": false,
-              "attracted": false,
-              "group": "3:west",
-              "lane": "west"
-            },
             {
               "id": 15,
               "x": 77.13981634465026,
@@ -3477,20 +3477,6 @@
               "group": "3:west",
               "lane": "west",
               "exit": "west"
-            },
-            {
-              "id": 17,
-              "x": 97.16513799819062,
-              "y": 297.33779929955085,
-              "hp": 1,
-              "state": "walk",
-              "age": 1.7760000000000014,
-              "slot": -1,
-              "type": "runner",
-              "hit": false,
-              "attracted": false,
-              "group": "3:west",
-              "lane": "west"
             },
             {
               "id": 18,
@@ -3526,7 +3512,7 @@
           "shots": [],
           "serial": 19,
           "flung": 0,
-          "kills": 2,
+          "kills": 4,
           "rescued": 0,
           "bait": "west",
           "baitLeft": 8.991999999999997,
@@ -3692,46 +3678,39 @@
             "repaired": 0,
             "stored": 0
           }
+        },
+        "nightRepair": {
+          "before": 100,
+          "base": 0,
+          "extra": 0,
+          "after": 100,
+          "rescued": true
         }
       }
     },
     {
       "path": "docs/content/r1/chromium-crew-4-after-choice.png",
-      "sha256": "0e98a74bdcedac337678bcfe9ba42982beb171ff68911f3d414bcdd1b2f39c6b",
+      "sha256": "d125d961c48508d5fb7bdf3a90f8c906834ce1d8f668aa68c5eaef9073d17b46",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 4,
-        "supplies": 20,
+        "supplies": 27,
         "people": 15,
         "hull": 100,
         "level": 2,
         "progress": {
-          "time": 40.00599999999737,
+          "time": 40.007999999997374,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
           "shot": 0,
           "enemies": [
-            {
-              "id": 12,
-              "x": 89.56946048024562,
-              "y": 297.3587011216733,
-              "hp": 4,
-              "state": "walk",
-              "age": 14.01600000000001,
-              "slot": -1,
-              "type": "shambler",
-              "hit": false,
-              "attracted": false,
-              "group": "3:west",
-              "lane": "west"
-            },
             {
               "id": 15,
               "x": 77.13981634465026,
@@ -3761,20 +3740,6 @@
               "group": "3:west",
               "lane": "west",
               "exit": "west"
-            },
-            {
-              "id": 17,
-              "x": 97.16513799819062,
-              "y": 297.33779929955085,
-              "hp": 1,
-              "state": "walk",
-              "age": 1.7760000000000014,
-              "slot": -1,
-              "type": "runner",
-              "hit": false,
-              "attracted": false,
-              "group": "3:west",
-              "lane": "west"
             },
             {
               "id": 18,
@@ -3810,7 +3775,7 @@
           "shots": [],
           "serial": 19,
           "flung": 0,
-          "kills": 2,
+          "kills": 4,
           "rescued": 0,
           "bait": "west",
           "baitLeft": 8.991999999999997,
@@ -3982,22 +3947,29 @@
             "repaired": 0,
             "stored": 18
           }
+        },
+        "nightRepair": {
+          "before": 100,
+          "base": 0,
+          "extra": 0,
+          "after": 100,
+          "rescued": true
         }
       }
     },
     {
       "path": "docs/content/r1/chromium-flank-7-preview.png",
-      "sha256": "7970b1bf45daf047435557123cb8f86e9a7904d6b38702b737370d198d0c91ea",
+      "sha256": "fa09e266906ca78c3a2a89fe7d9d35e988cd4ecb45a61b6f78732761f2656f2c",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 7,
-        "supplies": 20,
+        "supplies": 27,
         "people": 20,
         "hull": 100,
         "level": 3,
@@ -4062,7 +4034,7 @@
         "archives": {},
         "sound": true,
         "reduced": false,
-        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +0％。守衛火力現為 9。",
+        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +0％。守衛火力現為 10。",
         "reward": 4,
         "crew": {
           "fatigue": [
@@ -4195,27 +4167,34 @@
             "repaired": 0,
             "stored": 18
           }
+        },
+        "nightRepair": {
+          "before": 100,
+          "base": 0,
+          "extra": 0,
+          "after": 100,
+          "rescued": false
         }
       }
     },
     {
       "path": "docs/content/r1/chromium-flank-7-active.png",
-      "sha256": "47d3cc095126f243609acbab038dc83bfa68694efb9556b5272a25b4f805385d",
+      "sha256": "c3f968589f8c7adbb01d8c3e4f4e3669ff9c59e2838b5cc55fcf6e2b58fdeda0",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 7,
-        "supplies": 19,
+        "supplies": 26,
         "people": 20,
         "hull": 100,
         "level": 3,
         "progress": {
-          "time": 2.0310000000000015,
+          "time": 2.0320000000000014,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -4223,11 +4202,11 @@
           "enemies": [
             {
               "id": 1,
-              "x": 161.70935687084878,
-              "y": 90.66191675278054,
+              "x": 161.71216797713674,
+              "y": 90.69178475709013,
               "hp": 5,
               "state": "walk",
-              "age": 2.0310000000000015,
+              "age": 2.0320000000000014,
               "slot": -1,
               "type": "runner",
               "hit": false,
@@ -4238,10 +4217,10 @@
             {
               "id": 2,
               "x": 180,
-              "y": 90.93000000000002,
+              "y": 90.96000000000002,
               "hp": 5,
               "state": "walk",
-              "age": 2.0310000000000015,
+              "age": 2.0320000000000014,
               "slot": -1,
               "type": "shambler",
               "hit": false,
@@ -4251,11 +4230,11 @@
             },
             {
               "id": 3,
-              "x": 198.29064312915122,
-              "y": 90.66191675278054,
+              "x": 198.28783202286326,
+              "y": 90.69178475709013,
               "hp": 5,
               "state": "walk",
-              "age": 2.0310000000000015,
+              "age": 2.0320000000000014,
               "slot": -1,
               "type": "runner",
               "hit": false,
@@ -4265,11 +4244,11 @@
             },
             {
               "id": 4,
-              "x": 161.22200529797004,
-              "y": 66.70581158890792,
+              "x": 161.22457644779672,
+              "y": 66.73570120564297,
               "hp": 5,
               "state": "walk",
-              "age": 2.0310000000000015,
+              "age": 2.0320000000000014,
               "slot": -1,
               "type": "shambler",
               "hit": false,
@@ -4284,7 +4263,7 @@
           "kills": 0,
           "rescued": 0,
           "bait": "center",
-          "baitLeft": 9.968999999999998,
+          "baitLeft": 9.967999999999998,
           "attracted": 0,
           "started": true,
           "night": null,
@@ -4298,7 +4277,7 @@
             "cooldownLeft": 0
           },
           "defenseBatch": 1,
-          "baitCooldown": 9.968999999999998,
+          "baitCooldown": 9.967999999999998,
           "divertedGroups": [],
           "diversion": {
             "1:center": {
@@ -4337,7 +4316,7 @@
         "archives": {},
         "sound": true,
         "reduced": false,
-        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +0％。守衛火力現為 9。",
+        "lastReport": "救回 5 人。他們會成為據點守衛與列車乘客，並協助搶修車體 +0％。守衛火力現為 10。",
         "reward": 4,
         "crew": {
           "fatigue": [
@@ -4470,27 +4449,34 @@
             "repaired": 0,
             "stored": 18
           }
+        },
+        "nightRepair": {
+          "before": 100,
+          "base": 0,
+          "extra": 0,
+          "after": 100,
+          "rescued": false
         }
       }
     },
     {
       "path": "docs/content/r1/chromium-relay-7-before-choice.png",
-      "sha256": "160d13ecb882d57a2b87529da31a30464c94328f3cdd04a5e0474ac3d306bd44",
+      "sha256": "25863aa6282f983810a3f744c598aa0da439b71cbf3d6be0697e6db77d2a384d",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 7,
-        "supplies": 25,
+        "supplies": 32,
         "people": 20,
         "hull": 100,
         "level": 3,
         "progress": {
-          "time": 40.00599999999737,
+          "time": 40.007999999997374,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -4893,27 +4879,34 @@
             "repaired": 0,
             "stored": 18
           }
+        },
+        "nightRepair": {
+          "before": 100,
+          "base": 0,
+          "extra": 0,
+          "after": 100,
+          "rescued": false
         }
       }
     },
     {
       "path": "docs/content/r1/chromium-crew-7-after-choice.png",
-      "sha256": "8226a7f13a0cf1773bfbe10dacf9ddee5b5abe9b951a924680abc2beae33b3fa",
+      "sha256": "efdd57bfc46a8feeb578e17673d028b77fbdea5d39e38174f733788b89dd25af",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 7,
-        "supplies": 22,
+        "supplies": 36,
         "people": 22,
         "hull": 100,
         "level": 3,
         "progress": {
-          "time": 40.00599999999737,
+          "time": 40.007999999997374,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -5155,7 +5148,7 @@
           "第 3 批來敵已進場，留意裝車區。",
           "東側繞行：已花 1 補給。只引東線，快速引進射界；西線不受影響。",
           "段落完成，補給 +9。輪班疲勞已記入行車簿。",
-          "阿澄與以寧登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。"
+          "阿澄與以寧登車：「我們帶了四份庫存，上車後接手警戒。」同行 +2，補給 +4，警戒協作火力 +1；工具箱留在站內。"
         ],
         "receipts": [
           "segment:0",
@@ -5322,27 +5315,34 @@
             "repaired": 0,
             "stored": 0
           }
+        },
+        "nightRepair": {
+          "before": 100,
+          "base": 0,
+          "extra": 0,
+          "after": 100,
+          "rescued": false
         }
       }
     },
     {
       "path": "docs/content/r1/ending.png",
-      "sha256": "6c714efbf9451241fe752e771cd08fd26e08c02a13518e37f50a8de49533be37",
+      "sha256": "d1d4aa4537a71f9c15cb6242de457a316b03cac105147b93e0f86e48580aa405",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "ending",
         "segment": 8,
-        "supplies": 22,
+        "supplies": 36,
         "people": 22,
         "hull": 100,
         "level": 3,
         "progress": {
-          "time": 0,
+          "time": 3.5920000000000027,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -5359,7 +5359,7 @@
           "started": true,
           "night": {
             "schemaVersion": 6,
-            "runId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000",
+            "runId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f",
             "seed": "emberline-8",
             "day": 3,
             "maxDays": 7,
@@ -5514,8 +5514,8 @@
             ],
             "ledger": [
               {
-                "id": "a0d03759-0cc1-430d-a129-0e21fc749b6b",
-                "at": 1792392180490,
+                "id": "46a9f84e-2fc5-4840-a2f0-8aa7f31bd97c",
+                "at": 1792416807690,
                 "source": "night.power-grid",
                 "key": "energy",
                 "before": 75,
@@ -5523,8 +5523,8 @@
                 "after": 66
               },
               {
-                "id": "0f2cfa41-2c7e-4a07-8d40-4853c58f98f7",
-                "at": 1792392180490,
+                "id": "4f2f6422-3eb5-40ec-a261-280fe1a7e82b",
+                "at": 1792416807690,
                 "source": "night.heating",
                 "key": "temperature",
                 "before": 18,
@@ -5532,8 +5532,8 @@
                 "after": 22
               },
               {
-                "id": "c8eee42c-ef24-4480-a73c-5a0db33c8e61",
-                "at": 1792392180490,
+                "id": "eee87a28-3705-410f-8c69-278e0a12a886",
+                "at": 1792416807690,
                 "source": "module.visibility",
                 "key": "visibility",
                 "before": 42,
@@ -5543,13 +5543,13 @@
             ],
             "quests": {
               "version": 1,
-              "runId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000",
+              "runId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f",
               "routeId": "R01",
               "createdDay": 1,
               "sequence": 2,
               "consumedEventIds": [
-                "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000:D3:passenger-breathing:action.committed",
-                "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000:D3:window-silhouette:action.committed"
+                "run-0537206c-a54c-40a2-96f2-90b18e46f82f:D3:passenger-breathing:action.committed",
+                "run-0537206c-a54c-40a2-96f2-90b18e46f82f:D3:window-silhouette:action.committed"
               ],
               "consumedEventKeys": [
                 "action.committed:D3:inspect:passenger-breathing",
@@ -5557,12 +5557,12 @@
               ],
               "eventHistory": [
                 {
-                  "transactionId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000:D3:passenger-breathing",
+                  "transactionId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f:D3:passenger-breathing",
                   "operation": "inspect",
                   "targetId": "passenger-breathing",
                   "result": "success",
-                  "eventId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000:D3:passenger-breathing:action.committed",
-                  "runId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000",
+                  "eventId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f:D3:passenger-breathing:action.committed",
+                  "runId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f",
                   "routeId": "R01",
                   "day": 3,
                   "sequence": 1,
@@ -5570,12 +5570,12 @@
                   "dedupKey": "action.committed:D3:inspect:passenger-breathing"
                 },
                 {
-                  "transactionId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000:D3:window-silhouette",
+                  "transactionId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f:D3:window-silhouette",
                   "operation": "inspect",
                   "targetId": "window-silhouette",
                   "result": "success",
-                  "eventId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000:D3:window-silhouette:action.committed",
-                  "runId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000",
+                  "eventId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f:D3:window-silhouette:action.committed",
+                  "runId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f",
                   "routeId": "R01",
                   "day": 3,
                   "sequence": 2,
@@ -6428,7 +6428,7 @@
             }
           },
           "wave": 3,
-          "warning": 22,
+          "warning": 21.71200000000003,
           "countered": 2,
           "impacts": 1,
           "shake": {
@@ -6439,7 +6439,17 @@
           "defenseBatch": 0,
           "baitCooldown": 0,
           "divertedGroups": [],
-          "diversion": {}
+          "diversion": {},
+          "nightFeedback": {
+            "age": 0,
+            "wave": 3,
+            "threat": "window",
+            "beforeHull": 100,
+            "afterHull": 100,
+            "beforeShield": 0,
+            "afterShield": 0,
+            "outcome": "countered"
+          }
         },
         "log": [
           "第 1 批來敵已進場，留意裝車區。",
@@ -6449,7 +6459,7 @@
           "第 3 批來敵已進場，留意裝車區。",
           "東側繞行：已花 1 補給。只引東線，快速引進射界；西線不受影響。",
           "段落完成，補給 +9。輪班疲勞已記入行車簿。",
-          "阿澄與以寧登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。",
+          "阿澄與以寧登車：「我們帶了四份庫存，上車後接手警戒。」同行 +2，補給 +4，警戒協作火力 +1；工具箱留在站內。",
           "交接已封存，首波預警 58 秒（含交接判讀結果；後續每波依輪班）。",
           "你帶大家伏低，準備承受撞擊。",
           "熹擋下這次撞擊！車體未受損，擋擊 1→0（窗側）。",
@@ -6638,27 +6648,34 @@
             "repaired": 0,
             "stored": 0
           }
+        },
+        "nightRepair": {
+          "before": 100,
+          "base": 0,
+          "extra": 0,
+          "after": 100,
+          "rescued": true
         }
       }
     },
     {
       "path": "docs/store/screenshots/tablet-06-content-r1.png",
-      "sha256": "be97dfdb79c0fe8a5708298e0347ae1e044840d4f965e0d1abe668c4fcdf561f",
+      "sha256": "0d81bd0e2ec1186e9379c1b853affdd0c8871d378ed784b5428ebb96d03e2490",
       "dimensions": [
         2064,
         2752
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
-        "supplies": 12,
+        "supplies": 19,
         "people": 10,
         "hull": 100,
         "level": 1,
         "progress": {
-          "time": 50.19799999999625,
+          "time": 50.19999999999625,
           "x": 180,
           "cooldown": 0,
           "spawn": 0,
@@ -6678,7 +6695,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 49.42999999999633
+              "escapedAt": 49.431999999996336
             },
             {
               "id": 15,
@@ -6694,7 +6711,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.19799999999625
+              "escapedAt": 50.19999999999625
             },
             {
               "id": 16,
@@ -6710,7 +6727,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.08599999999626
+              "escapedAt": 50.08799999999626
             },
             {
               "id": 17,
@@ -6726,7 +6743,7 @@
               "group": "3:center",
               "lane": "center",
               "exit": "center",
-              "escapedAt": 50.037999999996266
+              "escapedAt": 50.03999999999627
             }
           ],
           "shots": [],
@@ -6785,7 +6802,7 @@
           "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
           "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
           "段落完成，補給 +9。輪班疲勞已記入行車簿。",
-          "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。"
+          "阿岑與小路登車：「我們帶了四份庫存，上車後接手警戒。」同行 +2，補給 +4，警戒協作火力 +1；工具箱留在站內。"
         ],
         "receipts": [
           "segment:0",
@@ -6861,14 +6878,14 @@
     },
     {
       "path": "docs/content/r1/webkit-flank-1-preview.png",
-      "sha256": "fe644e6de5017c7fc494fe1ddfbfc75126298fc1aa3a8a525fa4ea1917a1c0ec",
+      "sha256": "ddd043f2409b367ab249c2a932f4908a83a49a3ae43f9f9fdfb50ac145854f0c",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 1,
         "supplies": 11,
@@ -6971,14 +6988,14 @@
     },
     {
       "path": "docs/content/r1/webkit-flank-1-active.png",
-      "sha256": "5872ac5afd96b3e9ef03bcb438502c094d30380f1caffbf42519be15c6aa4254",
+      "sha256": "c53038b852dd54e5bb0c8692fde6abadef97811036226b87252e218cc453a129",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "play",
         "segment": 1,
         "supplies": 10,
@@ -7145,14 +7162,14 @@
     },
     {
       "path": "docs/content/r1/webkit-relay-1-before-choice.png",
-      "sha256": "6db46f0ded0c78a2774e11e379d9cba48f1787b4a3793eb656c39d5900c7e050",
+      "sha256": "613bf80f4ad262fde071abac91792f9e51c5955599da418cb3985f10ea5f1200",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
         "supplies": 15,
@@ -7355,17 +7372,17 @@
     },
     {
       "path": "docs/content/r1/webkit-crew-1-after-choice.png",
-      "sha256": "c1e305e7edb1492042a03c60b14602febce033a0753c7ec40bcfaf375f884c1b",
+      "sha256": "b629f56b5010075798b257a7aa4672f6932c64de2df9da7a7456ffaba7d2a85b",
       "dimensions": [
         1290,
         2796
       ],
       "state": {
         "schema": 1,
-        "version": "0.11.3",
+        "version": "0.11.4",
         "screen": "report",
         "segment": 1,
-        "supplies": 12,
+        "supplies": 19,
         "people": 10,
         "hull": 100,
         "level": 1,
@@ -7497,7 +7514,7 @@
           "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
           "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
           "段落完成，補給 +9。輪班疲勞已記入行車簿。",
-          "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。"
+          "阿岑與小路登車：「我們帶了四份庫存，上車後接手警戒。」同行 +2，補給 +4，警戒協作火力 +1；工具箱留在站內。"
         ],
         "receipts": [
           "segment:0",

@@ -1,7 +1,7 @@
 [
   {
     "schema": 1,
-    "version": "0.11.3",
+    "version": "0.11.4",
     "screen": "report",
     "segment": 1,
     "supplies": 16,
@@ -203,10 +203,10 @@
   },
   {
     "schema": 1,
-    "version": "0.11.3",
+    "version": "0.11.4",
     "screen": "report",
     "segment": 4,
-    "supplies": 21,
+    "supplies": 28,
     "people": 15,
     "hull": 100,
     "level": 2,
@@ -507,14 +507,21 @@
         "repaired": 0,
         "stored": 0
       }
+    },
+    "nightRepair": {
+      "before": 100,
+      "base": 0,
+      "extra": 0,
+      "after": 100,
+      "rescued": true
     }
   },
   {
     "schema": 1,
-    "version": "0.11.3",
+    "version": "0.11.4",
     "screen": "report",
     "segment": 7,
-    "supplies": 29,
+    "supplies": 36,
     "people": 20,
     "hull": 100,
     "level": 3,
@@ -925,6 +932,13 @@
         "repaired": 0,
         "stored": 18
       }
+    },
+    "nightRepair": {
+      "before": 100,
+      "base": 0,
+      "extra": 0,
+      "after": 100,
+      "rescued": false
     }
   }
 ]

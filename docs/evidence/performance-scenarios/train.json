@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "0.11.3",
+  "version": "0.11.4",
   "screen": "play",
   "segment": 2,
-  "supplies": 16,
+  "supplies": 23,
   "people": 10,
   "hull": 61,
   "level": 0,
@@ -25,7 +25,7 @@
     "started": true,
     "night": {
       "schemaVersion": 6,
-      "runId": "run-f0076a1a-840f-41b5-8a1c-27c228552341",
+      "runId": "run-f0bfc032-e059-410c-b829-1448588c45a9",
       "seed": "emberline-2",
       "day": 1,
       "maxDays": 7,
@@ -180,7 +180,7 @@
       ],
       "ledger": [
         {
-          "id": "8e876b8f-9509-46bb-9425-ddbd439798b8",
+          "id": "be98e4cf-def6-46cc-b374-356b0308127c",
           "at": 1792304560840,
           "source": "night.power-grid",
           "key": "energy",
@@ -189,7 +189,7 @@
           "after": 66
         },
         {
-          "id": "a7436e84-aee5-4d0a-b304-0ec41b62ade0",
+          "id": "c89e78c2-6215-4094-8aab-d55d7d43412f",
           "at": 1792304560840,
           "source": "night.heating",
           "key": "temperature",
@@ -198,7 +198,7 @@
           "after": 22
         },
         {
-          "id": "3887b50f-e89b-4f3b-aba3-efe027e6499a",
+          "id": "cae44457-a97b-437a-bc00-70bb920f2f73",
           "at": 1792304560840,
           "source": "module.visibility",
           "key": "visibility",
@@ -209,13 +209,13 @@
       ],
       "quests": {
         "version": 1,
-        "runId": "run-f0076a1a-840f-41b5-8a1c-27c228552341",
+        "runId": "run-f0bfc032-e059-410c-b829-1448588c45a9",
         "routeId": "R01",
         "createdDay": 1,
         "sequence": 2,
         "consumedEventIds": [
-          "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:passenger-breathing:action.committed",
-          "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:window-silhouette:action.committed"
+          "run-f0bfc032-e059-410c-b829-1448588c45a9:D1:passenger-breathing:action.committed",
+          "run-f0bfc032-e059-410c-b829-1448588c45a9:D1:window-silhouette:action.committed"
         ],
         "consumedEventKeys": [
           "action.committed:D1:inspect:passenger-breathing",
@@ -223,12 +223,12 @@
         ],
         "eventHistory": [
           {
-            "transactionId": "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:passenger-breathing",
+            "transactionId": "run-f0bfc032-e059-410c-b829-1448588c45a9:D1:passenger-breathing",
             "operation": "inspect",
             "targetId": "passenger-breathing",
             "result": "success",
-            "eventId": "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:passenger-breathing:action.committed",
-            "runId": "run-f0076a1a-840f-41b5-8a1c-27c228552341",
+            "eventId": "run-f0bfc032-e059-410c-b829-1448588c45a9:D1:passenger-breathing:action.committed",
+            "runId": "run-f0bfc032-e059-410c-b829-1448588c45a9",
             "routeId": "R01",
             "day": 1,
             "sequence": 1,
@@ -236,12 +236,12 @@
             "dedupKey": "action.committed:D1:inspect:passenger-breathing"
           },
           {
-            "transactionId": "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:window-silhouette",
+            "transactionId": "run-f0bfc032-e059-410c-b829-1448588c45a9:D1:window-silhouette",
             "operation": "inspect",
             "targetId": "window-silhouette",
             "result": "success",
-            "eventId": "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:window-silhouette:action.committed",
-            "runId": "run-f0076a1a-840f-41b5-8a1c-27c228552341",
+            "eventId": "run-f0bfc032-e059-410c-b829-1448588c45a9:D1:window-silhouette:action.committed",
+            "runId": "run-f0bfc032-e059-410c-b829-1448588c45a9",
             "routeId": "R01",
             "day": 1,
             "sequence": 2,
@@ -600,13 +600,13 @@
               {
                 "count": 1,
                 "matchedEventIds": [
-                  "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:passenger-breathing:action.committed"
+                  "run-f0bfc032-e059-410c-b829-1448588c45a9:D1:passenger-breathing:action.committed"
                 ]
               },
               {
                 "count": 1,
                 "matchedEventIds": [
-                  "run-f0076a1a-840f-41b5-8a1c-27c228552341:D1:window-silhouette:action.committed"
+                  "run-f0bfc032-e059-410c-b829-1448588c45a9:D1:window-silhouette:action.committed"
                 ]
               }
             ],
@@ -1089,7 +1089,7 @@
     "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
     "中央聚攏：已花 1 補給。只接中央縱隊；兩翼不會跟來。",
     "段落完成，補給 +9。輪班疲勞已記入行車簿。",
-    "阿岑與小路登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。",
+    "阿岑與小路登車：「我們帶了四份庫存，上車後接手警戒。」同行 +2，補給 +4，警戒協作火力 +1；工具箱留在站內。",
     "交接已封存，首波預警 32 秒（含交接判讀結果；後續每波依輪班）。"
   ],
   "receipts": [

@@ -11,7 +11,7 @@
       "content": "flank",
       "path": "docs/content/r5/review-set/01-flank-active-1s.png",
       "original": "docs/content/r5/phone-flank-active-1s.png",
-      "sha256": "16e476058b2ad5b95be6dd585870611b55390221407f9d395076e7313ebe719b",
+      "sha256": "4bccf323a9d6d9b93a99f2086df8a93e45afd566623e7a6d55c3083ce8cf640e",
       "dimensions": [
         1290,
         2796
@@ -21,7 +21,7 @@
       "content": "flank",
       "path": "docs/content/r5/review-set/02-flank-active-6s.png",
       "original": "docs/content/r5/phone-flank-active-6s.png",
-      "sha256": "8b578508dc50a97669b2abddb395c087be3526e5a24a29b4f867434a89313198",
+      "sha256": "77be3fde2bca607cfe078eead3aa11d7136aa20420ae9cd9b698060960b9b914",
       "dimensions": [
         1290,
         2796
@@ -31,7 +31,7 @@
       "content": "flank",
       "path": "docs/content/r5/review-set/03-flank-active-12s.png",
       "original": "docs/content/r5/phone-flank-active-12s.png",
-      "sha256": "b560ed4bdac850dd3042c1caec3fb2badf7e85efc7ae6874f430d784826bc972",
+      "sha256": "6f46828471645fa0b6ae18d9f3db58a7f2431f4998c852b707525888126382a0",
       "dimensions": [
         1290,
         2796
@@ -41,7 +41,7 @@
       "content": "flank",
       "path": "docs/content/r5/review-set/04-flank-east-entering.png",
       "original": "docs/content/r5/phone-flank-east-entering.png",
-      "sha256": "7f62b4c3c3b3bf4826cea49af26b2161baadfec81cc27eb960bd2f2a4956e512",
+      "sha256": "0d07ec7828f623ddae05b2a75824b358e762a9d7c7f01ea0f7771d71ef27f6c8",
       "dimensions": [
         1290,
         2796
@@ -51,7 +51,7 @@
       "content": "flank",
       "path": "docs/content/r5/review-set/05-flank-boundary-crossed.png",
       "original": "docs/content/r5/phone-flank-boundary-crossed.png",
-      "sha256": "980b29d1d2025f8f154179eed780381946d27a4d65a8deb7585b4fda18c42bf6",
+      "sha256": "4cad16dda33050ac79346b5429c593147beb9c8ba6062a5bcb6157434c18e5c5",
       "dimensions": [
         1290,
         2796
@@ -61,7 +61,7 @@
       "content": "flank",
       "path": "docs/content/r5/review-set/06-retry-chronological.png",
       "original": "docs/content/r5/phone-retry-chronological.png",
-      "sha256": "218553a59e84b2636bc51f2401bc88e71c2d94f4a950ed93c64c5b8a9fe96b8e",
+      "sha256": "9d087829b6937ead1d95d295cace0e36449fd82f0accc0e4970a4836996709e8",
       "dimensions": [
         1290,
         2796
@@ -71,7 +71,7 @@
       "content": "relay",
       "path": "docs/content/r5/review-set/07-relay-2-selected-rescue.png",
       "original": "docs/content/r5/phone-relay-2-selected-rescue.png",
-      "sha256": "91e56e3dcd51513e203482a49410317a9b9b6397962509b81d851f9d2bdad3fc",
+      "sha256": "270e11426e6835c139fb066e8646efbcec13c9d38ab94d2bfd1e776ffdbebbd9",
       "dimensions": [
         1290,
         2796
@@ -81,7 +81,7 @@
       "content": "relay",
       "path": "docs/content/r5/review-set/08-relay-2-sealed.png",
       "original": "docs/content/r5/phone-relay-2-sealed.png",
-      "sha256": "3588785a17e17c31a56d935d8e62ad9a42a424bc34dae5fbf6b18b69b29e03bc",
+      "sha256": "bd9fca7625db3290d37ed84ee1b8b413f9318419bb88f79112f3f339667d91d4",
       "dimensions": [
         1290,
         2796
@@ -91,7 +91,7 @@
       "content": "relay",
       "path": "docs/content/r5/review-set/09-relay-3-selected-repair.png",
       "original": "docs/content/r5/phone-relay-3-selected-repair.png",
-      "sha256": "a01cdcfa7b587ed723366daee5048bda4a6dd2b2fc912b895305164df28f460a",
+      "sha256": "2b13955baf90854b9fadcbe19967b6e8ecaa4bbd89d63e7d5689982bd994b767",
       "dimensions": [
         1290,
         2796
@@ -101,7 +101,7 @@
       "content": "relay",
       "path": "docs/content/r5/review-set/10-relay-3-sealed.png",
       "original": "docs/content/r5/phone-relay-3-sealed.png",
-      "sha256": "1de807045f938262f5cd0d7f85be447282d31b57bb2f3b749f341ac66d2b1e92",
+      "sha256": "b6e25a5308517a29b7866b7b505bd4e7dd6e89cef8097b57dd3e2f2891ae8f00",
       "dimensions": [
         1290,
         2796
@@ -111,7 +111,7 @@
       "content": "crew",
       "path": "docs/content/r5/review-set/11-crew-rested-before.png",
       "original": "docs/content/r5/phone-crew-rested-before.png",
-      "sha256": "3a6320ab405481650fd13d1afe6a7442a9a16822ed552167bbb5afd10f64706e",
+      "sha256": "9552000ed2fadd6e08233a6fd5a90a8365b80925112b33d8e720f93c52eb2505",
       "dimensions": [
         1290,
         2796
@@ -121,7 +121,7 @@
       "content": "crew",
       "path": "docs/content/r5/review-set/12-crew-rested-preview.png",
       "original": "docs/content/r5/phone-crew-rested-preview.png",
-      "sha256": "13efdc1492f66ebf900986b9b3a61683dd93d82ae963eb8431c3e21ac6c478bc",
+      "sha256": "84da3bcd35dec0768f29281050882c6415b467d13c17c11c6de1e163ba82ffbd",
       "dimensions": [
         1290,
         2796
@@ -131,7 +131,7 @@
       "content": "crew",
       "path": "docs/content/r5/review-set/13-crew-rested-applied.png",
       "original": "docs/content/r5/phone-crew-rested-applied.png",
-      "sha256": "a310c83f9467ab1f50be8b0976c22f8ee6e4c90bfbf38ff8bbc70be98331631a",
+      "sha256": "87f61e08fb6456d826400cfdec37b77f48aa0915eefc3187f1a1d45775ed3aad",
       "dimensions": [
         1290,
         2796
@@ -141,7 +141,7 @@
       "content": "crew",
       "path": "docs/content/r5/review-set/14-watch-xi-before.png",
       "original": "docs/content/r5/phone-watch-xi-before.png",
-      "sha256": "1ff598012e418c1b61692a43ecd062270d33377f9648619ee140e4dc2e1af3cf",
+      "sha256": "e45e88b2379b075cd102aeb282ca821d1aecb779def5e07f2d04e24d3a080413",
       "dimensions": [
         1290,
         2796
@@ -151,7 +151,7 @@
       "content": "crew",
       "path": "docs/content/r5/review-set/15-watch-xi-blocked.png",
       "original": "docs/content/r5/phone-watch-xi-blocked.png",
-      "sha256": "8dc0ac7cf7b9a80c1331f02ec9413fa1e32f722859442120a595f1ecf30b9d78",
+      "sha256": "01cc4b1d683deddc7992825b0e5b64db1e0f1c2075ac83aa47dc9233948a7dc1",
       "dimensions": [
         1290,
         2796

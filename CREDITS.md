@@ -71,3 +71,5 @@
 熹護窗擋擊插圖：OpenAI image_gen__imagegen，依本作既有角色與墨線水粉前綴生成一張，保留alpha並轉lossless WebP。模型slug未公開。原圖、提示詞、雜湊見docs/art/ASSET_MANIFEST_CONTENT_R6.json。專案貢獻者以MIT授權整合；資訊頭標、進度與訊號小圖為程式繪製介面，未冒充生成美術。
 
 Content R7: An ink-and-gouache crew portrait generated with OpenAI image_gen__imagegen (two calls, one integrated portrait). Actual model slug not exposed. Source, full prompts and hashes: docs/art/ASSET_MANIFEST_CONTENT_R7.json and PROMPT_CONTENT_R7_FULL.txt. Project-owned generated artwork under MIT.
+
+Content R9: one unified three-person portrait atlas and one Xi roof-bracing cutout, created with image_gen__imagegen (four calls including two retained tonal-correction drafts; four integrated WebP images). Actual model slug was not exposed. MIT project artwork. Sources, full prompts, actual HSV measurements and hashes: docs/art/ASSET_MANIFEST_CONTENT_R9.json, ART_GATES_CONTENT_R9.json and PROMPT_CONTENT_R9_FULL.txt. Window bracing and enemy motion continue to use the credited earlier atlases; two bracing stills are not claimed as a newly generated animation.

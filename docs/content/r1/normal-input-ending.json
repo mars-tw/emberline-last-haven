@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "version": "0.11.3",
+  "version": "0.11.4",
   "screen": "ending",
   "segment": 8,
-  "supplies": 22,
+  "supplies": 36,
   "people": 22,
   "hull": 100,
   "level": 3,
   "progress": {
-    "time": 0,
+    "time": 3.5920000000000027,
     "x": 180,
     "cooldown": 0,
     "spawn": 0,
@@ -25,7 +25,7 @@
     "started": true,
     "night": {
       "schemaVersion": 6,
-      "runId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000",
+      "runId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f",
       "seed": "emberline-8",
       "day": 3,
       "maxDays": 7,
@@ -180,8 +180,8 @@
       ],
       "ledger": [
         {
-          "id": "a0d03759-0cc1-430d-a129-0e21fc749b6b",
-          "at": 1792392180490,
+          "id": "46a9f84e-2fc5-4840-a2f0-8aa7f31bd97c",
+          "at": 1792416807690,
           "source": "night.power-grid",
           "key": "energy",
           "before": 75,
@@ -189,8 +189,8 @@
           "after": 66
         },
         {
-          "id": "0f2cfa41-2c7e-4a07-8d40-4853c58f98f7",
-          "at": 1792392180490,
+          "id": "4f2f6422-3eb5-40ec-a261-280fe1a7e82b",
+          "at": 1792416807690,
           "source": "night.heating",
           "key": "temperature",
           "before": 18,
@@ -198,8 +198,8 @@
           "after": 22
         },
         {
-          "id": "c8eee42c-ef24-4480-a73c-5a0db33c8e61",
-          "at": 1792392180490,
+          "id": "eee87a28-3705-410f-8c69-278e0a12a886",
+          "at": 1792416807690,
           "source": "module.visibility",
           "key": "visibility",
           "before": 42,
@@ -209,13 +209,13 @@
       ],
       "quests": {
         "version": 1,
-        "runId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000",
+        "runId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f",
         "routeId": "R01",
         "createdDay": 1,
         "sequence": 2,
         "consumedEventIds": [
-          "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000:D3:passenger-breathing:action.committed",
-          "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000:D3:window-silhouette:action.committed"
+          "run-0537206c-a54c-40a2-96f2-90b18e46f82f:D3:passenger-breathing:action.committed",
+          "run-0537206c-a54c-40a2-96f2-90b18e46f82f:D3:window-silhouette:action.committed"
         ],
         "consumedEventKeys": [
           "action.committed:D3:inspect:passenger-breathing",
@@ -223,12 +223,12 @@
         ],
         "eventHistory": [
           {
-            "transactionId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000:D3:passenger-breathing",
+            "transactionId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f:D3:passenger-breathing",
             "operation": "inspect",
             "targetId": "passenger-breathing",
             "result": "success",
-            "eventId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000:D3:passenger-breathing:action.committed",
-            "runId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000",
+            "eventId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f:D3:passenger-breathing:action.committed",
+            "runId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f",
             "routeId": "R01",
             "day": 3,
             "sequence": 1,
@@ -236,12 +236,12 @@
             "dedupKey": "action.committed:D3:inspect:passenger-breathing"
           },
           {
-            "transactionId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000:D3:window-silhouette",
+            "transactionId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f:D3:window-silhouette",
             "operation": "inspect",
             "targetId": "window-silhouette",
             "result": "success",
-            "eventId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000:D3:window-silhouette:action.committed",
-            "runId": "run-d10ae590-5af5-4885-8ac2-ad8ae2e02000",
+            "eventId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f:D3:window-silhouette:action.committed",
+            "runId": "run-0537206c-a54c-40a2-96f2-90b18e46f82f",
             "routeId": "R01",
             "day": 3,
             "sequence": 2,
@@ -1094,7 +1094,7 @@
       }
     },
     "wave": 3,
-    "warning": 22,
+    "warning": 21.71200000000003,
     "countered": 2,
     "impacts": 1,
     "shake": {
@@ -1105,7 +1105,17 @@
     "defenseBatch": 0,
     "baitCooldown": 0,
     "divertedGroups": [],
-    "diversion": {}
+    "diversion": {},
+    "nightFeedback": {
+      "age": 0,
+      "wave": 3,
+      "threat": "window",
+      "beforeHull": 100,
+      "afterHull": 100,
+      "beforeShield": 0,
+      "afterShield": 0,
+      "outcome": "countered"
+    }
   },
   "log": [
     "第 1 批來敵已進場，留意裝車區。",
@@ -1115,7 +1125,7 @@
     "第 3 批來敵已進場，留意裝車區。",
     "東側繞行：已花 1 補給。只引東線，快速引進射界；西線不受影響。",
     "段落完成，補給 +9。輪班疲勞已記入行車簿。",
-    "阿澄與以寧登車：「我們接手搬補給。」同行 +2，補給 −3；工具箱留在站內。",
+    "阿澄與以寧登車：「我們帶了四份庫存，上車後接手警戒。」同行 +2，補給 +4，警戒協作火力 +1；工具箱留在站內。",
     "交接已封存，首波預警 58 秒（含交接判讀結果；後續每波依輪班）。",
     "你帶大家伏低，準備承受撞擊。",
     "熹擋下這次撞擊！車體未受損，擋擊 1→0（窗側）。",
@@ -1304,5 +1314,12 @@
       "repaired": 0,
       "stored": 0
     }
+  },
+  "nightRepair": {
+    "before": 100,
+    "base": 0,
+    "extra": 0,
+    "after": 100,
+    "rescued": true
   }
 }

@@ -1,3 +1,4 @@
+import {nightSignal} from './journey-inputs.mjs';
 import {commitBait} from './journey-inputs.mjs';
 import {continueJourney} from './journey-inputs.mjs';
 import {chromium,webkit} from 'playwright';
@@ -29,11 +30,12 @@ async function drive(page,capture=false){
 async function defend(page){await commitBait(page,'#bait-center');let n=0;while((await state(page)).screen==='play'){await forward(page,1);const s=await state(page);if(s.screen!=='play')break;if(s.progress.baitLeft===0&&s.supplies>0)await commitBait(page,'#bait-center');assert.ok(++n<65);}const s=await state(page);assert.equal(s.screen,'report');assert.ok(s.progress.attracted>=2);return s;}
 async function night(page,shotPrefix){await page.locator('#breath').click();await page.locator('#window').click();const message=await page.locator('#scene-message').innerText();await page.locator(message.includes('玻璃')?'#seal-window':'#seal-roof').click();if(shotPrefix)await snap(page,shotPrefix);for(let n=0;n<3;n++){await forward(page,.2);
   // Use visible text/canvas accessible signal, never the hidden engine threat selector.
-  const actual=await page.locator('#contact-signal').innerText();
+  const actual=await nightSignal(page);
   await page.locator(actual.includes('玻璃')?'#counter-window':'#counter-roof').click();
  }const s=await state(page);assert.equal(s.screen,'report');assert.equal(s.progress.countered,3);return s;}
 
 for(const engine of ['chromium','webkit']){
+ console.log('browser engine',engine);
  const browser=await ({chromium,webkit}[engine]).launch({headless:true});
  try {
  const context=await browser.newContext({viewport:{width:430,height:932},deviceScaleFactor:3,hasTouch:true});const page=await context.newPage();await open(page);
@@ -52,7 +54,7 @@ for(const engine of ['chromium','webkit']){
  await page.locator('#breath').click();await page.locator('#window').click();const ev=await page.locator('#scene-message').innerText();await page.locator(ev.includes('玻璃')?'#seal-window':'#seal-roof').click();
  if(engine==='chromium'){await responsive(page,'train-counters');await snap(page,`${shots}/phone-05-night.png`);}
  const before=await state(page);await page.reload();await page.waitForFunction(()=>window.emberlineTelemetry?.().loaded);await page.locator('#resume').click();const after=await state(page);for(const k of ['supplies','people','level','segment','hull'])assert.equal(after[k],before[k]);assert.deepEqual(after.receipts,before.receipts);assert.equal(after.progress.wave,1);assert.equal(after.progress.started,true);
- for(let i=0;i<3;i++){const cue=await page.locator('#contact-signal').innerText();await page.locator(cue.includes('玻璃')?'#counter-window':'#counter-roof').click();}
+ for(let i=0;i<3;i++){const cue=await nightSignal(page);await page.locator(cue.includes('玻璃')?'#counter-window':'#counter-roof').click();}
  const firstChapter=await state(page);assert.equal(firstChapter.screen,'report');assert.equal(firstChapter.progress.countered,3);assert.equal(firstChapter.receipts.length,3);console.log(`${engine}: first chapter and reload verified`);
  // Chromium completes all three chapters through ordinary controls; WebKit covers the first cycle.
  if(engine==='chromium'){
@@ -62,6 +64,7 @@ for(const engine of ['chromium','webkit']){
  results.push({test:`${engine}-normal-input-campaign`,status:'VERIFIED',segments:engine==='chromium'?9:3,people:firstChapter.people,countered:firstChapter.progress.countered});
  // Offline fresh tab (not reload cache), retaining the same durable campaign.
  await page.evaluate(async()=>{await navigator.serviceWorker.ready;});await page.waitForFunction(()=>!!navigator.serviceWorker.controller);const savedState=await state(page);if(engine==='webkit')await gameServer.stop();else await context.setOffline(true);const offline=await context.newPage();await offline.goto(url);await offline.waitForFunction(()=>window.emberlineTelemetry?.().loaded);assert.equal((await state(offline)).segment,savedState.segment);assert.equal((await state(offline)).supplies,savedState.supplies);results.push({test:`${engine}-offline-new-tab`,status:'VERIFIED',method:engine==='webkit'?'HTTP server stopped and all its sockets closed':'browser transport offline'});if(engine==='chromium')await context.setOffline(false);
+ console.log(engine+': offline new tab and saved state verified');
  await context.close();
  // Tablet store images, obtained from a normal fresh campaign.
  if(engine==='chromium'){
@@ -74,6 +77,7 @@ assert.equal(createHash('sha256').update(await readFile('dist/index.html')).dige
 await gameServer.stop();
 // R4 store journey keeps the same ordinary-input proofs and waits for readable action.
 const {captureR5Store}=await import('./art-r5-store.mjs');
+console.log('Browser core done; capturing R5 store journeys');
 for(const shot of await captureR5Store()){const i=screenshots.findIndex(s=>s.path===shot.path);assert.ok(i>=0);screenshots[i]=shot;}
 await writeFile(`${out}/browser.json`,JSON.stringify({status:'VERIFIED',headless:true,stateInjection:false,indexSha256:gameServer.indexSha256,results,errors,externalRequests:requests},null,2));await writeFile(`${shots}/manifest.json`,JSON.stringify({status:'VERIFIED',indexSha256:gameServer.indexSha256,screenshots},null,2));
 console.log(`VERIFIED: ${results.length} browser cases; ${screenshots.length} screenshots; no runtime errors or external requests`);

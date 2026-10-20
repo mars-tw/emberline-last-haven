@@ -1,4 +1,4 @@
-import {modeFor,campaignRaids,type Campaign} from './campaign';
+import {modeFor,campaignRaids,guardPower,nightPresentation,type Campaign} from './campaign';
 import {LANE_NAMES,baitMatches,type Lane} from './journey';
 
 export function lureState(c:Campaign,e:Campaign['progress']['enemies'][number]){
@@ -24,12 +24,13 @@ export function countdown(c:Campaign){
  if(c.screen!=='play')return '';
  if(m==='convoy')return p.time<48?`${Math.ceil(48-p.time)} 秒 · 甩落 ${p.flung}`:`加程 ${Math.max(0,Math.ceil(78-p.time))} 秒 · 甩落 ${p.flung}/2`;
  if(m==='defense')return !p.started?'選落點後開始':`已引離 ${Math.min(2,p.divertedGroups.length)}／2 群${p.divertedGroups.length>=2?' 已達標':''}`;
+ const event=nightPresentation(c);if(event)return `第 ${event.wave} / 3 波 · ${event.phase==='impact'?'撞擊':event.phase==='blocked'?'已擋下':event.phase==='damaged'?'受損':'已反制'}`;
  return p.started?`第 ${p.wave} / 3 波 · ${Math.ceil(p.warning)} 秒`:'兩份觀察 → 封存判讀';
 }
 
 export function reportSummary(c:Campaign){
  const p=c.progress;
- return modeFor(c.segment)==='convoy'?`救回 ${p.rescued} 人；同行 ${c.people} 人、守衛火力 ${1+Math.floor(c.people/3)+c.level}。補給 +${c.reward}。`:modeFor(c.segment)==='defense'?`共引離 ${p.attracted} 隻；目前車體 ${Math.ceil(c.hull)}％。補給 +${c.reward}。`:`反制 ${p.countered}／3 波，承受 ${p.impacts} 次撞擊。補給 +${c.reward}。`;
+ return modeFor(c.segment)==='convoy'?`救回 ${p.rescued} 人；同行 ${c.people} 人、守衛火力 ${guardPower(c)}。補給 +${c.reward}。`:modeFor(c.segment)==='defense'?`共引離 ${p.attracted} 隻；目前車體 ${Math.ceil(c.hull)}％。補給 +${c.reward}。`:`反制 ${p.countered}／3 波，承受 ${p.impacts} 次撞擊。補給 +${c.reward}。`;
 }
 
 /** Same predicate as the simulation; the preview never spends or mutates state. */

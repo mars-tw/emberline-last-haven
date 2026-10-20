@@ -2,7 +2,7 @@
   "status": "VERIFIED",
   "headless": true,
   "stateInjection": false,
-  "indexSha256": "5cd3f94dfc38f8e3108a0d72156a25ba4372cf4310b07b82bbd3a2dfc3ab5fc0",
+  "indexSha256": "2b3b2b3fec041281ec91a4f29a34351f1aa3665051a9f2c8d519aaea4c895f29",
   "results": [
     {
       "test": "intro-320x568",
@@ -3869,10 +3869,10 @@
         {
           "id": "bait-west",
           "w": 90,
-          "h": 50,
+          "h": 81.1875,
           "x": 20,
-          "y": 451,
-          "bottom": 501,
+          "y": 435.40625,
+          "bottom": 516.59375,
           "right": 110,
           "visible": true,
           "hit": true
@@ -3880,10 +3880,10 @@
         {
           "id": "bait-center",
           "w": 90,
-          "h": 50,
+          "h": 81.1875,
           "x": 115,
-          "y": 451,
-          "bottom": 501,
+          "y": 435.40625,
+          "bottom": 516.59375,
           "right": 205,
           "visible": true,
           "hit": true
@@ -3891,10 +3891,10 @@
         {
           "id": "bait-east",
           "w": 90,
-          "h": 50,
+          "h": 81.1875,
           "x": 210,
-          "y": 451,
-          "bottom": 501,
+          "y": 435.40625,
+          "bottom": 516.59375,
           "right": 300,
           "visible": true,
           "hit": true
@@ -3931,10 +3931,10 @@
         {
           "id": "bait-west",
           "w": 108.328125,
-          "h": 44,
+          "h": 64.390625,
           "x": 20,
-          "y": 551,
-          "bottom": 595,
+          "y": 540.8125,
+          "bottom": 605.203125,
           "right": 128.328125,
           "visible": true,
           "hit": true
@@ -3942,10 +3942,10 @@
         {
           "id": "bait-center",
           "w": 108.328125,
-          "h": 44,
+          "h": 64.390625,
           "x": 133.328125,
-          "y": 551,
-          "bottom": 595,
+          "y": 540.8125,
+          "bottom": 605.203125,
           "right": 241.65625,
           "visible": true,
           "hit": true
@@ -3953,10 +3953,10 @@
         {
           "id": "bait-east",
           "w": 108.34375,
-          "h": 44,
+          "h": 64.390625,
           "x": 246.65625,
-          "y": 551,
-          "bottom": 595,
+          "y": 540.8125,
+          "bottom": 605.203125,
           "right": 355,
           "visible": true,
           "hit": true
@@ -3993,10 +3993,10 @@
         {
           "id": "bait-west",
           "w": 113.328125,
-          "h": 44,
+          "h": 64.390625,
           "x": 20,
-          "y": 728,
-          "bottom": 772,
+          "y": 717.8125,
+          "bottom": 782.203125,
           "right": 133.328125,
           "visible": true,
           "hit": true
@@ -4004,10 +4004,10 @@
         {
           "id": "bait-center",
           "w": 113.328125,
-          "h": 44,
+          "h": 64.390625,
           "x": 138.328125,
-          "y": 728,
-          "bottom": 772,
+          "y": 717.8125,
+          "bottom": 782.203125,
           "right": 251.65625,
           "visible": true,
           "hit": true
@@ -4015,10 +4015,10 @@
         {
           "id": "bait-east",
           "w": 113.34375,
-          "h": 44,
+          "h": 64.390625,
           "x": 256.65625,
-          "y": 728,
-          "bottom": 772,
+          "y": 717.8125,
+          "bottom": 782.203125,
           "right": 370,
           "visible": true,
           "hit": true
@@ -4055,10 +4055,10 @@
         {
           "id": "bait-west",
           "w": 126.65625,
-          "h": 44,
+          "h": 64.390625,
           "x": 20,
-          "y": 816,
-          "bottom": 860,
+          "y": 805.8125,
+          "bottom": 870.203125,
           "right": 146.65625,
           "visible": true,
           "hit": true
@@ -4066,10 +4066,10 @@
         {
           "id": "bait-center",
           "w": 126.671875,
-          "h": 44,
+          "h": 64.390625,
           "x": 151.65625,
-          "y": 816,
-          "bottom": 860,
+          "y": 805.8125,
+          "bottom": 870.203125,
           "right": 278.328125,
           "visible": true,
           "hit": true
@@ -4077,10 +4077,10 @@
         {
           "id": "bait-east",
           "w": 126.65625,
-          "h": 44,
+          "h": 64.390625,
           "x": 283.328125,
-          "y": 816,
-          "bottom": 860,
+          "y": 805.8125,
+          "bottom": 870.203125,
           "right": 409.984375,
           "visible": true,
           "hit": true

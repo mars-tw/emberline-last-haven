@@ -1,0 +1,60 @@
+{
+  "status": "VERIFIED",
+  "mode": "full-npm-check",
+  "command": "npm run check",
+  "headless": true,
+  "singleInvocationNpmCheckExitCode": 0,
+  "indexSha256": "2b3b2b3fec041281ec91a4f29a34351f1aa3665051a9f2c8d519aaea4c895f29",
+  "finalFullCheck": {
+    "exitCode": 0,
+    "finishedAt": "2026-10-19T14:20:36.2621734Z",
+    "log": "docs/content/r9/check-final.log",
+    "logSha256": "5c1265013462a1bda368431190dfef5c1d2a729402b6eb5850d1621f10858fe6"
+  },
+  "priorAttempts": [
+    {
+      "status": "EXECUTED",
+      "outcome": "earlier complete build passed; final visual readback found an empty signal layer obscuring the repair receipt, then the layer and natural fatigue checkpoint were corrected and retested",
+      "log": "docs/content/r9/check-before-empty-overlay-fix.log"
+    },
+    {
+      "status": "EXECUTED",
+      "outcome": "dense crowd could cover Xi; fixed the body layout and passed R8/R9 probes before this final build",
+      "log": "docs/content/r9/check-before-dense-layout.log"
+    },
+    {
+      "status": "EXECUTED",
+      "outcome": "failed old night-signal assertion",
+      "log": "docs/content/r9/check-attempt-1.log"
+    },
+    {
+      "status": "EXECUTED",
+      "outcome": "interrupted to add input lock",
+      "log": "docs/content/r9/check-attempt-2-interrupted.log"
+    },
+    {
+      "status": "EXECUTED",
+      "outcome": "interrupted after quiet store capture was mistaken for waiting",
+      "log": "docs/content/r9/check-attempt-3-interrupted.log"
+    },
+    {
+      "status": "EXECUTED",
+      "outcome": "failed 390x844 pending-case layout before the 162-case geometry repair",
+      "log": "docs/content/r9/check-layout-failure.log"
+    },
+    {
+      "status": "EXECUTED",
+      "outcome": "failed stale zero-supply rescue expectation, corrected to current free +4 rule",
+      "log": "docs/content/r9/check-final-invocation.log"
+    },
+    {
+      "status": "EXECUTED",
+      "outcome": "interrupted to preserve full next-wave warning duration",
+      "log": "docs/content/r9/check-before-warning-budget.log"
+    }
+  ],
+  "push": false,
+  "deployment": false,
+  "physicalDevices": 0,
+  "humanParticipants": 0
+}

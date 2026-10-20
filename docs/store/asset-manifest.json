@@ -2,13 +2,14 @@
   "status": "VERIFIED",
   "newGeneration": {
     "status": "VERIFIED",
-    "actualTool": null,
+    "actualTool": "image_gen__imagegen",
     "usedModelSlug": null,
-    "generatedAssets": 0,
-    "runtimeIllustrations": 0,
-    "runtimeAddedBytes": 0,
-    "reason": "content-r8: existing generated artwork reused; canonical rescue object, tracking badges and live shield feedback",
-    "sourceManifest": "docs/art/ASSET_MANIFEST_CONTENT_R8.json"
+    "generatedAssets": 2,
+    "generationCalls": 4,
+    "runtimeIllustrations": 4,
+    "runtimeAddedBytes": 1300952,
+    "reason": "R9 unified portraits and distinct overhead roof-bracing pose; two retained tonal revisions; source/model provenance recorded",
+    "sourceManifest": "docs/art/ASSET_MANIFEST_CONTENT_R9.json"
   },
   "assets": [
     {
@@ -2552,13 +2553,66 @@
       "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
       "tool": "image_gen__imagegen",
       "round": "content-r7"
+    },
+    {
+      "path": "public/art/content-r9/an-portrait.webp",
+      "sha256": "4f051f4f85aec1a86a77841f2a5af72946e9b2374ded07153d922d23dea01cd2",
+      "dimensions": [
+        384,
+        384
+      ],
+      "bytes": 86630,
+      "license": "MIT",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "tool": "image_gen__imagegen",
+      "round": "content-r9"
+    },
+    {
+      "path": "public/art/content-r9/laoxi-portrait.webp",
+      "sha256": "e054c71998435aaef29db6693780126ff9d42fdb017dc9c491eb4efcfd652623",
+      "dimensions": [
+        384,
+        384
+      ],
+      "bytes": 84190,
+      "license": "MIT",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "tool": "image_gen__imagegen",
+      "round": "content-r9"
+    },
+    {
+      "path": "public/art/content-r9/xi-portrait.webp",
+      "sha256": "c140cd66b23e522d970391cd25735d6a08286314eb3d2faf34babfe47e0d66a4",
+      "dimensions": [
+        384,
+        384
+      ],
+      "bytes": 88202,
+      "license": "MIT",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "tool": "image_gen__imagegen",
+      "round": "content-r9"
+    },
+    {
+      "path": "public/art/content-r9/xi-roof.webp",
+      "sha256": "246bcb6c3ee0a0e330358f60fb3f6be74424830b14ac8c555240fefed50f7446",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "bytes": 1041930,
+      "license": "MIT",
+      "attribution": "Emberline: Last Haven contributors / OpenAI image_gen",
+      "tool": "image_gen__imagegen",
+      "round": "content-r9"
     }
   ],
   "missing": [
     "Physical phone/iPad validation",
     "Human playtest",
-    "Muse R8 content rescore >=8",
-    "Exclusive clean-host shipping performance"
+    "Muse R9 rescore >=8",
+    "Exclusive clean-host shipping performance",
+    "Actual image model slug not exposed"
   ],
   "retainedArtReviewRequirements": [
     "Human 64px recognition >=80%",
