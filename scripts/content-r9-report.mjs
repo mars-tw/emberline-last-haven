@@ -1,6 +1,6 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import assert from 'node:assert/strict';
-const dir='docs/content/r9',v=JSON.parse(await readFile(`${dir}/verification.json`,'utf8'));assert.equal(v.status,'VERIFIED');assert.equal(v.allStagesPassed,true);assert.ok(v.fullCheckExitCode===0||v.continuationExitCode===0);
+const dir='docs/content/r15/regression/r9',v=JSON.parse(await readFile(`${dir}/verification.json`,'utf8'));assert.equal(v.status,'VERIFIED');assert.equal(v.allStagesPassed,true);assert.ok(v.fullCheckExitCode===0||v.continuationExitCode===0);
 const scope=v.fullCheckExitCode===0?'完整單次 npm run check 退出0':'同一建置各階段通過，續驗退出0（完整命令曾退出1）';
 const report=`# 燼途：最後一站｜新內容第9輪
 
@@ -20,7 +20,7 @@ R8 Muse五項及本線路六項修正逐項對照[ACCEPTANCE.md](content/r9/ACCE
 
 [review-set/](content/r9/review-set/)是15張1290×2796手機直式原圖複本，側翼5、選箱4、輪班／夜戰6；三項均含操作進行中。精選重點為同局交換三張與窗側三張，車頂三張、三路全部連續幀及其餘邊界保留在上層逐項連結。受15張上限限制，未宣稱審查員已看過精選外的補充圖。
 
-新增商店圖[phone-14-content-r9.png](store/screenshots/phone-14-content-r9.png)（1290×2796）與[tablet-14-content-r9.png](store/screenshots/tablet-14-content-r9.png)（2064×2752），取自實際守夜擋擊；未刪既有商店圖。三視口共9組修改前／後原圖在docs/evidence/content-r9-before與content-r9-after，來源與雜湊見[comparison.json](content/r9/comparison.json)。
+新增商店圖[phone-14-content-r9.png](store/screenshots/phone-14-content-r9.png)（1290×2796）與[tablet-14-content-r9.png](store/screenshots/tablet-14-content-r9.png)（2064×2752），取自實際守夜擋擊；未刪既有商店圖。三視口共9組修改前／後原圖在docs/content/r15/regression/evidence/content-r9-before與content-r9-after，來源與雜湊見[comparison.json](content/r9/comparison.json)。
 
 ## 兩箱平衡
 
@@ -52,5 +52,5 @@ BLOCKED：Muse≥8需審查員實際看精選；實體手機／iPad需裝置；�
 `;
 await writeFile('docs/CODEX_RESPONSE_CONTENT_R9.md',report);
 const acceptance=await readFile(`${dir}/ACCEPTANCE.md`,'utf8');await writeFile(`${dir}/ACCEPTANCE.md`,acceptance.replace('EXECUTED｜以下是已實作與單獨操作驗證的內容；完整品質閘門與正式原圖雜湊以 verification.json 為準。','VERIFIED｜五項主驗收、完整品質閘門與原圖雜湊已讀回核對，詳見 verification.json。'));
-const plan=(await readFile('docs/OPTIM_PLAN_CONTENT_R9.md','utf8')).replace(/\n完成讀回：[^\n]*/g,'');await writeFile('docs/OPTIM_PLAN_CONTENT_R9.md',plan.replace(/^(?:PREPARED|EXECUTED)｜/m,'VERIFIED｜').replace('精選15張三項各5張','精選15張（側翼5／選箱4／輪班與夜戰6）')+'\n完成讀回：全部品質閘門已通過（實際執行模式見verification.json與execution.json）；主驗收、原尺寸圖片、15張精選、商店圖、美術來源與他人檔案保全見docs/CODEX_RESPONSE_CONTENT_R9.md及docs/content/r9/verification.json。外部／真人項目仍列BLOCKED。\n');
+const plan=(await readFile('docs/OPTIM_PLAN_CONTENT_R9.md','utf8')).replace(/\n完成讀回：[^\n]*/g,'');await writeFile('docs/OPTIM_PLAN_CONTENT_R9.md',plan.replace(/^(?:PREPARED|EXECUTED)｜/m,'VERIFIED｜').replace('精選15張三項各5張','精選15張（側翼5／選箱4／輪班與夜戰6）')+'\n完成讀回：全部品質閘門已通過（實際執行模式見verification.json與execution.json）；主驗收、原尺寸圖片、15張精選、商店圖、美術來源與他人檔案保全見docs/CODEX_RESPONSE_CONTENT_R9.md及docs/content/r15/regression/r9/verification.json。外部／真人項目仍列BLOCKED。\n');
 console.log('VERIFIED R9 final Traditional Chinese report and plan readback');

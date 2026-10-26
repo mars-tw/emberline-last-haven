@@ -6,7 +6,7 @@ export function lureState(c:Campaign,e:Campaign['progress']['enemies'][number]){
  return e.exit||c.progress.baitLeft>0&&baitMatches(c.progress.bait,e.lane??'center')?'turning':'unaffected';
 }
 export function diversionProgress(c:Campaign){
- return Object.entries(c.progress.diversion).filter(([group,r])=>r.escaped>0||c.progress.enemies.some(e=>e.group===group&&(e.exit||c.progress.baitLeft>0&&baitMatches(c.progress.bait,e.lane??'center')))).map(([group,r])=>`${group.startsWith('legacy')?'舊批':`第${group[0]}批`}${{west:'西群',center:'中群',east:'東群'}[group.split(':')[1] as Lane]} ${r.escaped}／${r.total} 已出界`);
+ return Object.entries(c.progress.diversion).filter(([group,r])=>r.escaped>0||c.progress.enemies.some(e=>e.group===group&&(e.exit||c.progress.baitLeft>0&&baitMatches(c.progress.bait,e.lane??'center')))).map(([group,r])=>`${group.startsWith('legacy')?'舊批':`第${group[0]}批`}${{west:'西群',center:'中群',east:'東群'}[group.split(':')[1] as Lane]} ${r.escaped}／${r.total} 已出界${r.escaped===r.total?`・完全離場${c.progress.exitFeedback?.group===group?`・最後 #${c.progress.exitFeedback.id}`:""}`:""}・本批剩 ${r.total-r.escaped} 隻`);
 }
 export function lureStatus(c:Campaign){
  return (['west','center','east'] as Lane[]).map(lane=>{
@@ -24,20 +24,21 @@ export function countdown(c:Campaign){
  if(c.screen!=='play')return '';
  if(m==='convoy')return p.time<48?`${Math.ceil(48-p.time)} 秒 · 甩落 ${p.flung}`:`加程 ${Math.max(0,Math.ceil(78-p.time))} 秒 · 甩落 ${p.flung}/2`;
  if(m==='defense')return !p.started?'選落點後開始':`已引離 ${Math.min(2,p.divertedGroups.length)}／2 群${p.divertedGroups.length>=2?' 已達標':''}`;
- const event=nightPresentation(c);if(event)return `第 ${event.wave} / 3 波 · ${event.phase==='impact'?'撞擊':event.phase==='blocked'?'已擋下':event.phase==='damaged'?'受損':'已反制'}`;
+ const event=nightPresentation(c);if(event)return `第 ${event.wave} / 3 波 · ${event.phase==='selected'?'動作已選':event.phase==='impact'?'撞擊':event.phase==='blocked'?'盾格已用':event.phase==='damaged'?'受損':'已反制'}`;
  return p.started?`第 ${p.wave} / 3 波 · ${Math.ceil(p.warning)} 秒`:'兩份觀察 → 封存判讀';
 }
 
 export function reportSummary(c:Campaign){
  const p=c.progress;
- return modeFor(c.segment)==='convoy'?`救回 ${p.rescued} 人；同行 ${c.people} 人、守衛火力 ${guardPower(c)}。補給 +${c.reward}。`:modeFor(c.segment)==='defense'?`共引離 ${p.attracted} 隻；目前車體 ${Math.ceil(c.hull)}％。補給 +${c.reward}。`:`反制 ${p.countered}／3 波，承受 ${p.impacts} 次撞擊。補給 +${c.reward}。`;
+ return modeFor(c.segment)==='convoy'?`救回 ${p.rescued} 人；同行 ${c.people} 人、守衛火力 ${guardPower(c)}。補給 +${c.reward}。`:modeFor(c.segment)==='defense'?`共引離 ${p.attracted} 隻；${Object.entries(p.diversion).filter(([,r])=>r.escaped===r.total).map(([g])=>`第${g[0]}批${LANE_NAMES[g.split(":")[1] as Lane]}已完全離場。`).join("")}目前車體 ${Math.ceil(c.hull)}％。補給 +${c.reward}。`:`反制 ${p.countered}／3 波，承受 ${p.impacts} 次撞擊。補給 +${c.reward}。`;
 }
 
 /** Same predicate as the simulation; the preview never spends or mutates state. */
 export function baitForecast(c:Campaign,lane:Lane){
  const p=c.progress,live=p.enemies.filter(e=>!e.attracted&&e.state!=='death'&&e.state!=='flung');
  const matched=live.filter(e=>e.lane===lane&&!e.exit);
- return {ids:matched.map(e=>e.id),count:!p.started?(campaignRaids(c)[0].lanes.find(g=>g.lane===lane)?.count??0):matched.length,unaffected:!p.started?campaignRaids(c)[0].lanes.filter(g=>g.lane!==lane).reduce((n,g)=>n+g.count,0):live.filter(e=>e.lane!==lane&&!e.exit).length,exiting:live.filter(e=>e.exit).length,cost:1,duration:12,exit:lane==='west'?'西側出口':'東側出口'};
+ const speed=lane==='west'?25:lane==='east'?40:30,target=lane==='west'?75:lane==='east'?285:180;const etas=matched.map(e=>Math.max(0,Math.hypot(target-e.x,285-e.y)-12)/speed+(lane==='west'?target+48:408-target)/22);
+ return {etaMin:etas.length?Math.floor(Math.min(...etas)):0,etaMax:etas.length?Math.ceil(Math.max(...etas)):0,ids:matched.map(e=>e.id),count:!p.started?(campaignRaids(c)[0].lanes.find(g=>g.lane===lane)?.count??0):matched.length,unaffected:!p.started?campaignRaids(c)[0].lanes.filter(g=>g.lane!==lane).reduce((n,g)=>n+g.count,0):live.filter(e=>e.lane!==lane&&!e.exit).length,exiting:live.filter(e=>e.exit).length,cost:1,duration:12,exit:lane==='west'?'西側出口':'東側出口'};
 }
 
 /** DOM identity persists while a finger is held; only replace on control-mode changes. */

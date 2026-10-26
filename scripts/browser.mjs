@@ -36,7 +36,7 @@ async function night(page,shotPrefix){await page.locator('#breath').click();awai
 
 for(const engine of ['chromium','webkit']){
  console.log('browser engine',engine);
- const browser=await ({chromium,webkit}[engine]).launch({headless:true});
+ const browser=await ({chromium,webkit}[engine]).launch({headless:true,args:['--mute-audio']});
  try {
  const context=await browser.newContext({viewport:{width:430,height:932},deviceScaleFactor:3,hasTouch:true});const page=await context.newPage();await open(page);
  if(engine==='chromium'){await snap(page,`${shots}/phone-01-departure.png`);await responsive(page,'intro');}

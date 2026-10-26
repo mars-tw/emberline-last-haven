@@ -6,7 +6,7 @@ import {mkdir,writeFile} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 const phase=process.argv[2]??'before',dir=`docs/evidence/deep-r1-${phase}`;
 await mkdir(dir,{recursive:true});
-const browser=await chromium.launch({headless:true}),context=await browser.newContext({viewport:{width:390,height:844},hasTouch:true}),page=await context.newPage();
+const browser=await chromium.launch({headless:true,args:['--mute-audio']}),context=await browser.newContext({viewport:{width:390,height:844},hasTouch:true}),page=await context.newPage();
 const events=[],errors=[],start=Date.now();let lastStage='',lastShot=-1,lastSteer=0;
 page.on('pageerror',e=>errors.push(e.message));
 try{

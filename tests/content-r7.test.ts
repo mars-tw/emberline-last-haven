@@ -13,9 +13,9 @@ it.each(['repair','rescue'] as const)('distinguishes carried and left case for %
  const saved=parse(JSON.stringify(c))!;expect(saved).toEqual(c);expect(chooseRelay(saved,choice==='repair'?'rescue':'repair')).toBe(false);
 });
 it.each([69,95,100])('hull %s forecast, committed accounting and reserve are consistent',hull=>{
- const c=relay(hull),html=dispatchView(c,'repair');expect((html.match(/轉存備修 18％/g)??[]).length).toBe(hull===100?1:0);expect(html).not.toContain('預選工具箱');expect(html).not.toContain('case-state');
+ const c=relay(hull),html=dispatchView(c,'repair');expect((html.match(/轉備修 18％/g)??[]).length).toBe(hull===100?1:0);expect(html).not.toContain('預選工具箱');expect(html).not.toContain('case-state');
  chooseRelay(c,'repair');expect(c.hull).toBe(Math.min(100,hull+18));expect(c.repairCredit).toBe(Math.max(0,hull-82));const receipt=relayReceipt(c);
- if(hull===69){expect(receipt).toContain('沒有備用維修');expect(receipt).not.toContain('自動補');expect(c.log.at(-1)).not.toContain('自動補');}else expect(receipt).toContain(`本箱備修入帳 ${hull-82}％`);
+ if(hull===69){expect(receipt).toContain('本箱不轉備修');expect(receipt).not.toContain('自動補');expect(c.log.at(-1)).not.toContain('自動補');}else expect(receipt).toContain(`本箱備修入帳 ${hull-82}％`);
 });
 it('rescue guard collaboration promises the exact real guard increase in either case field',()=>{const c=relay();c.people=21;c.level=0;const html=dispatchView(c,'rescue');expect(html).toContain('守衛火力 8→9');expect(html).not.toContain('守衛增援');expect(html.split('守衛火力 8→9')).toHaveLength(2);expect(html).toContain('林叔、阿禾不會加入');expect(html).not.toContain('仍生效');});
 it('counts every physical exit immediately, completes one group only after its fourth exit, and persists removed sprites',()=>{
@@ -33,4 +33,4 @@ it.each([[0,1,2],[0,2,1],[1,0,2],[1,2,0],[2,0,1],[2,1,0]])('each person card own
  settle(c.crew,0);expect(c.crew.fatigue).toEqual(predicted);expect(parse(JSON.stringify(c))!.crew.fatigue).toEqual(predicted);
 });
 it('names the replaced watch and shows explicit zero shields without changing the preview',()=>{const c=newCampaign();c.crew.plan={driver:0,watch:2,rest:1};c.crew.fatigue=[2,0,2];c.crew.rested=1;c.level=1;const frozen=structuredClone(c);expect(crewCardView(c,1,{person:1,role:'watch'})).not.toContain('原安');expect(crewEffectView(c,{person:1,role:'watch'})).toContain('安原任守夜：14秒預警 → 熹 18秒預警');expect(crewCardView(c,2)).toContain('可擋 0 次');expect(c).toEqual(frozen);});
-it('reserve deducts exactly the next unshielded real night impact and persists',()=>{const c=relay(100);chooseRelay(c,'repair');c.segment=5;c.screen='intro';c.progress=newCampaign().progress;c.crew.rested=null;begin(c);inspect(c,'passenger-breathing');inspect(c,'window-silhouette');seal(c,actualThreat(c));expect(c.crew.shield).toBe(0);counter(c,'brace');expect(c.hull).toBe(100);expect(c.repairCredit).toBe(12);expect(c.log.join()).toContain('自動維修 +6％，剩 12％');expect(parse(JSON.stringify(c))!.repairCredit).toBe(12);});
+it('reserve deducts exactly the next unshielded real night impact and persists',()=>{const c=relay(100);chooseRelay(c,'repair');c.segment=5;c.screen='intro';c.progress=newCampaign().progress;c.crew.rested=null;begin(c);inspect(c,'passenger-breathing');inspect(c,'window-silhouette');seal(c,actualThreat(c));expect(c.crew.shield).toBe(0);counter(c,'brace');expect(c.hull).toBe(100);expect(c.repairCredit).toBe(12);expect(c.log.join()).toContain('備修 18→12％，扣用 6％');expect(parse(JSON.stringify(c))!.repairCredit).toBe(12);});

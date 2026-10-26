@@ -1,5 +1,5 @@
 import {it,expect} from 'vitest';
-import {newCampaign,begin,tick,layBait,finish,chooseRelay,guardPower,assignCrew,advance,inspect,seal,counter,actualThreat} from '../src/campaign';
+import {newCampaign,VERSION,begin,tick,layBait,finish,chooseRelay,guardPower,assignCrew,advance,inspect,seal,counter,actualThreat} from '../src/campaign';
 import {crewEffectView,dispatchView,relayReceipt,rescuePower} from '../src/dispatch-view';
 import {parse} from '../src/storage';
 const step=(c:ReturnType<typeof newCampaign>,seconds:number)=>{for(let i=0;i<Math.ceil(seconds*20);i++)tick(c,.05);};
@@ -25,8 +25,8 @@ it.each(['north',null,55])('rejects corrupt persisted exit direction %s',exit=>{
 it('rejects an invented escape stamp before crossing the boundary',()=>{const c=newCampaign();c.segment=1;begin(c);layBait(c,'west');step(c,1);Object.assign(c.progress.enemies[0],{exit:'west',escapedAt:0,attracted:true});expect(parse(JSON.stringify(c))).toBeNull();});
 it('previews numeric effects without saving and matches the committed next effects',()=>{
  const c=newCampaign();c.crew.plan={driver:0,watch:2,rest:1};c.crew.fatigue=[1,0,1];c.crew.rested=1;c.level=1;const before=structuredClone(c);
- const html=crewEffectView(c,{person:1,role:'watch'});expect(html).toContain('安原任守夜：16秒預警 → 熹 18秒預警');expect(html).toContain('新增可擋 1 次');expect(html).toContain('熹原任休息：0格回復 → 安 1格回復');expect(html).toContain('熹守夜：後續每波 18 秒預警，可擋 1 次撞擊');expect(html).toContain('安休息：本段後疲勞回復 1 格');expect(c).toEqual(before);
- assignCrew(c,'watch',1);const actual=crewEffectView(c);for(const value of ['熹守夜：後續每波 18 秒預警，可擋 1 次撞擊','安休息：本段後疲勞回復 1 格'])expect(actual).toContain(value);
+ const html=crewEffectView(c,{person:1,role:'watch'});expect(html).toContain('安原任守夜：16秒預警 → 熹 18秒預警');expect(html).toContain('新增可擋 1 次');expect(html).toContain('熹原任休息：0格減少 → 安 1格減少');expect(html).toContain('熹守夜：後續每波 18 秒預警，可擋 1 次撞擊');expect(html).toContain('安休息：本段後疲勞減少 1 格');expect(c).toEqual(before);
+ assignCrew(c,'watch',1);const actual=crewEffectView(c);for(const value of ['熹守夜：後續每波 18 秒預警，可擋 1 次撞擊','安休息：本段後疲勞減少 1 格'])expect(actual).toContain(value);
 });
 it('uses the very same rested Xi from the swap in an actual train block',()=>{
  const c=newCampaign();c.segment=1;begin(c);c.crew.plan={driver:0,watch:2,rest:1};finish(c);chooseRelay(c,'rescue');expect(c.crew.rested).toBe(1);assignCrew(c,'watch',1);advance(c);expect(c.crew.plan.watch).toBe(1);expect(c.crew.shield).toBe(1);
@@ -37,5 +37,5 @@ it.each([4,7])('has distinct real object icons, consistent previews and immutabl
  const people=c.people+2,supplies=c.supplies+4,power=guardPower({...c,people,relay:{...c.relay,[Math.floor(segment/3)]:'rescue'}});chooseRelay(c,'rescue');expect(c.people).toBe(people);expect(c.supplies).toBe(supplies);expect(guardPower(c)).toBe(power);expect(relayReceipt(c)).toContain('/art/content-r5/rescue.webp');expect(parse(JSON.stringify(c))!.relay[String(Math.floor(segment/3))]).toBe('rescue');expect(chooseRelay(c,'repair')).toBe(false);
 });
 it('shows no same-value hull arrows on full-hull repair receipts',()=>{const c=newCampaign();c.segment=1;begin(c);finish(c);chooseRelay(c,'repair');expect(relayReceipt(c)).not.toContain('100→100');expect(relayReceipt(c)).toContain('修復 0％');expect(relayReceipt(c)).toContain('/art/content-r5/repair.webp');});
-it('migrates R4 saves without changing fatigue, resources or earned groups',()=>{const c=newCampaign();c.version='0.10.0';c.progress.divertedGroups=['1:west'];c.progress.attracted=4;const m=parse(JSON.stringify(c))!;expect(m.version).toBe('0.11.4');expect(m.crew).toEqual(c.crew);expect(m.progress.divertedGroups).toEqual(c.progress.divertedGroups);expect(m.supplies).toBe(c.supplies);});
+it('migrates R4 saves without changing fatigue, resources or earned groups',()=>{const c=newCampaign();c.version='0.10.0';c.progress.divertedGroups=['1:west'];c.progress.attracted=4;const m=parse(JSON.stringify(c))!;expect(m.version).toBe(VERSION);expect(m.crew).toEqual(c.crew);expect(m.progress.divertedGroups).toEqual(c.progress.divertedGroups);expect(m.supplies).toBe(c.supplies);});
 it('does not award an already-counted R4 enemy again when it finally walks outside',()=>{const c=newCampaign();c.version='0.10.0';c.segment=1;begin(c);c.progress.started=true;c.progress.defenseBatch=3;c.progress.divertedGroups=['1:west'];c.progress.attracted=1;c.progress.enemies=[{id:1,x:75,y:285,hp:3,state:'walk',age:0,slot:-1,type:'runner',hit:false,attracted:true,lane:'west',group:'1:west'}];const m=parse(JSON.stringify(c))!;expect(m.progress.enemies[0].exit).toBe('west');step(m,8);expect(m.progress.attracted).toBe(1);expect(m.progress.divertedGroups).toEqual(['1:west']);expect(m.progress.enemies).toEqual([]);});

@@ -30,7 +30,7 @@ it.each(['rescue','repair'] as const)('previews %s without consuming or sealing,
 });
 it('keeps unselected cases neutral and describes each case own loss',()=>{
  const c=newCampaign();c.segment=1;begin(c);finish(c);const html=dispatchView(c);
- expect(html).not.toContain('class="primary"');expect(html.match(/不選這箱，你會失去/g)).toHaveLength(2);expect(html).toContain('車體已滿／轉存備修 18％');expect(html.split('轉存備修 18％')).toHaveLength(2);
+ expect(html).not.toContain('class="primary"');expect(html.match(/不選這箱，你會失去/g)).toHaveLength(2);expect(html).toContain('即修 0％（100％已滿）＋轉備修 18％＝18％');expect(html.split('轉備修 18％')).toHaveLength(2);
 });
 it('uses explicit roster idle and applied states and applicable trait roles',()=>{
  const c=newCampaign();c.crew.fatigue=[1,0,1];

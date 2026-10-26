@@ -1,9 +1,9 @@
 import {readFile,writeFile,mkdir,copyFile,readdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-const dir='docs/content/r4',sha=b=>createHash('sha256').update(b).digest('hex');
+const dir='docs/content/r15/regression/r4',sha=b=>createHash('sha256').update(b).digest('hex');
 const r=JSON.parse(await readFile(`${dir}/receipt.json`,'utf8'));
-assert.equal(r.version,'0.11.4');assert.equal(r.normalJourneyStateInjection,false);assert.deepEqual(r.errors,[]);assert.deepEqual(r.externalRequests,[]);assert.equal(r.indexSha256,sha(await readFile('dist/index.html')));
+assert.equal(r.version,JSON.parse(await readFile('package.json','utf8')).version);assert.equal(r.normalJourneyStateInjection,false);assert.deepEqual(r.errors,[]);assert.deepEqual(r.externalRequests,[]);assert.equal(r.indexSha256,sha(await readFile('dist/index.html')));
 for(const c of r.captures){const b=await readFile(c.path);assert.equal(sha(b),c.sha256);assert.deepEqual([b.readUInt32BE(16),b.readUInt32BE(20)],c.dimensions);}
 const get=n=>{const c=r.captures.find(c=>c.path===`${dir}/phone-${n}.png`);assert.ok(c,`missing ${n}`);return c;};
 assert.ok(get('flank-unaffected').telemetry.lureStates.some(e=>e.state==='unaffected'));
@@ -11,7 +11,7 @@ for(const sec of [1,6,12]){const c=get(`flank-active-${sec}s`);assert.match(c.ui
 assert.ok(get('flank-boundary-after').telemetry.liveProgress.divertedGroups.includes('1:west'));
 const before=get('crew-fatigued-swap-before'),preview=get('crew-fatigued-swap-preview'),after=get('crew-fatigued-swap-after');
 for(const c of [before,preview,after]){assert.equal(c.state.crew.fatigue[1],0);assert.equal(c.state.crew.fatigue[2],1);}
-assert.match(before.ui,/先點一個職務/);assert.match(preview.ui,/套用這次交換/);assert.match(after.ui,/已套用/);assert.deepEqual(before.state.crew,preview.state.crew);assert.notDeepEqual(before.state.crew.plan,after.state.crew.plan);
+assert.match(before.ui,/本次交換已套用/);assert.doesNotMatch(before.ui,/先點一個職務/);assert.match(preview.ui,/套用這次交換/);assert.match(after.ui,/已套用/);assert.deepEqual(before.state.crew,preview.state.crew);assert.notDeepEqual(before.state.crew.plan,after.state.crew.plan);
 for(const name of ['relay-selected-rescue','relay-selected-repair']){const c=get(name),rescue=name.endsWith('rescue'),chosen=rescue?'救援包':'工具箱',left=rescue?'工具箱':'救援包';assert.deepEqual(c.state,get('relay-1-before').state,'preselection cannot mutate any persisted campaign field');assert.match(c.ui,new RegExp('已選擇'+chosen));assert.match(c.ui,new RegExp('帶'+chosen+'出發'));assert.doesNotMatch(c.ui,new RegExp('已選擇'+left));assert.match(c.ui,new RegExp('選'+left+' · '+(rescue?'免費':'免費＋4補給')));assert.match(c.ui,/封存另一箱/);}
 for(let ch=1;ch<=3;ch++){get(`relay-${ch}-before`);get(`relay-${ch}-after`);assert.doesNotMatch(get(`relay-${ch}-roster-clear`).dialogUi,/本章已帶走/);}
 const retry=get('retry-preview-after');assert.equal(retry.state.defenseRetries[0],1);assert.deepEqual(retry.state.crew.fatigue,get('retry-stranded').state.crew.fatigue);
@@ -42,7 +42,7 @@ const baseline=JSON.parse(await readFile(`${dir}/before/receipt.json`,'utf8')),a
 assert.equal(art.indexSha256,r.indexSha256);
 for(const view of ['phone','tablet','desktop']){
  const name=`${view}-defense-active.png`,b=baseline.captures.find(c=>c.path.endsWith('/'+name)),a=art.records.find(c=>c.path.endsWith('/'+name));assert.ok(b&&a);
- for(const [phase,record] of [['before',b],['after',a]]){const target=`docs/evidence/content-r4/${phase}/${name}`;await mkdir(`docs/evidence/content-r4/${phase}`,{recursive:true});const bytes=await readFile(record.path);assert.equal(sha(bytes),record.sha256);await copyFile(record.path,target);evidence.push({phase,path:target,original:record.path,dimensions:[bytes.readUInt32BE(16),bytes.readUInt32BE(20)],sha256:sha(bytes)});}
+ for(const [phase,record] of [['before',b],['after',a]]){const target=`docs/content/r15/regression/evidence/content-r4/${phase}/${name}`;await mkdir(`docs/content/r15/regression/evidence/content-r4/${phase}`,{recursive:true});const bytes=await readFile(record.path);assert.equal(sha(bytes),record.sha256);await copyFile(record.path,target);evidence.push({phase,path:target,original:record.path,dimensions:[bytes.readUInt32BE(16),bytes.readUInt32BE(20)],sha256:sha(bytes)});}
 }
-await writeFile('docs/evidence/content-r4/receipt.json',JSON.stringify({status:'VERIFIED',beforeSourceCommit:baseline.sourceCommit,indexSha256:r.indexSha256,sourceAfterIndex:'docs/art/compare/r5-after/captures.json',captures:evidence},null,2));
+await writeFile('docs/content/r15/regression/evidence/content-r4/receipt.json',JSON.stringify({status:'VERIFIED',beforeSourceCommit:baseline.sourceCommit,indexSha256:r.indexSha256,sourceAfterIndex:'docs/art/compare/r5-after/captures.json',captures:evidence},null,2));
 console.log('VERIFIED R4 five acceptance groups, 15 review originals, hashes and source states');

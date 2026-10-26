@@ -3,8 +3,8 @@ import {chromium} from 'playwright';
 import {readFile,writeFile,mkdir,readdir,stat} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-const dir='docs/evidence/deep-r1-after';await mkdir(dir,{recursive:true});
-const b=await chromium.launch({headless:true}),loads=[],checks=[],errors=[];
+const dir='docs/evidence/deep-r1-after';await mkdir(dir,{recursive:true});const diagnosticDir='docs/content/r15/regression/r11/regression/deep-r1';await mkdir(diagnosticDir,{recursive:true});
+const b=await chromium.launch({headless:true,args:['--mute-audio']}),loads=[],checks=[],errors=[];
 const state=p=>p.evaluate(()=>JSON.parse(localStorage.getItem('emberline.campaign.v1')));
 try{
  for(let run=0;run<3;run++){
@@ -26,18 +26,18 @@ try{
    assert.equal((await state(p)).screen,'report');assert.match(await p.locator('#timer').innerText(),/補給 \+/);const s=await state(p);assert.ok((await p.locator('#story').innerText()).includes(`補給 +${s.reward}`));checks.push('earned supply stays visible in timer and compact report');
    await p.evaluate(()=>window.dispatchEvent(new Event('blur')));await continueJourney(p);assert.equal(await p.evaluate(()=>window.emberlineTelemetry().paused),false);checks.push('report can advance after background without a hidden pause softlock');assert.equal(await p.locator('#timer').innerText(),'選落點後開始');const supply=(await state(p)).supplies;
    const canvas=await p.locator('#world').boundingBox(),scale=Math.min(canvas.width/360,canvas.height/560),ox=(canvas.width-360*scale)/2,oy=(canvas.height-560*scale)/2;
-   await p.mouse.click(canvas.x+ox+180*scale,canvas.y+oy+280*scale);await p.clock.runFor(200);
+   await p.mouse.click(canvas.x+ox+75*scale,canvas.y+oy+280*scale);await p.clock.runFor(200);
    assert.equal((await state(p)).supplies,supply,'device preview must not spend');assert.equal((await state(p)).progress.started,false);assert.equal(await p.locator('#bait-cancel').isVisible(),true);
-   await p.mouse.click(canvas.x+ox+180*scale,canvas.y+oy+280*scale);await p.clock.runFor(200);
-   assert.equal((await state(p)).supplies,supply-1);assert.equal((await state(p)).progress.started,true);assert.equal(await p.locator('#bait-center').innerText(),'中央生效中 · 1 補給');assert.match(await p.locator('#contact-signal').innerText(),/誘餌剩 \d+ 秒/);assert.doesNotMatch(await p.locator('#controls').innerText(),/秒/);
-   await p.mouse.click(canvas.x+ox+180*scale,canvas.y+oy+280*scale);assert.equal((await state(p)).supplies,supply-1);checks.push('tap actual bait device previews free, confirms defense once; cooldown does not double-spend');
-   await p.screenshot({path:`${dir}/direct-bait-and-cooldown.png`});
+   await p.mouse.click(canvas.x+ox+75*scale,canvas.y+oy+280*scale);await p.clock.runFor(200);
+   assert.equal((await state(p)).supplies,supply-1);assert.equal((await state(p)).progress.started,true);assert.equal(await p.locator('#bait-west').innerText(),'西側生效・剩12秒');assert.equal(await p.locator('#bait-west').getAttribute('data-bait-state'),'active');assert.match(await p.locator('#contact-signal').innerText(),/誘餌剩 \d+ 秒/);assert.doesNotMatch((await p.locator('#controls').innerText()).replace(await p.locator('#bait-west').innerText(),'').replaceAll('每12秒1補給',''),/秒/);
+   await p.mouse.click(canvas.x+ox+75*scale,canvas.y+oy+280*scale);assert.equal((await state(p)).supplies,supply-1);checks.push('tap actual west bait device with four real targets previews free, confirms defense once; cooldown does not double-spend');
+   await p.screenshot({path:`${diagnosticDir}/direct-bait-and-cooldown.png`});
   }
   await ctx.close();
  }
  const bad=await b.newContext({viewport:{width:390,height:844},serviceWorkers:'block'}),p=await bad.newPage();await p.route('**/art/r5/train.webp',r=>r.abort());await p.goto('http://127.0.0.1:4179');await p.getByRole('heading',{name:'行車素材尚未就緒'}).waitFor();assert.ok(await p.locator('#begin').isDisabled());
- const retry=await p.getByRole('button',{name:'重新載入'}).boundingBox();assert.ok(retry.width>=44&&retry.height>=44);await p.screenshot({path:`${dir}/asset-failure-retry.png`});checks.push('failed required art blocks start and presents accessible reload');await bad.close();
+ const retry=await p.getByRole('button',{name:'重新載入'}).boundingBox();assert.ok(retry.width>=44&&retry.height>=44);await p.screenshot({path:`${diagnosticDir}/asset-failure-retry.png`});checks.push('failed required art blocks start and presents accessible reload');await bad.close();
 }finally{await b.close();}
 assert.deepEqual(errors,[]);
 let bytes=0,files=0;async function size(dir){for(const f of await readdir(dir,{withFileTypes:true})){const p=`${dir}/${f.name}`;if(f.isDirectory())await size(p);else{bytes+=(await stat(p)).size;files++;}}}await size('dist');
-await writeFile(`${dir}/receipt.json`,JSON.stringify({status:'VERIFIED',headless:true,stateInjection:false,indexSha256:createHash('sha256').update(await readFile('dist/index.html')).digest('hex'),checks,errors,coldLoad:loads,criticalReadyMedianMs:[...loads.map(l=>l.criticalReadyMs)].sort((a,b)=>a-b)[1],offlineReadyMedianMs:[...loads.map(l=>l.offlineReadyMs)].sort((a,b)=>a-b)[1],measurementScope:'Fresh isolated browser contexts on localhost, shared Windows host; not network or physical-device estimates',webBundle:{bytes,files},nativeIPA:null,nativeAAB:null},null,2));console.log('VERIFIED deep R1 controls, direct bait, reward, loading failure, cold load and bundle');
+await writeFile(`${dir}/receipt.json`,JSON.stringify({status:'VERIFIED',headless:true,stateInjection:false,diagnosticCaptureDir:diagnosticDir,indexSha256:createHash('sha256').update(await readFile('dist/index.html')).digest('hex'),checks,errors,coldLoad:loads,criticalReadyMedianMs:[...loads.map(l=>l.criticalReadyMs)].sort((a,b)=>a-b)[1],offlineReadyMedianMs:[...loads.map(l=>l.offlineReadyMs)].sort((a,b)=>a-b)[1],measurementScope:'Fresh isolated browser contexts on localhost, shared Windows host; not network or physical-device estimates',webBundle:{bytes,files},nativeIPA:null,nativeAAB:null},null,2));console.log('VERIFIED deep R1 controls, direct bait, reward, loading failure, cold load and bundle');

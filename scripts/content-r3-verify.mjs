@@ -1,9 +1,9 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-const dir='docs/content/r3',sha=b=>createHash('sha256').update(b).digest('hex');
+const dir='docs/content/r15/regression/r3',sha=b=>createHash('sha256').update(b).digest('hex');
 const r=JSON.parse(await readFile(`${dir}/receipt.json`,'utf8'));
-assert.equal(r.status,'VERIFIED');assert.equal(r.version,'0.11.4');assert.equal(r.indexSha256,sha(await readFile('dist/index.html')));assert.equal(r.normalJourneyStateInjection,false);assert.deepEqual(r.errors,[]);assert.deepEqual(r.externalRequests,[]);
+assert.equal(r.status,'VERIFIED');assert.equal(r.version,JSON.parse(await readFile('package.json','utf8')).version);assert.equal(r.indexSha256,sha(await readFile('dist/index.html')));assert.equal(r.normalJourneyStateInjection,false);assert.deepEqual(r.errors,[]);assert.deepEqual(r.externalRequests,[]);
 for(const c of r.captures){const b=await readFile(c.path);assert.equal(sha(b),c.sha256);assert.deepEqual(c.dimensions,c.path.includes('tablet-')?[2064,2752]:[1290,2796]);}
 await writeFile('docs/store/screenshots/content-r3-manifest.json',JSON.stringify({status:'VERIFIED',version:r.version,indexSha256:r.indexSha256,captureTool:'Playwright Chromium (headless)',sourceIndex:`${dir}/receipt.json`,screenshots:r.captures.filter(c=>c.path.includes('/store/screenshots/')).map(({path,sha256,dimensions,source})=>({path,sha256,dimensions,source}))},null,2));
 const capture=name=>{const c=r.captures.find(c=>c.path===`${dir}/phone-${name}.png`);assert.ok(c,`missing review evidence ${name}`);return c;};
@@ -27,5 +27,5 @@ const groups=[
 ];
 await writeFile(`${dir}/REVIEW_SET.md`,['# Muse R3 原尺寸手機交付組','','VERIFIED：請依下列五組開啟原始手機直式 PNG，每張 1290×2796；無縮圖替代。分支與動作採成對或連續三格。同名 before 子目錄是 Git f014416 原封保存的 R2 對照。','','零補給／備修／重試為明確邊界 fixture，從正常存檔建立並經遊戲檔案匯入；其餘標記 normal UI journey 是正常九段流程。擋擊是正常排班後真正承受一次撞擊，未手動增補盾。實體裝置與真人均為 0，Muse 新分數仍待獨立複審。','',...groups.flatMap(([title,names])=>[`## ${title}`,'',...names.map(n=>{const c=capture(n);return `- [phone-${n}.png](phone-${n}.png)｜${c.source}`;}),'']),'完整尺寸、SHA-256、來源及其餘九段截圖見 SCREENSHOT_INDEX.md、receipt.json。',''].join('\n'));
 await writeFile(`${dir}/SCREENSHOT_INDEX.md`,['# R3 原尺寸截圖索引','','| 原尺寸路徑 | 像素 | 來源 | SHA-256 |','|---|---|---|---|',...[...before.captures.map(c=>({...c,source:`Git ${before.sourceCommit} 修改前原檔`})),...r.captures].map(c=>`| [${c.path}](../../../${c.path}) | ${c.dimensions.join(' × ')} | ${c.source} | ${c.sha256} |`),''].join('\n'));
-await writeFile(`${dir}/gates.json`,JSON.stringify({status:'VERIFIED',version:r.version,checks:r.checks.length,originalCaptures:r.captures.length,reviewGroups:groups.map(([name,files])=>({name,evidence:files.length,status:'VERIFIED'})),newArt:1,unitTests:153,physicalDevices:0,humanParticipants:0,museRescore:{status:'BLOCKED',target:8,score:null},beforeSource:before.sourceCommit},null,2));
+await writeFile(`${dir}/gates.json`,JSON.stringify({status:'VERIFIED',version:r.version,checks:r.checks.length,originalCaptures:r.captures.length,reviewGroups:groups.map(([name,files])=>({name,evidence:files.length,status:'VERIFIED'})),newArt:1,unitTests:JSON.parse(await readFile('docs/evidence/unit-tests.json','utf8')).numPassedTests,physicalDevices:0,humanParticipants:0,museRescore:{status:'BLOCKED',target:8,score:null},beforeSource:before.sourceCommit},null,2));
 console.log(`VERIFIED R3 five review groups, ${r.captures.length} original screenshots, 1 generated portrait`);

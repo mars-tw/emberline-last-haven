@@ -6,8 +6,8 @@ import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {startServer} from './server.mjs';
 export async function captureR5Store(){
- const server=await startServer(),browser=await chromium.launch({headless:true}),screenshots=[],errors=[];
- const dir='docs/store/screenshots';await mkdir('docs/evidence/art-r5',{recursive:true});
+ const server=await startServer(),browser=await chromium.launch({headless:true,args:['--mute-audio']}),screenshots=[],errors=[];
+ const dir='docs/store/screenshots';await mkdir('docs/evidence/art-r5',{recursive:true});await mkdir('docs/content/r15/regression/r11/regression/art-r5-store',{recursive:true});
  try{
   for(const [label,width,height,dpr] of [['phone',430,932,3],['tablet',1032,1376,2]]){
    console.log('R5 store journey',label);
@@ -31,14 +31,14 @@ export async function captureR5Store(){
    for(let i=0;!await p.evaluate(()=>window.emberlineTelemetry().actors.some(a=>a.path==='r5/climber-attack.png'&&a.frame===2));i++){assert.ok(i<50);await step(.02);s=await state();}
    await shot('02-convoy');assert.ok(s.progress.enemies.some(e=>e.slot%2===0)&&s.progress.enemies.some(e=>e.slot%2===1)&&s.progress.enemies.some(e=>e.slot>=2));
    assert.ok(screenshots.at(-1).telemetry.actors.some(a=>a.path==='r5/climber-attack.png'&&a.frame===2),'store screenshot captures a real attack impact frame');
-   await p.locator('#drift').click();await step(.12);await p.screenshot({path:`docs/evidence/art-r5/${label}-fling.png`});
+   await p.locator('#drift').click();await step(.12);await p.screenshot({path:`docs/content/r15/regression/r11/regression/art-r5-store/${label}-fling.png`});
    for(let i=0;(await state()).screen==='play';i++){
     assert.ok(i<85);await step(1);s=await state();if(s.screen!=='play')break;
     if(s.progress.enemies.some(e=>e.slot>=0&&e.state==='attack')&&s.progress.time>=s.progress.cooldown)await p.locator('#drift').click();
    }
    assert.equal((await state()).screen,'report');await continueJourney(p);await step(.08);await shot('03-bait');
    // R4: divert the first west group, then the final center group; reach the real two-group goal.
- await commitBait(p,'#bait-west');await step(4);await p.screenshot({path:`docs/evidence/art-r5/${label}-attack.png`});
+ await commitBait(p,'#bait-west');await step(4);await p.screenshot({path:`docs/content/r15/regression/r11/regression/art-r5-store/${label}-attack.png`});
    for(let i=0;(await state()).screen==='play';i++){
     assert.ok(i<65);await step(1);s=await state();if(s.screen!=='play')break;
     if(!s.progress.baitLeft&&s.supplies)await commitBait(p,'#bait-center');
@@ -48,6 +48,6 @@ export async function captureR5Store(){
    await context.close();console.log('R5 store captured',label);
   }
  }finally{await browser.close();await server.stop();}
- assert.deepEqual(errors,[]);await writeFile('docs/evidence/art-r5/store-captures.json',JSON.stringify({status:'VERIFIED',headless:true,stateInjection:false,indexSha256:server.indexSha256,screenshots,errors},null,2));return screenshots;
+ assert.deepEqual(errors,[]);await writeFile('docs/evidence/art-r5/store-captures.json',JSON.stringify({status:'VERIFIED',headless:true,stateInjection:false,indexSha256:server.indexSha256,screenshots,errors,diagnosticCaptureDir:'docs/content/r15/regression/r11/regression/art-r5-store'},null,2));return screenshots;
 }
 if(process.argv[1]?.endsWith('art-r5-store.mjs'))await captureR5Store();

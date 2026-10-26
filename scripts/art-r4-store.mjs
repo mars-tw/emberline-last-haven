@@ -5,7 +5,7 @@ import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {startServer} from './server.mjs';
 export async function captureR4Store(){
- const server=await startServer(),browser=await chromium.launch({headless:true}),screenshots=[],errors=[];
+ const server=await startServer(),browser=await chromium.launch({headless:true,args:['--mute-audio']}),screenshots=[],errors=[];
  const dir='docs/store/screenshots';await mkdir('docs/evidence/art-r4',{recursive:true});
  try{
   for(const [label,width,height,dpr] of [['phone',430,932,3],['tablet',1032,1376,2]]){

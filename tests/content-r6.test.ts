@@ -1,6 +1,6 @@
 import {it,expect} from 'vitest';
 import {newCampaign,begin,finish,chooseRelay,tick,layBait,VERSION} from '../src/campaign';
-import {repairGain,dispatchView,crewEffectView} from '../src/dispatch-view';
+import {repairAccount,dispatchView,crewEffectView} from '../src/dispatch-view';
 import {fatigueAfter,settle,assign} from '../src/journey';
 import {avoidLabels} from '../src/art-layout';
 import {lureStatus} from '../src/feedback';
@@ -9,9 +9,9 @@ it('migrates the immediately previous R5 version without losing the campaign',()
 it('reports every earned group on the same flank, rather than a fixed one',()=>{const c=newCampaign();c.progress.divertedGroups=['2:east','3:east'];expect(lureStatus(c)).toBe('東側已引離 2 群');});
 it.each([[4,69,18,0],[7,95,5,13],[7,100,0,18]])('chapter relay %s computes gain, loss, commit and saved credit', (segment,hull,repaired,stored)=>{
  const c=newCampaign();c.segment=segment;begin(c);finish(c);c.hull=hull;
- const before=structuredClone(c),text=repairGain(c),html=dispatchView(c,'repair');
+ const before=structuredClone(c),text=repairAccount(c.hull),html=dispatchView(c,'repair');
  expect(html.split(text).length).toBe(2);expect(html).toContain(hull===100?'下段少 18％備修':`少 ${repaired}％車體修復`);expect(html).not.toContain('另存 0');expect(html).not.toContain('100→100');expect(html).not.toContain('18％即修／備修');expect(html).toContain('已選擇工具箱');expect(html.match(/付出／得到/g)).toHaveLength(2);expect(c).toEqual(before);
- if(hull<100)expect(html).toContain(`車體 ${hull}→${hull+repaired}％`);else expect(html).toContain('轉存備修 18％');
+ if(hull<100)expect(html).toContain(`車體 ${hull}→${hull+repaired}％`);else expect(html).toContain('轉備修 18％');
  expect(chooseRelay(c,'repair')).toBe(true);expect(c.hull).toBe(hull+repaired);expect(c.repairCredit).toBe(stored);expect(c.relayResults[String(Math.floor(segment/3))]).toEqual({before:hull,repaired,stored});
  const saved=parse(JSON.stringify(c))!;expect(saved.version).toBe(VERSION);expect(chooseRelay(saved,'rescue')).toBe(false);expect(saved).toEqual(c);
 });
@@ -22,7 +22,7 @@ it('never calls a committed exit turning after bait expiration and survives relo
 });
 it.each([0,1,2,3])('fatigue %s forecast matches settlement and does not mutate preview',fatigue=>{
  const c=newCampaign();c.crew.fatigue=[fatigue,fatigue,fatigue];c.crew.rested=1;const before=structuredClone(c);
- const text=crewEffectView(c,{person:1,role:'watch'});expect(c).toEqual(before);expect(text).toContain('剛休息，可擋1次，僅本段有效');expect(text).toContain('安專長回復3格');
+ const text=crewEffectView(c,{person:1,role:'watch'});expect(c).toEqual(before);expect(text).toContain('剛休息，可擋1次，僅本段有效');expect(text).toContain('安專長使疲勞減少3格');
  assign(c.crew,'watch',1);const predicted=fatigueAfter(c.crew);expect(predicted).toEqual([Math.min(3,fatigue+1),Math.min(3,fatigue+1),Math.max(0,fatigue-3)]);
  for(const [i,name] of ['老席','熹','安'].entries())expect(text).toContain(`${name} ${fatigue}→${predicted[i]} 格`);
  settle(c.crew,0);expect(c.crew.fatigue).toEqual(predicted);settle(c.crew,0);expect(c.crew.fatigue).toEqual(predicted);expect(parse(JSON.stringify(c))!.crew.fatigue).toEqual(predicted);

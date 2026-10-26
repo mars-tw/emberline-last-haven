@@ -1,0 +1,19 @@
+import {it,expect} from 'vitest';
+import {newCampaign,begin,chooseRelay,finish,tick,layBait,VERSION} from '../src/campaign';
+import {repairAccount,dispatchView,relayReceipt,crewCardView,watchSource} from '../src/dispatch-view';
+import {radioAction,radioLog,RADIO_SIGNALS} from '../src/radio';
+import {parse} from '../src/storage';
+import {diversionProgress} from '../src/feedback';
+it.each([0,1,2])('chapter %s radio requires all three observations, correct bearing and awards exactly once',chapter=>{
+ const c=newCampaign();c.segment=chapter*3+1;begin(c);const before=[c.people,c.supplies];
+ expect(radioAction(c,'send-east')).toBe(false);expect([c.people,c.supplies]).toEqual(before);
+ for(const a of ['call','west','east'] as const)expect(radioAction(c,a)).toBe(true);
+ const answer=RADIO_SIGNALS[chapter].answer,wrong=answer==='west'?'east':'west';expect(radioAction(c,`send-${wrong}`)).toBe(true);expect(radioLog(c).done).toBe(false);expect([c.people,c.supplies]).toEqual(before);
+ const loaded=parse(JSON.stringify(c))!;expect(radioLog(loaded)).toEqual(radioLog(c));expect(radioAction(loaded,`send-${answer}`)).toBe(true);expect([loaded.people,loaded.supplies]).toEqual([before[0]+1,before[1]+2]);expect(radioAction(loaded,`send-${answer}`)).toBe(false);expect(parse(JSON.stringify(loaded))).toEqual(loaded);
+});
+it('radio cannot interrupt combat or be claimed in a different mode',()=>{const c=newCampaign();begin(c);expect(radioAction(c,'call')).toBe(false);c.segment=1;c.progress.started=true;expect(radioAction(c,'call')).toBe(false);expect(c.radio).toEqual({});});
+it.each([69,95,100])('%s percent repair uses one fixed 18 percent account before and after sealing',hull=>{const c=newCampaign();c.segment=1;begin(c);finish(c);c.hull=hull;const account=repairAccount(hull),before=structuredClone(c);expect(account).toContain('＝18％');expect(account).not.toContain('夜間修復 0％');expect(account).not.toContain('因上限未使用 0％');expect(account).toContain(hull===69?'本箱不轉備修':`轉備修 ${hull-82}％`);expect(dispatchView(c,'repair')).toContain(account);expect(c).toEqual(before);expect(chooseRelay(c,'repair')).toBe(true);expect(relayReceipt(c)).toContain(`目前車體 ${Math.min(100,hull+18)}％／備修 ${Math.max(0,hull-82)}％`);expect(relayReceipt(c)).toContain('總值18％已入帳');expect(c.hull+c.repairCredit).toBe(hull+18);expect(parse(JSON.stringify(c))).toEqual(c);});
+it('fatigue reduces only warning; a shield requires last-segment rest, independently of identity',()=>{const c=newCampaign();c.level=1;c.crew.plan={driver:1,watch:0,rest:2};c.crew.fatigue=[3,0,0];let card=watchSource(c);expect(card).toContain('預警：老席・14 秒');expect(card).toContain('盾格 0／1');expect(card).toContain('上段未休息');expect(card).toContain('疲勞只扣預警秒數');c.crew.plan={driver:0,watch:1,rest:2};c.crew.rested=1;card=watchSource(c);expect(card).toContain('預警：熹・18 秒');expect(card).toContain('盾格 1／1');for(let i=0;i<3;i++){expect(watchSource(c,c.crew,i)).toContain('預警：');expect(watchSource(c,c.crew,i)).toContain('擋擊：');}});
+it('full-group feedback identifies the last exit without replacing the physical count ledger',()=>{const c=newCampaign();c.segment=1;begin(c);layBait(c,'west');for(let i=0;i<400&&!c.progress.divertedGroups.length;i++)tick(c,.05);expect(c.progress.diversion['1:west']).toEqual({total:4,escaped:4});expect(c.progress.exitFeedback?.id).toBe(4);expect(diversionProgress(c).join()).toContain('4／4 已出界・完全離場・最後 #4');expect(parse(JSON.stringify(c))).toEqual(c);});
+it('R9 saves migrate without fabricating radio history',()=>{const c=newCampaign();c.version='0.11.4';delete (c as Partial<typeof c>).radio;const migrated=parse(JSON.stringify(c))!;expect(migrated.version).toBe(VERSION);expect(migrated.radio).toEqual({});});
+it.each([null,[],{0:{heard:['call','call'],choice:null,done:false,attempts:0}},{0:{heard:[],choice:'north',done:true,attempts:0}}])('rejects corrupt radio records %j',radio=>{const c=newCampaign();(c as any).radio=radio;expect(parse(JSON.stringify(c))).toBeNull();});

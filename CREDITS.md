@@ -73,3 +73,12 @@
 Content R7: An ink-and-gouache crew portrait generated with OpenAI image_gen__imagegen (two calls, one integrated portrait). Actual model slug not exposed. Source, full prompts and hashes: docs/art/ASSET_MANIFEST_CONTENT_R7.json and PROMPT_CONTENT_R7_FULL.txt. Project-owned generated artwork under MIT.
 
 Content R9: one unified three-person portrait atlas and one Xi roof-bracing cutout, created with image_gen__imagegen (four calls including two retained tonal-correction drafts; four integrated WebP images). Actual model slug was not exposed. MIT project artwork. Sources, full prompts, actual HSV measurements and hashes: docs/art/ASSET_MANIFEST_CONTENT_R9.json, ART_GATES_CONTENT_R9.json and PROMPT_CONTENT_R9_FULL.txt. Window bracing and enemy motion continue to use the credited earlier atlases; two bracing stills are not claimed as a newly generated animation.
+
+## Content R10
+
+Railway hand-cranked radio illustration: generated with OpenAI image_gen__imagegen, 2026-10-20. One original PNG converted to WebP. Actual model slug not exposed by the tool. Prompt and hashes: docs/art/ASSET_MANIFEST_CONTENT_R10.json. MIT project asset.
+
+
+Content R14: rescue-team duo illustration, Lao Xi duty cutout and An rest/roof-guard two-pose atlas generated with image_gen__imagegen (three calls, three original PNGs, three lossless WebP runtime images). Actual model slug not exposed. Transparent alpha preserved; only uniform downscale and format conversion. MIT project artwork. Prompts and hashes: docs/art/PROMPTS_CONTENT_R14.json and ASSET_MANIFEST_CONTENT_R14.json. These are still illustrations, not a new frame animation.
+
+Content R16: Lin Shu repairing and A He watching the window, one transparent atlas generated with image_gen__imagegen (one call). One lossless WebP atlas and one paired 64px portrait crop derived from the same source. Generated alpha retained with faint fringe cleanup and uniform downscale. Actual model slug not exposed; requested gpt-image-2 remains unverified. MIT project artwork. Source, prompt and hashes: docs/art/ASSET_MANIFEST_CONTENT_R16.json and PROMPT_CONTENT_R16.txt. Still role illustrations, not frame animation.

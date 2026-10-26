@@ -115,8 +115,9 @@ for i,(path,frame,who) in enumerate(identity):
     thumb=ImageOps.contain(im,(64,64),Image.Resampling.LANCZOS);foils.paste(thumb,(88*i+(88-thumb.width)//2,3),thumb);fd.text((88*i+38,78),chr(65+i),fill='#f0e7d5')
 foils.save(art/'BLIND_64_R4_WITH_FOILS.png')
 (art/'BLIND_64_R4_KEY.json').write_text(json.dumps({'status':'PREPARED','answerKey':{chr(65+i):who for i,(_,_,who) in enumerate(identity)},'participants':0,'recognitionRate':None},indent=2),encoding='utf-8')
+regression=root/'docs/content/r15/regression/r11/regression/art-r5-comparison';regression.mkdir(parents=True,exist_ok=True)
 for view in ['phone','tablet','desktop']:
-    for phase in ['before','after']:shutil.copyfile(art/f'compare/r5-{phase}/{view}-common-progress.png',evidence/f'{view}-{phase}.png')
+    for phase in ['before','after']:shutil.copyfile(art/f'compare/r5-{phase}/{view}-common-progress.png',regression/f'{view}-{phase}.png')
 thumbnails=Image.new('RGB',(5*129,280),(43,38,32))
 for i,r in enumerate([r for r in store['screenshots'] if '/phone-' in r['path']]):thumbnails.paste(Image.open(root/r['path']).resize((129,280),Image.Resampling.LANCZOS),(i*129,0))
 thumbnails.save(art/'STORE_THUMBNAILS_R5.png')

@@ -7,7 +7,7 @@ import assert from 'node:assert/strict';
 const phase=process.argv[2]||'after',dir=`docs/art/compare/${phase}`;
 const sha=b=>createHash('sha256').update(b).digest('hex'),indexSha256=sha(await readFile('dist/index.html'));
 await mkdir(dir,{recursive:true});
-const browser=await chromium.launch({headless:true}),records=[];
+const browser=await chromium.launch({headless:true,args:['--mute-audio']}),records=[];
 const state=p=>p.evaluate(()=>JSON.parse(localStorage.getItem('emberline.campaign.v1')));
 const step=(p,s)=>p.clock.runFor(s*1000);
 const viewports=[['phone',390,844],['tablet',1032,1376],['desktop',1366,768],['landscape',844,390],['wide',1920,1080]];

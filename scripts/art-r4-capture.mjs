@@ -6,7 +6,7 @@ import assert from 'node:assert/strict';
 const phase=process.argv[2]??'after',dir=`docs/art/compare/r4-${phase}`;
 await mkdir(dir,{recursive:true});
 const sha=b=>createHash('sha256').update(b).digest('hex'),indexSha256=sha(await readFile('dist/index.html'));
-const browser=await chromium.launch({headless:true}),records=[],errors=[];
+const browser=await chromium.launch({headless:true,args:['--mute-audio']}),records=[],errors=[];
 const sizes=[['small',320,568],['narrow',360,800],['phone',390,844],['tablet',1032,1376],['landscape',844,390],['desktop',1366,600],['wide',1920,1080]];
 try{
  const context=await browser.newContext({viewport:{width:390,height:844},hasTouch:true}),p=await context.newPage();

@@ -2,7 +2,7 @@
 import {writeFile,readFile,mkdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-const results=[],browser=await chromium.launch({headless:true}),fixtureDir='docs/evidence/performance-scenarios';
+const results=[],browser=await chromium.launch({headless:true,args:['--mute-audio']}),fixtureDir='docs/evidence/performance-scenarios';
 await mkdir(fixtureDir,{recursive:true});
 const capture=JSON.parse(await readFile('docs/art/compare/r5-after/captures.json','utf8')),fixtures={};
 for(const [mode,scene] of [['defense','defense-active'],['train','night']]){

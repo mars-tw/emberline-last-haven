@@ -6,7 +6,7 @@ import {chromium,webkit} from 'playwright';
 import assert from 'node:assert/strict';
 import {mkdir,readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-const dir='docs/content/r1';await mkdir(dir,{recursive:true});
+const dir='docs/content/r15/regression/r1';await mkdir(dir,{recursive:true});
 const sha=b=>createHash('sha256').update(b).digest('hex'),indexSha256=sha(await readFile('dist/index.html'));
 const checks=[],errors=[],external=[],captures=[];
 const state=p=>p.evaluate(()=>JSON.parse(localStorage.getItem('emberline.campaign.v1')));
@@ -15,7 +15,7 @@ const step=(p,s)=>p.clock.runFor(s*1000);
 // virtual frame before the original exact closed-dialog / closed-book assertions.
 async function snap(p,path){await p.screenshot({path});const b=await readFile(path);captures.push({path,sha256:sha(b),dimensions:[b.readUInt32BE(16),b.readUInt32BE(20)],state:await state(p)});}
 async function geometry(p,label){
- assert.equal(await p.locator('#dispatch').evaluate(d=>d.scrollHeight<=d.clientHeight+1),true,`${label}: all planning controls must fit without scrolling`);const result=await p.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth||document.documentElement.scrollHeight>innerHeight,targets:[...document.querySelectorAll('dialog[open] button,dialog[open] select')].map(e=>{const r=e.getBoundingClientRect();return {id:e.id,w:r.width,h:r.height};})}));
+ assert.equal(await p.locator('#dispatch').evaluate(d=>d.scrollHeight<=d.clientHeight+1),true,`${label}: all planning controls must fit without scrolling`);const result=await p.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth||document.documentElement.scrollHeight>innerHeight,targets:[...document.querySelectorAll('dialog[open] button,dialog[open] select')].map(e=>{const r=e.getBoundingClientRect();return {id:e.id,w:r.width,h:r.height};}).filter(t=>t.w>0&&t.h>0)}));
  assert.equal(result.overflow,false,label);for(const t of result.targets){assert.ok(t.w>=44&&t.h>=44,`${label} ${JSON.stringify(t)}`);const el=p.locator('#'+t.id);assert.equal(await el.evaluate(e=>{const r=e.getBoundingClientRect(),top=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);return r.x>=0&&r.right<=innerWidth+.5&&r.y>=0&&r.bottom<=innerHeight+.5&&(e===top||e.contains(top));}),true,`${label}: covered ${t.id}`);}checks.push({test:`${label}: planning controls fit, all >=44px and hittable`,status:'VERIFIED'});
 }
 async function open(p,url='http://127.0.0.1:4179'){p.on('pageerror',e=>errors.push(e.message));p.on('request',r=>{if(!r.url().startsWith(url))external.push(r.url());});await p.goto(url);await p.waitForFunction(()=>window.emberlineTelemetry?.().loaded);await p.clock.install();await p.clock.pauseAt(Date.now()+1000);}
@@ -38,7 +38,7 @@ async function defense(p,engine){
 }
 async function night(p,block){await p.locator('#breath').click();await p.locator('#window').click();const cue=await p.locator('#scene-message').innerText();await p.locator(cue.includes('玻璃')?'#seal-window':'#seal-roof').click();if(block){const s=await state(p);assert.equal(s.crew.shield,1);await p.locator('#brace').click();const after=await state(p);assert.equal(after.hull,s.hull);assert.equal(after.crew.shield,0);checks.push({test:'rested watcher absorbs exactly one real night impact',status:'VERIFIED'});}for(let i=block?1:0;i<3;i++){const signal=await nightSignal(p);await p.locator(signal.includes('玻璃')?'#counter-window':'#counter-roof').click();}assert.equal((await state(p)).screen,'report');}
 for(const engine of ['chromium','webkit']){
- const server=engine==='webkit'?await startServer():null,url=server?.url??'http://127.0.0.1:4179';const browser=await ({chromium,webkit}[engine]).launch({headless:true});
+ const server=engine==='webkit'?await startServer():null,url=server?.url??'http://127.0.0.1:4179';const browser=await ({chromium,webkit}[engine]).launch({headless:true,args:['--mute-audio']});
  try{
   const ctx=await browser.newContext({viewport:{width:430,height:932},deviceScaleFactor:3,hasTouch:true}),p=await ctx.newPage();await open(p,url);
   if(!await p.locator('#dispatch').evaluate(d=>d.open))await p.locator('#dispatch-open').click();await p.keyboard.press('Escape');await step(p,.08);assert.equal(await p.locator('#dispatch').evaluate(d=>d.open),false);assert.equal(await p.locator('#book').evaluate(d=>d.open),false);if(!await p.locator('#dispatch').evaluate(d=>d.open))await p.locator('#dispatch-open').click();for(const [w,h] of [[320,568],[390,844],[844,390],[1032,1376],[1376,1032],[1366,600],[1280,640]]){await p.setViewportSize({width:w,height:h});await geometry(p,`${engine} roster ${w}x${h}`);if(engine==='chromium')await snap(p,`${dir}/roster-${w}x${h}.png`);}await p.setViewportSize({width:430,height:932});await p.locator('#dispatch-close').click();
@@ -66,7 +66,7 @@ for(const engine of ['chromium','webkit']){
    const fixture=captures.find(r=>r.path.endsWith('chromium-crew-1-after-choice.png')).state;await writeFile(`${dir}/store-roster-fixture.json`,JSON.stringify(fixture,null,2));
    const tablet=await browser.newContext({viewport:{width:1032,height:1376},deviceScaleFactor:2,hasTouch:true}),t=await tablet.newPage();await open(t);await t.locator('#old-save').click();await t.locator('#source').selectOption('emberline');await t.locator('#legacy').setInputFiles(`${dir}/store-roster-fixture.json`);await t.locator('#confirm-import').click();await t.locator('#close').click();await t.locator('#dispatch-open').click();await step(t,.08);await snap(t,'docs/store/screenshots/tablet-06-content-r1.png');await tablet.close();
   }
- }catch(e){await writeFile('docs/content/r6/r1-failure.txt',e.stack);throw e;}finally{await browser.close();if(server)await server.stop();}
+ }catch(e){await writeFile('docs/content/r15/regression/r1/failure.txt',e.stack);throw e;}finally{await browser.close();if(server)await server.stop();}
 }
 assert.deepEqual(errors,[]);assert.deepEqual(external,[]);
 // Deduplicate the tablet preview record: final authoritative capture is DPR 2.

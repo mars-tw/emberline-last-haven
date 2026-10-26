@@ -1,0 +1,14 @@
+import {chromium} from 'playwright';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {startServer} from './server.mjs';
+export const sha=b=>createHash('sha256').update(b).digest('hex');
+export const state=p=>p.evaluate(()=>JSON.parse(localStorage.getItem('emberline.campaign.v1')));
+export const step=(p,s)=>p.clock.runFor(s*1000);
+export async function open(p,url){await p.goto(url);await p.waitForFunction(()=>window.emberlineTelemetry?.().loaded);await p.clock.install();await p.clock.pauseAt(Date.now()+1000);}
+export async function restore(p,f){for(const id of ['radio','dispatch','book'])if(await p.locator('#'+id).count()&&await p.locator('#'+id).evaluate(d=>d.open))await p.locator('#'+(id==='book'?'close':id+'-close')).click();if(await p.locator('#bait-cancel').isVisible())await p.locator('#bait-cancel').click();await p.locator('#pause').click();await p.locator('[data-tab=import]').click();await p.locator('#source').selectOption('emberline');await p.locator('#legacy').setInputFiles({name:'r10-checkpoint.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(f))});await p.locator('#confirm-import').click();if((await p.locator('#import-note').innerText()).includes('格式不符'))throw Error('fixture rejected');await p.locator('#close').click();if(await p.locator('#resume').isVisible())await p.locator('#resume').click();}
+if(process.argv[1]?.endsWith('content-r10-comparison.mjs')){
+ const phase=process.argv[2]??'before',server=await startServer(),browser=await chromium.launch({headless:true,args:['--mute-audio']}),records=[];
+ try{const prior=JSON.parse(await readFile('docs/content/r15/regression/r9/receipt.json','utf8'));for(const [width,height,scale] of [[430,932,3],[844,390,1],[1032,1376,2]]){const ctx=await browser.newContext({viewport:{width,height},deviceScaleFactor:scale,hasTouch:true}),p=await ctx.newPage();await open(p,server.url);for(const [name,suffix] of [['flank','flank-west-partial'],['relay','relay-95-repair-selected'],['watch','watch-roof-blocked']]){const f=structuredClone(prior.captures.find(c=>c.path.endsWith(`/phone-${suffix}.png`)).state);await restore(p,f);if(name==='relay'){await p.locator('#dispatch-open').click();await p.locator('#relay-repair').click();}await step(p,.04);const path=`docs/content/r15/regression/evidence/content-r10-${phase}/${width}-${name}.png`;await mkdir(`docs/content/r15/regression/evidence/content-r10-${phase}`,{recursive:true});await p.screenshot({path});records.push({path,sha256:sha(await readFile(path)),viewport:[width,height],source:'R9 persisted checkpoint via product file import; virtual clock'});}await ctx.close();}}finally{await browser.close();await server.stop();}
+ await writeFile(`docs/content/r15/regression/r10/comparison-${phase}.json`,JSON.stringify({status:'VERIFIED',phase,records},null,2));
+}

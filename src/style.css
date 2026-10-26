@@ -215,7 +215,7 @@ button.primary:active:not(:disabled){background:#ffcc79;box-shadow:inset 0 3px #
 .fatigue-bar{display:flex;gap:4px}.fatigue-bar i{display:block;width:25px;height:6px;border:1px solid #a3b7b5;background:#1d2b30}.fatigue-bar [data-filled=true]{background:#e8a33d;border-color:#f2cf8a}
 .crew-trait{font-size:13px;margin:7px 0;line-height:1.4}
 .role-switch{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.role-switch button{min-height:44px;padding:7px;font-size:13px}
-.role-switch [aria-pressed=true]{background:#c58c45;color:#182126;border-color:#f2cf8a}.role-switch [data-pending=true]{outline:2px dashed #e8c288;outline-offset:-4px}
+.role-switch [aria-pressed=true]{background:#c58c45;color:#182126;border-color:#f2cf8a}.role-switch [data-pending=true]{outline:2px solid #ffcf79;outline-offset:-4px;box-shadow:inset 0 0 0 1px #e8c288}
 .swap-panel{display:grid;grid-template-columns:1fr 116px;gap:8px;align-items:center;margin:10px 0}.swap-panel p{font-size:13px;margin:0}.swap-panel button{padding:7px;font-size:13px}
 .crew-effect{padding:8px 10px;background:#202e34;color:#f2cf8a;font-size:13px}.crew-effect p{margin:3px 0}.crew-effect small{display:block;font-size:13px;color:#d4dbd3;margin-top:7px}
 .crew-history{font-size:13px;color:#d5d0c1;margin:8px 0 0}
@@ -232,6 +232,8 @@ button[data-bait-state=empty]:disabled{opacity:1;border-color:#c58d7c;color:#e5b
  .contact-signal.raid-signal{font-size:11px}.scene-message{line-height:1.35}
 }
 @media(max-width:700px) and (max-height:760px){
+ #dispatch .book-header{padding-bottom:2px}#dispatch .case-grid{gap:3px;margin:3px 0}
+ #dispatch .relay-forecast{padding:4px;margin:2px 0}
  #dispatch{padding:9px 11px}.roster-intro{margin:2px 0 6px}.crew-list{gap:6px}.crew-row{padding:6px 9px}.crew-portrait{width:48px;height:48px;flex-basis:48px}.crew-identity b{font-size:19px}.fatigue-number{margin:2px 0}.crew-trait{margin:4px 0}.swap-panel{margin:7px 0}.crew-effect{padding:6px 8px}.crew-effect small{margin-top:4px}.crew-history{margin-top:5px}
  #dispatch .table-art{height:65px}.case-grid{margin:6px 0}.case-grid article{padding:7px}.case-grid dl{margin-bottom:6px}.case-grid dt{margin-top:5px}.case-grid dd{font-size:12px;line-height:1.4}.case-grid h3{font-size:20px}.case-grid button{min-height:48px}.relay-intro,.relay-lock{font-size:12px;margin:5px 0}
 }
@@ -253,6 +255,10 @@ button[data-bait-state=empty]:disabled{opacity:1;border-color:#c58d7c;color:#e5b
 }
 @media(max-width:700px) and (max-height:650px){#dispatch .table-art{height:58px}.relay-lock{margin:4px 0}}
 @media(min-width:701px) and (max-height:500px){
+ #dispatch[data-choice=false][data-receipt=false]:has(#crew-comparison:not([hidden])) #dispatch-content{display:grid;grid-template-columns:1fr 2fr;gap:8px}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-list{grid-column:1;grid-row:1;grid-template-columns:1fr}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-row{display:flex;flex-direction:row;gap:8px;align-items:center}
+ #dispatch:has(#crew-comparison:not([hidden])) .swap-panel{grid-column:2;grid-row:1}
  .case-grid article{padding:8px}.case-grid h3{font-size:20px;margin-bottom:5px}.case-grid dl{grid-template-columns:68px 1fr;grid-template-rows:repeat(3,1fr);gap:6px;margin-bottom:7px}.case-grid dt{font-size:12px;margin:0}.case-grid dd{font-size:12px;line-height:1.35;margin:0}.case-grid button{min-height:44px;font-size:12px}
 }
 
@@ -263,7 +269,7 @@ button[data-bait-state=empty]:disabled{opacity:1;border-color:#c58d7c;color:#e5b
 .case-grid article[data-selected=true] button{border-color:#e8a33d;color:#ffcf79}
 .crew-trait b,.crew-trait span{display:block}.crew-trait b{font-size:12px;color:#dfc99b}
 .fatigue-bar i{height:10px;width:29px;border-width:2px}
-.swap-panel[data-state=applied] button:disabled{opacity:1;background:#304943;border:2px solid #afcbb1;color:#e3f0da}
+.swap-panel[data-state=applied] #crew-apply{display:none}
 #hold-progress{position:absolute;left:10px;bottom:12px;z-index:2;width:40%;font-size:11px;color:#f0e7d5;background:#24323aeb;padding:5px 7px}
 #hold-progress[hidden]{display:none}#hold-progress progress{display:block;width:100%;height:8px;accent-color:#e8a33d}
 .scene-top{display:grid;grid-template-columns:minmax(0,1fr) auto}
@@ -277,7 +283,7 @@ button[data-bait-state=empty]:disabled{opacity:1;border-color:#c58d7c;color:#e5b
  .case-grid dl{grid-column:1/-1;grid-template-columns:132px 1fr;grid-template-rows:repeat(3,auto);gap:5px 8px;margin:3px 0}
  .case-grid dt,.case-grid dd{margin:0;font-size:13px;line-height:1.45}.case-grid button{grid-column:1/-1;min-height:44px;font-size:13px}
 }
-@media(max-height:650px){.crew-trait b{font-size:11px}.crew-trait span{font-size:12px}.fatigue-bar i{height:8px}.case-state{font-size:11px}}
+@media(max-height:650px){.crew-trait b{font-size:11px}.crew-trait span{font-size:12px}.fatigue-bar i{height:9px}.case-state{font-size:11px}}
 @media(max-width:350px) and (max-height:650px){.swap-panel{margin:3px 0}.crew-list{gap:3px}}
 @media(min-width:701px) and (max-height:500px){.crew-trait b,.crew-trait span{display:inline}.crew-trait b{margin-right:7px}.crew-trait{line-height:1.25}}
 #app:has(#dispatch[open]) footer .primary{background:#34454a;color:#d4dbd3;border-color:#71868a}
@@ -377,7 +383,7 @@ footer #upgrade{white-space:nowrap}
  #dispatch[data-choice=true] .relay-lock{grid-column:1;grid-row:3}
  #dispatch[data-choice=true] #relay-depart{grid-column:2;grid-row:3}
 }
-#watch-status{position:absolute;top:65px;right:10px;background:#24323aee;border:1px solid #9ed6c8;padding:5px;display:flex;align-items:center;gap:6px;font-size:11px;max-width:190px}#watch-status[hidden]{display:none}#watch-status img{width:36px;height:36px;object-fit:cover}#watch-status b{color:#ffe1a5}
+#watch-status{position:absolute;top:65px;right:10px;background:#24323aee;border:1px solid #9ed6c8;padding:5px;display:flex;align-items:center;gap:6px;font-size:11px;max-width:190px}#watch-status[hidden]{display:none}#watch-status img{width:36px;height:36px;object-fit:cover}#watch-status b{color:#ffe1a5}.shield-source{display:block;font-size:10px;line-height:1.3;color:#d3d7ca}.number-equation{font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
 @media(max-height:500px){#watch-status{top:30px;font-size:10px;padding:3px}#watch-status img{width:28px;height:28px}}
 @media(max-width:700px) and (max-height:760px){#dispatch .crew-identity .current-role{display:none}#dispatch .crew-card-plan{padding:1px 0;gap:2px;line-height:1.25}}
 @media(max-width:350px) and (max-height:650px){#dispatch{padding:4px 9px}}
@@ -400,9 +406,599 @@ footer #night-result{position:absolute;bottom:100%;left:0;right:0;text-align:cen
 @media(max-width:700px) and (max-height:650px){#dispatch .relay-intro{display:none}}
 @media(max-width:700px) and (max-height:650px){#dispatch .crew-history{display:none}}
 #dispatch:has(#crew-preview-cancel) .roster-intro{display:none}
+/* R10: stable role sources, a single repair account and an offline signal event. */
+.watch-source{display:grid;grid-template-columns:1fr 1fr;gap:5px;padding:5px;background:#24323a;color:#f0e7d5;font-size:11px;line-height:1.3;border-left:3px solid #9ed6c8}
+.watch-source span{display:block}.watch-source b,.watch-source small{display:block}.watch-source small{font-size:10px;color:#c5d3d0}.watch-other{grid-column:1/-1}
+.relay-watch{margin:6px 0;font-size:12px}.relay-watch>b{display:block;margin-bottom:3px}
+#radio{width:min(720px,96vw);padding:14px;max-height:96dvh;box-sizing:border-box;color:#f0e7d5;background:#2b3031;border:2px solid #a38856}
+#radio .book-header{display:flex;justify-content:space-between;gap:8px;align-items:center}#radio h2{margin:0;font-size:22px}#radio p{font-size:13px;line-height:1.4;margin:7px 0}.radio-art{width:100%;height:200px;object-fit:cover;border:1px solid #867b62;margin-top:8px}.radio-stations{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px}.radio-stations p{grid-row:2;text-align:center}.radio-stations button:nth-of-type(1){grid-column:1}.radio-stations button:nth-of-type(2){grid-column:2}.radio-stations button:nth-of-type(3){grid-column:3}.radio-send{display:flex;gap:8px}.radio-send button{flex:1}#radio button{min-width:44px;min-height:44px}.radio-stations button[aria-pressed=true]{border-color:#9ed6c8;background:#334c47}#radio-feedback{padding:9px;background:#223b33;border-left:3px solid #9ed6c8}
+@media(min-width:701px){.crew-row .watch-source{font-size:10px;padding:3px}.crew-row .watch-source small{font-size:9px}}
+@media(max-width:700px){.crew-row .watch-source{padding:3px;font-size:10px;gap:3px}.crew-row .watch-source small{font-size:9px}footer:has(#radio-open){grid-template-columns:repeat(6,1fr)}footer:has(#radio-open) button{grid-column:span 2}footer:has(#radio-open) #defend,footer:has(#radio-open) #radio-open{grid-column:span 3}}
+@media(max-height:760px){.crew-row .watch-source small{display:none}.crew-row .watch-source{font-size:9px;padding:2px}.crew-row .watch-other{display:none}.radio-art{height:120px}#radio{padding:8px}#radio p{font-size:11px;margin:4px 0}.relay-watch{margin:3px 0}.relay-watch .watch-source{padding:3px;font-size:10px}.relay-watch .watch-source small{font-size:9px}}
+@media(max-height:500px){#radio-content{display:grid;grid-template-columns:1fr 2fr;gap:6px}#radio-content>.radio-art{grid-column:1;grid-row:1/4;height:170px;margin:0}#radio-content>p,#radio-content>.radio-stations,#radio-content>.radio-send{grid-column:2}.radio-stations{gap:3px}#radio .book-header{margin-bottom:5px}.relay-watch .watch-source small{display:none}}
 @media(max-width:700px) and (min-height:761px){#dispatch .case-grid article{padding:9px}}
 @media(min-width:701px) and (max-height:500px){#dispatch[data-choice=true] .case-grid article{padding:6px}}
 #dispatch .relay-choice:not(:has(article[data-selected=true]))>.table-art{display:none}
 @media(max-width:700px) and (min-height:761px) and (max-height:900px){#dispatch .relay-choice>.table-art{height:85px}}
 @media(max-width:700px) and (max-height:900px){#dispatch .relay-intro{display:none}}
 @media(max-width:700px) and (max-height:900px){#dispatch .relay-forecast,#dispatch .relay-lock{margin:4px 0}#dispatch .case-grid{margin:6px 0}}
+.repair-note{display:block;font-size:11px;line-height:1.3;margin-top:3px;color:#c5d3d0}
+@media(max-width:700px) and (max-height:650px){#dispatch .relay-watch{display:none}#dispatch .repair-note{display:none}#dispatch .case-grid dl{grid-template-columns:65px 1fr;gap:2px 4px}#dispatch .case-grid article{padding:3px 5px}#dispatch .case-grid dt,#dispatch .case-grid dd{font-size:10px;line-height:1.25}#dispatch .relay-lock{display:none}}
+@media(min-width:701px) and (max-height:500px){#dispatch .relay-choice{position:relative}#dispatch .relay-choice .relay-watch{grid-column:1;grid-row:2;margin:0}#dispatch .relay-choice .relay-watch>b{font-size:11px}#dispatch .relay-choice .relay-watch .watch-source{grid-template-columns:1fr}#dispatch .relay-choice .repair-note{font-size:10px}}
+.relay-current{font-size:13px;margin:3px 0;color:#ffe1a5;font-weight:bold}
+@media(max-width:700px){#dispatch .relay-choice>.table-art{display:none}#dispatch .case-grid dl{grid-template-columns:100px 1fr}#dispatch .case-grid article:has(.repair-formula) dt:first-child,#dispatch .case-grid article:has(.repair-formula) dd:first-of-type{grid-column:1/-1}#dispatch .case-grid article[data-selected=true] h3 .case-icon{width:64px;height:64px}#dispatch .case-grid dd{line-height:1.3}#dispatch .case-grid dt{line-height:1.3}#dispatch .relay-watch{font-size:11px}}
+@media(max-width:700px) and (max-height:760px){#dispatch .case-grid article[data-selected=true] h3 .case-icon{width:35px;height:35px}#dispatch .case-grid dl{grid-template-columns:80px 1fr}#dispatch .repair-note{display:none}#dispatch .relay-watch .watch-source small{display:none}}
+@media(min-width:701px) and (max-height:740px){#dispatch .relay-choice .relay-current{grid-column:1;grid-row:1}#dispatch .relay-choice .relay-watch{grid-column:1;grid-row:4}#dispatch .relay-choice .relay-watch .watch-source{font-size:10px;grid-template-columns:1fr}#dispatch .relay-choice .relay-watch .watch-source small{display:none}}
+@media(max-width:700px) and (min-height:651px) and (max-height:900px){#dispatch .case-grid dt,#dispatch .case-grid dd{font-size:12px}#dispatch .case-grid article{padding:6px}#dispatch .case-grid h3 .case-icon{width:40px;height:40px}#dispatch .case-grid article[data-selected=true] h3 .case-icon{width:48px;height:48px}#dispatch .relay-lock{display:none}#dispatch .repair-note{font-size:10px}}
+@media(min-width:701px) and (max-height:500px){#dispatch[data-choice=true] .relay-choice{grid-template-rows:20px auto 44px;gap:5px 10px}#dispatch .relay-choice .relay-intro,#dispatch .relay-choice .relay-lock,#dispatch .relay-choice .repair-note{display:none}#dispatch .relay-choice .relay-watch{grid-row:3}#dispatch .relay-choice .case-grid{grid-row:1/3}#dispatch .relay-choice .case-grid dt{font-size:11px;margin-top:3px}#dispatch .relay-choice .case-grid dd{font-size:11px;line-height:1.3}#dispatch .relay-choice .case-icon{width:30px;height:30px}#dispatch .relay-choice .case-grid h3{margin-bottom:3px}}
+@media(min-width:701px) and (max-height:500px){#dispatch[data-choice=true]{padding-top:3px;padding-bottom:3px}#dispatch[data-choice=true] .book-header{padding-bottom:0;margin-bottom:4px}}
+@media(min-width:701px) and (max-height:500px){#dispatch .relay-choice .relay-watch{display:none}}
+@media(min-width:701px) and (min-height:501px) and (max-height:740px){#dispatch .relay-choice .relay-intro{display:none}#dispatch .relay-choice .case-grid dl{height:auto;grid-template-rows:repeat(3,auto)}#dispatch .relay-choice .case-grid dt{margin-top:4px}#dispatch .relay-choice .case-grid dd{font-size:12px;line-height:1.3}#dispatch .relay-choice .case-grid article{padding:8px}}
+@media(min-width:701px) and (max-height:500px){#dispatch .relay-receipt .relay-watch,#dispatch .relay-receipt .repair-note{display:none}}
+@media(max-width:700px) and (max-height:900px){#dispatch .crew-row .watch-source small{display:none}#dispatch .crew-row .watch-source{font-size:10px;line-height:1.2;padding:2px}#dispatch .crew-row .watch-source b{font-size:10px}}
+@media(max-width:700px) and (min-height:761px) and (max-height:900px){#dispatch .crew-history,#dispatch .crew-identity .current-role{display:none}#dispatch .crew-list{gap:3px}#dispatch .crew-card-plan{gap:1px}}
+@media(max-width:700px){#dispatch .crew-row .watch-source small{display:none}#dispatch .crew-row .watch-source{font-size:10px;line-height:1.2;padding:2px}#dispatch .crew-row .watch-source b{font-size:10px}}
+@media(min-width:701px) and (max-height:500px){#dispatch .crew-history{display:none}}
+@media(max-width:700px) and (max-height:760px){#dispatch .crew-row .watch-source{grid-template-columns:1fr;gap:0;font-size:9px}#dispatch .crew-row .watch-source b{font-size:9px}}
+@media(max-width:700px) and (max-height:760px){#dispatch .forecast-note{display:none}}
+@media(max-width:700px) and (min-height:761px) and (max-height:900px){#dispatch .crew-row{padding-top:3px;padding-bottom:3px}}
+
+/* R11: decisions before accounting; one reserved night-result row. */
+footer:has(#night-result){position:relative}
+footer #night-result{position:static;grid-column:1/-1;flex-basis:100%;font-size:12px;line-height:1.4;padding:5px 7px;min-height:32px;border:1px solid #9ed6c8;white-space:normal}
+footer:has(#night-result){display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
+footer:has(#night-result) button{width:100%;max-width:none;min-width:0;font-size:12px}
+footer button[aria-pressed=true]{border:2px solid #e8a33d;background:#67452b;color:#fff1cf;opacity:1}
+#app[data-mode=train]:has(#night-result){grid-template-rows:66px 48px 46px minmax(0,1fr) 12px 124px 23px}
+#app[data-mode=train]:has(#night-result) .message{visibility:hidden}
+#app[data-mode=train] .contact-signal{bottom:8px}
+#app[data-mode=defense] .scene-top{background:#24323af5;min-height:84px}
+#app[data-mode=defense] #timer,#app[data-mode=defense] #scene-label{background:#24323a;color:#fff0d6;font-size:12px}
+#app[data-mode=defense] #lure-status,#app[data-mode=defense] #flank-progress{font-size:12px;line-height:1.4}
+#app[data-mode=defense] .contact-signal{font-size:12px;background:#24323af5}
+.radio-stations section{min-width:0}.radio-stations section>button{width:100%;padding:6px 2px}
+.radio-stations section>p{font-weight:bold;text-align:center}
+.rhythm{display:flex;gap:3px}.rhythm>span{flex:1;text-align:center;background:#202d32;border:1px solid #657c8a;padding:9px 0;color:#ffe1a5;font-size:17px}
+.rhythm>span[data-mismatch=true]{border:2px solid #e39a80;background:#4b3030}
+.rhythm small{display:block;font-size:10px;color:#d8ded5;margin-top:4px}
+.radio-outcomes{display:grid;grid-template-columns:1fr 1fr;gap:6px}.radio-outcomes p{background:#233a39;padding:7px;border:1px solid #657c8a}
+.case-summary{font-weight:bold;color:#ffe1a5;font-size:15px;line-height:1.4;margin:4px 0 8px}
+#dispatch .repair-details{font-size:12px;grid-column:1/-1;background:#202e34;padding:0 7px}
+.repair-details summary{min-height:44px;display:flex;align-items:center;cursor:pointer}
+.repair-details .repair-formula,.repair-details .repair-note{display:block;margin:4px 0}
+#dispatch .relay-choice>.relay-watch{display:none}
+.swap-columns{display:grid;grid-template-columns:1fr 1fr;gap:7px;font-size:12px}
+.swap-columns section{border:1px solid #71868a;padding:6px;background:#202e34}.swap-columns section:last-child{border-color:#e8a33d}
+.swap-columns p{margin:5px 0!important;line-height:1.35}.swap-columns small{display:block;font-size:10px;color:#d3d7ca}
+#crew-comparison{grid-column:1/-1}
+#dispatch .watch-source small{display:block;font-size:10px}#dispatch .watch-source{grid-template-columns:1fr 1fr}
+#dispatch .watch-other{grid-column:1/-1}
+#dispatch:has(#crew-comparison:not([hidden])) .crew-row .watch-source{display:none}
+#dispatch:has(#crew-comparison:not([hidden])) .crew-card-plan{display:none}
+#dispatch:has(#crew-comparison:not([hidden])) .crew-effect{display:none}
+#dispatch .crew-history{font-size:12px;line-height:1.4}
+@media(max-width:700px){
+ #app[data-mode=train]:has(#night-result){grid-template-rows:58px 44px 44px minmax(0,1fr) 8px 132px 20px}
+ #app[data-mode=defense] .scene-top{min-height:80px}
+ #dispatch .case-summary{font-size:14px;margin:3px 0 5px}
+ #dispatch .crew-card-plan{font-size:12px}#dispatch .watch-source{font-size:11px;padding:4px}
+ #dispatch .crew-row .watch-source b{font-size:11px}
+ #dispatch .crew-row .watch-source small{display:block;font-size:10px}
+ #dispatch .crew-card-plan .card-effect{display:none}
+ #dispatch .crew-card-plan .watch-source{grid-template-columns:1fr 1fr}
+ #radio .radio-art{height:150px}#radio .radio-stations{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:700px) and (max-height:760px){
+ #dispatch .case-grid article{padding:4px 6px}#dispatch .case-grid dl{gap:2px 4px;margin:3px 0}
+ #dispatch .case-grid dt,#dispatch .case-grid dd{font-size:10px}#dispatch .case-summary{font-size:12px}
+ #dispatch .case-grid article[data-selected=true] h3 .case-icon{width:35px;height:35px}
+ #dispatch .crew-card-plan .watch-source{grid-template-columns:1fr}
+ #dispatch .crew-row .watch-source small{font-size:9px}
+ #dispatch .crew-card-plan{font-size:10px}#dispatch .crew-row{padding:4px}
+ #dispatch .crew-history{display:none}.swap-columns{font-size:11px}.swap-columns small{font-size:9px}
+ .rhythm>span{padding:5px 0;font-size:14px}.rhythm small{font-size:9px}#radio .radio-art{height:90px}
+ #radio .radio-outcomes p{font-size:10px;padding:5px}
+}
+@media(max-width:700px) and (max-height:610px){#app[data-mode=train]:has(#night-result){grid-template-rows:50px 38px 38px minmax(0,1fr) 6px 122px 18px}}
+@media(min-width:701px) and (max-height:740px){
+ #dispatch .crew-card-plan .watch-source{grid-template-columns:1fr}
+ #dispatch .crew-list{grid-row:2/6}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-list{grid-row:2/6}
+}
+@media(min-width:701px) and (max-height:500px){
+ #app[data-mode=train]:has(#night-result){grid-template-rows:48px 34px 34px minmax(0,1fr) 4px 90px 18px}
+ footer:has(#night-result) button{font-size:11px;padding:3px}footer #night-result{font-size:11px;min-height:22px;padding:2px}
+ #dispatch .crew-card-plan{font-size:10px}#dispatch .watch-source small{font-size:9px}
+ #dispatch .crew-row .watch-source{grid-template-columns:1fr 1fr}
+ #dispatch .case-grid dt,#dispatch .case-grid dd{font-size:10px}#dispatch .case-summary{font-size:12px}
+ #dispatch .relay-choice .repair-details{grid-column:1;grid-row:2;align-self:start}
+ #dispatch .relay-choice .relay-forecast{grid-row:3}#dispatch .relay-choice #relay-depart{grid-row:3}
+ .swap-columns{font-size:11px}.swap-columns p{margin:2px 0!important}.swap-columns small{font-size:9px}
+ #radio-content>.radio-outcomes{grid-column:2}#radio .radio-art{height:210px}.rhythm>span{font-size:13px;padding:3px 0}.rhythm small{font-size:9px}
+}
+@media(max-width:700px) and (max-height:650px){
+ #dispatch .case-grid dt:nth-of-type(2),#dispatch .case-grid dd:nth-of-type(2){display:none}
+}
+@media(min-width:701px) and (max-height:500px){
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-list{grid-column:1;grid-row:1;grid-template-columns:1fr;align-self:start}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-card-plan{grid-column:auto;grid-row:auto}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-row{min-height:55px}
+ #dispatch:has(#crew-comparison:not([hidden])) .swap-panel{grid-column:2;grid-row:1}
+}
+@media(min-width:701px) and (max-height:500px){#dispatch .case-grid dt:nth-of-type(2),#dispatch .case-grid dd:nth-of-type(2){display:none}#dispatch .relay-choice .relay-forecast{font-size:10px;line-height:1.2;padding:3px}#radio{width:min(920px,96vw)}#radio-content{gap:4px}#radio-feedback{padding:6px}#radio .radio-art{height:190px}}
+@media(max-width:700px) and (min-height:761px) and (max-height:1024px){#dispatch .roster-intro,#dispatch .crew-card-plan .card-role{display:none}}
+/* Keep long group receipts from shrinking the station/status column. */
+#app[data-mode=defense] .scene-top{grid-template-columns:minmax(0,1fr) max-content;grid-template-rows:20px auto auto;gap:3px;align-content:start;padding:6px 8px;min-height:78px}
+#app[data-mode=defense] #scene-label{grid-column:1;grid-row:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#app[data-mode=defense] #timer{grid-column:2;grid-row:1;white-space:nowrap}
+#app[data-mode=defense] #lure-status{grid-column:1/-1;grid-row:2;width:max-content;padding:1px 0;max-width:100%;white-space:normal}
+#app[data-mode=defense] #flank-progress{grid-column:1/-1;grid-row:3;width:100%;text-align:left;padding:1px 0}
+#app[data-mode=defense] #flank-progress span{white-space:normal;overflow-wrap:normal}
+@media(max-height:500px){
+ #app[data-mode=defense] .scene-top{min-height:0;padding:4px;gap:2px;grid-template-rows:16px auto auto}
+ #app[data-mode=defense] #scene-label,#app[data-mode=defense] #timer,#app[data-mode=defense] #lure-status,#app[data-mode=defense] #flank-progress{font-size:10px;line-height:1.15}
+}
+#dispatch:has(#crew-comparison:not([hidden])) .crew-identity .fatigue-number{display:block;font-size:10px}
+#dispatch:has(#crew-comparison:not([hidden])) .crew-row{min-width:0}
+/* Preview keeps the original person-local fatigue forecast visible. */
+#dispatch:has(#crew-comparison:not([hidden])) .crew-card-plan{display:grid;gap:1px;padding:1px 0}
+#dispatch:has(#crew-comparison:not([hidden])) .crew-list .crew-card-plan>.card-effect,
+#dispatch:has(#crew-comparison:not([hidden])) .crew-list .crew-card-plan>.crew-risk,
+#dispatch:has(#crew-comparison:not([hidden])) .crew-list .crew-card-plan>.watch-source{display:none}
+#dispatch:has(#crew-comparison:not([hidden])) .crew-card-plan>.card-role{display:block;font-size:10px;line-height:1.15}
+#dispatch:has(#crew-comparison:not([hidden])) .crew-card-plan>.card-fatigue{font-size:11px;line-height:1.2}
+#dispatch:has(#crew-comparison:not([hidden])) .crew-identity{min-height:36px}
+#dispatch:has(#crew-comparison:not([hidden])) .crew-identity .fatigue-number{display:none}
+@media(max-width:700px) and (max-height:650px){
+ #dispatch:has(#crew-comparison:not([hidden])) .swap-columns small{display:none}
+ #dispatch:has(#crew-comparison:not([hidden])) .card-fatigue{font-size:10px;white-space:nowrap}
+}
+@media(min-width:701px) and (max-height:500px){
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-row{display:grid;grid-template-columns:minmax(0,1fr) 132px;gap:1px 5px;min-height:0}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-identity{grid-column:1;grid-row:1}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-card-plan{grid-column:1;grid-row:2}
+ #dispatch:has(#crew-comparison:not([hidden])) .role-switch{grid-column:2;grid-row:1/3}
+ #dispatch:has(#crew-comparison:not([hidden])) .forecast-note{font-size:8px}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-portrait{width:36px;height:36px;flex-basis:36px}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-identity b{font-size:17px}
+ #dispatch #crew-risk-details{padding:6px}
+ #dispatch #crew-risk-details h3{font-size:16px;margin-bottom:4px}
+}
+/* R12: gameplay and receipts occupy separate rows, including the narrowest phone. */
+#app>.mast{grid-row:1}#app>.route{grid-row:2}#app>.hud{grid-row:3}#app>main{grid-row:4}#app>.message{grid-row:5}#app>footer{grid-row:6}#app>.save-state{grid-row:7}
+#app>.mast,#app>.route,#app>.hud,#app>main,#app>.message,#app>footer,#app>.save-state{grid-column:1}
+#app:has(#bait-preview:not([hidden]))>.message{visibility:hidden}
+.rhythm>span{transition:background .06s,border-color .06s;min-width:0}
+.rhythm>span b{font-weight:inherit}
+.rhythm>span[data-lit=true]{background:#f2c574;color:#25343b;border:3px solid #fff0c9;box-shadow:0 0 16px #edba6677}
+#radio-playback{min-height:28px;color:#ffe0a0;font-weight:bold}
+#flank-legend,#exit-receipt{display:none}
+#app[data-mode=defense][data-screen=play] .stage{display:flex;flex-direction:column}
+#app[data-mode=defense][data-screen=play] #world{order:3;flex:1;min-height:0;height:0;width:100%}
+#app[data-mode=defense][data-screen=play] .scene-top{order:1;position:relative;inset:auto;flex:none;min-height:0;grid-template-rows:20px auto auto;padding:4px 7px}
+#app[data-mode=defense][data-screen=play] .scene-top #lure-status:empty,#app[data-mode=defense][data-screen=play] .scene-top #flank-progress:empty{display:none}
+#app[data-mode=defense][data-screen=play] #exit-receipt{order:2;display:block;flex:none;background:#284237;color:#d8ffed;padding:3px 7px;font-size:12px;text-align:center;line-height:1.3}
+#exit-receipt[hidden]{display:none!important}
+#app[data-mode=defense][data-screen=play] #hold-progress{order:4;position:relative;inset:auto;width:auto;flex:none;padding:1px 7px;font-size:10px}
+#app[data-mode=defense][data-screen=play] .contact-signal{order:5;position:relative;inset:auto;flex:none;padding:3px 5px;font-size:10px;line-height:1.25;margin:0;border:0}
+#app[data-mode=defense][data-screen=play] #flank-legend{display:block;order:6;flex:none;background:#24323a;color:#e9e3d8;font-size:11px;pointer-events:auto}
+#flank-legend summary{min-height:44px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+#flank-legend summary::after{content:' ▾ 說明';color:#ffe0a0;margin-left:4px}
+#flank-legend p{margin:0;padding:4px 7px;line-height:1.4}
+#app[data-mode=defense][data-screen=play] .scene-message{display:none}
+#app[data-mode=defense] #bait-preview{position:static;transform:none;width:auto;grid-row:5;grid-column:1;left:auto;bottom:auto;z-index:4;margin:0 10px;padding:3px 7px;font-size:10px}
+#app:has(#bait-preview:not([hidden])){grid-template-rows:66px 48px 46px minmax(0,1fr) 62px 82px 23px}
+.pending-repairs{background:#203b38;border-left:3px solid #9ed6c8;padding:7px;font-size:12px}
+.pending-repairs p{margin:4px 0!important}
+.relay-receipt .pending-repairs p{font-size:12px;line-height:1.35}
+.repair-details summary{color:#ffe0a0}
+#repair-use{position:absolute;left:8px;right:8px;bottom:62px;background:#243a37f5;border:1px solid #9ed6c8;color:#f3eedb;padding:6px;font-size:11px;line-height:1.4}
+#repair-use[hidden]{display:none}
+#watch-status{max-width:170px}
+#app[data-night-phase=impact] #watch-status{border-color:#ffd4a0;background:#674b38}
+#app[data-night-phase=impact] #watch-status b{color:#ffb39c}
+#dispatch .crew-card-plan .card-effect{display:block}
+footer:has(#flank-legend){display:grid;grid-template-columns:minmax(170px,1.4fr) repeat(3,minmax(0,1fr));gap:5px;padding-top:3px;padding-bottom:3px}
+footer #flank-legend{grid-column:1;grid-row:1;order:0!important;min-width:0;align-self:stretch}
+footer #flank-legend summary{height:100%;min-height:44px;padding:0 4px;font-size:10px;line-height:1.2}
+footer #flank-legend[open] p{position:absolute;bottom:100%;left:0;right:0;z-index:6;background:#24323a;padding:8px;border:1px solid #9ed6c8}
+footer #flank-legend{position:relative}
+footer:has(#flank-legend) button{min-height:44px;font-size:11px;padding:4px}
+#app[data-mode=defense] footer:has(#flank-legend)>button{min-height:44px;height:44px}
+@media(max-width:700px){
+ footer:has(#flank-legend){grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:44px 44px}
+ footer #flank-legend{grid-column:1/-1;grid-row:1}
+ footer:has(#flank-legend)>button{grid-row:2}
+ #app:has(#bait-preview:not([hidden])){grid-template-rows:58px 44px 44px minmax(0,1fr) 62px 101px 20px}
+ #app[data-mode=defense][data-screen=play] #world{min-height:60px}
+ #dispatch .crew-card-plan .card-effect{font-size:10px;line-height:1.2}
+ .swap-columns p{margin:3px 0!important;font-size:11px}
+}
+@media(max-width:700px) and (max-height:650px){
+ #app:has(#bait-preview:not([hidden])){grid-template-rows:50px 38px 38px minmax(0,1fr) 62px 101px 18px}
+ #app[data-mode=defense][data-screen=play] .ticket{height:72px}
+ #app[data-mode=defense][data-screen=play] .stage{padding-top:71px}
+ #app[data-mode=defense][data-screen=play] #hold-progress{font-size:9px;line-height:1.1}
+ #app[data-mode=defense][data-screen=play] #hold-progress progress{height:4px}
+ #app[data-mode=defense][data-screen=play] #lure-status{display:none}
+ #app[data-mode=defense][data-screen=play] #world{min-height:40px}
+ #app[data-mode=defense][data-screen=play] #flank-progress{font-size:9px;line-height:1.1}
+ #app[data-mode=defense][data-screen=play] .scene-top{grid-template-rows:16px auto auto;gap:1px}
+ #app[data-mode=defense][data-screen=play] #exit-receipt{font-size:9px;padding:2px}
+ #radio .radio-art{height:70px}#radio-playback{min-height:20px}
+ #dispatch .crew-card-plan .card-effect{display:none}
+ #dispatch .card-fatigue{font-size:10px}
+ #dispatch:has(.repair-details[open]) .case-grid{margin:0}
+ #dispatch[data-receipt=true] .relay-receipt{padding:5px}
+ #dispatch[data-receipt=true] .relay-receipt h3{margin-top:9px;margin-bottom:5px;font-size:21px}
+ #dispatch[data-receipt=true] .pending-repairs{padding:4px;font-size:11px}
+ #dispatch[data-receipt=true] .pending-repairs p{font-size:11px;line-height:1.25;margin:2px 0!important}
+}
+@media(min-width:701px) and (max-height:500px){
+ #app:has(#bait-preview:not([hidden])){grid-template-rows:48px 34px 34px minmax(0,1fr) 48px 60px 18px}
+ #app[data-mode=defense][data-screen=play] .scene-top{font-size:9px;grid-template-rows:16px auto auto;padding:2px}
+ #app[data-mode=defense][data-screen=play] #lure-status{display:none}
+ #app[data-mode=defense][data-screen=play] #flank-progress{font-size:9px;line-height:1.1}
+ #dispatch .crew-card-plan .card-effect{display:none}
+ #radio-playback{min-height:0}
+ #radio .radio-art{height:160px}
+ #dispatch[data-receipt=true] .relay-receipt .sealed-case{height:148px;min-height:0}
+}
+/* Stable station camera: status appears in reserved rows, never resizes the field. */
+#app[data-mode=defense][data-screen]:has(#bait-preview){grid-template-rows:66px 48px 46px minmax(0,1fr) 44px 82px 23px}
+#app[data-mode=defense][data-screen] .stage{--station-ticket:0px;--station-head:72px;--station-contact:20px;--station-hold:16px;display:block}
+#app[data-mode=defense][data-screen] #world{position:absolute;top:calc(var(--station-ticket) + var(--station-head));left:0;width:100%;height:calc(100% - var(--station-ticket) - var(--station-head) - var(--station-contact) - var(--station-hold));min-height:0}
+#app[data-mode=defense][data-screen] .scene-top{position:absolute;inset:var(--station-ticket) 0 auto;height:var(--station-head);min-height:0;grid-template-rows:20px auto auto;align-content:start;padding:4px 7px}
+#app[data-mode=defense][data-screen] #exit-receipt{grid-column:1/-1;grid-row:3;order:0;align-self:start;padding:2px 4px;margin:0}
+#app[data-mode=defense] .scene-top:has(#exit-receipt:not([hidden])) #flank-progress{visibility:hidden}
+#app[data-mode=defense][data-screen] #hold-progress{position:absolute;inset:auto 0 var(--station-contact);height:var(--station-hold);padding:0 7px;font-size:9px;line-height:1.1}
+#app[data-mode=defense][data-screen] #hold-progress progress{height:4px;margin:0}
+#app[data-mode=defense][data-screen] .contact-signal{position:absolute;inset:auto 0 0;height:var(--station-contact);padding:2px 5px;display:block;font-size:10px;line-height:1.2}
+#app[data-mode=defense][data-screen] .contact-signal:empty{visibility:hidden}
+@media(max-width:700px){
+ #app[data-mode=defense][data-screen]:has(#bait-preview){grid-template-rows:58px 44px 44px minmax(0,1fr) 62px 101px 20px}
+ #app[data-mode=defense][data-screen] .stage{--station-ticket:71px;--station-head:92px;--station-contact:32px;--station-hold:18px;padding-top:71px}
+}
+@media(max-width:700px) and (max-height:650px){
+ #app[data-mode=defense][data-screen]:has(#bait-preview){grid-template-rows:50px 38px 38px minmax(0,1fr) 62px 101px 18px}
+ #app[data-mode=defense][data-screen] .stage{--station-head:62px;--station-contact:30px;--station-hold:14px}
+ #app[data-mode=defense][data-screen] .scene-top{grid-template-rows:16px auto auto;gap:1px}
+ #app[data-mode=defense][data-screen] #lure-status{display:none}
+}
+@media(min-width:701px) and (max-height:500px){
+ #app[data-mode=defense][data-screen]:has(#bait-preview){grid-template-rows:48px 34px 34px minmax(0,1fr) 44px 60px 18px}
+ #app[data-mode=defense][data-screen] .stage{--station-head:42px;--station-contact:26px;--station-hold:14px}
+ #app[data-mode=defense][data-screen] .scene-top{grid-template-rows:16px auto auto;gap:1px;padding:2px}
+ #app[data-mode=defense][data-screen] #lure-status{display:none}
+ #app[data-mode=defense][data-screen] .contact-signal{font-size:9px;line-height:1.1}
+}
+/* Each main roster card leads with its current job; free swaps reveal the new job. */
+#dispatch .crew-row:has(.role-switch button[data-role=watch][aria-pressed=false]) .crew-card-plan>.watch-source{display:none}
+#dispatch .crew-row:has(.role-switch button[data-role=watch][aria-pressed=false]) .crew-card-plan>.card-effect{display:block}
+#dispatch .crew-row:has(.role-switch button[data-role=driver][aria-pressed=true]) .crew-card-plan>.crew-risk{display:block}
+#dispatch .crew-row:has(.role-switch button[data-role=watch][aria-pressed=true]) .crew-card-plan>.card-effect,
+#dispatch .crew-row:has(.role-switch button[data-role=watch][aria-pressed=true]) .crew-card-plan>.crew-risk{display:none}
+@media(min-width:701px) and (max-height:500px){
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-list .crew-row{padding:2px 5px}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-list .forecast-note{display:none}
+}
+/* Confirmation is a separate step after the full before/after preview. */
+#dispatch[data-risk-confirm=true][data-choice=false][data-receipt=false] #dispatch-content{display:grid;grid-template-columns:minmax(0,1fr);gap:7px}
+#dispatch[data-risk-confirm=true] #crew-comparison{display:none}
+#dispatch[data-risk-confirm=true] #crew-risk-details{grid-column:1;grid-row:1}
+#dispatch[data-risk-confirm=true] #crew-risk-details+.swap-panel{grid-column:1;grid-row:2;grid-template-columns:1fr 1fr;margin:0}
+#dispatch[data-risk-confirm=true] #crew-risk-details+.swap-panel #swap-preview{grid-column:1/-1}
+#dispatch[data-risk-confirm=true] #crew-risk-details .risk-person .crew-card-plan{grid-column:2;grid-row:1}
+
+.keep-word{white-space:nowrap}
+.vehicle-status{display:flex;gap:10px;align-items:center;font-size:10px;letter-spacing:0;white-space:nowrap}
+.vehicle-status b{font-size:13px;margin-left:2px}.vehicle-status meter{width:35px;height:8px;margin-left:3px}
+.hud{position:relative;padding-bottom:14px}.hud>.vehicle-status{position:absolute;bottom:0;right:12px;height:16px}
+#watch-status{top:65px;left:8px;right:8px;max-width:none;width:auto;align-items:start;line-height:1.35;overflow-wrap:anywhere;z-index:2}
+#watch-status>span{min-width:0;flex:1}#watch-status .shield-source{white-space:normal}
+#app[data-mode=train] .scene-top{padding-right:10px}#app[data-mode=train] #timer{white-space:normal}
+.rescue-people{display:flex;align-items:center;gap:8px}.rescue-people img{width:110px;height:100px;object-fit:contain}.rescue-people span{display:block;font-size:12px;line-height:1.5}
+#rescue-team{position:absolute;bottom:54px;left:8px;max-width:calc(100% - 16px);background:#24323aeb;padding:4px 8px;border-left:2px solid #e8a33d;pointer-events:none}
+#rescue-team[hidden]{display:none}#rescue-team .rescue-people img{width:94px;height:76px}#rescue-team .rescue-people span{font-size:10px}
+#dispatch:not([data-choice=true]):not([data-receipt=true]) .crew-trait,#dispatch .crew-identity>div:last-child,#dispatch .roster-intro{display:none!important}
+#dispatch .crew-list{display:grid;grid-template-columns:1fr;gap:6px}
+#dispatch .crew-row{display:grid;grid-template-columns:48px minmax(0,1fr);gap:4px 8px;padding:6px;min-height:0}
+#dispatch .crew-identity{grid-column:1;grid-row:1;display:block}
+#dispatch .crew-portrait{width:44px;height:44px;float:none;margin:0}
+#dispatch .crew-card-plan{grid-column:2;grid-row:1;display:flex;flex-direction:column;gap:2px;font-size:12px;line-height:1.3}
+#dispatch .crew-card-plan>.card-role,#dispatch .crew-card-plan>.card-fatigue,#dispatch .crew-card-plan>.card-effect,#dispatch .crew-card-plan>.watch-source,#dispatch .crew-card-plan>.crew-risk{display:block!important;margin:0;padding:0;border:0;background:none;font-size:12px;line-height:1.3;min-height:0}
+#dispatch .crew-card-plan>.crew-risk{color:#ffd184}
+#dispatch .fatigue-bar{display:inline-flex;margin:0 0 0 4px;vertical-align:middle}.fatigue-bar i{width:12px;height:6px}
+#dispatch .role-switch{grid-column:1/-1;grid-row:2;display:grid;grid-template-columns:repeat(3,minmax(44px,1fr));gap:4px;margin:0}
+#dispatch .role-switch button{min-height:44px;min-width:44px;padding:4px;font-size:12px}
+#dispatch .swap-panel{margin:7px 0;grid-template-columns:minmax(0,1fr) auto;gap:4px}
+#dispatch .swap-panel p{margin:0;font-size:11px;line-height:1.3}#dispatch .crew-history{font-size:10px;line-height:1.3;margin:5px 0 0}
+#dispatch .crew-effect{padding:0 6px;margin:0}#dispatch .crew-effect summary,.comparison-details summary{display:flex;align-items:center;min-height:44px;cursor:pointer;font-size:12px}
+#dispatch .crew-effect[open]{max-height:240px;overflow-y:auto}#dispatch .effect-cause{display:block}.equation-label{display:block;font-size:10px}
+#crew-comparison{grid-column:1/-1}.swap-delta p{margin:3px 0!important;font-size:11px;line-height:1.3}.comparison-details{display:none}
+#dispatch:has(#crew-comparison:not([hidden])) .crew-effect{grid-column:1/-1}
+@media(max-width:700px) and (max-height:760px){
+ #dispatch .crew-row{padding:4px;gap:2px 6px}#dispatch .crew-list{gap:4px}
+ #dispatch .crew-card-plan>.card-role,#dispatch .crew-card-plan>.card-fatigue,#dispatch .crew-card-plan>.card-effect,#dispatch .crew-card-plan>.watch-source,#dispatch .crew-card-plan>.crew-risk{font-size:10px}
+ #dispatch .crew-history{display:none}#dispatch .swap-panel{margin:4px 0}#dispatch .swap-panel>p{font-size:10px}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-list{grid-template-columns:1fr}
+ .rescue-people img{width:70px;height:60px}.rescue-people span{font-size:10px}
+ #rescue-team{bottom:45px}#rescue-team .rescue-people img{height:54px;width:65px}
+ #watch-status{top:45px;padding:3px;font-size:10px}#watch-status .shield-source{font-size:9px}
+}
+@media(min-width:701px) and (max-height:740px){
+ #dispatch:not([data-choice=true]):not([data-receipt=true]):not([data-risk-confirm=true]) #dispatch-content{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+ #dispatch .crew-list,#dispatch:has(#crew-comparison:not([hidden])) .crew-list{grid-column:1;grid-row:1/5;grid-template-columns:1fr}
+ #dispatch .crew-row{grid-template-columns:36px minmax(0,1fr) 144px;padding:3px;gap:4px}
+ #dispatch .crew-portrait{width:34px;height:34px}#dispatch .role-switch{grid-column:3;grid-row:1;align-self:center}
+ #dispatch .crew-card-plan{font-size:10px}#dispatch .crew-card-plan>span{font-size:10px!important}
+ #dispatch .swap-panel{grid-column:2;grid-row:1;margin:0}#dispatch .crew-effect{grid-column:2;grid-row:2}#dispatch .crew-history{grid-column:2;grid-row:3}
+ #crew-comparison{grid-column:1/-1}.swap-delta p{font-size:10px}
+ #watch-status{top:28px;left:auto;right:5px;width:210px;font-size:9px}#watch-status .shield-source{font-size:8px}
+ #rescue-team{bottom:26px;left:6px}#rescue-team .rescue-people img{width:65px;height:45px}#rescue-team .rescue-people span{font-size:9px}
+}
+@media(max-height:650px){
+ #dispatch[data-receipt=true] .sealed-values{font-size:11px!important;line-height:1.25!important;margin-block:4px}
+}
+@media(min-width:701px) and (max-height:500px){
+ #dispatch:has(#crew-comparison:not([hidden])) .swap-columns p{margin:1px 0!important;line-height:1.15}
+ #dispatch:has(#crew-comparison:not([hidden])) .swap-columns section{padding:4px}
+}
+
+/* R14 keeps detailed rules available during free swap previews. */
+#dispatch:not([data-risk-confirm=true]) .crew-effect{display:block!important}
+
+/* A single opaque duty panel owns wave feedback, avoiding text behind the panel. */
+#app[data-mode=train]:has(#watch-status:not([hidden])) .scene-top{display:none}
+#watch-status{top:8px;background:#24323a;color:#f0e7d5;box-shadow:0 2px 7px #0007}
+.watch-wave{float:right;max-width:56%;font-size:10px;text-align:right;line-height:1.3}
+@media(max-width:700px){#watch-status{top:76px}}
+@media(max-width:700px) and (max-height:760px){#watch-status{top:74px}.watch-wave{font-size:9px}}
+@media(min-width:701px) and (max-height:500px){#watch-status{top:5px}.watch-wave{font-size:8px}}
+
+@media(max-width:700px) and (max-height:760px){
+ #dispatch .relay-receipt:has(.rescue-people) .sealed-case{display:none}
+ #dispatch .relay-receipt .rescue-people img{width:60px;height:46px}
+}
+@media(min-width:701px) and (max-height:500px){#dispatch .relay-receipt:has(.rescue-people) .sealed-case{display:none}}
+
+@media(max-width:700px) and (max-height:760px){#dispatch .crew-row,#dispatch:has(#crew-comparison:not([hidden])) .crew-row{padding:3px}}
+
+@media(min-width:701px) and (max-height:500px){
+ #dispatch[data-receipt=true] .relay-receipt:has(.rescue-people){grid-template-columns:180px minmax(0,1fr);grid-template-rows:repeat(5,auto) 44px;gap:4px 12px}
+ #dispatch .relay-receipt:has(.rescue-people) .rescue-people{grid-column:1;grid-row:1/5;flex-direction:column;justify-content:center;gap:3px}
+ #dispatch .relay-receipt .rescue-people img{width:145px;height:110px}
+ #dispatch .relay-receipt .rescue-people span{font-size:10px;line-height:1.3}
+ #dispatch .relay-receipt:has(.rescue-people)>.eyebrow{grid-column:2;grid-row:1}
+ #dispatch .relay-receipt:has(.rescue-people)>h3{grid-column:2;grid-row:2;margin:0!important;font-size:18px}
+ #dispatch .relay-receipt:has(.rescue-people)>h3+p{grid-column:2;grid-row:3}
+ #dispatch .relay-receipt:has(.rescue-people)>.sealed-values{grid-column:2;grid-row:4}
+ #dispatch .relay-receipt:has(.rescue-people)>.sealed-values+p{grid-column:2;grid-row:5}
+ #dispatch .relay-receipt:has(.rescue-people)>.pending-repairs{grid-column:1;grid-row:5/7;padding:4px;font-size:10px}
+ #dispatch .relay-receipt:has(.rescue-people)>.pending-repairs p{font-size:10px!important;line-height:1.3!important}
+ #dispatch .relay-receipt:has(.rescue-people)>#relay-roster{grid-column:2;grid-row:6;height:44px;min-height:44px;font-size:12px;padding:4px}
+}
+
+/* R15: identity and time are stable across planning and contact. */
+.portrait-1,#watch-status[data-person="1"]>img{border:3px solid #c96f2e!important}
+.portrait-2,#watch-status[data-person="2"]>img{border:3px solid #657cba!important}
+.portrait-0,#watch-status[data-person="0"]>img{border:3px solid #a99472!important}
+.fatigue-caption,.first-wave-note{font-size:10px;line-height:1.25;margin:3px 0;color:#e6dac2}
+#dispatch .crew-effect>summary{flex-direction:column;align-items:flex-start;justify-content:center;gap:1px}
+#dispatch .crew-effect>summary .first-wave-note{display:block;margin:0;font-size:9px;line-height:11px}
+#dispatch .fatigue-bar{gap:2px;margin-left:3px}
+#dispatch .fatigue-bar i{width:12px;height:10px;border-width:1px}
+#dispatch .fatigue-bar i[data-change=true][data-direction=increase]{border:1px solid #ffe2ac;background:repeating-linear-gradient(135deg,#e8a33d 0 2px,#34414a 2px 4px)}
+#dispatch .fatigue-bar i[data-change=true][data-direction=decrease]{border:1px dashed #e2d9bf;background:transparent}
+.fatigue-arrow{margin-left:3px;font-size:10px}
+.danger-key{display:inline-flex;justify-content:center;align-items:center;width:22px;height:12px;border:2px solid #ef654f;border-radius:50%;color:#ef654f;font:bold 11px sans-serif;margin-right:3px}
+#rescue-team{position:relative;inset:auto!important;grid-column:1/-1;max-width:none;background:#24323a;padding:0 8px;pointer-events:auto;border-left:2px solid #e8a33d;z-index:1}
+#rescue-team summary{min-height:44px;display:flex;align-items:center;cursor:pointer;font-size:12px;color:#eed7b4}
+#rescue-team summary::before{content:'▸ ';margin-right:4px}
+#rescue-team details[open]>summary::before{content:'▾ '}
+#rescue-team .rescue-people{padding:2px 0 5px}
+#rescue-team p{font-size:11px;line-height:1.3;margin:2px 0 6px}
+#app:has(#rescue-team:not([hidden])) main{grid-template-rows:minmax(0,1fr) auto}
+#app:has(#rescue-team:not([hidden])) .stage{height:auto}
+@media(max-width:700px) and (max-height:650px){
+ #rescue-team details[open]{display:grid;grid-template-columns:112px minmax(0,1fr);gap:4px;align-items:center}
+ #rescue-team summary{font-size:10px;line-height:1.3}
+ #rescue-team .rescue-people{display:none}
+ #rescue-team p{font-size:9px;line-height:1.25;margin:3px 0}
+ #app:has(#rescue-team:not([hidden])) .ticket{height:62px;padding-block:4px}
+ #app:has(#rescue-team:not([hidden])) .ticket h1{font-size:17px;margin-block:1px}
+ #app:has(#rescue-team:not([hidden])) .ticket #story{font-size:9px;line-height:1.2;margin-block:2px}
+ #app:has(#rescue-team:not([hidden])) .stage{padding-top:61px;display:grid;grid-template-rows:44px minmax(0,1fr) 28px}
+ #app:has(#rescue-team:not([hidden])) #world{grid-row:2/span 2;height:100%;min-height:0;--night-signal-space:28px}
+ #app:has(#rescue-team:not([hidden])) #watch-status{position:relative;grid-row:1;inset:auto;font-size:9px;line-height:1.2;padding:3px;margin:0 3px;width:auto}
+ #app:has(#rescue-team:not([hidden])) #watch-status br{display:none}
+ #app:has(#rescue-team:not([hidden])) #watch-status b{display:inline-block;font-size:10px;margin-left:5px}
+ #app:has(#rescue-team:not([hidden])) #contact-signal{position:relative;grid-row:3;inset:auto;margin:0;padding:2px 4px;font-size:9px;line-height:1.2}
+ #app:has(#rescue-team:not([hidden])) #watch-status>img{width:28px;height:28px}
+ #app:has(#rescue-team:not([hidden])) #watch-status .shield-source{font-size:8px;line-height:1.2}
+}
+@media(max-width:700px){#app:has(#rescue-team:not([hidden])) main{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto;gap:0}}
+#dispatch .sealed-case{border:0;opacity:.8;background:none}
+#dispatch .relay-receipt>h3{color:#ffd184}
+@media(max-width:700px) and (max-height:650px){
+ .fatigue-caption,.first-wave-note{font-size:9px;line-height:1.1;margin:1px 0}
+ #dispatch[data-choice=true] .case-grid{gap:3px;margin-block:4px}
+ #dispatch .fatigue-bar i{width:9px;height:9px}
+ #dispatch .fatigue-bar{gap:2px;margin-left:2px}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-row{padding:1px}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-list{gap:2px}
+ #dispatch:has(#crew-comparison:not([hidden])) .swap-panel{margin-block:2px}
+}
+@media(min-width:701px) and (max-height:740px){
+ #dispatch .fatigue-caption{grid-column:2;grid-row:4}
+ #dispatch .first-wave-note{grid-column:2;grid-row:5}
+ #rescue-team summary{font-size:10px}
+ #rescue-team details[open]{display:grid;grid-template-columns:150px 1fr 1fr;gap:5px;align-items:center}
+ #rescue-team .rescue-people img{width:48px;height:44px}
+}
+@media(min-width:701px) and (max-height:500px){
+ #dispatch[data-choice=false][data-receipt=false]:has(#crew-comparison:not([hidden])):not([data-risk-confirm=true]) #dispatch-content{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-list{grid-row:1/4}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-row{grid-template-columns:minmax(0,1fr) 144px}
+ #dispatch:has(#crew-comparison:not([hidden])) .crew-effect{grid-column:2;grid-row:2}
+ #dispatch:has(#crew-comparison:not([hidden])) .fatigue-caption{grid-column:2;grid-row:3}
+ #app:has(#rescue-team:not([hidden])) .ticket{padding:7px 17px}
+ #app:has(#rescue-team:not([hidden])) .ticket .eyebrow{margin:0;line-height:12px}
+ #app:has(#rescue-team:not([hidden])) .ticket h1{margin:3px 0;font-size:19px;line-height:1.15}
+ #app:has(#rescue-team:not([hidden])) .ticket #story{margin:3px 0;font-size:10px;line-height:1.25}
+ #rescue-team details[open]{display:flex;gap:8px;align-items:center}
+ #rescue-team summary{width:132px;flex:0 0 132px}
+ #rescue-team .rescue-people{display:none}
+ #rescue-team p{font-size:9px;line-height:1.2;margin:3px 0}
+
+}
+
+/* Short wide rescue scenes keep the status card on the existing ticket. */
+@media(min-width:701px) and (max-height:740px){
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) .ticket{padding:4px 6.5%;display:flex;flex-direction:column;gap:0}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) .ticket h1{font-size:17px;margin:1px 0}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) .ticket .eyebrow{font-size:8px;line-height:10px}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) .ticket #story{display:block;font-size:8px;line-height:1.2;margin:1px 0}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) .ticket #watch-status{position:relative;inset:auto;max-width:none;width:100%;margin:1px 0 0;padding:2px;font-size:8px;line-height:1.15}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) .ticket #watch-status>img{width:22px;height:22px}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) .ticket #watch-status b{display:block;font-size:9px;margin:0}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) .ticket #watch-status .watch-wave{float:none;display:block;max-width:none;text-align:left;font-size:8px;line-height:1.15}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) #watch-status>img{width:26px;height:26px}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) #watch-status br{display:none}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) #watch-status b{font-size:10px;display:inline-block;margin-left:4px}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) #watch-status .shield-source{font-size:8px;line-height:1.2}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) .stage{display:grid;grid-template-rows:minmax(0,1fr) 22px;padding:0}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) #world{grid-row:1/span 2;height:100%;min-height:0;--night-signal-space:22px}
+ #app[data-mode=train]:has(#rescue-team:not([hidden])) #contact-signal{position:relative;grid-row:2;inset:auto;margin:0;padding:3px 5px;font-size:9px;line-height:1.2}
+ #rescue-team details[open]{display:flex;gap:8px;align-items:center}
+ #rescue-team summary{width:132px;flex:0 0 132px}
+ #rescue-team .rescue-people{display:none}
+ #rescue-team p{font-size:9px;line-height:1.2;margin:3px 0}
+}
+
+#app[data-mode=defense][data-screen=report] .scene-top{grid-template-rows:minmax(20px,auto) auto auto;align-content:start}
+#app[data-mode=defense][data-screen=report] #scene-label{font-size:9px;line-height:1.2;white-space:normal;overflow:visible;text-overflow:clip;max-width:100%}
+
+#app[data-mode=train]:has(#repair-use:not([hidden])) .stage{display:grid;grid-template-rows:minmax(34px,auto) minmax(0,1fr) auto auto;padding:0;height:100%}
+#app[data-mode=train]:has(#repair-use:not([hidden])) #watch-status{position:relative;grid-row:1;inset:auto;max-width:none;width:100%;margin:0;padding:3px 5px}
+#app[data-mode=train]:has(#repair-use:not([hidden])) #world{position:relative;grid-row:2;inset:auto;width:100%;height:100%;min-height:0;--night-signal-space:0px}
+#app[data-mode=train]:has(#repair-use:not([hidden])) #repair-use{position:relative;grid-row:3;left:auto;right:auto;bottom:auto;z-index:2;margin:0;background:#243a37f5;border:1px solid #9ed6c8;color:#f3eedb;padding:3px 6px;font-size:10px;line-height:1.2}
+#app[data-mode=train]:has(#repair-use:not([hidden])) #contact-signal{position:relative;grid-row:4;inset:auto;margin:0;padding:3px 5px;font-size:9px;line-height:1.2}
+#counter-window [class^=night-control-],#counter-roof [class^=night-control-],#brace [class^=night-control-]{display:inline}
+@media(max-width:700px){
+ #counter-window,#counter-roof,#brace{font-size:12px;line-height:1.25;padding:5px 4px;min-height:62px}
+ #counter-window .night-control-action,#counter-roof .night-control-action,#brace .night-control-action{font-size:14px;font-weight:800}
+ #counter-window .night-control-cost,#counter-roof .night-control-cost,#brace .night-control-cost,#counter-window .night-control-outcome,#counter-roof .night-control-outcome,#brace .night-control-outcome{font-size:12px}
+}
+@media(min-width:701px) and (max-height:500px){
+ #counter-window,#counter-roof,#brace{font-size:11px;line-height:1.2;padding:5px 7px;min-height:44px}
+ #counter-window .night-control-action,#counter-roof .night-control-action,#brace .night-control-action{font-size:14px;font-weight:800}
+}
+/* R18: the canvas and reserved signal row share one explicit battlefield
+   column. Auto placement must not create a second, empty scene column. */
+#app[data-mode=train]:has(#rescue-team:not([hidden])) .stage{grid-template-columns:minmax(0,1fr)}
+#app[data-mode=train]:has(#rescue-team:not([hidden])) #world,
+#app[data-mode=train]:has(#rescue-team:not([hidden])) .contact-signal{grid-column:1}
+
+/* R18.2: reserve a real battlefield before laying out the compact station. */
+@media(max-width:700px) and (max-height:650px){
+ #app[data-mode=defense][data-screen]:has(#bait-preview){grid-template-rows:50px 38px 38px minmax(0,1fr) 24px 101px 18px}
+ #app[data-mode=defense][data-screen] .ticket{height:66px;padding:5px 10px}
+ #app[data-mode=defense][data-screen] .ticket h1{font-size:18px;line-height:1.1;margin:2px 0}
+ #app[data-mode=defense][data-screen] .ticket #story{font-size:10px;line-height:1.2;-webkit-line-clamp:2}
+ #app[data-mode=defense][data-screen] .stage{--station-ticket:66px;--station-head:42px;--station-contact:20px;--station-hold:12px;padding-top:66px}
+ #app[data-mode=defense][data-screen] .scene-top{font-size:10px;line-height:1.1;grid-template-rows:14px auto auto;padding:2px 5px}
+ #app[data-mode=defense][data-screen] .contact-signal{font-size:9px;line-height:1.1;padding:1px 4px}
+ #app[data-mode=defense][data-screen] #hold-progress{font-size:9px;line-height:1}
+ #app[data-mode=defense][data-screen] .message{padding-top:3px;line-height:16px}
+}
+@media(min-width:701px) and (max-height:500px){
+ #app[data-mode=defense][data-screen]:has(#bait-preview){grid-template-rows:44px 40px 0 minmax(0,1fr) 20px 50px 14px}
+ #app[data-mode=defense][data-screen]>.mast{padding:0 15px}
+ #app[data-mode=defense][data-screen]>.route{grid-row:2;width:52%;padding:0 7px;gap:3px;font-size:10px}
+ #app[data-mode=defense][data-screen]>.route li{padding:3px 6px}
+ #app[data-mode=defense][data-screen]>.hud{grid-row:2;justify-self:end;width:48%;gap:8px;font-size:10px;padding-bottom:13px}
+ #app[data-mode=defense][data-screen]>.hud b{font-size:16px;margin-left:3px}
+ #app[data-mode=defense][data-screen]>.hud .hud-icon{width:20px;height:20px;margin-right:3px}
+ #app[data-mode=defense][data-screen]>main{padding-top:0}
+ #app[data-mode=defense][data-screen] .stage{--station-head:30px;--station-contact:18px;--station-hold:12px}
+ #app[data-mode=defense][data-screen] .scene-top{grid-template-rows:12px auto auto;font-size:9px;line-height:1;padding:1px 4px}
+ #app[data-mode=defense][data-screen] .contact-signal{font-size:9px;line-height:1;padding:1px 4px}
+ #app[data-mode=defense][data-screen]>footer{padding:3px 0}
+ #app[data-mode=defense][data-screen]>.message{padding-top:2px;line-height:16px}
+ #app[data-mode=defense][data-screen]>.save-state{line-height:14px}
+}
+
+/* R18.4: keep pending bait decisions inside a real layout region. */
+#app[data-mode=defense][data-screen] .ticket{overflow:hidden}
+#app[data-mode=defense][data-screen] #bait-preview>span{min-width:0;overflow-wrap:anywhere}
+#app[data-mode=defense][data-screen] #bait-preview>button{min-height:44px;flex-shrink:0}
+
+@media(max-width:700px) and (max-height:740px){
+ #app[data-mode=defense][data-screen]:has(#bait-preview){grid-template-rows:50px 38px 38px minmax(0,1fr) 24px 101px 18px}
+ #app[data-mode=defense][data-screen] .ticket{height:66px;padding:5px 10px}
+ #app[data-mode=defense][data-screen] .ticket h1{font-size:18px;line-height:1.1;margin:2px 0}
+ #app[data-mode=defense][data-screen] .ticket #story{font-size:10px;line-height:1.2;-webkit-line-clamp:2}
+ #app[data-mode=defense][data-screen] .stage{--station-ticket:66px;--station-head:42px;--station-contact:20px;--station-hold:12px;padding-top:66px}
+ #app[data-mode=defense][data-screen] .scene-top{font-size:10px;line-height:1.1;grid-template-rows:14px auto auto;padding:2px 5px}
+ #app[data-mode=defense][data-screen] .contact-signal{font-size:9px;line-height:1.1;padding:1px 4px}
+ #app[data-mode=defense][data-screen] #hold-progress{font-size:9px;line-height:1}
+ #app[data-mode=defense][data-screen] .message{padding-top:3px;line-height:16px}
+ #app[data-mode=defense][data-screen]:has(#bait-preview:not([hidden])){grid-template-rows:50px 38px 38px minmax(0,1fr) minmax(56px,auto) 50px 18px}
+ #app[data-mode=defense][data-screen] #bait-preview:not([hidden]){align-items:center;gap:6px;padding:3px 7px;margin:0 10px;min-height:50px;font-size:10px;line-height:1.3}
+ #app[data-mode=defense][data-screen] #bait-preview>span{flex:1 1 auto}
+ #app[data-mode=defense][data-screen] #bait-preview>button{flex:0 0 80px;padding:3px;font-size:11px;height:44px}
+ #app[data-mode=defense][data-screen]:has(#bait-preview:not([hidden]))>footer{grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:1fr;padding:3px 0;gap:5px}
+ #app[data-mode=defense][data-screen]:has(#bait-preview:not([hidden]))>footer #defend,
+ #app[data-mode=defense][data-screen]:has(#bait-preview:not([hidden]))>footer #radio-open,
+ #app[data-mode=defense][data-screen]:has(#bait-preview:not([hidden]))>footer #flank-legend{display:none}
+ #app[data-mode=defense][data-screen]:has(#bait-preview:not([hidden]))>footer button{min-height:44px;height:44px;padding:3px;font-size:11px}
+}
+
+@media(min-width:701px) and (max-height:740px){
+ #app[data-mode=defense][data-screen]:has(#bait-preview){grid-template-rows:44px 40px 0 minmax(0,1fr) 20px 50px 14px}
+ #app[data-mode=defense][data-screen]>.mast{padding:0 15px}
+ #app[data-mode=defense][data-screen]>.route{grid-row:2;width:52%;padding:0 7px;gap:3px;font-size:10px}
+ #app[data-mode=defense][data-screen]>.route li{padding:3px 6px}
+ #app[data-mode=defense][data-screen]>.hud{grid-row:2;justify-self:end;width:48%;gap:8px;font-size:10px;padding-bottom:13px}
+ #app[data-mode=defense][data-screen]>.hud b{font-size:16px;margin-left:3px}
+ #app[data-mode=defense][data-screen]>.hud .hud-icon{width:20px;height:20px;margin-right:3px}
+ #app[data-mode=defense][data-screen]>main{padding:0 15px;gap:10px;grid-template-columns:clamp(210px,28%,330px) minmax(0,1fr);min-height:0;overflow:hidden}
+ #app[data-mode=defense][data-screen] .ticket{height:100%;min-height:0;padding:10px 12px;overflow:hidden}
+ #app[data-mode=defense][data-screen] .ticket .ticket-top,
+ #app[data-mode=defense][data-screen] .ticket .rule,
+ #app[data-mode=defense][data-screen] .ticket h2,
+ #app[data-mode=defense][data-screen] .ticket #goal,
+ #app[data-mode=defense][data-screen] .ticket .manifest,
+ #app[data-mode=defense][data-screen] .ticket .ticket-punch{display:none}
+ #app[data-mode=defense][data-screen] .ticket .eyebrow{font-size:9px;line-height:1.2;margin:0}
+ #app[data-mode=defense][data-screen] .ticket h1{font-size:20px;line-height:1.2;margin:5px 0}
+ #app[data-mode=defense][data-screen] .ticket #story{font-size:10px;line-height:1.3;margin:0}
+ #app[data-mode=defense][data-screen] .stage{--station-ticket:0px;--station-head:30px;--station-contact:18px;--station-hold:12px;padding-top:0}
+ #app[data-mode=defense][data-screen] .scene-top{grid-template-rows:12px auto auto;font-size:9px;line-height:1;padding:1px 4px}
+ #app[data-mode=defense][data-screen] .contact-signal{font-size:9px;line-height:1;padding:1px 4px}
+ #app[data-mode=defense][data-screen]>footer{padding:3px 0}
+ #app[data-mode=defense][data-screen]>.message{padding-top:2px;line-height:16px}
+ #app[data-mode=defense][data-screen]>.save-state{line-height:14px}
+ #app[data-mode=defense][data-screen] .ticket:has(>#bait-preview:not([hidden])){display:grid;grid-template-rows:12px 26px minmax(0,1fr);gap:3px;padding:8px 10px}
+ #app[data-mode=defense][data-screen] .ticket:has(>#bait-preview:not([hidden])) .eyebrow{grid-row:1}
+ #app[data-mode=defense][data-screen] .ticket:has(>#bait-preview:not([hidden])) h1{grid-row:2;font-size:19px;line-height:1.2;margin:0}
+ #app[data-mode=defense][data-screen] .ticket:has(>#bait-preview:not([hidden])) #story{display:none}
+ #app[data-mode=defense][data-screen] .ticket>#bait-preview:not([hidden]){position:static;transform:none;grid-row:3;grid-column:1;left:auto;bottom:auto;margin:0;padding:4px 5px;width:auto;min-width:0;min-height:0;display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) 44px;gap:4px;align-items:stretch;font-size:10px;line-height:1.35}
+ #app[data-mode=defense][data-screen] .ticket>#bait-preview>span{display:block;min-height:0}
+ #app[data-mode=defense][data-screen] .ticket>#bait-preview>button{width:100%;min-height:44px;height:44px;padding:4px;font-size:11px}
+}
+
+/* R18.4 epoch2: hidden radio nodes must not retain the old span-two bait grid. */
+@media(max-width:700px) and (max-height:740px){
+ #app[data-mode=defense][data-screen]:has(#bait-preview:not([hidden]))>footer button{grid-column:auto;grid-row:auto}
+}
+#app[data-mode=defense][data-screen] #bait-preview{color:#f4eee5}
+
+/* R18.4 epoch3: a completed exit uses the existing fixed short header, not the battlefield. */
+@media(max-height:740px){
+ #app[data-mode=defense][data-screen] .scene-top:has(#exit-receipt:not([hidden])){grid-template-rows:12px 13px;gap:1px;padding:1px 4px}
+ #app[data-mode=defense][data-screen] .scene-top:has(#exit-receipt:not([hidden])) #lure-status,
+ #app[data-mode=defense][data-screen] .scene-top:has(#exit-receipt:not([hidden])) #flank-progress{display:none}
+ #app[data-mode=defense][data-screen] #exit-receipt:not([hidden]){grid-row:2;font-size:10px;line-height:1.1;padding:1px 4px}
+}
